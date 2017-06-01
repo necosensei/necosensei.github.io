@@ -1,1 +1,1 @@
-# 猫草日記
+## [猫草日記](https://necosensei.github.io/)
