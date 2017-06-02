@@ -53,20 +53,18 @@ $
 - 当時の日記によると量子経済学や数理民俗学などという学問が存在して
   いるとの事…
 
+- 今日は数理民俗学から …
+
 \[
 
     % 'Algebraic Study of Certain Types of Marriage (Murngin System)' # 77
     % https://www.google.co.jp/search?q=Algebraic+Study+of+Certain+Types+of+Marriage+%28Murngin+System%29
 
     \begin{align}
-      &amp; f \circ g = g \circ f, \\
-      &amp; \graysmall{
-        \begin{align}
-	  \text{where } 
-	    &amp; {\cal M}: \text{all of the types of marriage in Murngin system}, \\
-	    &amp; f,g: {\cal M} \rightarrow {\cal M} : \text{the son's (or daughter's) type of the type from which he (or she) is descended.}
-        \end{align}
-      }
+      &amp; \graysmall{\text{Let $ \cal M $ be the all of the types of marriage in Murngin system},} \\
+      &amp; \graysmall{\text{$ M \in {\cal M} $ be a type of marriage which a son (or daughter) is descended},} \\
+      &amp; \graysmall{\text{$f(M)$ (or $g(M)$) be the type which he (or she) may contract, then}} \\
+      &amp; f \circ g = g \circ f. \\
     \end{align}
 
 \]
