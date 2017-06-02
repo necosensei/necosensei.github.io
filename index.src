@@ -60,9 +60,9 @@ $
     % https://www.google.co.jp/search?q=Algebraic+Study+of+Certain+Types+of+Marriage+%28Murngin+System%29
 
     \begin{align}
-      &amp; \graysmall{\text{Let $M$, $f(M)$ and $g(M)$ be the parents', son's and daughter's marriage type}} \\
-      &amp; \graysmall{\text{in Murngin system, respectively.}} {\small{\text{The condition that}}} \\
-      &amp; {\small{\text{"(C) any man must be able to marry his mother's brother's daughter"}}} \\
+      &amp; \graysmall{\text{Let $M$, $f(M)$ and $g(M)$ be the parents', son's and daughter's marriage}} \\
+      &amp; \graysmall{\text{type in Murngin system respectively. }} {\small{\text{The condition that}}} \\
+      &amp; {\small{\text{"(C) Any man must be able to marry his mother's brother's daughter."}}} \\
       &amp; {\small{\text{is expressed by }}} f \circ g = g \circ f. \\
     \end{align}
 
