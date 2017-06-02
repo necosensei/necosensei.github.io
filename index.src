@@ -61,7 +61,7 @@ $
     % https://www.google.co.jp/search?q=Algebraic+Study+of+Certain+Types+of+Marriage+%28Murngin+System%29
 
     \begin{align}
-      &amp; \graysmall{\text{Let $ \cal M $ be the all of the types of marriage in Murngin system},} \\
+      &amp; \graysmall{\text{Let $ \cal M $ be the set of all types of marriage in Murngin system},} \\
       &amp; \graysmall{\text{$ M \in {\cal M} $ be a type which a son (or daughter) is descended},} \\
       &amp; \graysmall{\text{$f(M)$ (or $g(M)$) be the type which he (or she) may contract, then}} \\
       &amp; f \circ g = g \circ f. \\
