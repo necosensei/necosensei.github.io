@@ -61,7 +61,7 @@ $
 
     \begin{align}
       &amp; \graysmall{\text{Let $ \cal M $ be the set of all types of marriage in Murngin system},} \\
-      &amp; \graysmall{\text{$ M \in {\cal M} $ be a type which a son or daughter is descended},} \\
+      &amp; \graysmall{\text{$ M \in {\cal M} $ be the type which a son or daughter is descended},} \\
       &amp; \graysmall{\text{$f(M)$ and $g(M)$ be the type which he and she may contract respectively.}} \\
       &amp; {\small{\text{The condition that "(C) any man must be able to marry his mother's}}} \\
       &amp; {\small{\text{brother's daughter" is expressed by }}} f \circ g = g \circ f. \\
