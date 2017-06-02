@@ -63,7 +63,7 @@ $
       &amp; \graysmall{
         \begin{align}
 	  \text{where } 
-	    &amp; {\cal M}: \text{all of the types of marriage in Murngin system},
+	    &amp; {\cal M}: \text{all of the types of marriage in Murngin system}, \\
 	    &amp; f,g: {\cal M} \rightarrow {\cal M} : \text{the son's (or daughter's) type of the type from which he (or she) is descended.}
         \end{align}
       }
