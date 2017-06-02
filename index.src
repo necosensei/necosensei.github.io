@@ -64,8 +64,7 @@ $
       &amp; \graysmall{\text{$ M \in {\cal M} $ be a type which a son or daughter is descended},} \\
       &amp; \graysmall{\text{$f(M)$ and $g(M)$ be the type which he and she may contract respectively.}} \\
       &amp; {\small{\text{The condition that "(C) any man must be able to marry his mother's brother's daughter"}}} \\
-      &amp; {\small{\text{is expressed by}}} \\
-      &amp; f \circ g = g \circ f. \\
+      &amp; {\small{\text{is expressed by }}} f \circ g = g \circ f. \\
     \end{align}
 
 \]
