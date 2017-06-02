@@ -62,8 +62,8 @@ $
 
     \begin{align}
       &amp; \graysmall{\text{Let $ \cal M $ be the set of all types of marriage in Murngin system},} \\
-      &amp; \graysmall{\text{$ M \in {\cal M} $ be a type which a son (or daughter) is descended},} \\
-      &amp; \graysmall{\text{$f(M)$ (or $g(M)$) be the type which he (or she) may contract, then}} \\
+      &amp; \graysmall{\text{$ M \in {\cal M} $ be a type which a son or daughter is descended},} \\
+      &amp; \graysmall{\text{$f(M)$ and $g(M)$ be the type which he and she may contract respectively, then}} \\
       &amp; f \circ g = g \circ f. \\
     \end{align}
 
