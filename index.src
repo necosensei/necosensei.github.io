@@ -60,7 +60,7 @@ $
 
     \begin{align}
       &amp; f \circ g = g \circ f, \\
-      &amp; \smallgray{
+      &amp; \graysmall{
         \begin{align}
 	  \text{where } 
 	    &amp; {\cal M}: \text{all of the types of marriage in Murngin system},
