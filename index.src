@@ -61,10 +61,10 @@ $
 
     \begin{align}
       &amp; \graysmall{\text{Let $ \cal M $ be the set of all marriage types in Murngin system},} \\
-      &amp; \graysmall{\text{$ M \in {\cal M} $ be the parents' marriage type, and}} \\
-      &amp; \graysmall{\text{$f(M)$ and $g(M)$ be the son's and daughter's marriage type respectively.}} \\
-      &amp; {\small{\text{The condition that "(C) any man must be able to marry his mother's}}} \\
-      &amp; {\small{\text{brother's daughter" is expressed by }}} f \circ g = g \circ f. \\
+      &amp; \graysmall{\text{$ M \in {\cal M} $ be the parents' marriage type, and $f(M)$ and $g(M)$}} \\
+      &amp; \graysmall{\text{be the son's and daughter's marriage type respectively.}} \\
+      &amp; {\small{\text{The condition that "(C) any man must be able to marry}}} \\
+      &amp; {\small{\text{his mother's brother's daughter" is expressed by }}} f \circ g = g \circ f. \\
     \end{align}
 
 \]
