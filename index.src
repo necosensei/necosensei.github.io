@@ -61,9 +61,9 @@ $
 
     \begin{align}
       &amp; \graysmall{\text{Let $M$, $f(M)$ and $g(M)$ be the parents', son's and daughter's marriage}} \\
-      &amp; \graysmall{\text{type in Murngin system respectively. }} {\small{\text{The condition that}}} \\
-      &amp; {\small{\text{"(C) Any man must be able to marry his mother's brother's daughter."}}} \\
-      &amp; {\small{\text{is expressed by }}} f \circ g = g \circ f. \\
+      &amp; \graysmall{\text{type in Murngin system respectively. }} {\small{\text{The condition that "(C) Any man}}} \\
+      &amp; {\small{\text{"must be able to marry his mother's brother's daughter." is expressed by}}} \\
+      &amp; f \circ g = g \circ f. \\
     \end{align}
 
 \]
