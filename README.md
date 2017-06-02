@@ -1,5 +1,9 @@
-## 猫草日記保管庫
+## 猫草日記
 
-[このページ](https://necosensei.github.io/)
-[日記保管庫](https://necosensei.github.io/nikki.html)
-
+File/Folder           Explanation
+--------------- ---------------------------------------------------
+[表紙][this]    このページ
+[保管庫][nikki] 日記保管庫
+--------------- ---------------------------------------------------
+[this]:https://necosensei.github.io/
+[nikki]:https://necosensei.github.io/nikki.html
