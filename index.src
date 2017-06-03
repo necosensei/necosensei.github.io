@@ -67,14 +67,13 @@ maxi = 10000 ;
 }
 #!
 
+- 縦横斜めの線は 2 次の素数生成多項式(もどき？)との事.
+
 \[
 
     % Ulam spiral # 78
 
-    \begin{align}
-      &amp; f(n) = 4n^2 + bn + c, \\
-      &amp; \text{where } b \in 2\Z, \; c \in 2 \Z + 1.
-    \end{align}
+    f(n) = 4n^2 + bn + c, \tab \text{where } b,c \in \Z.
 
 \]
 
