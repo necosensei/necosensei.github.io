@@ -45,6 +45,8 @@ $
 <pre>
 <hr>2017/06/03 (土)
 
+- 今日は Ulam spiral.
+
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 300,300" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-50:50][-50:50] "-" wi p pointtype 5 pointsize 0.2'
 maxi = 10000 ;
 {
@@ -64,6 +66,21 @@ maxi = 10000 ;
   );
 }
 #!
+
+\[
+
+    % Ulam spiral # 78
+
+    \begin{align}
+      &amp; f(n) = 4n^2 + bn + c, \\
+      &amp; \text{where } b \in 2\Z, \; c \in 2 \Z + 1.
+    \end{align}
+
+\]
+
+- ソース (pari/gp).
+
+$SOURCE
 
 <hr>2017/06/02 (金)
 
