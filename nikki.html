@@ -176,19 +176,20 @@ Ulam spiral # 78
 
 maxi = 10000 ;
 {
-  v = [0;0] ;
-  d = [1;0] ;
+  v = [0,0] ;
+  d = [1,0] ;
+
   maxx = minx = maxy = miny = 0 ;
   turn = 0;
 
   for(i=1,maxi,
-    if(isprime(i), print(v[1,1]," ",v[2,1])) ;
+    if(isprime(i), print(v[1]," ",v[2])) ;
     v += d ;
-    if (v[1,1] &gt; maxx, maxx = v[1,1]; turn = 1 ; ) ;
-    if (v[1,1] &lt; minx, minx = v[1,1]; turn = 1 ; ) ;
-    if (v[2,1] &gt; maxy, maxy = v[2,1]; turn = 1 ; ) ;
-    if (v[2,1] &lt; miny, miny = v[2,1]; turn = 1 ; ) ;
-    if (turn, d = [0,-1;1,0] * d; turn = 0 ; ) ;
+    if (v[1] &gt; maxx, maxx = v[1]; turn = 1 ; ) ;
+    if (v[1] &lt; minx, minx = v[1]; turn = 1 ; ) ;
+    if (v[2] &gt; maxy, maxy = v[2]; turn = 1 ; ) ;
+    if (v[2] &lt; miny, miny = v[2]; turn = 1 ; ) ;
+    if (turn, d *= [0,1;-1,0] ;   turn = 0 ; ) ;
   );
 }
 
