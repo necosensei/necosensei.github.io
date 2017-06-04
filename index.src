@@ -47,15 +47,15 @@ $
 
 - 今日は素数の統計的な偏りっぽいものが見える Ulam spiral.
 
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 514,514" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-128:128][-128:128] "-" wi p pointtype 5 pointsize 0.175' | /home/hoshino/.npm-global/bin/svgo -i - -o -
-maxi = 65536 ;
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-49:50][-49:50] "-" wi p pointtype 5 pointsize 0.4' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+n = 10000 ;
 {
   v = 0 ; x = real(v) ; y = imag(v) ;
   d = 1 ;
 
   maxx = minx = maxy = miny = 0 ;
 
-  for(i=1,maxi,
+  for(i=1,n,
     if(isprime(i), print(x," ",y)) ;
     v += d ; x = real(v) ; y = imag(v) ;
     if (x > maxx, maxx = x; d *= I) ;
