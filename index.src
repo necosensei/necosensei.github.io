@@ -41,8 +41,18 @@ $
 <!-- Soliton -->
 <!-- Seifert surface -->
 <!-- ベイカーの定理 -->
-<!-- ラムゼーの定理 -->
 <pre>
+<hr>2017/06/04 (日)
+
+\[
+    % Theorem on friends and strangers # 79
+
+    \begin{align}
+      &amp; \text{Let } (V,E) = K_6,\; E_1 \cup E_2 = E,\; E_1 \cap E_2 = \varnothing. \\
+      &amp; K_3 \subset (V,E_1) \vee K_3 \subset (V,E_2).
+    \end{align}
+\]
+
 <hr>2017/06/03 (土)
 
 - 今日は素数の統計的な偏りっぽいものが見える Ulam spiral.
@@ -66,7 +76,7 @@ n = 10000 ;
 }
 #!
 
-- 縦横斜めの線は 2 次の素数生成多項式(もどき？)との事.
+- 縦横斜めの線は 2 次の素数生成多項式との事.
 
 \[
 
