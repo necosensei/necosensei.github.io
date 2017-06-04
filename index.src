@@ -47,7 +47,7 @@ $
 
 - 今日は Ulam spiral.
 
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 257,257" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-128:128][-128:128] "-" wi p pointtype 5 pointsize 0.2' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 514,514" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-128:128][-128:128] "-" wi p pointtype 5 pointsize 0.2' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 maxi = 65536 ;
 {
   v = 0 ; x = real(v) ; y = imag(v) ;
