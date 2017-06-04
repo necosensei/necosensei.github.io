@@ -44,12 +44,16 @@ $
 <pre>
 <hr>2017/06/04 (日)
 
+- 今日は一日中秋葉原. 2004年頃の日記を見たら
+  まるで成長してない事が判明 …
+
 \[
     % Theorem on friends and strangers # 79
 
     \begin{align}
       &amp; \text{Let } (V,E) = K_6,\; E_1 \cup E_2 = E,\; E_1 \cap E_2 = \varnothing. \\
-      &amp; K_3 \subset (V,E_1) \vee K_3 \subset (V,E_2).
+      &amp; \text{Then } K_3 \subset (V,E_1) \; \vee \; K_3 \subset (V,E_2), \\
+      &amp; \text{where $ K_n $ is comlete graph on $ n $ vertices.}
     \end{align}
 \]
 
