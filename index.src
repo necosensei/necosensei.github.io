@@ -47,23 +47,21 @@ $
 
 - 今日は Ulam spiral.
 
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 300,300" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-50:50][-50:50] "-" wi p pointtype 5 pointsize 0.2' | /home/hoshino/.npm-global/bin/svgo -i - -o -
-maxi = 10000 ;
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 257,257" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-128:128][-128:128] "-" wi p pointtype 5 pointsize 0.2' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+maxi = 65536 ;
 {
-  v = [0,0] ;
-  d = [1,0] ;
+  v = 0 ; x = real(v) ; y = imag(v) ;
+  d = 1 ;
 
   maxx = minx = maxy = miny = 0 ;
-  turn = 0;
 
   for(i=1,maxi,
-    if(isprime(i), print(v[1]," ",v[2])) ;
-    v += d ;
-    if (v[1] > maxx, maxx = v[1]; turn = 1 ; ) ;
-    if (v[1] < minx, minx = v[1]; turn = 1 ; ) ;
-    if (v[2] > maxy, maxy = v[2]; turn = 1 ; ) ;
-    if (v[2] < miny, miny = v[2]; turn = 1 ; ) ;
-    if (turn, d *= [0,1;-1,0] ;   turn = 0 ; ) ;
+    if(isprime(i), print(x," ",y)) ;
+    v += d ; x = real(v) ; y = imag(v) ;
+    if (x > maxx, maxx = x; d *= I) ;
+    if (x < minx, minx = x; d *= I) ;
+    if (y > maxy, maxy = y; d *= I) ;
+    if (y < miny, miny = y; d *= I) ;
   );
 }
 #!
