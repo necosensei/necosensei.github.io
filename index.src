@@ -32,6 +32,7 @@
   \def\e{{\rm e}}
   \def\i{{\rm i}}
   \def\d{{\rm d}}
+  \def\Pr{{\rm Pr}}
   \def\tab{\;\;\;\;}
   \def\char{\mbox{char}}
 
@@ -42,6 +43,30 @@ $
 <!-- Seifert surface -->
 <!-- ベイカーの定理 -->
 <pre>
+
+<hr>2017/06/05 (月)
+
+- 今日午後にF崎先生が話があると言うので, 午後出社.
+  出社時, オフィスフロアのエレベーターが当に開くと
+  大きな旅行カバンを転がして, さぁ今から帰るぞ全開
+  のF崎先生が目の前に. 「何か忘れてると思ったら」
+  との事 … 無記憶情報源って事で良いですかね？
+
+\[
+
+    % Gambler's fallacy
+
+    \begin{align}
+      &amp; \text{Let $ x_0,x_1,\ldots $ be uniformly, independent and identically} \\
+      &amp; \text{distributed random variables in $\{0,1\}$.} \\
+      &amp; \Pr(x_t = 1 | \bigcap_{i=0}^{t-1} x_i = 0) = \frac{1}{2}.
+    \end{align}
+
+\]
+
+- 大昔ズームイ▽朝？か何かで, 出身学科の学生が朝から
+  全国放送でこれをやらかしていた …
+
 <hr>2017/06/04 (日)
 
 - 今日は一日中秋葉原. 2004年頃の日記を見たら
@@ -93,6 +118,10 @@ n = 10000 ;
 - ソース (pari/gp).
 
 $SOURCE
+
+- 変換方法
+
+$INTERPRETER
 
 <hr>2017/06/02 (金)
 
