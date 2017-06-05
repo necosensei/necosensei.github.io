@@ -57,9 +57,9 @@ $
     % Gambler's fallacy
 
     \begin{align}
-      &amp; \text{Let $ x_0,x_1,\ldots $ be uniformly, independent and identically} \\
-      &amp; \text{distributed random variables in $\{0,1\}$.} \\
-      &amp; \Pr(x_t = 1 | \bigcap_{i=0}^{t-1} x_i = 0) = \frac{1}{2}.
+      &amp; \text{Let $ x_0,x_1,\ldots $ be uniformly, independent and} \\
+      &amp; \text{identically distributed random variables in $\{0,1\}$.} \\
+      &amp; \Pr\left(x_t | \bigcap_{i=0}^{t-1} \neg x_i \right) = \frac{1}{2}.
     \end{align}
 
 \]
