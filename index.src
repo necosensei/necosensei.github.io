@@ -47,10 +47,9 @@ $
 <hr>2017/06/05 (月)
 
 - 今日は虚二次体の類数公式？とやら.
-  なだらかなカーブと
-  合成数の所の横縞が見える気がする.
+  なだらかなカーブと横縞が見える気がする.
 
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,200" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:50] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:46] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 n = 1000 ;
 
 D(m)    = return(if(m%4 == 1, m, 4*m)) ;
