@@ -46,7 +46,7 @@ $
 
 <hr>2017/06/05 (月)
 
-- 今日は虚二次体の類数公式？とやら.
+- 今日は虚二次体の類数公式？とやらを拾ってきた.
   なだらかなカーブと横縞が見える気がする.
 
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:46] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
