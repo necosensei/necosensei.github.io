@@ -46,6 +46,8 @@ $
 
 <hr>2017/06/05 (月)
 
+- 今日は虚二次体の類数公式とやら. なんか模様が見える.
+
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:46] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 n = 1000 ;
 
@@ -67,6 +69,18 @@ H(m) = {
   );
 }
 #!
+
+\[
+
+    % Class number formula
+
+    h = -\frac{w}{2d}\sum_{a=1}^{d-1}\Xi(a)a.
+
+\]
+
+- ソース.
+
+$SOURCE
 
 <hr>2017/06/05 (月)
 
