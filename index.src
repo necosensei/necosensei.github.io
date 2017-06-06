@@ -62,9 +62,8 @@ H(m) = {
   forstep(m = -1, -n, -1,
     if(issquarefree(m),
       h = H(m) ;
-      print1("|",m," ",h) ;
+      print(abs(m)," ",h) ;
     );
-    print("");
   );
 }
 #!
