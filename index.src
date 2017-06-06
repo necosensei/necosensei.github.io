@@ -83,6 +83,10 @@ H(m) = {
 
 $SOURCE
 
+- 変換方法
+
+$INTERPRETER
+
 <hr>2017/06/05 (月)
 
 - 今日午後にF崎先生が話があると言うので気力を振り絞って
@@ -229,6 +233,11 @@ $INTERPRETER
 
 $SOURCE
 
+- 変換方法
+
+$INTERPRETER
+
+
 <hr>2017/05/31 (水)
 
 - 試しに20面体もやってみる. 赤は Hamiltonian cycle.
@@ -270,6 +279,11 @@ strict graph Icosahedron{
 
 $SOURCE
 
+- 変換方法
+
+$INTERPRETER
+
+
 <hr>2017/05/30 (火)
 
 - 冷静に考えると全く同じシステムで gnuplot 以外も使えるはず.
@@ -301,6 +315,10 @@ graph Hamiltonian{
 - 因みにソース. トポロジーしか定義してない.
 
 $SOURCE
+
+- 変換方法
+
+$INTERPRETER
 
 <hr>2017/05/29 (月)
 
@@ -338,6 +356,10 @@ plot [-12*pi:12*pi] r(t)
 - 因みにソース.
 
 $SOURCE
+
+- 変換方法
+
+$INTERPRETER
 
 <hr>2017/05/28 (日)
 
