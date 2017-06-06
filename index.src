@@ -53,11 +53,11 @@ n = 1000 ;
 
 D(m)    = return(if(m%4 == 1, m, 4*m)) ;
 W(m)    = return(if(m == -1,4,if(m == -3,6,2))) ;
-xi(d,a) = return(kronecker(d,a)) ;
+chi(d,a) = return(kronecker(d,a)) ;
 
 H(m) = {
   my(d = abs(D(m)), w = W(m), a) ;
-  return(-(w/(2*d))*sum(a=1,d-1,xi(-d,a)*a)) ;
+  return(-(w/(2*d))*sum(a=1,d-1,chi(-d,a)*a)) ;
 }
 
 {
@@ -74,7 +74,7 @@ H(m) = {
 
     % Class number formula
 
-    h = -\frac{w}{2d}\sum_{a=1}^{d-1}\Xi(a)a.
+    h = -\frac{w}{2d}\sum_{a=1}^{d-1}\chi(a)a.
 
 \]
 
