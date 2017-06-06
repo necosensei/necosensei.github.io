@@ -770,7 +770,22 @@ $INTERPRETER
 
     % Conway polynomial # 54
     {
-      \def\northpos{\img{Knot-crossing-plus.png}{-0.5em}{1.5em}{1.5em}}
+
+      \def\northpos{\img{data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEUAAACZmZl3d3dVVVXu7u4z
+MzPMzMwRERGqqqqIiIhmZmb///9ERETd3d0iIiK7u7t0yhCYAAAACXBIWXMAAA7DAAAOwwHHb6hk
+AAACIUlEQVRIx9WVMUjDQBSGH0opFOkkOBTEoeAkdBA3h1qQ2nPo5thBBCEitSJRkFpEcXAtFBTE
+TUGKKKFUwpFMOhWhxSkO0UG7uaiLCuZyaXJJ7upshtLcffnv7r3/vQP1jwf+B6Ah8WxDIsC5kFCO
+DLLE+IQIWOwiAjzGh/nz7WLS3qRmbn/x5tN6BNFTjMEzZxv4DDadY84DdEMEPgFIOoBmQvQyeIBv
+gCGjF6gaQHCjbRNgx41kBgAi7+x8tmgNHbsAtnAoSd58M2UNDBpeLqw1AFoesEre35hkkTWiVQ+Y
+J0CCAXC+p+gkibwjNt0VgAE2CDrAi88POYjLzBIZuRhN+ACsT9UG3Gji1NN+DPkdtWvckNzRp1Pe
+0+oByyFVGS05H+H8CxkIebJpTtM/K5EvvmlHY/ZJG/q9wNVZKrG6YYhs/0ESrJktYV1orxKhJHHh
+fJKtTvatLGUkhvoCV2a9f20eBASCwJyc7F/dTMa4wA0RkMSAcraG1NwmEgI52aqOdrkqApSxLfeX
+C3TKdvFcF6t8AOtdKlTbQlwgEz90GkP0ggc07gq8aHjAUsQNQPq1HgYaesHTrayjEODzietfD9Dy
+PqPtu5UKPAFVnXWN6QCapxnYMvhKgvFv/pYFmkEBVX1wJCgQdKpd4UwLSoeMRjo5jTzY2SnxWrH+
+1gNm5CqvmefiCQr408tInD5RAC8I7otMzFliWXQj/fyXm/cXk0Voa6gPP3kAAAAASUVORK5CYII=
+      }{-0.5em}{1.5em}{1.5em}}
+      \def\northpos2{\img{Knot-crossing-plus.png}{-0.5em}{1.5em}{1.5em}}
       \def\northneg{\img{Knot-crossing-minus.png}{-0.5em}{1.5em}{1.5em}}
       \def\smoothingnorth{\img{Knot-crossing-zero.png}{-0.5em}{1.5em}{1.5em}}
 
