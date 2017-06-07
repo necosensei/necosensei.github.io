@@ -379,7 +379,7 @@ set terminal svg size 300,240
 unset border
 set dummy t, y
 set polar
-unset xtics
+unset tics
 unset raxis
 set nokey
 set samples 2048, 2048
