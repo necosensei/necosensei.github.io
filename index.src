@@ -92,7 +92,7 @@ $
 
 - 仕事が全然進まなかった …
 
-#! /usr/local/bin/gnuplot -e "set terminal svg size 400,200" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,400" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 set   parametric
 set   hidden
 set   isosamples 100,2
