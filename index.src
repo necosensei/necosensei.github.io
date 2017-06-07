@@ -93,29 +93,30 @@ $
 - 仕事が全然進まなかった …
 <a href="http://www.google.co.jp/search?ie=UTF-8&q=%22moebius+band%22" target="_blank">
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+n = 9
 set   parametric
 set   hidden
-set   isosamples 100,2
+set   isosamples 200,2
 unset key
 unset tics  
 unset border
 set   view equal xyz
-set   view 65,76,2.5
-splot [0:2*pi][-1:1] (v/2)*cos(u/2)*cos(u)+cos(u), (v/2)*cos(u/2)*sin(u)+sin(u), (v/2)*sin(u/2)
+set   view 50,25,2.5
+splot [0:2*pi][-1:1] (v/2)*cos(n*u/2)*cos(u)+cos(u), (v/2)*cos(n*u/2)*sin(u)+sin(u), (v/2)*sin(n*u/2)
 #!
 </a>
 \[
-    % moebius band
+    % moebius band # 82
 
       \{ P(u,v) \mid (u,v) \in [0,2\pi) \times [-1,1] \},
       \text{ where } P(u,v) = \left(
         \begin{array}{l}
 	  \displaystyle
-	    \frac{v}{2} \cdot \cos \frac{u}{2} \cdot \cos u + \cos u \\
+	    \frac{v}{2} \cdot \cos \frac{n u}{2} \cdot \cos u + \cos u \\
 	  \displaystyle
-	    \frac{v}{2} \cdot \cos \frac{u}{2} \cdot \sin u + \sin u \\
+	    \frac{v}{2} \cdot \cos \frac{n u}{2} \cdot \sin u + \sin u \\
 	  \displaystyle
-            \frac{v}{2} \cdot \sin \frac{u}{2}
+            \frac{v}{2} \cdot \sin \frac{n u}{2}
         \end{array}
       \right)
 
