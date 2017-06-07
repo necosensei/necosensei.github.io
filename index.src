@@ -107,14 +107,15 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
 \[
     % moebius strip
 
-    \begin{align}
-    &amp; \forall (u,v) \in [0,2\pi) \times [-1,1),\\
-    &amp; \left(
-      \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u,\;
-      \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u,\;
-      \frac{v}{2} \cdot \sin \frac{u}{2}
-    \right).
-    \end{align}
+    \left\{
+      \left(
+        \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u,\;
+        \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u,\;
+        \frac{v}{2} \cdot \sin \frac{u}{2}
+      \right)
+    \; \middle| \;
+      (u,v) \in [0,2\pi) \times [-1,1)
+    \right\}.
 \]
 
 - ソース (pari/gp).
