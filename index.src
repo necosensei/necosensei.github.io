@@ -118,7 +118,7 @@ splot [0:2*pi][-1:1] (v/2)*cos(n*u/2)*cos(u)+cos(u), (v/2)*cos(n*u/2)*sin(u)+sin
 	  \displaystyle
             \frac{v}{2} \cdot \sin \frac{n u}{2}
         \end{array}
-      \right),\; n \in 2\N + 1.
+      \right),\; n \in 2\Z + 1.
 
 \]
 
