@@ -107,12 +107,12 @@ splot [0:2*pi][-0.5:0.5] cos(u)+v*cos(u/2)*cos(u),sin(u)+v*cos(u/2)*sin(u),v*sin
     % moebius strip
 
     \begin{align}
+    &amp; \forall (u,v) \in [0,2\pi)\times\left[-\frac{1}{2},\frac{1}{2}\right),\\
     &amp; \left(
-      \cos u + v \cos \frac{u}{2} \cos u,
-      \sin u + v \cos \frac{u}{2} \sin u,
-      v \sin \frac{u}{2}
+      \cos u + v \cdot \cos \frac{u}{2} \cdot \cos u,\;
+      \sin u + v \cdot \cos \frac{u}{2} \cdot \sin u,\;
+      v \cdot \sin \frac{u}{2}
     \right),\\
-    &amp; \forall (u,v) \in [0,2\pi)\times\left[-\frac{1}{2},\frac{1}{2}\right),
     \end{align}
 \]
 
