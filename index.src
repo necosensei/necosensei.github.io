@@ -107,9 +107,8 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
 \[
     % moebius band
 
-    \begin{align}
-      &amp; \{ (x,y,z) \mid (u,v) \in [0,2\pi) \times [-1,1) \}, \\
-      &amp; \text{ where } \left\{
+      \{ (x,y,z) \mid (u,v) \in [0,2\pi) \times [-1,1) \},
+      \text{ where } \left\{
         \begin{array}{l}
 	  \displaystyle
           x(u,v) = \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u, \\
@@ -119,7 +118,6 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
           z(u,v) = \frac{v}{2} \cdot \sin \frac{u}{2}.
         \end{array}
       \right.
-    \end{align}
 
 \]
 
