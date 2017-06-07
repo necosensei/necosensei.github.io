@@ -308,11 +308,14 @@ moebius strip
 
 - ソース (pari/gp).
 
-set hidden
-set isosamples 100,2
+set   parametric
+set   hidden
+set   isosamples 100,2
 unset key
 unset tics  
 unset border
+set view equal xyz
+set view 65,76
 splot [0:2*pi][-0.5:0.5] cos(u)+v*cos(u/2)*cos(u),sin(u)+v*cos(u/2)*sin(u),v*sin(u/2)
 
 
@@ -8317,7 +8320,7 @@ Basic Properties of Rings # 28
   してファイルをコピーしたい. 電源が貧弱なためHDDは1台
   しか入らないが, 他のマシンから無理やり電源供給を行い
   元の HDDをマウント. 上手く行ったので元のホームにアク
-  セスしようとした途端OSが勝手に『���クセス権を設定します』
+  セスしようとした途端OSが勝手に『アクセス権を設定します』
   的な事を言い出して固まる. 固まって云とも寸とも言わない
   ので何かクリックすると, その操作はキャンセルされるらしい. orz
   
