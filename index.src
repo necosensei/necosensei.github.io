@@ -111,9 +111,9 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
       \text{ where } P(u,v) = \left(
         \begin{array}{l}
 	  \displaystyle
-            \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u \\
+	    \frac{v}{2} \cdot \cos \frac{u}{2} \cdot \cos u + \cos u \\
 	  \displaystyle
-            \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u \\
+	    \frac{v}{2} \cdot \cos \frac{u}{2} \cdot \sin u + \sin u \\
 	  \displaystyle
             \frac{v}{2} \cdot \sin \frac{u}{2}
         \end{array}
