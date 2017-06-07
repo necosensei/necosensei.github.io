@@ -107,17 +107,17 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
 \[
     % moebius band
 
-      \{ (x,y,z) \mid (u,v) \in [0,2\pi) \times [-1,1) \},
-      \text{ where } \left\{
+      \{ P(u,v) \mid (u,v) \in [0,2\pi) \times [-1,1) \},
+      \text{ where } P(u,v) = \left(
         \begin{array}{l}
 	  \displaystyle
-          x(u,v) = \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u, \\
+            \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u, \\
 	  \displaystyle
-          y(u,v) = \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u, \\
+            \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u, \\
 	  \displaystyle
-          z(u,v) = \frac{v}{2} \cdot \sin \frac{u}{2}.
+            \frac{v}{2} \cdot \sin \frac{u}{2}.
         \end{array}
-      \right.
+      \right)
 
 \]
 
