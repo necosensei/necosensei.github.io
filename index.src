@@ -91,7 +91,7 @@ $
 <hr>2017/06/07 (水)
 
 - 仕事が全然進まなかった …
-<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22moebius+strip%22" target="_blank">
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22moebius+band%22" target="_blank">
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 set   parametric
 set   hidden
@@ -105,17 +105,19 @@ splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*s
 #!
 </a>
 \[
-    % moebius strip
+    % moebius band
 
-    \left\{
-      \left(
-        \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u,\;
-        \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u,\;
-        \frac{v}{2} \cdot \sin \frac{u}{2}
-      \right)
-    \; \middle| \;
-      (u,v) \in [0,2\pi) \times [-1,1)
-    \right\}.
+    \begin{align}
+      &amp; \{ (x(u,v),y(u,v),z(u,v)) \mid (u,v) \in [0,2\pi) \times [-1,1) \}, \\
+      &amp; \text{where } \left\{
+        \begin{array}{l}
+          x(u,v) = \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \cos u, \\
+          y(u,v) = \left(1 + \frac{v}{2} \cdot \cos \frac{u}{2} \right) \cdot \sin u, \\
+          z(u,v) = \frac{v}{2} \cdot \sin \frac{u}{2}.
+        \end{array}
+      \right.
+    \end{align}
+
 \]
 
 - ソース (pari/gp).
