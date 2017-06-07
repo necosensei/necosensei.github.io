@@ -101,13 +101,13 @@ unset tics
 unset border
 set   view equal xyz
 set   view 65,76,2.5
-splot [0:2*pi][-1:1] (1+(v/2)*cos(u/2))*cos(u),(1+(v/2)*cos(u/2))*sin(u),(v/2)*sin(u/2)
+splot [0:2*pi][-1:1] (v/2)*cos(u/2)*cos(u)+cos(u), (v/2)*cos(u/2)*sin(u)+sin(u), (v/2)*sin(u/2)
 #!
 </a>
 \[
     % moebius band
 
-      \{ P(u,v) \mid (u,v) \in [0,2\pi) \times [-1,1) \},
+      \{ P(u,v) \mid (u,v) \in [0,2\pi) \times [-1,1] \},
       \text{ where } P(u,v) = \left(
         \begin{array}{l}
 	  \displaystyle
