@@ -88,6 +88,10 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/07 (水)
+
+-
+
 <hr>2017/06/06 (火)
 
 - 今日は虚二次体の類数公式？とやらを拾ってきた.
@@ -376,8 +380,6 @@ unset border
 set dummy t, y
 set polar
 unset xtics
-unset ytics
-unset rtics
 unset raxis
 set nokey
 set samples 2048, 2048
