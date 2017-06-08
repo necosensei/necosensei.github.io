@@ -102,30 +102,32 @@ unset tics
 unset border
 set   view equal xyz
 set   view 50,25,2.5
-splot [0:2*pi][-0.5:0.5] v*cos(h*u)*cos(u)+cos(u), v*cos(h*u)*sin(u)+sin(u), v*sin(h*u)
+splot [0:2*pi][-1:1] (v/2)*cos(h*u)*cos(u)+cos(u), (v/2)*cos(h*u)*sin(u)+sin(u), (v/2)*sin(h*u)
 #!
 </a>
 \[
     % moebius band # 82
 
-      \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times \left[-\frac{1}{2},\frac{1}{2}\right] \right\},
-      \text{ where } P(u,v) = 
-      v \cdot
-      \left(
-        \begin{array}{l}
-	    \cos h u \cdot \cos u \\
-	    \cos h u \cdot \sin u \\
+    \begin{align}
+      &amp; \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times [-1,1] \right\}, \\
+      &amp; \text{ where } P(u,v) =
+        \frac{v}{2} \cdot
+        \left(
+          \begin{array}{l}
+            \cos h u \cdot \cos u \\
+            \cos h u \cdot \sin u \\
             \sin h u
-        \end{array}
-      \right)
-      +
-      \left(
-        \begin{array}{c}
-	    \cos u \\
-	    \sin u \\
-	    0
-        \end{array}
-      \right),\; h \in \Z + \frac{1}{2}.
+          \end{array}
+        \right)
+        +
+        \left(
+          \begin{array}{c}
+            \cos u \\
+            \sin u \\
+            0
+          \end{array}
+        \right),\; h \in \Z + \frac{1}{2}.
+    \end{align}
 
 \]
 
