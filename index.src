@@ -92,10 +92,9 @@ $
 
 \[
   \begin{align}
-    &amp; \forall \{ a_1, a_2, \ldots, a_n \} \in \Z^n, \\
-    &amp; \exists k,\ell \in \N \text{ s.t. }
-          0 \le k &lt; \ell \le n \;\wedge \\
-    &amp; \sum_{i=k+1}^{\ell} a_i = 0 \pmod n.
+    &amp; \forall \{ a_1, a_2, \ldots, a_n \} \in \Z^n, \; \exists k,\ell \in \N, \\
+    &amp; 0 \le k &lt; \ell \le n \tab \wedge \tab
+          \sum_{i=k+1}^{\ell} a_i = 0 \pmod n.
   \end{align}
 \]
 
