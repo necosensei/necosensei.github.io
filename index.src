@@ -102,7 +102,7 @@ unset tics
 unset border
 set   view equal xyz
 set   view 50,25,2.5
-splot [0:2*pi][-1:1] (v/2)*cos(h*u)*cos(u)+cos(u), (v/2)*cos(h*u)*sin(u)+sin(u), (v/2)*sin(h*u)
+splot [0:2*pi][-1:1] (v/2)*sin(h*u)*cos(u)+cos(u), (v/2)*sin(h*u)*sin(u)+sin(u), (v/2)*cos(h*u)
 #!
 </a>
 \[
@@ -114,9 +114,9 @@ splot [0:2*pi][-1:1] (v/2)*cos(h*u)*cos(u)+cos(u), (v/2)*cos(h*u)*sin(u)+sin(u),
         \frac{v}{2} \cdot
         \left(
           \begin{array}{l}
-            \cos h u \cdot \cos u \\
-            \cos h u \cdot \sin u \\
-            \sin h u
+            \sin h u \cdot \cos u \\
+            \sin h u \cdot \sin u \\
+            \cos h u
           \end{array}
         \right)
         +
