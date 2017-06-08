@@ -88,6 +88,14 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/08 (木)
+
+\[
+  \forall a_1, a_2, \ldots, a_n \in \Z,
+  \exists 0 \le k &lt; \ell \le n \in \N \; \text{s.t. }
+  \sum_{i=k+1}^{\ell} a_n = 0 \pmod n.
+\]
+
 <hr>2017/06/07 (水)
 
 - 仕事が全然進まなかった …
