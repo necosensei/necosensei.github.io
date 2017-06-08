@@ -109,14 +109,21 @@ splot [0:2*pi][-0.5:0.5] v*cos(h*u)*cos(u)+cos(u), v*cos(h*u)*sin(u)+sin(u), v*s
     % moebius band # 82
 
       \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times \left[-\frac{1}{2},\frac{1}{2}\right] \right\},
-      \text{ where } P(u,v) = \left(
+      \text{ where } P(u,v) = 
+      v \cdot
+      \left(
         \begin{array}{l}
-	  \displaystyle
-	    v \cdot \cos h u \cdot \cos u + \cos u \\
-	  \displaystyle
-	    v \cdot \cos h u \cdot \sin u + \sin u \\
-	  \displaystyle
-            v \cdot \sin h u
+	    \cos h u \cdot \cos u \\
+	    \cos h u \cdot \sin u \\
+            \sin h u
+        \end{array}
+      \right)
+      +
+      \left(
+        \begin{array}{l}
+	    \cos u \\
+	    \sin u \\
+	    0
         \end{array}
       \right),\; h \in \Z + \frac{1}{2}.
 
