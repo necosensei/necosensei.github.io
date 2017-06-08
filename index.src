@@ -95,7 +95,7 @@ $
     &amp;
       \forall n \in \N^+,\;
       \forall (a_1, a_2, \ldots, a_n) \in \Z^n,\;
-      \exists (k,\ell) \in \N^2,
+      \exists (k,\ell) \in \N^2
       \text{ s.t. } 0 \le k &lt; \ell \le n,\\
     &amp; 
       \sum_{i=k+1}^{\ell} a_i = 0 \pmod n.
