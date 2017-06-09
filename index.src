@@ -98,7 +98,7 @@ $
 
   \begin{align}
     &amp; \text{Let } \{f_{\alpha}\}
-          \text{ be a class of analitic function in $\C$ s.t. }
+          \text{ be a class of complex analitic functions s.t. }
           \forall z \in \C, |\{f_{\alpha}(z)\}| \le \aleph_0.\\
     &amp; \aleph_1 &lt; |\R| \Rightarrow \forall \{f_{\alpha}\}, |\{f_{\alpha}\}| \le \aleph_0, \\
     &amp; \aleph_1 =    |\R| \Rightarrow \exists \{f_{\alpha}\}, |\{f_{\alpha}\}| = |\R|.
