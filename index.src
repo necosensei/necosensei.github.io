@@ -88,6 +88,24 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/09 (金)
+
+- ミニリュウ監視網が上手く機能した.
+
+\[
+
+  % continuum hypothesis # 84
+
+  \begin{align}
+    &amp; \text{Let } \{f_{\alpha}\}
+          \text{ be a class of analitic function in $\C$ s.t. }
+          \forall z \in \C, |\{f_{\alpha}(z)\}| \le \aleph_0.\\
+    &amp; \aleph_1 &lt; |\R| \Rightarrow \forall \{f_{\alpha}\}, |\{f_{\alpha}\}| \le \aleph_0, \\
+    &amp; \aleph_1 =    |\R| \Rightarrow \exist \{f_{\alpha}\}, |\{f_{\alpha}\}| = |\R|.
+  \end{align}
+
+\]
+
 <hr>2017/06/08 (木)
 
 - 最近連続して23時帰宅だ. orz
