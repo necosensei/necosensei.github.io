@@ -101,7 +101,7 @@ $
           \text{ be a class of analitic function in $\C$ s.t. }
           \forall z \in \C, |\{f_{\alpha}(z)\}| \le \aleph_0.\\
     &amp; \aleph_1 &lt; |\R| \Rightarrow \forall \{f_{\alpha}\}, |\{f_{\alpha}\}| \le \aleph_0, \\
-    &amp; \aleph_1 =    |\R| \Rightarrow \exist \{f_{\alpha}\}, |\{f_{\alpha}\}| = |\R|.
+    &amp; \aleph_1 =    |\R| \Rightarrow \exists \{f_{\alpha}\}, |\{f_{\alpha}\}| = |\R|.
   \end{align}
 
 \]
