@@ -88,6 +88,24 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/10 (土)
+
+- 玉川上水駅でおりて玉川上水沿いを散策したところ、強風による
+  土埃に襲われ早々に退散, 都心に逃げ込む.
+
+\[
+
+    % Thom's lemma # 85
+
+    \begin{align}
+      &amp; \forall f \in \R[X], \dim f = m, \forall \sigma \in \{-1,0,1\}^m, \\
+      &amp; \{x \in \R \mid \text{sign}(f^{(i)}(x)) = \sigma \} 
+            \text{ is one of a empty set, a set with exactly one element,
+	           or a open interval.}
+    \end{align}
+
+\]
+
 <hr>2017/06/09 (金)
 
 - ミニリュウ監視網が上手く機能して連続ゲット！
