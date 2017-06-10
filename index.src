@@ -100,7 +100,7 @@ $
     \begin{align}
       &amp; \forall f \in \R[X] \text{ s.t. } \dim f = m, \forall \sigma \in \{-1,0,1\}^{m+1}, \\
       &amp; \left\{x \in \R \;\middle|\;
-              \left(\text{sign}\left(f^{(i)}(x)\right)\right)_{i\in\{0,\ldots,m\}} = \sigma \right\} 
+              \left(\text{sgn}\left(f^{(i)}(x)\right)\right)_{i\in\{0,\ldots,m\}} = \sigma \right\} 
             \text{ is one of a empty set,} \\
       &amp; \text{a set with exactly one element, or an open interval.}
     \end{align}
