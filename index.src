@@ -100,7 +100,7 @@ $
     \begin{align}
       &amp; \forall f \in \R[X], \dim f = m, \forall \sigma \in \{-1,0,1\}^m, \\
       &amp; \{x \in \R \mid \text{sign}(f^{(i)}(x)) = \sigma \} 
-            \text{ is one of a empty set, a set with exactly one element, or a open interval.}
+            \text{ is one of a empty set, a set with exactly one element, or an open interval.}
     \end{align}
 
 \]
