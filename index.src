@@ -98,9 +98,10 @@ $
     % Thom's lemma # 85
 
     \begin{align}
-      &amp; \forall f \in \R[X], \dim f = m, \forall \sigma \in \{-1,0,1\}^m, \\
-      &amp; \{x \in \R \mid \text{sign}(f^{(i)}(x)) = \sigma \} 
-            \text{ is one of a empty set, a set with exactly one element, or an open interval.}
+      &amp; \forall f \in \R[X], \dim f = m, \forall \sigma \in \{-1,0,1\}^{m+1}, \\
+      &amp; \{x \in \R \mid (\text{sign}(f^{(i)}(x)))_{i\in\{0,\ldots,m\}} = \sigma \} 
+            \text{ is one of a empty set,} \\
+      &amp; \text{a set with exactly one element, or an open interval.}
     \end{align}
 
 \]
