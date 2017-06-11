@@ -132,7 +132,6 @@ cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
 splot x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
 
 splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
-splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u), (w*v)*cos(h*u)
 #!
 
 \[
