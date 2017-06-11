@@ -90,6 +90,63 @@ $
 
 <hr>2017/06/11 (日)
 
+- 睡眠サイクルが一日１時間ぐらいズレていく.
+
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+set   parametric
+set   hidden
+set   isosamples 300,20                                                          
+unset key
+unset tics  
+unset border
+set   view equal xyz
+set   view 182,212,1.0
+
+a = 2
+b = 1
+c = 1
+p = 2
+q = 3
+e = 1
+
+x(u) = (a + b * cos(q * u)) * cos(p * u)
+y(u) = (a + b * cos(q * u)) * sin(p * u)
+z(u) = c * sin(q * u)
+
+r1(u) = sqrt( x(u) ** 2 + y(u) ** 2 + z(u) ** 2 )
+
+tx(u) = - (b * q * sin(q * u)) * cos(p * u) - (a + b * cos(q * u)) * p * sin(p * u)
+ty(u) = - (b * q * sin(q * u)) * sin(p * u) + (a + b * cos(q * u)) * p * cos(p * u)
+tz(u) = c * q * cos(q * u)
+
+dx(u) = y(u)*tz(u) - z(u)*ty(u)
+dy(u) = z(u)*tx(u) - x(u)*tz(u)
+dz(u) = x(u)*ty(u) - y(u)*tx(u)
+
+r2(u) = sqrt( dx(u) ** 2 + dy(u) ** 2 + dz(u) ** 2 )
+
+cx(u,v) = ( (x(u)/r1(u))*cos(v) + (dx(u)/r2(u))*sin(v) )
+cy(u,v) = ( (y(u)/r1(u))*cos(v) + (dy(u)/r2(u))*sin(v) )
+cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
+
+splot x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
+
+splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
+splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u), (w*v)*cos(h*u)
+#!
+
+\[
+
+    % Trefoil knot
+
+    \begin{align}
+      &amp; x = (2 + \cos 3 t) \cos 2 t \\
+      &amp; y = (2 + \cos 3 t) \sin 2 t \\
+      &amp; x = \sin 3 t \\
+    \end{align}
+
+\]
+
 <hr>2017/06/10 (土)
 
 - 玉川上水駅でおりて玉川上水沿いを散策したところ、強風による
