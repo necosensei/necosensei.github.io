@@ -94,8 +94,7 @@ $
 
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" -
 set   parametric
-set   hidden
-set   hidden3d 
+set   hidden3d front
 set   isosamples 200,20                                                          
 unset key
 unset tics  
