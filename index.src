@@ -95,6 +95,7 @@ $
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" -
 set   parametric
 set   hidden
+set   hidden3d 
 set   isosamples 200,20                                                          
 unset key
 unset tics  
@@ -131,7 +132,7 @@ cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
 
 splot x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
 
-splot [0:2*pi][0:pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
+splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
 #!
 
 \[
