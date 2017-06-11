@@ -93,14 +93,32 @@ $
 - 睡眠サイクルが一日１時間ぐらいズレていく.
 
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" -
+
 set   parametric
 set   hidden3d front
-set   isosamples 200,20                                                          
+set   isosamples 200,20
+
 unset key
-unset tics  
+unset tics
 unset border
 set   view equal xyz
 set   view 182,212,1.5
+
+x(u) = (a + b * cos(q * u)) * cos(p * u)
+y(u) = (a + b * cos(q * u)) * sin(p * u)
+z(u) = c * sin(q * u)
+r(u) = sqrt(x(u)**2 + y(u)**2)
+r1(u) = sqrt( x(u) ** 2 + y(u) ** 2 + z(u) ** 2 )
+dx(u) = y(u)*tz(u) - z(u)*ty(u)
+dy(u) = z(u)*tx(u) - x(u)*tz(u)
+dz(u) = x(u)*ty(u) - y(u)*tx(u)
+r2(u) = sqrt( dx(u) ** 2 + dy(u) ** 2 + dz(u) ** 2 )
+cx(u,v) = ( (x(u)/r1(u))*cos(v) + (dx(u)/r2(u))*sin(v) )
+cy(u,v) = ( (y(u)/r1(u))*cos(v) + (dy(u)/r2(u))*sin(v) )
+cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
+tx(u) = - (b * q * sin(q * u)) * cos(p * u) - (a + b * cos(q * u)) * p * sin(p * u)
+ty(u) = - (b * q * sin(q * u)) * sin(p * u) + (a + b * cos(q * u)) * p * cos(p * u)
+tz(u) = c * q * cos(q * u)
 
 a = 2
 b = 1
@@ -109,29 +127,8 @@ p = 2
 q = 3
 e = 1
 
-x(u) = (a + b * cos(q * u)) * cos(p * u)
-y(u) = (a + b * cos(q * u)) * sin(p * u)
-z(u) = c * sin(q * u)
-
-r1(u) = sqrt( x(u) ** 2 + y(u) ** 2 + z(u) ** 2 )
-
-tx(u) = - (b * q * sin(q * u)) * cos(p * u) - (a + b * cos(q * u)) * p * sin(p * u)
-ty(u) = - (b * q * sin(q * u)) * sin(p * u) + (a + b * cos(q * u)) * p * cos(p * u)
-tz(u) = c * q * cos(q * u)
-
-dx(u) = y(u)*tz(u) - z(u)*ty(u)
-dy(u) = z(u)*tx(u) - x(u)*tz(u)
-dz(u) = x(u)*ty(u) - y(u)*tx(u)
-
-r2(u) = sqrt( dx(u) ** 2 + dy(u) ** 2 + dz(u) ** 2 )
-
-cx(u,v) = ( (x(u)/r1(u))*cos(v) + (dx(u)/r2(u))*sin(v) )
-cy(u,v) = ( (y(u)/r1(u))*cos(v) + (dy(u)/r2(u))*sin(v) )
-cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
-
-splot x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
-
 splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
+
 #!
 
 \[
