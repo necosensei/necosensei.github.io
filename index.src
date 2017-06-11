@@ -107,18 +107,26 @@ set   view 182,212,1.5
 x(u) = (a + b * cos(q * u)) * cos(p * u)
 y(u) = (a + b * cos(q * u)) * sin(p * u)
 z(u) = c * sin(q * u)
-r(u) = sqrt(x(u)**2 + y(u)**2)
-r1(u) = sqrt( x(u) ** 2 + y(u) ** 2 + z(u) ** 2 )
-dx(u) = y(u)*tz(u) - z(u)*ty(u)
-dy(u) = z(u)*tx(u) - x(u)*tz(u)
-dz(u) = x(u)*ty(u) - y(u)*tx(u)
-r2(u) = sqrt( dx(u) ** 2 + dy(u) ** 2 + dz(u) ** 2 )
-cx(u,v) = ( (x(u)/r1(u))*cos(v) + (dx(u)/r2(u))*sin(v) )
-cy(u,v) = ( (y(u)/r1(u))*cos(v) + (dy(u)/r2(u))*sin(v) )
-cz(u,v) = ( (z(u)/r1(u))*cos(v) + (dz(u)/r2(u))*sin(v) )
-tx(u) = - (b * q * sin(q * u)) * cos(p * u) - (a + b * cos(q * u)) * p * sin(p * u)
-ty(u) = - (b * q * sin(q * u)) * sin(p * u) + (a + b * cos(q * u)) * p * cos(p * u)
-tz(u) = c * q * cos(q * u)
+
+dx(u) = - (b * q * sin(q * u)) * cos(p * u) - (a + b * cos(q * u)) * p * sin(p * u)
+dy(u) = - (b * q * sin(q * u)) * sin(p * u) + (a + b * cos(q * u)) * p * cos(p * u)
+dz(u) = c * q * cos(q * u)
+
+d1x(u) = y(u)*dz(u) - z(u)*dy(u)
+d1y(u) = z(u)*dx(u) - x(u)*dz(u)
+d1z(u) = x(u)*dy(u) - y(u)*dx(u)
+
+r1(u) = sqrt( d1x(u) ** 2 + d1y(u) ** 2 + d1z(u) ** 2 )
+
+d2x(u) = d1y(u)*dz(u) - d1z(u)*dy(u)
+d2y(u) = d1z(u)*dx(u) - d1x(u)*dz(u)
+d2z(u) = d1x(u)*dy(u) - d1y(u)*dx(u)
+
+r2(u) = sqrt( d2x(u) ** 2 + d2y(u) ** 2 + d2z(u) ** 2 )
+
+cx(u,v) = ( (d1x(u)/r1(u))*cos(v) + (d2x(u)/r2(u))*sin(v) )
+cy(u,v) = ( (d1y(u)/r1(u))*cos(v) + (d2y(u)/r2(u))*sin(v) )
+cz(u,v) = ( (d1z(u)/r1(u))*cos(v) + (d2z(u)/r2(u))*sin(v) )
 
 a = 2
 b = 1
@@ -128,7 +136,6 @@ q = 3
 e = 1
 
 splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v)
-
 #!
 
 \[
