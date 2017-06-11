@@ -100,7 +100,7 @@ unset key
 unset tics  
 unset border
 set   view equal xyz
-set   view 182,212,1.0
+set   view 182,212,2.5
 
 a = 2
 b = 1
