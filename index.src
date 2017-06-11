@@ -144,7 +144,7 @@ splot [0:2*pi][0:2*pi] x(u) + e * cx(u,v), y(u) + e * cy(u,v), z(u) + e * cz(u,v
     \left\{\begin{align}
       &amp; x = (2 + \cos 3 t) \cos 2 t \\
       &amp; y = (2 + \cos 3 t) \sin 2 t \\
-      &amp; x = \sin 3 t \\
+      &amp; z = \sin 3 t \\
     \end{align}\right.
 
 \]
