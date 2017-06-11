@@ -92,7 +92,7 @@ $
 
 - 睡眠サイクルが一日１時間ぐらいズレていく.
 
-#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" -
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set   parametric
 set   hidden3d front
