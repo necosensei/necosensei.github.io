@@ -88,6 +88,23 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/12 (月)
+
+-
+
+\[
+
+    % Chaitin's constant # 87
+
+    \begin{align}
+      &amp; \text{Let $ P_F $ be the domain of a prefix-free universal computable function $ F $}. \\
+      &amp; \Omega_F = \sum_{p\in P_F} 2^{-|p|},
+      &amp; \text{where $|p|$ denotes the length of a string $p$}.
+    \end{align}
+
+\]
+
+
 <hr>2017/06/11 (日)
 
 - 睡眠サイクルが一日１時間ぐらいズレていく.
