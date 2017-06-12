@@ -90,7 +90,8 @@ $
 
 <hr>2017/06/12 (月)
 
--
+- 会社の帰りにクマのようになってポケモンを探す姿を
+  Y田先生に目撃される …
 
 \[
 
@@ -98,7 +99,7 @@ $
 
     \begin{align}
       &amp; \text{Let $ P_F $ be the domain of a prefix-free universal computable function $ F $}. \\
-      &amp; \Omega_F = \sum_{p\in P_F} 2^{-|p|},
+      &amp; \Omega_F = \sum_{p\in P_F} 2^{-|p|}, \\
       &amp; \text{where $|p|$ denotes the length of a string $p$}.
     \end{align}
 
