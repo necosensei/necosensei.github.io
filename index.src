@@ -132,7 +132,7 @@ unset key
 unset tics
 unset border
 set   view equal xyz
-set   view 225,0,1.5,1.5
+set   view 200,315,1.5,1.5
 
 x(u,v) = u - u**3/3 + u * (v**2)
 y(u,v) = v - v**3/3 + v * (u**2)
