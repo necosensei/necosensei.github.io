@@ -122,6 +122,40 @@ $
 「暗号の数学」が出版されたのだが, 縦書きやっぱ苦手.
  横書きにしたら途端に売れなくなるのかも知れないが …
 
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set   parametric
+set   hidden3d front
+set   isosamples 50,50
+
+unset key
+unset tics
+unset border
+set   view equal xyz
+set   view 225,0,1.5,1.5
+
+x(u,v) = u - u**3/3 + u * (v**2)
+y(u,v) = v - v**3/3 + v * (u**2)
+z(u,v) = (u**2 - v**2)/3
+
+splot [-2:2][-2:2] x(u,v),y(u,v),z(u,v)
+
+#!
+
+\[
+
+    % Enneper's surface # 88
+
+    \left\{
+    \begin{align}
+      &amp; x = u - u**3/3 + u * (v**2) \\
+      &amp; y = v - v**3/3 + v * (u**2) \\
+      &amp; z = u**2 - v**2
+    \end{align}
+    \right.
+
+\]
+
 <hr>2017/06/12 (月)
 
 - 会社の帰りにクマのようになってポケモンを探す姿を
