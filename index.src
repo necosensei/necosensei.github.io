@@ -88,6 +88,33 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/14 (水)
+
+- 現在仕事で記述中のアルゴリズムがあまりにも
+  美しくないので鬱 …
+
+\[
+
+  % planar ternary ring # 89
+
+  \begin{align}
+    &amp; \text{a structure } (R,T) \text{ where } R \supset \{0,1\}, and \\
+    &amp; T : R^3 \rightarrow R \text{ s.t. } \\
+    &amp; \black{\begin{align}
+      &amp; \text{1. } T(a,0,b) = T(0,a,b) = b, \forall a,b \in R ; \\
+      &amp; \text{2. } T(1,a,0) = T(a,1,0) = a, \forall a \in R ; \\
+      &amp; \text{3. } \forall a,b,c,d \in R, a \ne c,
+                       \exists ! x \in R \text{ s.t. } T(x,a,b) = T(x,c,d) ; \\
+      &amp; \text{4. } \forall a,b,c \in R, 
+                       \exists ! x \in R \text{ s.t. } T(a,b,x) = c ; \text{ and} \\
+      &amp; \text{5. } \forall a,b,c,d \in R, a \ne c, \;
+                       T(a,x,y) = b \wedge T(c,x,y) = d 
+                       \Rightarrow \exists ! (x,y) \in R^2.
+    \end{align}}
+  \end{align}
+
+\]
+
 <hr>2017/06/13 (火)
 
 - 本格的に体調が悪い.
