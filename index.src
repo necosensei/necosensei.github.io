@@ -100,6 +100,7 @@ $
   \begin{align}
     &amp; \text{A planar ternary ring is a structure } (R,T) \\
     &amp; \text{ where } R \supset \{0,1\}, \text{ and } T : R^3 \rightarrow R \text{ s.t. } \\
+    &amp; \\
     &amp; \black{\begin{align}
       &amp; \text{1. } T(a,0,b) = T(0,a,b) = b, \forall a,b \in R ; \\
       &amp; \text{2. } T(1,a,0) = T(a,1,0) = a, \forall a \in R ; \\
