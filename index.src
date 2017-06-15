@@ -129,15 +129,15 @@ $
     % Thirty-six officers problem # 90
 
     \begin{align}
-      &amp; \text{Let } {\mathbb{6}} := \{0,\ldots,5\} \\
+      &amp; \text{Let } X_6 := \{0,\ldots,5\}. \\
       &amp; \black{
       \begin{align}
-        \forall A: &amp; 6^2 \hookrightarrow 6^2, \\
+        \forall A: &amp; X_6^2 \hookrightarrow X_6^2, \\
                    &amp; (i,j) \mapsto (I_j(i), J_i(j)), \\
       \end{align}
       } \\
-      &amp; \neg (\forall j, I_j : 6 \hookrightarrow 6 \; \wedge \;
-                  \forall i, J_i : 6 \hookrightarrow 6).
+      &amp; \neg (\forall j, I_j \in (X_6 \hookrightarrow X_6) \; \wedge \;
+                  \forall i, J_i \in (X_6 \hookrightarrow X_6)).
     \end{align}
 \]
 
