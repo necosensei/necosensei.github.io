@@ -129,19 +129,16 @@ $
     % Thirty-six officers problem # 90
 
     \begin{align}
+      &amp; \text{Let } {\mathbb{6}} := \{0,\ldots,5\} \\
       &amp; \black{
       \begin{align}
-        \forall A: &amp; \{0,\ldots,5\}^2 \hookrightarrow \{0,\ldots,5\}^2, \\
-                   &amp; (i,j)            \mapsto (a_0(i,j), a_1(i,j)), \\
+        \forall A: &amp; 6^2 \hookrightarrow 6^2, \\
+                   &amp; (i,j) \mapsto (I_j(i), J_i(j)), \\
       \end{align}
       } \\
-%      &amp; \exists i, \exists j_0 \ne j_1, a_0(i,j_0) = a_0(i,j_1) \; \vee \; \\
-%      &amp; \exists j, \exists i_0 \ne i_1, a_1(i_0,j) = a_1(i_1,j).
-       &amp; \neg (\forall i, j_0 \ne j_1 \Rightarrow a_1(i,j_0) \ne a_1(i,j_1) \; \wedge \;
-                  \forall j, i_0 \ne i_1 \Rightarrow a_0(i_0,j) \ne a_0(i_1,j)).
-
+      &amp; \neg (\forall j, I_j : 6 \hookrightarrow 6 \; \wedge \;
+                  \forall i, J_i : 6 \hookrightarrow 6).
     \end{align}
-
 \]
 
 <hr>2017/06/14 (水)
