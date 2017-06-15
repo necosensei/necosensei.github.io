@@ -135,8 +135,11 @@ $
                    &amp; (i,j)            \mapsto (a_0(i,j), a_1(i,j)), \\
       \end{align}
       } \\
-      &amp; \exists i, \exists j_0 \ne j_1, a_0(i,j_0) = a_0(i,j_1) \; \vee \; \\
-      &amp; \exists j, \exists i_0 \ne i_1, a_1(i_0,j) = a_1(i_1,j).
+%      &amp; \exists i, \exists j_0 \ne j_1, a_0(i,j_0) = a_0(i,j_1) \; \vee \; \\
+%      &amp; \exists j, \exists i_0 \ne i_1, a_1(i_0,j) = a_1(i_1,j).
+       &amp; \neg (\forall i, j_0 \ne j_1 \Rightarrow a_1(i,j_0) \ne a_1(i,j_1) \; \wedge \;
+                  \forall j, i_0 \ne i_1 \Rightarrow a_0(i_0,j) \ne a_0(i_1,j)).
+
     \end{align}
 
 \]
