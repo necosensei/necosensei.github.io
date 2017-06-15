@@ -88,6 +88,17 @@ $
 <!-- ベイカーの定理 -->
 <pre>
 
+<hr>2017/06/15 (木)
+
+- 風邪をひいて酷い状態なのだが, 昨年からポケモンGOで歩き回った
+  おかげで体力が強化されたらしく日常生活はおくれる模様
+
+\[
+
+    % # 90
+
+\]
+
 <hr>2017/06/14 (水)
 
 - 現在仕事で記述中のアルゴリズムがあまりにも
@@ -112,7 +123,14 @@ $
                        T(a,x,y) = b \wedge T(c,x,y) = d 
                        \Rightarrow \exists ! (x,y) \in R^2.
     \end{align}}
+    &amp; \\
+    &amp; \black{\begin{align}
+      &amp; \text{Addition: } a \oplus b = T(a,1,b).
+      &amp; \text{Multiplication: } a \otimes b = T(a,b,0).
+    \end{align}}
   \end{align}
+
+  - A planar ternary ring is not a ring in the traditional sense.
 
 \]
 
