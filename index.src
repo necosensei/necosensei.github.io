@@ -129,11 +129,13 @@ $
     % 36 officers problem # 90
 
     \begin{align}
-      \text{Let } &amp; 6 := \{0,\ldots,5\}. \\
-      \text{Let } &amp; {\cal L} \text{ be all of } L: 6^2 \rightarrow 6 \text{ s.t.}\\
-                  &amp; \forall j \in 6, i \mapsto L(i,j) \text{ be } 6 \hookrightarrow 6 \; \wedge \\
-                  &amp; \forall i \in 6, j \mapsto L(i,j) \text{ be } 6 \hookrightarrow 6. \\
-      \text{Then } &amp; \forall I,J \in {\cal L}, (i,j) \mapsto (I(i,j), J(i,j)) \text{ cannot be } 6^2 \hookrightarrow 6^2.
+      &amp; \black{\begin{align}
+        \text{Let } &amp; 6 := \{0,\ldots,5\}. \\
+        \text{Let } &amp; {\cal L} \text{ be all of } L: 6^2 \rightarrow 6 \text{ s.t.}\\
+                    &amp; \forall j \in 6, i \mapsto L(i,j) \text{ be } 6 \hookrightarrow 6 \; \wedge \\
+                    &amp; \forall i \in 6, j \mapsto L(i,j) \text{ be } 6 \hookrightarrow 6.
+      \end{align}} \\
+      &amp; \text{Then } \forall I,J \in {\cal L}, (i,j) \mapsto (I(i,j), J(i,j)) \text{ cannot be } 6^2 \hookrightarrow 6^2.
     \end{align}
 
 \]
