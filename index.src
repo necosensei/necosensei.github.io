@@ -136,8 +136,8 @@ $
       \text{and } &amp; J: X_6^2 \rightarrow X_6 \text{ s.t.}\\
                   &amp; \forall j \in X_6, i \mapsto J(i,j) : X_6 \hookrightarrow X_6, \\
                   &amp; \forall i \in X_6, j \mapsto J(i,j) : X_6 \hookrightarrow X_6. \\
+      \text{Then } &amp; (i,j) \mapsto (I(i,j), J(i,j)) : X_6^2 \not\hookrightarrow X_6^2.
     \end{align}
-    \text{Then } (i,j) \mapsto (I(i,j), J(i,j)) : X_6^2 \not\hookrightarrow X_6^2.
 
 \]
 
@@ -172,9 +172,10 @@ $
     \end{align}}
   \end{align}
 
-  - A planar ternary ring is not a ring in the traditional sense.
-
 \]
+
+  - A planar ternary ring is not a ring in the traditional sense.
+    とのこと. orz
 
 <hr>2017/06/13 (火)
 
