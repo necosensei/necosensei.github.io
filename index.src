@@ -131,12 +131,12 @@ $
     \begin{align}
       \text{Let } &amp; X_6 := \{0,\ldots,5\}. \\
       \text{Let } &amp; I: X_6^2 \rightarrow X_6 \text{ s.t.}\\
-                  &amp; \forall j \in X_6, i \mapsto I(i,j) : X_6 \hookrightarrow X_6, \\
-                  &amp; \forall i \in X_6, j \mapsto I(i,j) : X_6 \hookrightarrow X_6, \\
-      \text{and } &amp; J: X_6^2 \rightarrow X_6 \text{ s.t.}\\
-                  &amp; \forall j \in X_6, i \mapsto J(i,j) : X_6 \hookrightarrow X_6, \\
+                  &amp; \forall j \in X_6, i \mapsto I(i,j) : X_6 \hookrightarrow X_6 \; \wedge \\
+                  &amp; \forall i \in X_6, j \mapsto I(i,j) : X_6 \hookrightarrow X_6. \\
+      \text{Let } &amp; J: X_6^2 \rightarrow X_6 \text{ s.t.}\\
+                  &amp; \forall j \in X_6, i \mapsto J(i,j) : X_6 \hookrightarrow X_6 \; \wedge \\
                   &amp; \forall i \in X_6, j \mapsto J(i,j) : X_6 \hookrightarrow X_6. \\
-      \text{Then } &amp; (i,j) \mapsto (I(i,j), J(i,j)) : X_6^2 \not\hookrightarrow X_6^2.
+      \text{Then } &amp; (i,j) \mapsto (I(i,j), J(i,j)) \text{ cannot be } X_6^2 \hookrightarrow X_6^2.
     \end{align}
 
 \]
