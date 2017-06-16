@@ -130,7 +130,7 @@ $
       (\Z/\varphi(p^n)\Z)^+      &amp; p:\text{ odd prime}, \\
       \Z/2\Z \times \Z/2^{m-2}\Z &amp; p = 2, m \ge 2,
       \Z/1\Z                     &amp; p = 2, m = 1.
-    \end{align}
+    \end{array}
     \right..
 
 \]
