@@ -116,6 +116,26 @@ $
 
 <pre>
 
+<hr>2017/06/16 (金)
+
+-
+
+\[
+
+    % # 92
+
+    (\Z/p^n\Z)^\times \simeq 
+    \left\{
+    \begin{array}{ll}
+      (\Z/\varphi(p^n)\Z)^+      &amp; p:\text{ odd prime}, \\
+      \Z/2\Z \times \Z/2^{m-2}\Z &amp; p = 2, m \ge 2,
+      \Z/1\Z                     &amp; p = 2, m = 1.
+    \end{align}
+    \right..
+
+\]
+
+
 <hr>2017/06/15 (木)
 
 - 風邪をひいて酷い状態なのだが, 昨年からポケモンGOで歩き回った
