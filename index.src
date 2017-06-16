@@ -101,9 +101,9 @@ $
     (\Z/p^n\Z)^\times \simeq 
     \left\{
     \begin{array}{ll}
-      (\Z/\varphi(p^n)\Z)^+              &amp; p:\text{ odd prime}, \\
-      (\Z/2\Z)^+ \times (\Z/2^{n-2}\Z)^+ &amp; p = 2, n \ge 2, \\
-      (\Z/1\Z)^+                         &amp; p = 2, n = 1.
+      (\Z/\varphi(p^n)\Z)^+              &amp; (p:\text{ odd prime}), \\
+      (\Z/2\Z)^+ \times (\Z/2^{n-2}\Z)^+ &amp; (p = 2, \; n \ge 2), \\
+      (\Z/1\Z)^+                         &amp; (p = 2, \; n = 1).
     \end{array}
     \right.
 
