@@ -118,22 +118,15 @@ a(i) = return(if(i>0,if(i<=2^n,A[i],0),0)) ;
 
 \[
 
-    % cellular automaton # 92
+    % cellular automaton rule 30 # 92
 
     \begin{align}
       &amp; C : \Z\times\N \rightarrow \{0,1\}, \\
-      &amp; C(\vec{x},t+1) = \left[\sum_{
-              \rlap{\vec{\tilde{x}} \in {\cal N} +\vec{x} }\tab
-            } C(\vec{\tilde{x}},t) = 3 \right]
-            + C(\vec{x},t) \cdot \left[\sum_{
-              \rlap{\vec{\tilde{x}} \in {\cal N} +\vec{x} }\tab
-            } C(\vec{\tilde{x}},t) = 4 \right], \\
-      &amp; \mbox{where } {\cal N} = \{-1,0,1\},\; [P] = \left\{
-        \begin{array}{ll}
-	  1 &amp; \mbox{if } P \mbox{ is true,} \\
-	  0 &amp; \mbox{otherwise}.
-        \end{array}
-      \right.
+      &amp; C(\vec{x},t+1) = \\
+      &amp; (    C(x-1,t)) \cdot (1 - C(x,t)) \cdot (1 - C(x+1,t)) + \\
+      &amp; (1 - C(x-1,t)) \cdot (    C(x,t)) \cdot (    C(x+1,t)) + \\
+      &amp; (1 - C(x-1,t)) \cdot (    C(x,t)) \cdot (1 - C(x+1,t)) + \\
+      &amp; (1 - C(x-1,t)) \cdot (1 - C(x,t)) \cdot (    C(x+1,t)) .
     \end{align}
 
 \]
