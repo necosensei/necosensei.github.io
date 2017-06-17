@@ -95,6 +95,33 @@ $
 - 日記コンパイラは毎回絵をコンパイルしなおしていたが, 段々
   厳しくなってきたので改造. 格段に速くなった.
 
+
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:46] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+rule = [0,1,1,1,1,0,0,0] ;
+
+n = 8 ;
+A = vector(2^n) ;
+B = vector(2^n) ;
+A[2^(n-1)] = 1 ;
+a(i) = return(if(i>0,if(i<=2^n,A[i],0),0)) ;
+
+{
+  for(j=1,2^n,
+    for(i=1,2^n,if(A[i],print(-j," ",i)));
+    for(i=1,2^n,B[i]=rule[a(i-1)*4+a(i)*2+a(i+1) + 1]);
+    A = B ;
+  );
+}
+
+#!
+
+
+
+
+
+
+
 <hr>2017/06/16 (金)
 
 - ちょっとK城先生を特訓する事にした.
