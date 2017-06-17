@@ -96,7 +96,7 @@ $
   厳しくなってきたので改造. 格段に速くなった.
 
 
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:1000][1:46] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [1:256][-1:-256] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 rule = [0,1,1,1,1,0,0,0] ;
 
