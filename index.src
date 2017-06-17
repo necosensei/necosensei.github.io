@@ -160,7 +160,7 @@ $
       &amp; \text{5. } \forall a,b,c,d \in R, a \ne c, \;
                        T(a,x,y) = b \wedge T(c,x,y) = d 
                        \Rightarrow \exists ! (x,y) \in R^2. \\
-    \end{align}}
+    \end{align}} \\
     &amp; \\
     &amp; \black{\begin{align}
       &amp; \text{Addition: } a \oplus b = T(a,1,b). \\
