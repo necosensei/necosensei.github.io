@@ -97,7 +97,7 @@ $
 
 <hr>2017/06/16 (金)
 
-- ちょっとK先生を特訓する事にした.
+- ちょっとK城先生を特訓する事にした.
 
 \[
 
@@ -142,7 +142,6 @@ $
 
 - 現在仕事で記述中のアルゴリズムがあまりにも
   美しくないので鬱 …
-
 \[
 
   % planar ternary ring # 89
@@ -160,17 +159,15 @@ $
                        \exists ! x \in R \text{ s.t. } T(a,b,x) = c ; \text{ and} \\
       &amp; \text{5. } \forall a,b,c,d \in R, a \ne c, \;
                        T(a,x,y) = b \wedge T(c,x,y) = d 
-                       \Rightarrow \exists ! (x,y) \in R^2.
+                       \Rightarrow \exists ! (x,y) \in R^2. \\
     \end{align}}
     &amp; \\
     &amp; \black{\begin{align}
-      &amp; \text{Addition: } a \oplus b = T(a,1,b).
+      &amp; \text{Addition: } a \oplus b = T(a,1,b). \\
       &amp; \text{Multiplication: } a \otimes b = T(a,b,0).
     \end{align}}
   \end{align}
-
 \]
-
   - A planar ternary ring is not a ring in the traditional sense.
     とのこと. orz
 
