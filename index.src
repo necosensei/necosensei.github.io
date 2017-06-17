@@ -108,7 +108,7 @@ a(i) = return(if(i>0,if(i<=2^n,A[i],0),0)) ;
 
 {
   for(j=1,2^n,
-    for(i=1,2^n,if(A[i],print(-j," ",i)));
+    for(i=1,2^n,if(A[i],print(i," ",-j)));
     for(i=1,2^n,B[i]=rule[a(i-1)*4+a(i)*2+a(i+1) + 1]);
     A = B ;
   );
