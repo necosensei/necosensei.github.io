@@ -102,11 +102,11 @@ $
 
     \begin{align}
       &amp; r_{n+1} = (a \cdot r_n + c) \bmod m, \\
-      &amp; \text{where }
+      &amp; \graysmall{\text{where }
 	a   = \text{0xFDEECE66D}, \;
 	c   = \text{0xB}, \;
-        m   = \text{0x1000000000000}, \;
-	r_0 = \text{0x1234ABCD330E}.
+	m   = \text{0x1000000000000}, \;
+	r_0 = \text{0x1234ABCD330E}.}
     \end{align}
 
 \]
