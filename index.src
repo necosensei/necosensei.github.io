@@ -92,7 +92,24 @@ $
 
 <hr>2017/06/19 (月)
 
-- 
+- Anyone who considers arithmetical methods of producing random
+  digits is, of course, in a state of sin.
+                                      --John von Neumann (1951)
+
+\[
+
+   % rand48 # 94
+
+    \begin{align}
+      &amp; r_{n+1} = (a r_n + c) \bmod m \\
+      &amp; \text{where }
+	a   = \text{0xFDEECE66D}, \;
+	b   = \text{0xB}, \;
+        m = 2^48,\;
+	r_0 = \text{0x1234ABCD330E}.
+    \end{align}
+
+\]
 
 <hr>2017/06/18 (日)
 
