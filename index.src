@@ -107,8 +107,8 @@ set   view equal xyz
 set   view 50,20,1.5,1.5
 
 n = 256
-a = 0.6
-b = 0.1
+a = 0.866
+b = 0.5
 
 f(x,y,z) = ( a*x + b*y +   z)**n + (-a*x + b*y +   z)**n + (   x + a*y + b*z)**n + (   x - a*y + b*z)**n + ( b*x +   y + a*z)**n + ( b*x +   y - a*z)**n + ( a*x - b*y +   z)**n + (   x + a*y - b*z)**n + (-b*x +   y + a*z)**n + ( a*x + b*y -   z)**n
 
