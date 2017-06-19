@@ -94,33 +94,6 @@ $
 
 - 
 
-#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
-
-set   parametric
-set   hidden3d front
-set   isosamples 50,50
-
-unset key
-unset tics
-unset border
-set   view equal xyz
-set   view 50,20,1.5,1.5
-
-n = 256
-a = 0.866
-b = 0.5
-
-f(x,y,z) = ( a*x + b*y +   z)**n + (-a*x + b*y +   z)**n + (   x + a*y + b*z)**n + (   x - a*y + b*z)**n + ( b*x +   y + a*z)**n + ( b*x +   y - a*z)**n + ( a*x - b*y +   z)**n + (   x + a*y - b*z)**n + (-b*x +   y + a*z)**n + ( a*x + b*y -   z)**n
-
-r(u,v)   = (f(sin(u)*cos(v), sin(u)*sin(v), cos(u))) ** (-1.0/n)
-x(u,v)   = r(u,v)* sin(u) * cos(v) ;
-y(u,v)   = r(u,v)* sin(u) * sin(v) ;
-z(u,v)   = r(u,v)* cos(u) ;
-
-splot [0:pi][0:2*pi] x(u,v),y(u,v),z(u,v)
-#!
-
-
 <hr>2017/06/18 (日)
 
 - ものすごく体調が悪いが意を決して外食 …
