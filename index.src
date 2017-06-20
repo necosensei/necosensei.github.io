@@ -100,8 +100,9 @@ $
     % coupon collector's problem # 95
 
     \begin{align}
-      &amp; \text{let $ n $ be number of types of coupons,} \\
-      &amp; \text{$ \E(N) $ be expected number of coupons to collect all types of coupons.} \\
+      &amp; \text{Let $ n $ be number of coupon types,} \\
+      &amp; \text{$ N $ be required number of coupons to complete all types of coupons.}\\
+      &amp; \text{Assume that each coupon is chosen uniformly at random among the $n$ coupon types.}\\
       &amp; \E(N) = n H_n, \\
       &amp; \text{where $ H_n $ is the $n$-th harmonic number.} \\
     \end{align}
