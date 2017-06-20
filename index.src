@@ -29,7 +29,7 @@
   \def\black#1{{\color{black}{#1}}}
   \def\gray#1{{\color{gray}{#1}}}
   \def\graysmall#1{{\small\gray{#1}}}
-  % \def\E{{\rm E}}
+  \def\E{{\rm E}}
   \def\e{{\rm e}}
   \def\i{{\rm i}}
   \def\d{{\rm d}}
@@ -101,9 +101,8 @@ $
 
     \begin{align}
       &amp; \text{let $ n $ be number of types of coupons,} \\
-      &amp; E(N) \text{ be expected number of coupons 
-                  to collect all types of coupons.} \\
-%      &amp; E(N) = n H_n, \\
+      &amp; \text{$ \E(N) $ be expected number of coupons to collect all types of coupons.} \\
+      &amp; \E(N) = n H_n, \\
       &amp; \text{where $ H_n $ is the $n$-th harmonic number.} \\
     \end{align}
 
