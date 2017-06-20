@@ -101,9 +101,9 @@ $
 
     \begin{align}
       &amp; \text{let $ n $ be number of types of coupons,} \\
-      &amp; \text{$ E(N) $ be expected number of coupons 
-                  to collect all types of coupons.} \\
-      &amp; E(N) = n H_n, \\
+%      &amp; \text{$ E(N) $ be expected number of coupons 
+%                  to collect all types of coupons.} \\
+%      &amp; E(N) = n H_n, \\
       &amp; \text{where $ H_n $ is the $n$-th harmonic number.} \\
     \end{align}
 
