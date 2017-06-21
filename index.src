@@ -105,8 +105,8 @@ $
 
     % Bessel function
 
-    x^2 \frac{\d^2}{{\d x}^2} y + 
-    x \frac{\d}{{\d x}} y + 
+    x^2 \frac{\d^2y}{{\d x}^2} + 
+    x \frac{\d y}{{\d x}} + 
     (x^2-\alpha^2) y = 0.
 
 \]
