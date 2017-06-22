@@ -91,6 +91,18 @@ $
 
 <pre>
 
+<hr>2017/06/22 (木)
+
+- 最初のコンピュータープログラムとの事 …
+
+\[
+
+    % Bernoulli number # 97
+
+    B_0 = 1, \; B_n = -\frac{1}{n+1} \sum_{k=0}^{n-1} {n+1 \chose k} B_k.
+
+\]
+
 <hr>2017/06/21 (水)
 
 - 睡眠サイクルが一日１時間ぐらいズレていく問題が, いよいよ
@@ -103,7 +115,7 @@ $
   る.
 \[
 
-    % Bessel function
+    % Bessel function # 96
 
     x^2 \frac{\d^2y}{{\d x}^2} + 
     x \frac{\d y}{{\d x}} + 
