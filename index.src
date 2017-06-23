@@ -101,7 +101,7 @@ $
 
     \begin{align}
       &amp; \text{Let $ a,b \in \N $ are relatively prime.} \\
-      &amp; \max \{c \mid c \not\in a\N + b\N\} = ab - a - b.
+      &amp; \max \,\{c \in \N \mid c \not\in a\N + b\N\} = ab - a - b.
     \end{align}
 
 \]
