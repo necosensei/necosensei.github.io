@@ -102,7 +102,7 @@ $
     % Frobenius number # 98
 
     \begin{align}
-      &amp; \text{Let $ a,b \in \N $ are relatively prime.} \\
+      &amp; \text{Let $ a,b \in \N $ are relatively prime integers.} \\
       &amp; \max \,\{c \in \N \mid c \not\in a\N + b\N\} = ab - a - b.
     \end{align}
 
