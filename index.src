@@ -91,6 +91,21 @@ $
 
 <pre>
 
+<hr>2017/06/23 (金)
+
+-
+
+\[
+
+    % Frobenius number # 98
+
+    \begin{align}
+      &amp; \text{Let $ a,b \in \N $ are relatively prime.} \\
+      &amp; \max \{c | c \not\in a\N + b\N\} = ab - a - b.
+    \end{align}
+
+\]
+
 <hr>2017/06/22 (木)
 
 - 最初のコンピュータープログラムとの事 …
