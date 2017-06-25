@@ -112,14 +112,7 @@ $
 
     % Pascal's Triangle (mod 3) # 99
 
-    \begin{align}
-      &amp; \text{Let } P(r) = \left\{
-	  (n,k) \;\middle|\;
-	  r \not\backslash {n+k \choose k} 
-        \right\}. \\
-      &amp; P(pq) = P(p) \cup P(q), 
-            \text{ if } p \ne q, \; p,q \text{ prime}.
-    \end{align}
+    \left\{ (n,k) \;\middle|\; 3 \backslash {n \choose k} \right\}. \\
 
 \]
 
