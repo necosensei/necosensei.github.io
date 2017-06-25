@@ -116,8 +116,9 @@ $
       &amp; \text{Let } P(r) = \left\{
 	  (n,k) \;\middle|\;
 	  r \not\backslash {n+k \choose k} 
-        \right\}.
-      &amp; P(pq) = P(p) \cup P(q), \text{ if } p \ne q, \; p,q \text{ prime}.
+        \right\}. \\
+      &amp; P(pq) = P(p) \cup P(q), 
+            \text{ if } p \ne q, \; p,q \text{ prime}.
     \end{align}
 
 \]
