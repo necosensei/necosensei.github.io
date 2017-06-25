@@ -101,7 +101,7 @@ $
   sqrt_3 = sqrt(3) ;
   for(n=0,99,
     for(k=0,n,
-      if((binomial(n,k) % m) == 0,
+      if((binomial(n,k) % m),
         print(2*k - n," ", - sqrt_3 * n) ;
       );
     ) ;
