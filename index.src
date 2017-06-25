@@ -102,7 +102,8 @@ $
 
     \begin{align}
       &amp; \text{Let } E: Y^2 = X^3 + a X, \; i_E : (X,Y) \mapsto (-X,iY). \\
-      &amp; (x,y) \in E \; \Rightarrow \; i_E (x,y) \in E.
+      &amp; (x,y) \in E \; \Rightarrow \; i_E (x,y) \in E, \\
+      &amp; i_E^2(x,y) = -1 (x,y).
     \end{align}
 
 \]
