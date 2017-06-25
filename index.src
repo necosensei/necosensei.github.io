@@ -112,7 +112,7 @@ $
 
     % Pascal's Triangle (mod 3) # 99
 
-    \left\{ (n,k) \;\middle|\; 3 \backslash {n \choose k} \right\}. \\
+    \left\{ (n,k) \;\middle|\; 3 \backslash {n \choose k} \right\}.
 
 \]
 
