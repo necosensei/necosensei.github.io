@@ -96,9 +96,9 @@ $
 - 本日は Pascal の三角形で作った Sierpinski gasket もどき.
 
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,346" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [-100:100][-174:0] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+m = 2 ;
+sqrt_3 = sqrt(3) ;
 {
-  m = 2 ;
-  sqrt_3 = sqrt(3) ;
   for(n=0,99,
     for(k=0,n,
       if((binomial(n,k) % m),
