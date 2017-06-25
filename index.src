@@ -101,7 +101,7 @@ $
     % Complex multiplication # 100
 
     \begin{align}
-      &amp; \text{Let } E: Y^2 = X^3 + a X, \; i : (X,Y) \mapsto (-X,\i Y). \\
+      &amp; \text{Let } E: Y^2 = X^3 + a X, \; i : (X,Y) \mapsto (-X,\i\,Y). \\
       &amp; (x,y) \in E \; \Rightarrow \; i (x,y) \in E, \\
       &amp; i^2 (x,y) = -1 \cdot (x,y).
     \end{align}
