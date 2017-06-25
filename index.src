@@ -91,6 +91,22 @@ $
 
 <pre>
 
+<hr>2017/06/25 (日)
+
+- 意外とネタ切れしないもよう. まぁ google と wikipedia と Mathematica
+  が無尽蔵ってだけだが …
+
+\[
+
+    % Complex multiplication # 100
+
+    \begin{align}
+      &amp; \text{Let } E: Y^2 = X^3 + a X, \; i_E : (X,Y) \mapsto (-X,iY). \\
+      &amp; (x,y) \in E \; \Rightarrow \; i_E (x,y) \in E.
+    \end{align}
+
+\]
+
 <hr>2017/06/24 (土)
 
 - 本日は Pascal の三角形で作った Sierpinski gasket もどき.
