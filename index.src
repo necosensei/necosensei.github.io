@@ -139,6 +139,15 @@ sqrt_3 = sqrt(3) ;
 
 \]
 
+- ソース (pari/gp).
+
+$SOURCE
+
+- svg 変換方法
+
+$INTERPRETER
+
+
 <hr>2017/06/23 (金)
 
 - $ n \in 6\N + 9\N + 20\N $ をマックナゲット数と言うらしい …
