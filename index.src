@@ -180,7 +180,7 @@ $
 
   T(x,y,z) = \left\{
     \begin{array}{ll}
-      y                                   &amp; \text{if } x \le y,
+      y                                   &amp; \text{if } x \le y, \\
       T(T(x-1,y,z),T(y-1,z,x),T(z-1,x,y)) &amp; \text{otherwise}.
     \end{array}
     \right.
