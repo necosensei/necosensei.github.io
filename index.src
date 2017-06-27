@@ -103,7 +103,7 @@ $
 
 - メビウスの輪は使ってしまったので向き付け可能な方
 
-#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gnuplot -e "set terminal svg size 233,200" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 h = 1 
 w = 0.25
 set   parametric
@@ -126,9 +126,9 @@ splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u),
         w v \cdot
         \left(
           \begin{array}{l}
-            \sin h u \cdot \cos u \\
-            \sin h u \cdot \sin u \\
-            \cos h u
+            \sin u \cdot \cos u \\
+            \sin u \cdot \sin u \\
+            \cos u
           \end{array}
         \right)
         +
@@ -138,7 +138,7 @@ splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u),
             \sin u \\
             0
           \end{array}
-        \right),\; h \in \Z,\; w \in \R.
+        \right),\; w \in \R.
     \end{align}
 
 \]
