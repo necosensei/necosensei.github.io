@@ -102,7 +102,7 @@ $
   見せると「裏を見せろ」と言われる. ポリシー変わった？
 
 - メビウスの輪は使ってしまったので向き付け可能な方
-
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Seifert+surface%22+%22Hopf+link%22" target="_blank">
 #! /usr/local/bin/gnuplot -e "set terminal svg size 233,200" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 h = 1 
 w = 0.25
@@ -116,6 +116,7 @@ set   view equal xyz
 set   view 50,25,2.5
 splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u), (w*v)*cos(h*u)
 #!
+</a>
 
 \[
     % Seifert surface" "Hopf link
