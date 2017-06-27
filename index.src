@@ -88,6 +88,11 @@ $
 <!-- Seifert surface -->
 <!-- ベイカーの定理 -->
 <!-- バーンサイドの補題 -->
+<!-- 選択公理 -->
+<!-- ラグランジュ双対 -->
+<!-- Tarski-Seidenberg theorem : -->
+<!-- Parseval's identity : 関数空間上のピタゴラスの定理 -->
+
 
 <pre>
 
@@ -95,7 +100,46 @@ $
 
 - いつものように重役出勤を決め込み, 入り口の守衛に社員証を
   見せると「裏を見せろ」と言われる. ポリシー変わった？
+
+- メビウスの輪は使ってしまったので向き付け可能な方
+
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+h = 1 
+w = 0.25
+set   parametric
+set   hidden
+set   isosamples 200,2
+unset key
+unset tics  
+unset border
+set   view equal xyz
+set   view 50,25,2.5
+splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u), (w*v)*cos(h*u)
+#!
+
 \[
+    % Seifert surface of Hopf link
+
+    \begin{align}
+      &amp; \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times [-1,1] \right\}, \\
+      &amp; \text{ where } P(u,v) =
+        w v \cdot
+        \left(
+          \begin{array}{l}
+            \sin h u \cdot \cos u \\
+            \sin h u \cdot \sin u \\
+            \cos h u
+          \end{array}
+        \right)
+        +
+        \left(
+          \begin{array}{c}
+            \cos u \\
+            \sin u \\
+            0
+          \end{array}
+        \right),\; h \in \Z,\; w \in \R.
+    \end{align}
 
 \]
 
@@ -2805,11 +2849,6 @@ https://ja.wikipedia.org/wiki/%E4%BA%8C%E6%AC%A1%E4%BD%93
 ユークリッド整域である二次体 {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} は、d = -11, -7, -3, -2, -1, 2, 3, 5, 6, 7, 11, 13, 17, 19, 21, 29, 33, 37, 41, 57, 73 だけである。
 一意分解整域である虚二次体 {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} は、d = -1, -2, -3, -7, -11, -19, -43, -67, -163 だけである。
 -->
-<!-- 連続体仮説 -->
-<!-- 選択公理 -->
-<!-- ラグランジュ双対 -->
-<!-- Tarski-Seidenberg theorem : -->
-<!-- Parseval's identity : 関数空間上のピタゴラスの定理 -->
 <!--
 \[
 
