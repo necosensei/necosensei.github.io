@@ -107,7 +107,7 @@ $
   % Quaternion
 
   \begin{align}
-    &amp; \H = \C + \C j, \\
+    &amp; \H = \C + \C j \;, \\
     &amp; \text{where $z \in \C$ and $j$ don't commutate in general}.
   \end{align}
 
