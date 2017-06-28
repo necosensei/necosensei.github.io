@@ -102,8 +102,8 @@ $
   見せると「裏を見せろ」と言われる. ポリシー変わった？
 
 - メビウスの輪は使ってしまったので向き付け可能な奴(捻り1).
-  (平行と言うのか反平行と言うのか分からない有向ホップ絡み目？
-   のザイフェルト曲面？)
+  (平行と言うのか反平行と言うのか良く分からないが
+   有向ホップ絡み目とやらのザイフェルト曲面とやらの一つ？)
 <a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Seifert+surface%22" target="_blank">
 #! /usr/local/bin/gnuplot -e "set terminal svg size 233,200" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 h = 1 
