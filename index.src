@@ -115,7 +115,8 @@ unset tics
 unset border
 set   view equal xyz
 set   view 50,25,2.5
-splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u), (w*v)*cos(h*u)
+U(u) = 2*pi*(u**1)
+splot [0:1][-1:1] (w*v)*sin(h*U(u))*cos(U(u))+cos(U(u)), (w*v)*sin(h*U(u))*sin(U(u))+sin(U(u)), (w*v)*cos(h*U(u))
 #!
 </a>
 
