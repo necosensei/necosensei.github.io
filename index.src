@@ -26,6 +26,7 @@
   \def\N{{\mathbb N}}
   \def\Z{{\mathbb Z}}
   \def\F{{\mathbb F}}
+  \def\H{{\mathbb H}}
   \def\black#1{{\color{black}{#1}}}
   \def\gray#1{{\color{gray}{#1}}}
   \def\graysmall#1{{\small\gray{#1}}}
@@ -85,16 +86,32 @@ $
 <!-- Lax pair -->
 <!-- KdV equation -->
 <!-- Soliton -->
-<!-- Seifert surface -->
 <!-- ベイカーの定理 -->
 <!-- バーンサイドの補題 -->
 <!-- 選択公理 -->
 <!-- ラグランジュ双対 -->
 <!-- Tarski-Seidenberg theorem : -->
 <!-- Parseval's identity : 関数空間上のピタゴラスの定理 -->
+<!-- Jones polynomial -->
+<!-- Lucas Sequence -->
 
 
 <pre>
+
+<hr>2017/06/28 (水)
+
+- 『いい加減査読よこせ』とお叱りを頂き、慌てて読む …
+
+\[
+
+  % Quaternion
+
+  \begin{align}
+    &amp; \H = \C + \C j, \\
+    &amp; \text{但し$z \in \C$と$j$は一般には非可換}.
+  \end{align}
+
+\]
 
 <hr>2017/06/27 (火)
 
@@ -2829,8 +2846,6 @@ $INTERPRETER
 
 <!-- ネタ帳 -->
 <!-- Succinct data structure -->
-<!-- Jones polynomial -->
-<!-- Lucas Sequence -->
 <!-- Burrows-Wheeler Transform
 
   O      : totally ordered set
