@@ -119,7 +119,7 @@ splot [0:2*pi][-1:1] (w*v)*sin(h*u)*cos(u)+cos(u), (w*v)*sin(h*u)*sin(u)+sin(u),
 </a>
 
 \[
-    % Seifert surface" "Hopf link
+    % Seifert surface" "Hopf link" "with a different orientation
 
     \begin{align}
       &amp; \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times [-1,1] \right\}, \\
