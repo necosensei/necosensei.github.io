@@ -134,7 +134,7 @@ $
       &amp; A:\text{ring}, \; \calD : A \rightarrow A, \\
       &amp; 
       \left\{
-        \begin{array}{rcl}
+        \begin{array}{lcl}
           \calD(a+b)     &amp; = &amp; \calD(a) + \calD(b), \\
           \calD(ab)      &amp; = &amp; a\calD(b) + \calD(a)b, \\
           \calD(\alpha)  &amp; = &amp; 0 \tab (\alpha : \text{const}). \\
