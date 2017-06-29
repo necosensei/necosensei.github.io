@@ -131,17 +131,19 @@ $
     % Derivative
 
     \begin{align}
-      &amp; \text{Let $A$ be a ring, $C$ be a subring of $A$}, \\
+      &amp; \text{Let $A$ be a ring }, \; \text{$C$ be a subring of $A$}, \\
+      &amp; \\
       &amp; 
       \left\{
         \calD : A \rightarrow A \;\middle|\;
-        \forall a,b \in A, \; \forall c \in C,
-        \begin{array}{lcl}
-          \calD(a+b) &amp; = &amp; \calD(a) + \calD(b), \\
-          \calD(ab)  &amp; = &amp; a\calD(b) + \calD(a)b, \\
-          \calD(c)   &amp; = &amp; 0.
-        \end{array}
-      \right\}
+        \left\{
+          \begin{array}{llcl}
+            \forall a,b \in A, &amp; \calD(a+b) &amp; = &amp; \calD(a) + \calD(b), \\
+                               &amp; \calD(ab)  &amp; = &amp; a\calD(b) + \calD(a)b, \\
+	    \forall c \in C,   &amp; \calD(c)   &amp; = &amp; 0.
+          \end{array}
+        \right.
+      \right\}.
     \end{align}
 
 \]
