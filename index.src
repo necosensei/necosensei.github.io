@@ -136,13 +136,11 @@ $
       &amp; 
       \left\{
         \calD : A \rightarrow A \;\middle|\;
-        \left\{
-          \begin{array}{llcl}
+        \begin{array}{llcl}
             \forall a,b \in A, &amp; \calD(a+b) &amp; = &amp; \calD(a) + \calD(b), \\
                                &amp; \calD(ab)  &amp; = &amp; a\calD(b) + \calD(a)b, \\
 	    \forall c \in C,   &amp; \calD(c)   &amp; = &amp; 0.
-          \end{array}
-        \right.
+        \end{array}
       \right\}.
     \end{align}
 
