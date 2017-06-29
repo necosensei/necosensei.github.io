@@ -131,7 +131,8 @@ $
     % Derivative
 
     \begin{align}
-      &amp; A:\text{ring}, C:\text{subring of }A, \; \calD : A \rightarrow A, \; \forall a,b \in A,\; \forall c \in C, \\
+      &amp; A:\text{ring}, \; C:\text{subring of }A, \; \calD : A \rightarrow A, \\
+      &amp; \forall a,b \in A, \; \forall c \in C, \\
       &amp; 
       \left\{
         \begin{array}{lcl}
