@@ -112,7 +112,7 @@ $
   % Quaternion
 
   \begin{align}
-    &amp; \H = \C + \C \; \j, \\
+    &amp; \H = \C + \C \, \j, \\
     &amp; \text{where } \forall z \in \C, \; z \j = \j \bar{z},\; \j^2 = -1.
   \end{align}
 
