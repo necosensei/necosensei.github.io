@@ -132,9 +132,14 @@ $
 
     \begin{align}
       &amp; A:\text{ring}, \; \calD : A \rightarrow A, \\
-      &amp; \calD(a+b)     = \calD(a) + \calD(b), \\
-      &amp; \calD(ab)      = a\calD(b) + \calD(a)b, \\
-      &amp; \calD(\alpha)  = 0 \tab (\alpha : \text{const}). \\
+      &amp; 
+      \left\{
+        \begin{array}{rcl}
+          \calD(a+b)     &amp; = &amp; \calD(a) + \calD(b), \\
+          \calD(ab)      &amp; = &amp; a\calD(b) + \calD(a)b, \\
+          \calD(\alpha)  &amp; = &amp; 0 \tab (\alpha : \text{const}). \\
+        \end{array}
+      \right.
     \end{align}
 
 \]
