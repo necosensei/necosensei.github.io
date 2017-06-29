@@ -131,13 +131,13 @@ $
     % Derivative
 
     \begin{align}
-      &amp; A:\text{ring}, \; \calD : A \rightarrow A, \\
+      &amp; A:\text{ring}, C:\text{subring of }A, \; \calD : A \rightarrow A, \; \forall a,b \in A,\; \forall c \in C, \\
       &amp; 
       \left\{
         \begin{array}{lcl}
-          \calD(a+b)     &amp; = &amp; \calD(a) + \calD(b), \\
-          \calD(ab)      &amp; = &amp; a\calD(b) + \calD(a)b, \\
-          \calD(\alpha)  &amp; = &amp; 0 \tab (\alpha : \text{const}). \\
+          \calD(a+b) &amp; = &amp; \calD(a) + \calD(b), \\
+          \calD(ab)  &amp; = &amp; a\calD(b) + \calD(a)b, \\
+          \calD(c)   &amp; = &amp; 0.
         \end{array}
       \right.
     \end{align}
