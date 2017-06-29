@@ -33,6 +33,7 @@
   \def\E{{\rm E}}
   \def\e{{\rm e}}
   \def\i{{\rm i}}
+  \def\j{{\rm j}}
   \def\d{{\rm d}}
   \def\Pr{{\rm Pr}}
   \def\tab{\;\;\;\;}
@@ -98,6 +99,10 @@ $
 
 <pre>
 
+<hr>2017/06/29 (木)
+
+- commute と書こうとしたら commutate になってた …
+
 <hr>2017/06/28 (水)
 
 - 『いい加減査読よこせ』とお叱りを頂き、慌てて読む …
@@ -107,8 +112,8 @@ $
   % Quaternion
 
   \begin{align}
-    &amp; \H = \C + \C j \;, \\
-    &amp; \text{where } \forall z \in \C, \; z j = j \bar{z},\; j^2 = -1.
+    &amp; \H = \C + \C \j \;, \\
+    &amp; \text{where } \forall z \in \C, \; z \j = \j \bar{z},\; \j^2 = -1.
   \end{align}
 
 \]
