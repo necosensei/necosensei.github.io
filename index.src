@@ -99,6 +99,11 @@ $
 
 <pre>
 
+<hr>2017/06/30 (金)
+
+-
+
+
 <hr>2017/06/29 (木)
 
 - commute と書こうとしたら commutate になってて 意味不明な
@@ -128,7 +133,7 @@ $
 
 \[
 
-    % Derivative
+    % Derivative # 104
 
     \begin{align}
       &amp; \text{Let $A$ be a ring }, \; \text{$C$ be a subring of $A$}, \\
@@ -141,7 +146,7 @@ $
                                &amp; \calD(ab)  &amp; = &amp; a\calD(b) + \calD(a)b, \\
 	    \forall c \in C,   &amp; \calD(c)   &amp; = &amp; 0.
         \end{array}
-      \right\}.
+      \right\}
     \end{align}
 
 \]
@@ -152,7 +157,7 @@ $
 
 \[
 
-  % Quaternion
+  % Quaternion # 103
 
   \begin{align}
     &amp; \H = \C + \C \, \j, \\
@@ -186,7 +191,7 @@ splot [0:1][-1:1] (w*v)*sin(h*U(u))*cos(U(u))+cos(U(u)), (w*v)*sin(h*U(u))*sin(U
 </a>
 
 \[
-    % Seifert surface
+    % Seifert surface # 102
 
     \begin{align}
       &amp; \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times [-1,1] \right\}, \\
