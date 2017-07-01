@@ -107,10 +107,10 @@ $
 
     % Collatz problem
 
-    f(n) = \left\{
+    a_{n+1} = \left\{
     \begin{array}{ll}
-      n/2  &amp; \text{if } n = 0 \pmod 2, \\
-      3n+1 &amp; \text{otherwise}.
+      a_n/2  &amp; \text{if } a_n = 0 \pmod 2, \\
+      3a_n+1 &amp; \text{otherwise}.
     \end{array}
     \right.
 
