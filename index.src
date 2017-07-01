@@ -105,7 +105,7 @@ $
 
 \[
 
-    % Collatz problem
+    % 3n+1 problem
 
     a_{n+1} = \left\{
     \begin{array}{ll}
