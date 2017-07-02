@@ -147,8 +147,6 @@ $
 \]
 
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:100] "-" wi p pointtype 5 pointsize 0.3' | /home/hoshino/.npm-global/bin/svgo -i - -o -
-m = 2 ;
-sqrt_3 = sqrt(3) ;
 {
   for(n=1,100,
     m=0 ;
@@ -162,6 +160,14 @@ sqrt_3 = sqrt(3) ;
   ) ;
 }
 #!
+
+- ソース (pari/gp).
+
+$SOURCE
+
+- svg 変換方法
+
+$INTERPRETER
 
 <hr>2017/07/01 (土)
 
