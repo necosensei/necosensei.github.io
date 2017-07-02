@@ -126,7 +126,7 @@ $
 
     % Smarandache function
 
-    S(n) = \min \{m \mid n\backslash m ! \}
+    S(n) = \min \,\left\{m \mid n\backslash m ! \right\}.
 
 \]
 
