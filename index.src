@@ -111,10 +111,9 @@ $
 
    \begin{align}
      &amp; 
-     \begin{array}{rccl}
-       \text{Let } B:
-             &amp; \C^2            &amp; \rightarrow &amp; \R^3,   \\
-	     &amp; (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) =
+     \begin{array}{rcl}
+       \text{Let } B: \C^2 &amp; \rightarrow &amp; \R^3,   \\
+	   (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) =
 	  \left(
             2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
             2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
