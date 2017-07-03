@@ -111,8 +111,8 @@ $
                    \;\middle|\; |\alpha|^2 + |\beta|^2 = 1 \right\}
      \mapsto \\
      &amp; \left\{ (
-	       2 |\alpha| |\beta| \cos\phi, 
-	       2 |\alpha| |\beta| \sin\phi, 
+	       2 |\alpha\beta| \cos\phi, 
+	       2 |\alpha\beta| \sin\phi, 
 	       |\alpha|^2 - |\beta|^2
 	     ) \in \R^3
              \;\middle|\;
