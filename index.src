@@ -30,6 +30,8 @@
   \def\black#1{{\color{black}{#1}}}
   \def\gray#1{{\color{gray}{#1}}}
   \def\graysmall#1{{\small\gray{#1}}}
+  \def\Re{{\rm Re}}
+  \def\Im{{\rm Im}}
   \def\E{{\rm E}}
   \def\e{{\rm e}}
   \def\i{{\rm i}}
@@ -114,12 +116,10 @@ $
      \left.
        (x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = 1
          \;\middle|\; (x,y,z) = \left(
-	     2 |\alpha\beta| \cos\phi,\;
-             2 |\alpha\beta| \sin\phi,\;
+	     2 |\alpha\beta| \Re\left(\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|}\right) ,\;
+             2 |\alpha\beta| \Im\left(\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|}\right) ,\;
              |\alpha|^2 - |\beta|^2
 	 \right)
-         \;\middle|\;
-           \e^{\i\phi} = \frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|}
      \right.
      .
    \end{align}
