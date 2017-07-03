@@ -108,20 +108,18 @@ $
 \[
 
    % Bloch sphere
+
    \begin{align}
-     &amp; \left.
-       (\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = 1 
-     \right. \mapsto \\
      &amp; 
-     \left.
-	 (x,y,z) = \left(
-	     2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-             2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-             |\alpha|^2 - |\beta|^2
-	 \right) \;
-       \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = 1
-     \right.
-     .
+     \begin{array}{l}
+       \C^2 \rightarrow \R^3, \\
+       (\alpha, \beta) \mapsto (x,y,z) = \left(
+         2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+         2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+         |\alpha|^2 - |\beta|^2
+       \right).
+     \end{array} \\
+     &amp; |\alpha|^2 + |\beta|^2 = 1  \; \Rightarrwo \; x^2 + y^2 + z^2 = 1.
    \end{align}
 
 \]
