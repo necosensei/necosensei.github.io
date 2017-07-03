@@ -111,9 +111,9 @@ $
 
    \begin{align}
      &amp; 
-     \begin{array}{l}
-       \C^2 \rightarrow \R^3, \\
-       (\alpha, \beta) \mapsto (x,y,z) = \left(
+     \begin{array}{cccl}
+       \C^2            &amp; \rightarrow &amp; \R^3,   &amp; \\
+       (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) &amp; = \left(
          2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
          2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
          |\alpha|^2 - |\beta|^2
