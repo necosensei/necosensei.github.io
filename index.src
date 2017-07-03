@@ -121,9 +121,9 @@ $
           \right).
      \end{array} \\
      &amp; B\left(
-             \left\{(\alpha, \beta) \;\middle|\; |\alpha|^2 + |\beta|^2 = r \right\}
+             \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = r \right\}
 	   \right) =
-	     \left\{(x,y,z) \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
+	     \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
    \end{align}
 
 \]
