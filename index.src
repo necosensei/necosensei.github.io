@@ -110,17 +110,13 @@ $
    % Bloch sphere
 
    \begin{align}
-     &amp; 
-     \graysmall{
-       \begin{align}
-         \text{Let } B: &amp; \C^2 \rightarrow \R^3, \\
-  	              &amp; (\alpha, \beta) \mapsto (x,y,z) =
-  	  \left(
-              2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-              2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-              |\alpha|^2 - |\beta|^2
-            \right).
-       \end{align}
+     &amp; \graysmall{
+       \text{Let } B: \C^2 \rightarrow \R^3,\;
+         (\alpha, \beta) \mapsto (x,y,z) = \left(
+           2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+           2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+           |\alpha|^2 - |\beta|^2
+         \right).
      } \\
      &amp; B\left(
              \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = 1 \right\}
