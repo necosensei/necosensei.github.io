@@ -110,17 +110,18 @@ $
    % Bloch sphere
 
    \begin{align}
-     &amp;  \text{Consider the map}\\
      &amp; 
-     \begin{array}{cccl}
-       \C^2            &amp; \rightarrow &amp; \R^3,   &amp; \\
-       (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) &amp; = \left(
-         2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-         2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
-         |\alpha|^2 - |\beta|^2
-       \right).
+     \begin{array}{rcccl}
+       \text{Let } B:
+          &amp; \C^2            &amp; \rightarrow &amp; \R^3,   &amp; \\
+          &amp; (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) &amp; = \left(
+            2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+            2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
+            |\alpha|^2 - |\beta|^2
+          \right),
      \end{array} \\
-     &amp; x^2 + y^2 + z^2 = (|\alpha|^2 + |\beta|^2)^2.
+     &amp; r \in \R^+. \\
+     &amp; B( V(|\alpha|^2 + |\beta|^2 - r) ) = V(x^2 + y^2 + z^2 = r^2).
    \end{align}
 
 \]
