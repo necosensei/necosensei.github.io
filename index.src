@@ -110,7 +110,7 @@ $
    % Bloch sphere
 
    \begin{align}
-     &amp; \text{Let } r \in \R^+,\; B \text{ be the map } \\
+     &amp; \text{Let } r \in \R^+,\; B: \\
      &amp; 
      \begin{array}{cccl}
 	  \C^2            &amp; \rightarrow &amp; \R^3,   &amp; \\
@@ -120,7 +120,10 @@ $
             |\alpha|^2 - |\beta|^2
           \right).
      \end{array} \\
-     &amp; B( V(|\alpha|^2 + |\beta|^2 - r) ) = V(x^2 + y^2 + z^2 - r^2).
+     &amp; B\left(
+             \left\{(\alpha, \beta) \;\middle|\; |\alpha|^2 + |\beta|^2 = r \right\}
+	   \right) =
+	     \left\{(x,y,z) \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
    \end{align}
 
 \]
