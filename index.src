@@ -110,10 +110,10 @@ $
    % Bloch sphere
 
    \begin{align}
-     &amp; \text{Let } r \in \R^+,\\
-     &amp; \tab
+     &amp; 
      \begin{array}{rccl}
-	  B: &amp; \C^2            &amp; \rightarrow &amp; \R^3,   \\
+       \text{Let } B:
+             &amp; \C^2            &amp; \rightarrow &amp; \R^3,   \\
 	     &amp; (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) =
 	  \left(
             2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
@@ -122,7 +122,7 @@ $
           \right).
      \end{array} \\
      &amp; B\left(
-             \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = r \right\}
+             \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = r \in \R^+ \right\}
 	   \right) = \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
    \end{align}
 
