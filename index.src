@@ -121,7 +121,7 @@ $
           \right),
      \end{array} \\
      &amp; r \in \R^+. \\
-     &amp; B( V(|\alpha|^2 + |\beta|^2 - r) ) = V(x^2 + y^2 + z^2 = r^2).
+     &amp; B( V(|\alpha|^2 + |\beta|^2 - r) ) = V(x^2 + y^2 + z^2 - r^2).
    \end{align}
 
 \]
