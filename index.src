@@ -99,6 +99,24 @@ $
 
 <pre>
 
+<hr>2017/07/03 (月)
+
+-
+
+\[
+
+   % Bloch sphere
+
+   \left\{ (\alpha, \beta) \in \C^2 \mid |\alpha|^2 + |\beta|^2 = 0 \right\}
+   \mapsto
+   \left\{ (\cos\theta \cos\phi, \cos\theta \sin\phi, \sin\theta) \in \R^3 \mid
+          \cos\frac{\theta}{2} = |\alpha|,
+	  \sin\frac{\theta}{2} = |\beta|,
+	  \e^{\i\phi} = \frac{|\alpha|\beta}{\alpha|\beta|} 
+   \right\}.
+
+\]
+
 <hr>2017/07/02 (日)
 
 - 数式を svg に変換するソフトが時々日本語をノイズに変換
@@ -429,7 +447,8 @@ splot [0:1][-1:1] (w*v)*sin(h*U(u))*cos(U(u))+cos(U(u)), (w*v)*sin(h*U(u))*sin(U
 
 - 数式の間違いを気にしなければ, 意外とネタ切れしないもよう.
 
-- まぁ google と wikipedia と Mathematica が無尽蔵ってだけだが …
+- まぁ google と wikipedia と Mathematica (Eric Wolfgang Weisstein)
+  が無尽蔵ってだけだが …
 
 \[
 
