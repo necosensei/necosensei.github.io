@@ -114,10 +114,10 @@ $
      &amp; \tab
      \begin{array}{rccc}
 	  B: &amp; \C^2            &amp; \rightarrow &amp; \R^3,   \\
-	     &amp; (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) 
+	     &amp; (\alpha, \beta) &amp; \mapsto     &amp; (x,y,z) =
      \end{array} \\
-     &amp; \tab \tab
-	  = \left(
+     &amp; \tab \tab \tab \tab
+	  \left(
             2 |\alpha\beta| \cdot \Re \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
             2 |\alpha\beta| \cdot \Im \,\frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|} ,\;
             |\alpha|^2 - |\beta|^2
@@ -125,7 +125,7 @@ $
      &amp; B\left(
              \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = r \right\}
 	   \right) = \\
-     &amp; \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
+     &amp; \tab \tab \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
    \end{align}
 
 \]
