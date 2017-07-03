@@ -110,8 +110,7 @@ $
      &amp; \left. (\alpha, \beta) \in \C^2 
            \;\middle|\;
 	   |\alpha|^2 + |\beta|^2 = 1
-	   \right. \\
-     &amp; \mapsto \\
+	   \right.\; \mapsto \\
      &amp; \left. (x,y,z) \in \R^3
            \;\middle|\;
            (x,y,z) = \left(
