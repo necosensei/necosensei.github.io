@@ -103,7 +103,7 @@ $
 
 <hr>2017/07/03 (月)
 
--
+- 急に信じられないくらい蒸し暑くなってきた.
 
 \[
 
@@ -121,8 +121,8 @@ $
           \right).
      \end{array} \\
      &amp; B\left(
-             \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = r \in \R^+ \right\}
-	   \right) = \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = r^2 \right\}.
+             \left\{(\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = 1 \right\}
+	   \right) = \left\{(x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = 1 \right\}.
    \end{align}
 
 \]
