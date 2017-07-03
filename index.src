@@ -110,6 +110,7 @@ $
    % Bloch sphere
 
    \begin{align}
+     &amp;  \text{Consider the map}\\
      &amp; 
      \begin{array}{cccl}
        \C^2            &amp; \rightarrow &amp; \R^3,   &amp; \\
@@ -119,7 +120,7 @@ $
          |\alpha|^2 - |\beta|^2
        \right).
      \end{array} \\
-     &amp; |\alpha|^2 + |\beta|^2 = 1  \; \Rightarrow \; x^2 + y^2 + z^2 = 1.
+     &amp; x^2 + y^2 + z^2 = (|\alpha|^2 + |\beta|^2)^2.
    \end{align}
 
 \]
