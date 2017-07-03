@@ -119,7 +119,7 @@ $
              |\alpha|^2 - |\beta|^2
 	 \right)
          \;\middle|\;
-           \e^{\i\phi} = \frac{|\alpha|\beta}{\alpha|\beta|}
+           \e^{\i\phi} = \frac{\alpha^{-1}\beta}{|\alpha^{-1}\beta|}
      \right.
      .
    \end{align}
