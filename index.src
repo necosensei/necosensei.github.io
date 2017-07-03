@@ -106,20 +106,22 @@ $
 \[
 
    % Bloch sphere
-   \begin{array}{lll}
-     (\alpha, \beta) \in \C^2
-       &amp; | |\alpha|^2 + |\beta|^2 = 1 &amp; \mapsto \\
-     (x,y,z) \in \R^3
-       &amp; | x^2 + y^2 + z^2 = 1        &amp; 
-           \left | \; (x,y,z) = \left(
+   \begin{align}
+     &amp; \left.
+       (\alpha, \beta) \in \C^2 \;\middle|\; |\alpha|^2 + |\beta|^2 = 1 
+     \right. \mapsto \\
+     &amp; 
+     \left.
+       (x,y,z) \in \R^3 \;\middle|\; x^2 + y^2 + z^2 = 1
+         \;\middle|\; (x,y,z) = \left(
 	     2 |\alpha\beta| \cos\phi,\;
              2 |\alpha\beta| \sin\phi,\;
              |\alpha|^2 - |\beta|^2
-	   \right)
-           \;\middle|\;
+	 \right)
+         \;\middle|\;
            \e^{\i\phi} = \frac{|\alpha|\beta}{\alpha|\beta|}
-	   \right.
-	   .
+     \right.
+     .
    \end{array}
 
 \]
