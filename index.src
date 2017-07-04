@@ -130,10 +130,10 @@ $
          &amp; {\cal G} := \text{groebner bases of $ I $ with respect to monomial order $&gt;_{\ell}$},\\
          &amp; \gray{\begin{align}
 	   \text{where } &amp; 
-	     \forall j \in \{1,\ldots,n\},
-	     \forall d_j \in \Z_{\ge 0},
+	     \forall i \in \{1,\ldots,m\},
+	     \forall (d_1,\ldots,d_n) \in \Z_{\ge 0}^n, \;
 	     z_i &gt;_{\ell} \prod_{j=1}^n w_j^{d_j}, \\
-	   \wedge\; &amp;
+	   \text{and } &amp;
 	     \ell(d_1',\ldots,d_n') &gt; \ell(d_1,\ldots,d_n) 
              \;\Rightarrow\;
              \prod_{j=1}^n w_j^{d_j'} &gt;_{\ell} \prod_{j=1}^n w_j^{d_j}.
