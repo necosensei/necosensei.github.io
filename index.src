@@ -118,7 +118,7 @@ $
 	       \forall i \in \{1,\ldots,m\},
 	       \forall j \in \{1,\ldots,n\}, \\
          &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
-           \black{\begin{align}
+           \gray{\begin{align}
              &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
              &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
            \end{align}}
@@ -131,7 +131,7 @@ $
      \end{align}} \\
      &amp; 
        f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
-       \Rightarrow
+       \;\Rightarrow\;
        \ell(e_1,\ldots,e_n) = \min_X \ell(X_1,\ldots,X_n).
    \end{align}
 
