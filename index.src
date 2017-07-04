@@ -109,20 +109,34 @@ $
 
 \[
 
-   % # 108
+   % Groebner basis # 108
 
    \begin{align}
      &amp; \black{\begin{align}
-       \text{Let } &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
-         \black{\begin{align}
-           &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
-           &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
-         \end{align}}
-       \right \},\\
-                &amp; f(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j .
+       \text{Let }
+         &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0},
+         &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
+           \black{\begin{align}
+             &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
+             &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
+           \end{align}}
+         \right \},\\
+         &amp; \ell(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j .
      \end{align}} \\
-     &amp; \forall (X_1,\ldots,X_n) \in X,
-       f(x_1,\ldots,x_n) \le f(X_1,\ldots,X_n).
+     &amp;
+     \black{\begin{align}
+       f_j = \prod_{i=1}^m z_i^{a_{ij}}, \\
+       I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
+       {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
+       f = \prod_{i=1}^m z_i^{b_i}, \\
+     \end{align}} \\
+     &amp; 
+       f \% {\cal G} = \prod_{j=1}^n w_j^{e_j}
+       \Rightarrow
+       (e_1,\ldots,e_n) \in X 
+       \;\wedge\;
+       \forall (X_1,\ldots,X_n) \in X,
+       \ell(e_1,\ldots,e_n) \le \ell(X_1,\ldots,X_n). \\
    \end{align}
 
 \]
