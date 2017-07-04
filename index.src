@@ -113,8 +113,10 @@ $
 
    \begin{align}
      &amp; \black{\begin{align}
-       \text{Let }
-         &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0}, \\
+       \text{Let }\;
+         &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0},
+	       \forall i \in \{1,\ldots,m\},
+	       \forall j \in \{1,\ldots,n\}, \\
          &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
            \black{\begin{align}
              &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
@@ -125,18 +127,15 @@ $
      \end{align}} \\
      &amp;
      \black{\begin{align}
-       f_j = \prod_{i=1}^m z_i^{a_{ij}}, \\
-       I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
-       {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
-       f = \prod_{i=1}^m z_i^{b_i}, \\
+       &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \\
+       &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
+       &amp; {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
+       &amp; f = \prod_{i=1}^m z_i^{b_i}, \\
      \end{align}} \\
      &amp; 
-       f \% {\cal G} = \prod_{j=1}^n w_j^{e_j}
+       f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
        \Rightarrow
-       (e_1,\ldots,e_n) \in X 
-       \;\wedge\;
-       \forall (X_1,\ldots,X_n) \in X,
-       \ell(e_1,\ldots,e_n) \le \ell(X_1,\ldots,X_n). \\
+       \ell(e_1,\ldots,e_n) = \min_X \ell(X_1,\ldots,X_n).
    \end{align}
 
 \]
