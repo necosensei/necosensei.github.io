@@ -112,7 +112,7 @@ $
    % Groebner basis # 108
 
    \begin{align}
-     &amp; \black{\begin{align}
+     &amp; \graysmall{\begin{align}
        \text{Let }\;
          &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0},
 	       \forall i \in \{1,\ldots,m\},
@@ -123,14 +123,11 @@ $
              &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
            \end{align}}
          \right \},\\
-         &amp; \ell(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j .
-     \end{align}} \\
-     &amp;
-     \black{\begin{align}
-       &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \\
-       &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
-       &amp; {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
-       &amp; f = \prod_{i=1}^m z_i^{b_i}, \\
+         &amp; \ell(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j , \\
+         &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \;
+	       f = \prod_{i=1}^m z_i^{b_i},      \\
+         &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
+         &amp; {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
      \end{align}} \\
      &amp; 
        f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
