@@ -101,13 +101,37 @@ $
 
 <pre>
 
+<hr>2017/07/04 (火)
+
+- 虫除け等を買いたいのだが, 帰る時間が遅すぎて
+  いつも買えない. ギリギリの時間に帰ったところ,
+  間の悪い事に土砂降り orz
+
+\[
+
+   % # 108
+
+   \begin{align}
+     \text{Let } &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
+       \black{\begin{align}
+         &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
+         &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
+       \end{align}}
+     \right \},\\
+                &amp; f(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j .
+   \end{align}
+   \forall (X_1,\ldots,X_n) \in X,
+     f(x_1,\ldots,x_n) \le f(X_1,\ldots,X_n).
+
+\]
+
 <hr>2017/07/03 (月)
 
 - 急に信じられないくらい蒸し暑くなってきた.
 
 \[
 
-   % Bloch sphere
+   % Bloch sphere # 107
 
    \begin{align}
      &amp; \graysmall{
@@ -166,7 +190,7 @@ $
 
 \[
 
-    % Smarandache function
+    % Smarandache function # 106
 
     S(n) = \min \,\left\{m \mid n\backslash m ! \right\}.
 
@@ -209,7 +233,7 @@ $INTERPRETER
 
 \[
 
-    % Korteweg-de Vries equation
+    % Korteweg-de Vries equation # 105
 
     \frac{\partial u}{\partial t}
     + u \frac{\partial u}{\partial x}
@@ -455,7 +479,7 @@ splot [0:1][-1:1] (w*v)*sin(h*U(u))*cos(U(u))+cos(U(u)), (w*v)*sin(h*U(u))*sin(U
 
 - 数式の間違いを気にしなければ, 意外とネタ切れしないもよう.
 
-- まぁ google と wikipedia と Mathematica (Eric Wolfgang Weisstein)
+- まぁ google と wikipedia と MathWorld (Eric Wolfgang Weisstein)
   が無尽蔵ってだけだが …
 
 \[
