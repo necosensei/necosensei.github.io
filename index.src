@@ -132,14 +132,18 @@ $
          \end{align}}
      \end{align}} \\
      &amp; 
+     \black{\begin{align}
        f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
-       \;\Rightarrow\;
-       \begin{array}{l}
-         \ell(e_1,\ldots,e_n) = \min \ell(x_1,\ldots,x_n), \\
-	 \text{subject to} \\
+       &amp; \;\Rightarrow\; &amp;
+         \ell(e_1,\ldots,e_n) = \min \, \ell(x_1,\ldots,x_n), \\
+       &amp; &amp;
+         \text{subject to} \\
+       &amp; &amp;
          \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
+       &amp; &amp;
          x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
        \end{array}
+     \end{align}}
    \end{align}
 
 \]
