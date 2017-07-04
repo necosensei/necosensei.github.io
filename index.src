@@ -127,7 +127,14 @@ $
          &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \;
 	       f = \prod_{i=1}^m z_i^{b_i},      \\
          &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
-         &amp; {\cal G} := \text{groebner bases of $ I $ with respect to $&gt;_{\ell}$},\\
+         &amp; {\cal G} := \text{groebner bases of $ I $ with respect to monomial order $&gt;_{\ell}$},\\
+         &amp; \text{where }
+	   z_i &gt;_{\ell} \prod_{j=1}^n w_j^{e_j} \;\wedge\;
+	   \ell(e_1',\ldots,e_n') &gt; \ell(e_1,\ldots,e_n) 
+           \;\Rightarrow\;
+           \prod_{j=1}^n w_j^{e_j'}
+	   &gt;_{\ell}
+           \prod_{j=1}^n w_j^{e_j}
      \end{align}} \\
      &amp; 
        f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
