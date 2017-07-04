@@ -117,13 +117,13 @@ $
          &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0},
 	       \forall i \in \{1,\ldots,m\},
 	       \forall j \in \{1,\ldots,n\}, \\
-         &amp; X = \left\{ (X_1,\ldots,X_n) \;\middle|\;
+         &amp; X = \left\{ (x_1,\ldots,x_n) \;\middle|\;
            \gray{\begin{align}
-             &amp; \sum_{j=1}^n a_{ij} X_j = b_i, \forall i \in \{1,\ldots,m\},\\
-             &amp; X_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
+             &amp; \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
+             &amp; x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
            \end{align}}
          \right \},\\
-         &amp; \ell(X_1,\ldots,X_n) = \sum_{j=1}^n c_j X_j , \\
+         &amp; \ell(x_1,\ldots,x_n) = \sum_{j=1}^n c_j x_j , \\
          &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \;
 	       f = \prod_{i=1}^m z_i^{b_i},      \\
          &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
@@ -134,12 +134,12 @@ $
            \;\Rightarrow\;
            \prod_{j=1}^n w_j^{e_j'}
 	   &gt;_{\ell}
-           \prod_{j=1}^n w_j^{e_j}
+           \prod_{j=1}^n w_j^{e_j}.
      \end{align}} \\
      &amp; 
        f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j}
        \;\Rightarrow\;
-       \ell(e_1,\ldots,e_n) = \min_X \ell(X_1,\ldots,X_n).
+       \ell(e_1,\ldots,e_n) = \min_X \ell(x_1,\ldots,x_n).
    \end{align}
 
 \]
