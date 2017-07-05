@@ -113,12 +113,13 @@ $
 
     % Type 15 Convex Pentagon
 
-    \begin{array}{rrcl}
-      A = &amp; 60\degree, &amp; \tab &amp; AE = 1,   \\
-      B = &amp;135\degree, &amp;      &amp; BA = 1/2, \\
-      C = &amp;105\degree, &amp;      &amp; CB = \frac{1}{\sqrt{2}(\sqrt{3}-1)}, \\
-      D = &amp; 90\degree, &amp;      &amp; DC = 1/2, \\
-      E = &amp;150\degree, &amp;      &amp; ED = 1/2. \\
+    \begin{array}{}
+      \theta_0 = 0,                          &amp; A = 0, \\
+      \theta_1 = \theta_0 + \frac{2}{3}\pi,  &amp; B = A + \e^{\i\theta_1}, \\
+      \theta_2 = \theta_1 + \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{2}}{\sqrt{3}-1)} \e^{\i\theta_2}, \\
+      \theta_3 = \theta_2 + \frac{5}{12}\pi, &amp; D = C + \e^{\i\theta_3}, \\
+      \theta_4 = \theta_3 + \frac{1}{2}\pi,  &amp; E = D + \e^{\i\theta_4}, \\
+      \theta_5 = \theta_4 + \frac{1}{6}\pi,  &amp; A = E + 2 \e^{\i\theta_5}. \\
     \end{array}
 
 \]
