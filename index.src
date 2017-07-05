@@ -107,16 +107,18 @@ $
 - 今日は気兼ねなく会社を最終退室. そして間の悪い
   事に土砂降り orz
 
+- 靴専用ドライヤーが驚くほど役立ってる …
+
 \[
 
     % Type 15 Convex Pentagon
 
     \begin{array}{lcl}
-      A =  60\degree &amp; \tab &amp; AE = 1   \\
-      B = 135\degree &amp;      &amp; BA = 1/2 \\
-      C = 105\degree &amp;      &amp; CB = \frac{1}{\sqrt{2}(\sqrt{3}-1)} \\
-      D =  90\degree &amp;      &amp; DC = 1/2 \\
-      E = 150\degree &amp;      &amp; ED = 1/2 \\
+      A =  60\degree, &amp; \tab &amp; AE = 1,   \\
+      B = 135\degree, &amp;      &amp; BA = 1/2, \\
+      C = 105\degree, &amp;      &amp; CB = \frac{1}{\sqrt{2}(\sqrt{3}-1)}, \\
+      D =  90\degree, &amp;      &amp; DC = 1/2, \\
+      E = 150\degree, &amp;      &amp; ED = 1/2. \\
     \end{array}
 
 \]
