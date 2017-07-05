@@ -115,26 +115,26 @@ $
      &amp; \graysmall{\begin{align}
        \text{Let }\;
          &amp; a_{ij}, b_i, c_j \in \Z_{\ge 0}, \\
-         &amp; f_j = \prod_{i=1}^m z_i^{a_{ij}}, \;
-	       f = \prod_{i=1}^m z_i^{b_i},      \;
-	       \ell(x_1,\ldots,x_n) = \sum_{j=1}^n c_j x_j , \\
-         &amp; I = \langle f_1 - w_1, \ldots, f_n - w_n \rangle, \\
-         &amp; {\cal G} := \text{groebner bases of $ I $ with respect to monomial order $&gt;_{\ell}$},\\
-         &amp; \gray{\begin{align}
+         &amp; g_j = \prod_{i=1}^m z_i^{a_{ij}}, \;
+	       h = \prod_{i=1}^m z_i^{b_i},      \;
+	       f(x_1,\ldots,x_n) = \sum_{j=1}^n c_j x_j , \\
+         &amp; I = \langle g_1 - w_1, \ldots, g_n - w_n \rangle, \\
+         &amp; {\cal G} := \text{groebner bases of $ I $ with respect to monomial order $&gt;_{f}$},\\
+         &amp; \gray{\tiny\begin{align}
 	   \text{where } &amp; 
 	     \forall i \in \{1,\ldots,m\},
 	     \forall (d_1,\ldots,d_n) \in \Z_{\ge 0}^n, \;
-	     z_i &gt;_{\ell} \prod_{j=1}^n w_j^{d_j}, \\
+	     z_i &gt;_{f} \prod_{j=1}^n w_j^{d_j}, \\
 	   \text{and } &amp;
-	     \ell(d_1',\ldots,d_n') &gt; \ell(d_1,\ldots,d_n) 
+	     f(d_1',\ldots,d_n') &gt; f(d_1,\ldots,d_n) 
              \;\Rightarrow\;
-             \prod_{j=1}^n w_j^{d_j'} &gt;_{\ell} \prod_{j=1}^n w_j^{d_j}.
+             \prod_{j=1}^n w_j^{d_j'} &gt;_{f} \prod_{j=1}^n w_j^{d_j}.
          \end{align}}
      \end{align}} \\
      &amp; 
      \black{\begin{align}
-       f \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j} \;\Rightarrow\;
-       &amp; \ell(e_1,\ldots,e_n) = \min \, \ell(x_1,\ldots,x_n), \\
+       h \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j} \;\Rightarrow\;
+       &amp; f(e_1,\ldots,e_n) = \min \, f(x_1,\ldots,x_n), \\
        &amp; \text{subject to:} \\
        &amp; \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
        &amp; x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
