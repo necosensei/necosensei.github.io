@@ -114,12 +114,12 @@ $
     % Type 15 Convex Pentagon
 
     \begin{array}{}
-      \theta_0 = 0,                          &amp; A = 0, \\
-      \theta_1 = \theta_0 + \frac{2}{3}\pi,  &amp; B = A + \e^{\i\theta_1}, \\
-      \theta_2 = \theta_1 + \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{2}}{\sqrt{3}-1)} \e^{\i\theta_2}, \\
-      \theta_3 = \theta_2 + \frac{5}{12}\pi, &amp; D = C + \e^{\i\theta_3}, \\
-      \theta_4 = \theta_3 + \frac{1}{2}\pi,  &amp; E = D + \e^{\i\theta_4}, \\
-      \theta_5 = \theta_4 + \frac{1}{6}\pi,  &amp; A = E + 2 \e^{\i\theta_5}. \\
+      \theta = 0,                          &amp; A = 0, \\
+      \theta += \frac{2}{3}\pi,  &amp; B = A + \e^{\i\theta}, \\
+      \theta += \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{2}}{\sqrt{3}-1)} \e^{\i\theta}, \\
+      \theta += \frac{5}{12}\pi, &amp; D = C + \e^{\i\theta}, \\
+      \theta += \frac{1}{2}\pi,  &amp; E = D + \e^{\i\theta}, \\
+      \theta += \frac{1}{6}\pi,  &amp; A = E + 2 \e^{\i\theta}. \\
     \end{array}
 
 \]
