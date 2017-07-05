@@ -142,7 +142,6 @@ $
          \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
        &amp; &amp;
          x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
-       \end{array}
      \end{align}}
    \end{align}
 
