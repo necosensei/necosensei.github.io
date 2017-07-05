@@ -131,10 +131,11 @@ $
              \prod_{j=1}^n w_j^{d_j'} &gt;_{f} \prod_{j=1}^n w_j^{d_j}.
          \end{align}}
      \end{align}} \\
+     &amp; h \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j} \\
      &amp; 
      \black{\begin{align}
-       h \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j} \;\Rightarrow\;
-       &amp; f(e_1,\ldots,e_n) = \min \, f(x_1,\ldots,x_n), \\
+       \;\Rightarrow\; f(e_1,\ldots,e_n) = 
+       &amp; \min \, f(x_1,\ldots,x_n), \\
        &amp; \text{subject to:} \\
        &amp; \tab \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
        &amp; \tab x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
