@@ -135,7 +135,7 @@ $
      \black{\begin{align}
        h \bmod {\cal G} = \prod_{j=1}^n w_j^{e_j} \;\Rightarrow\;
        &amp; f(e_1,\ldots,e_n) = \min \, f(x_1,\ldots,x_n), \\
-       \black{\begin{align}
+       &amp; \black{\begin{align}
          \text{subject to: }
            &amp; \sum_{j=1}^n a_{ij} x_j = b_i, \forall i \in \{1,\ldots,m\},\\
            &amp; x_j \in \Z_{\ge 0}, \forall j \in \{1,\ldots,n\}.
