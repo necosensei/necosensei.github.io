@@ -102,6 +102,30 @@ $
 
 <pre>
 
+<hr>2017/07/06 (木)
+
+- 虫除けの効果は大きい
+  柑橘類の香りがするので猫が除ける可能性もある.
+
+- モバイル WiFi のディスプレイに New software
+  なる表示が現れ, OK ボタンを押すよう促される.
+
+  OK をおしてしばらく放置. 上手くアップデート
+  出来たようだ. しかしよく見ると今月のパケット
+  使用量が既に 1G Byte 近くに … orz
+
+\[
+
+   % Lucas number
+
+   \begin{align}
+     &amp;  L_0 = 2,\\
+     &amp;  L_1 = 1,\\
+     &amp;  L_{n+2} = L_n + L_{n+1}.
+   \end{align}
+
+\]
+
 <hr>2017/07/05 (水)
 
 - 今日は気兼ねなく会社を最終退室. そして間の悪い
@@ -115,7 +139,7 @@ $
 
     \def\pa{{\tt{\;+\!=}}}
 
-    \begin{array}{}
+    \begin{array}{ll}
       \theta = 0,                 &amp; A = 0, \\
       \theta \pa \frac{2}{3}\pi,  &amp; B = A + \e^{\i\theta}, \\
       \theta \pa \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{3}+1}{\sqrt{2}} \e^{\i\theta}, \\
