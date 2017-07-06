@@ -118,7 +118,7 @@ $
     \begin{array}{}
       \theta = 0,                 &amp; A = 0, \\
       \theta \pa \frac{2}{3}\pi,  &amp; B = A + \e^{\i\theta}, \\
-      \theta \pa \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{2}}{\sqrt{3}-1} \e^{\i\theta}, \\
+      \theta \pa \frac{1}{4}\pi,  &amp; C = B + \frac{\sqrt{3}+1}{\sqrt{2}} \e^{\i\theta}, \\
       \theta \pa \frac{5}{12}\pi, &amp; D = C + \e^{\i\theta}, \\
       \theta \pa \frac{1}{2}\pi,  &amp; E = D + \e^{\i\theta}, \\
       \theta \pa \frac{1}{6}\pi,  &amp; A = E + 2 \e^{\i\theta}. \\
