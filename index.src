@@ -106,7 +106,7 @@ $
 
 \[
 
-   % Frobenius Trace of E/F_p(F_p^n)
+   % Frobenius Trace of E/F_p(F_{p^n})
 
    \begin{align}
      &amp;  T_0 = 2,\\
