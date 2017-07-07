@@ -109,9 +109,9 @@ $
    % Frobenius Trace of E(F_q^n)
 
    \begin{align}
-     &amp;  t_0 = 2,\\
-     &amp;  t_1 = t,\\
-     &amp;  t_{n+2} = t t_n + t_{n+1}.
+     &amp;  T_0(t) = 2,\\
+     &amp;  T_1(t) = t,\\
+     &amp;  T_{n+2}(t) = t \cdot t_n(t) + t_{n+1}(t).
    \end{align}
 
 \]
