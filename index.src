@@ -104,9 +104,12 @@ $
 
 <hr>2017/07/07 (金)
 
+- 会社の社員食堂(こもれ○)のメニューが容認し難いものとなる
+  確率が上がってる気がする …
+
 \[
 
-   % Frobenius Trace of E/F_p(F_{p^n})
+   % Frobenius Trace of E/F_p(F_{p^n}) # 111
 
    \begin{align}
      &amp;  T_0 = 2,\\
@@ -130,7 +133,7 @@ $
 
 \[
 
-   % Lucas polynomials
+   % Lucas polynomials # 110
 
    \begin{align}
      &amp;  L_0(x) = 2,\\
@@ -149,7 +152,7 @@ $
 
 \[
 
-    % pentagonal tiling
+    % pentagonal tiling # 109
 
     \def\pa{{\tt{\;+\!=}}}
 
