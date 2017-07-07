@@ -102,6 +102,20 @@ $
 
 <pre>
 
+<hr>2017/07/07 (金)
+
+\[
+
+   % Frobenius Trace of E(F_q^n)
+
+   \begin{align}
+     &amp;  t_0 = 2,\\
+     &amp;  t_1 = t,\\
+     &amp;  t_{n+2} = t t_n + t_{n+1}.
+   \end{align}
+
+\]
+
 <hr>2017/07/06 (木)
 
 - 虫除けの効果は大きい
@@ -116,12 +130,12 @@ $
 
 \[
 
-   % Lucas number
+   % Lucas polynomials
 
    \begin{align}
-     &amp;  L_0 = 2,\\
-     &amp;  L_1 = 1,\\
-     &amp;  L_{n+2} = L_n + L_{n+1}.
+     &amp;  L_0(x) = 2,\\
+     &amp;  L_1(x) = x,\\
+     &amp;  L_{n+2}(x) = x L_n(x) + L_{n+1}(x).
    \end{align}
 
 \]
