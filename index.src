@@ -109,9 +109,9 @@ $
    % Frobenius Trace of E/F_p(F_p^n)
 
    \begin{align}
-     &amp;  T_0(t) = 2,\\
-     &amp;  T_1(t) = t,\\
-     &amp;  T_{n+2}(t) = t \cdot T_n(t) + T_{n+1}(t).
+     &amp;  T_0 = 2,\\
+     &amp;  T_1 = t,\\
+     &amp;  T_n = t \cdot T_{n-1} - p T_{n-2}.
    \end{align}
 
 \]
@@ -135,7 +135,7 @@ $
    \begin{align}
      &amp;  L_0(x) = 2,\\
      &amp;  L_1(x) = x,\\
-     &amp;  L_{n+2}(x) = x L_n(x) + L_{n+1}(x).
+     &amp;  L_n(x) = x L_{n-1}(x) + L_{n-2}(x).
    \end{align}
 
 \]
