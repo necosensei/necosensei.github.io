@@ -106,12 +106,12 @@ $
 
 \[
 
-   % Frobenius Trace of E(F_q^n)
+   % Frobenius Trace of E/F_p(F_p^n)
 
    \begin{align}
      &amp;  T_0(t) = 2,\\
      &amp;  T_1(t) = t,\\
-     &amp;  T_{n+2}(t) = t \cdot t_n(t) + t_{n+1}(t).
+     &amp;  T_{n+2}(t) = t \cdot T_n(t) + T_{n+1}(t).
    \end{align}
 
 \]
