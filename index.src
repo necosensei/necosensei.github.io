@@ -113,7 +113,7 @@ $
 
     % Hadamard transform
 
-    (H_n)_{i,j} = \frac{1}{\sqrt(2^n)}(-1)^{\vec{i}\cdot\vec{j}}.
+    (H_n)_{i,j} = \frac{1}{\sqrt{2^n}}(-1)^{\vec{i}\cdot\vec{j}}.
 
     \def\vec#1{{\boldsymbol{#1}}}
 
