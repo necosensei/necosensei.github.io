@@ -99,8 +99,24 @@ $
 <!-- Parseval's identity : 関数空間上のピタゴラスの定理 -->
 <!-- Jones polynomial -->
 <!-- Lucas Sequence -->
+<!-- Arrow's impossibility theorem -->
 
 <pre>
+
+<hr>2017/07/08 (土)
+
+- 週末は神□神保□秋葉□を散策するのが最近の習慣. 止むを
+  得ない事情(ポケＧＯ)により, 本日はこの順路に神□明神を
+  加えてみた. 目と鼻の先が秋葉□なので, その影響は大きく
+  萌えキャラのポスターが沢山貼ってあった …
+
+\[
+
+    % Hadamard transform
+
+    (H_n)_{i,j} = \frac{1}{\sqrt(2^n)}(-1)^{\vec{i}\cdot\vec{j}}.
+
+\]
 
 <hr>2017/07/07 (金)
 
