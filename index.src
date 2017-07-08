@@ -115,8 +115,8 @@ $
     % Hadamard transform
 
     \begin{align}
-      (H_n)_{i,j} = \frac{(-1)^{\sum_k i_k j_k}}{\sqrt{2^n}}, \\
-      \text{where } x_k = \lceil x / 2^k \rceil \bmod 2.
+      &amp; (H_n)_{i,j} = \frac{(-1)^{\sum_k i_k j_k}}{\sqrt{2^n}}, \\
+      &amp; \text{where } x_k = \left\lfloor x / 2^k \right\rfloor \bmod 2.
     \end{align}
 
 \]
