@@ -118,8 +118,8 @@ $
     % Hadamard transform
 
     \begin{align}
-      &amp; (H_n)_{i,j} = \frac{(-1)^{W_H(i \&amp; j)}}{\sqrt{2^n}}, \\
-      &amp; i,j \in \{0,\ldots,2^n-1\}.
+      &amp; (H_n)_{i,j} = \frac{(-1)^{w_H(i \&amp; j)}}{\sqrt{2^n}}, \\
+      &amp; \text{where } i,j \in \{0,\ldots,2^n-1\}, w_H : \text{Hamming weight}.
     \end{align}
 
 \]
