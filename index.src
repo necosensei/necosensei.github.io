@@ -119,7 +119,8 @@ $
 
     \begin{align}
       &amp; (H_n)_{i,j} = \frac{(-1)^{\sum_k i_k j_k}}{\sqrt{2^n}}, \\
-      &amp; \text{where } x_k = \left\lfloor x / 2^k \right\rfloor \bmod 2.
+      &amp; \text{where } x_k = \left\lfloor x / 2^k \right\rfloor \bmod 2,
+      &amp; i,j \in \{0,\ldots,2^n-1\}.
     \end{align}
 
 \]
