@@ -119,7 +119,7 @@ $
 
     \begin{align}
       &amp; (H_n)_{i,j} = \frac{(-1)^{w_H(i \&amp; j)}}{\sqrt{2^n}}, \; i,j \in \{0,\ldots,2^n-1\}, \\
-      &amp; \text{where } \&amp; : \text{bitwise and}, \; w_H : \text{Hamming weight}.
+      &amp; \text{where } \cdot \&amp; \cdot : \text{bitwise and}, \; w_H : \text{Hamming weight}.
     \end{align}
 
 \]
