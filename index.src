@@ -100,8 +100,19 @@ $
 <!-- Jones polynomial -->
 <!-- Lucas Sequence -->
 <!-- Arrow's impossibility theorem -->
+<!-- HAKMEM 169 -->
 
 <pre>
+
+<hr>2017/07/09 (日)
+
+\[
+
+    % HAKMEM Item 169
+
+    w_H(x) = x - \sum_{i=1} \left\lfloor \frac{x}{2^i} \right\rfloor.
+
+\]
 
 <hr>2017/07/08 (土)
 
