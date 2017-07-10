@@ -102,6 +102,7 @@ $
 <!-- Arrow's impossibility theorem -->
 <!-- HAKMEM 169 -->
 <!-- HAKMEM 175 -->
+<!-- Gosper's algorithm -->
 
 <pre>
 
@@ -113,7 +114,15 @@ $
   西部柳□舐めてました. 一人も集まらない orz
 
 - どうも会社の後輩のK城先生は Amazon と負けプレの区別が
-  付いてない模様 …
+  付いてない模様？区別が付いてないふりをしているだけ？
+
+\[
+
+    % Fermat's little theorem
+
+    x^q - x = \prod_{a\in \F_q} ( x - a )
+
+\]
 
 <hr>2017/07/09 (日)
 
