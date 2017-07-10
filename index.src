@@ -120,7 +120,7 @@ $
 
     % Fermat's little theorem
 
-    x^q = x + \prod_{a\in \F_q} ( x - a ).
+    X^q = X + \prod_{a\in \F_q} ( X - a ).
 
 \]
 
