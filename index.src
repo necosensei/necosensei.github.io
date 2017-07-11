@@ -112,17 +112,17 @@ $
 
 \[
 
-  % linear congruential psudorandom sequence
+  % Linear congruential generator
 
   \begin{align}
-    &amp; \text{Let $ x_i $ be a linear congruential psudorandom sequence s.t.} \\
-    &amp; \tab x_i = a \cdot x_{i-1} + b \pmod m \\
+    &amp; \text{Let $ r_i $ be a linear congruential sequence s.t.} \\
+    &amp; \tab r_{i+1} = (a \cdot r_i + c) \bmod m, \\
     &amp; \text{where $ a, b, m \in \N : $ are secrets}. \\
     &amp; \\
-    &amp; m^* = \gcd(y_0, y_1, \ldots), \\
-    &amp; \tab \text{where } y_i = (x_{i+2} - x_{i+1})^2 - (x_{i+1} - x_{i}) (x_{i+3} - x_{i+2}), \\
-    &amp; a^* = \frac{x_2 - x_1}{x_1 - x_0} \pmod m^*, \\
-    &amp; b^* = x_1 - a^* x_0.
+    &amp; m^* = \gcd(s_0, s_1, \ldots), \\
+    &amp; \tab \text{where } s_i = (r_{i+2} - r_{i+1})^2 - (r_{i+1} - r_{i}) (r_{i+3} - r_{i+2}), \\
+    &amp; a^* = \frac{r_2 - r_1}{r_1 - r_0} \pmod m^*, \\
+    &amp; c^* = r_1 - a^* r_0.
   \end{align}
 
 \]
@@ -780,7 +780,7 @@ $INTERPRETER
     \begin{align}
       &amp; r_{n+1} = (a \cdot r_n + c) \bmod m, \\
       &amp; \graysmall{\text{where }
-	a   = \text{0xFDEECE66D}, \;
+	a   = \text{0x5DEECE66D}, \;
 	c   = \text{0xB}, \;
 	m   = \text{0x1000000000000}, \;
 	r_0 = \text{0x1234ABCD330E}.}
