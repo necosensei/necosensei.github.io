@@ -117,8 +117,9 @@ $
   \begin{align}
     &amp; \text{Let $ r_i $ be a linear congruential sequence s.t.} \\
     &amp; \tab r_{i+1} = (a \cdot r_i + c) \bmod m, \\
-    &amp; \text{where $ a, c, m \in \N $ are secrets}. \\
+    &amp; \text{where $ (a, c, m) \in \N^3 $ is secret}. \\
     &amp; \\
+    &amp; \text{The following $ (a^*, c^*, m^*) $ is a good guess of $(a,c,m)$}. \\
     &amp; m^* = \gcd(s_0, s_1, \ldots) \; \text{or its large factor s.t. } \max_i r_i &lt; m^* (&lt; 2 \max_i r_i \text{ with high probability}), \\
     &amp; \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
     &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, 
