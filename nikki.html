@@ -197,9 +197,9 @@
     &amp; m^* = \gcd(s_0, s_1, \ldots) \; \text{or its large factor s.t. } \max_i r_i &lt; m^* (&lt; 2 \max_i r_i \text{ with high probability}), \\
     &amp; \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
     &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, 
-          \tab \text{for some } i \text{ s.t. } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1, \\
-    &amp; c^* = r_1 - a^* r_0 \bmod m^*
-          \tab \text{where } r_2 = a^* r_1 + c^* \bmod m^*.
+          \tab \text{for some }\; i \; \text{ s.t. } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1, \\
+    &amp; c^* = r_1 - a^* \cdot r_0 \bmod m^*,
+          \tab \text{where }\; r_2 = a^* \cdot r_1 + c^* \bmod m^*.
   \end{align}
 
 </title>
@@ -506,36 +506,36 @@ Linear congruential generator
  <use xlink:href="#MJMAIN-6D" x="2344" y="0"></use>
  <use xlink:href="#MJMAIN-65" x="3178" y="0"></use>
 </g>
- <use xlink:href="#MJMATHI-69" x="13653" y="0"></use>
-<g transform="translate(13999,0)">
+ <use xlink:href="#MJMATHI-69" x="13931" y="0"></use>
+<g transform="translate(14554,0)">
  <use xlink:href="#MJMAIN-73" x="250" y="0"></use>
  <use xlink:href="#MJMAIN-2E" x="644" y="0"></use>
  <use xlink:href="#MJMAIN-74" x="923" y="0"></use>
  <use xlink:href="#MJMAIN-2E" x="1312" y="0"></use>
 </g>
-<g transform="translate(16007,0)">
+<g transform="translate(16562,0)">
  <use xlink:href="#MJMAIN-67"></use>
  <use xlink:href="#MJMAIN-63" x="500" y="0"></use>
  <use xlink:href="#MJMAIN-64" x="945" y="0"></use>
 </g>
- <use xlink:href="#MJMAIN-28" x="17508" y="0"></use>
-<g transform="translate(17898,0)">
+ <use xlink:href="#MJMAIN-28" x="18064" y="0"></use>
+<g transform="translate(18453,0)">
  <use xlink:href="#MJMATHI-64" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMATHI-69" x="736" y="-213"></use>
 </g>
- <use xlink:href="#MJMAIN-2F" x="18762" y="0"></use>
-<g transform="translate(19430,0)">
+ <use xlink:href="#MJMAIN-2F" x="19318" y="0"></use>
+<g transform="translate(19985,0)">
  <use xlink:href="#MJMAIN-67"></use>
  <use xlink:href="#MJMAIN-63" x="500" y="0"></use>
  <use xlink:href="#MJMAIN-64" x="945" y="0"></use>
 </g>
- <use xlink:href="#MJMAIN-28" x="20931" y="0"></use>
-<g transform="translate(21321,0)">
+ <use xlink:href="#MJMAIN-28" x="21487" y="0"></use>
+<g transform="translate(21876,0)">
  <use xlink:href="#MJMATHI-64" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMATHI-69" x="736" y="-213"></use>
 </g>
- <use xlink:href="#MJMAIN-2C" x="22185" y="0"></use>
-<g transform="translate(22631,0)">
+ <use xlink:href="#MJMAIN-2C" x="22741" y="0"></use>
+<g transform="translate(23186,0)">
  <use xlink:href="#MJMATHI-64" x="0" y="0"></use>
 <g transform="translate(520,-150)">
  <use transform="scale(0.707)" xlink:href="#MJMATHI-69" x="0" y="0"></use>
@@ -543,16 +543,16 @@ Linear congruential generator
  <use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="1124" y="0"></use>
 </g>
 </g>
- <use xlink:href="#MJMAIN-29" x="24400" y="0"></use>
- <use xlink:href="#MJMAIN-2C" x="24789" y="0"></use>
-<g transform="translate(25234,0)">
+ <use xlink:href="#MJMAIN-29" x="24955" y="0"></use>
+ <use xlink:href="#MJMAIN-2C" x="25345" y="0"></use>
+<g transform="translate(25790,0)">
  <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
 </g>
- <use xlink:href="#MJMAIN-29" x="26567" y="0"></use>
- <use xlink:href="#MJMAIN-3D" x="27234" y="0"></use>
- <use xlink:href="#MJMAIN-31" x="28290" y="0"></use>
- <use xlink:href="#MJMAIN-2C" x="28791" y="0"></use>
+ <use xlink:href="#MJMAIN-29" x="27122" y="0"></use>
+ <use xlink:href="#MJMAIN-3D" x="27790" y="0"></use>
+ <use xlink:href="#MJMAIN-31" x="28846" y="0"></use>
+ <use xlink:href="#MJMAIN-2C" x="29346" y="0"></use>
 </g>
 <g transform="translate(0,-5646)">
  <use xlink:href="#MJMATHI-63" x="0" y="0"></use>
@@ -567,54 +567,57 @@ Linear congruential generator
  <use xlink:href="#MJMATHI-61" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="748" y="583"></use>
 </g>
-<g transform="translate(5333,0)">
+ <use xlink:href="#MJMAIN-22C5" x="5555" y="0"></use>
+<g transform="translate(6056,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-30" x="638" y="-213"></use>
 </g>
-<g transform="translate(6516,0)">
+<g transform="translate(7239,0)">
  <use xlink:href="#MJMAIN-6D"></use>
  <use xlink:href="#MJMAIN-6F" x="833" y="0"></use>
  <use xlink:href="#MJMAIN-64" x="1334" y="0"></use>
 </g>
-<g transform="translate(8684,0)">
+<g transform="translate(9407,0)">
  <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
 </g>
-<g transform="translate(11128,0)">
+ <use xlink:href="#MJMAIN-2C" x="10740" y="0"></use>
+<g transform="translate(12296,0)">
  <use xlink:href="#MJMAIN-77"></use>
  <use xlink:href="#MJMAIN-68" x="722" y="0"></use>
  <use xlink:href="#MJMAIN-65" x="1279" y="0"></use>
  <use xlink:href="#MJMAIN-72" x="1723" y="0"></use>
  <use xlink:href="#MJMAIN-65" x="2116" y="0"></use>
 </g>
-<g transform="translate(13938,0)">
+<g transform="translate(15384,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-32" x="638" y="-213"></use>
 </g>
- <use xlink:href="#MJMAIN-3D" x="15121" y="0"></use>
-<g transform="translate(16178,0)">
+ <use xlink:href="#MJMAIN-3D" x="16567" y="0"></use>
+<g transform="translate(17624,0)">
  <use xlink:href="#MJMATHI-61" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="748" y="583"></use>
 </g>
-<g transform="translate(17161,0)">
+ <use xlink:href="#MJMAIN-22C5" x="18829" y="0"></use>
+<g transform="translate(19330,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="638" y="-213"></use>
 </g>
- <use xlink:href="#MJMAIN-2B" x="18289" y="0"></use>
-<g transform="translate(19289,0)">
+ <use xlink:href="#MJMAIN-2B" x="20458" y="0"></use>
+<g transform="translate(21458,0)">
  <use xlink:href="#MJMATHI-63" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="613" y="583"></use>
 </g>
-<g transform="translate(20455,0)">
+<g transform="translate(22623,0)">
  <use xlink:href="#MJMAIN-6D"></use>
  <use xlink:href="#MJMAIN-6F" x="833" y="0"></use>
  <use xlink:href="#MJMAIN-64" x="1334" y="0"></use>
 </g>
-<g transform="translate(22623,0)">
+<g transform="translate(24792,0)">
  <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
 </g>
- <use xlink:href="#MJMAIN-2E" x="23955" y="0"></use>
+ <use xlink:href="#MJMAIN-2E" x="26124" y="0"></use>
 </g>
 </g>
 </g>
@@ -10727,7 +10730,7 @@ Meissel-Mertens constant # 58
 <hr>2017/05/13 (土)
 
 - 朝から土砂降りだったが, 意を決して上野公園へ. 一通りポケモンを集めた
-  後, いつもの散歩コースで帰る.
+  後, いつもの散歩コースで��る.
 
 <span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="39.574ex" height="9.843ex" style="vertical-align: -4.338ex;" viewBox="0 -2370 17038.9 4237.8" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-65-Title">
 <g>
