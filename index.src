@@ -123,7 +123,8 @@ $
     &amp; \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
     &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, 
           \tab \text{for some } i \text{ s.t. } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1, \\
-    &amp; c^* = r_{i+1} - a^* r_i \bmod m^*.
+    &amp; c^* = r_1 - a^* r_0 \bmod m^*
+          \tab \text{where } r_2 = a^* r_1 + c^* \bmod m^*.
   \end{align}
 
 \]

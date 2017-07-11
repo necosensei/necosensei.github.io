@@ -198,7 +198,8 @@
     &amp; \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
     &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, 
           \tab \text{for some } i \text{ s.t. } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1, \\
-    &amp; c^* = r_{i+1} - a^* r_i \bmod m^*.
+    &amp; c^* = r_1 - a^* r_0 \bmod m^*
+          \tab \text{where } r_2 = a^* r_1 + c^* \bmod m^*.
   \end{align}
 
 </title>
@@ -211,7 +212,7 @@ Linear congruential generator
 <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
 <g transform="translate(167,0)">
 <g transform="translate(-11,0)">
-<g transform="translate(0,5550)">
+<g transform="translate(0,5545)">
  <use xlink:href="#MJMAIN-4C"></use>
  <use xlink:href="#MJMAIN-65" x="625" y="0"></use>
  <use xlink:href="#MJMAIN-74" x="1070" y="0"></use>
@@ -255,7 +256,7 @@ Linear congruential generator
  <use xlink:href="#MJMAIN-2E" x="15728" y="0"></use>
 </g>
 </g>
-<g transform="translate(0,4243)">
+<g transform="translate(0,4238)">
 <g transform="translate(1111,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
 <g transform="translate(451,-150)">
@@ -283,7 +284,7 @@ Linear congruential generator
  <use xlink:href="#MJMATHI-6D" x="11075" y="0"></use>
  <use xlink:href="#MJMAIN-2C" x="11953" y="0"></use>
 </g>
-<g transform="translate(0,2892)">
+<g transform="translate(0,2887)">
  <use xlink:href="#MJMAIN-77"></use>
  <use xlink:href="#MJMAIN-68" x="722" y="0"></use>
  <use xlink:href="#MJMAIN-65" x="1279" y="0"></use>
@@ -312,7 +313,7 @@ Linear congruential generator
 </g>
  <use xlink:href="#MJMAIN-2E" x="12229" y="0"></use>
 </g>
-<g transform="translate(0,292)">
+<g transform="translate(0,287)">
  <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
  <use xlink:href="#MJMAIN-3D" x="1610" y="0"></use>
@@ -408,7 +409,7 @@ Linear congruential generator
  <use xlink:href="#MJMAIN-29" x="38332" y="0"></use>
  <use xlink:href="#MJMAIN-2C" x="38722" y="0"></use>
 </g>
-<g transform="translate(0,-1580)">
+<g transform="translate(0,-1585)">
 <g transform="translate(1111,0)">
  <use xlink:href="#MJMAIN-77"></use>
  <use xlink:href="#MJMAIN-68" x="722" y="0"></use>
@@ -465,7 +466,7 @@ Linear congruential generator
 </g>
  <use xlink:href="#MJMAIN-2C" x="19059" y="0"></use>
 </g>
-<g transform="translate(0,-3669)">
+<g transform="translate(0,-3674)">
  <use xlink:href="#MJMATHI-61" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="748" y="583"></use>
  <use xlink:href="#MJMAIN-3D" x="1261" y="0"></use>
@@ -553,37 +554,67 @@ Linear congruential generator
  <use xlink:href="#MJMAIN-31" x="28290" y="0"></use>
  <use xlink:href="#MJMAIN-2C" x="28791" y="0"></use>
 </g>
-<g transform="translate(0,-5642)">
+<g transform="translate(0,-5646)">
  <use xlink:href="#MJMATHI-63" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="613" y="583"></use>
  <use xlink:href="#MJMAIN-3D" x="1165" y="0"></use>
 <g transform="translate(2221,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
-<g transform="translate(451,-150)">
- <use transform="scale(0.707)" xlink:href="#MJMATHI-69" x="0" y="0"></use>
- <use transform="scale(0.707)" xlink:href="#MJMAIN-2B" x="345" y="0"></use>
- <use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="1124" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="638" y="-213"></use>
 </g>
-</g>
- <use xlink:href="#MJMAIN-2212" x="4143" y="0"></use>
-<g transform="translate(5144,0)">
+ <use xlink:href="#MJMAIN-2212" x="3349" y="0"></use>
+<g transform="translate(4349,0)">
  <use xlink:href="#MJMATHI-61" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="748" y="583"></use>
 </g>
-<g transform="translate(6128,0)">
+<g transform="translate(5333,0)">
  <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
- <use transform="scale(0.707)" xlink:href="#MJMATHI-69" x="638" y="-213"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-30" x="638" y="-213"></use>
 </g>
-<g transform="translate(7201,0)">
+<g transform="translate(6516,0)">
  <use xlink:href="#MJMAIN-6D"></use>
  <use xlink:href="#MJMAIN-6F" x="833" y="0"></use>
  <use xlink:href="#MJMAIN-64" x="1334" y="0"></use>
 </g>
-<g transform="translate(9369,0)">
+<g transform="translate(8684,0)">
  <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
  <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
 </g>
- <use xlink:href="#MJMAIN-2E" x="10702" y="0"></use>
+<g transform="translate(11128,0)">
+ <use xlink:href="#MJMAIN-77"></use>
+ <use xlink:href="#MJMAIN-68" x="722" y="0"></use>
+ <use xlink:href="#MJMAIN-65" x="1279" y="0"></use>
+ <use xlink:href="#MJMAIN-72" x="1723" y="0"></use>
+ <use xlink:href="#MJMAIN-65" x="2116" y="0"></use>
+</g>
+<g transform="translate(13938,0)">
+ <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-32" x="638" y="-213"></use>
+</g>
+ <use xlink:href="#MJMAIN-3D" x="15121" y="0"></use>
+<g transform="translate(16178,0)">
+ <use xlink:href="#MJMATHI-61" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="748" y="583"></use>
+</g>
+<g transform="translate(17161,0)">
+ <use xlink:href="#MJMATHI-72" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-31" x="638" y="-213"></use>
+</g>
+ <use xlink:href="#MJMAIN-2B" x="18289" y="0"></use>
+<g transform="translate(19289,0)">
+ <use xlink:href="#MJMATHI-63" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="613" y="583"></use>
+</g>
+<g transform="translate(20455,0)">
+ <use xlink:href="#MJMAIN-6D"></use>
+ <use xlink:href="#MJMAIN-6F" x="833" y="0"></use>
+ <use xlink:href="#MJMAIN-64" x="1334" y="0"></use>
+</g>
+<g transform="translate(22623,0)">
+ <use xlink:href="#MJMATHI-6D" x="0" y="0"></use>
+ <use transform="scale(0.707)" xlink:href="#MJMAIN-2217" x="1242" y="583"></use>
+</g>
+ <use xlink:href="#MJMAIN-2E" x="23955" y="0"></use>
 </g>
 </g>
 </g>
