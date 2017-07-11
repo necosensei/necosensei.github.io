@@ -120,7 +120,7 @@ $
 
     % Fermat's little theorem
 
-    X^q = X + \prod_{a\in \F_q} ( X - a ) \tab (\in \F_q[X]).
+    X^q = X + \prod_{a\in \F_q} ( X - a ).
 
 \]
 
@@ -137,7 +137,8 @@ $
 
     % HAKMEM Item 169
 
-    w_H(x) = x - \sum_{i=1} \left\lfloor \frac{x}{2^i} \right\rfloor.
+    w_H(x) = x - \sum_{i=1}^{\left\lfloor \log_2 x \right\rfloor}
+                 \left\lfloor \frac{x}{2^i} \right\rfloor.
 
 \]
 
