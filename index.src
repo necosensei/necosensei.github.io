@@ -112,12 +112,12 @@ $
 
 \[
 
-  % Linear congruential generator
+  % non-CSPRNG
 
   \begin{align}
     &amp; \text{Let $ r_i $ be a linear congruential sequence s.t.} \\
     &amp; \tab r_{i+1} = (a \cdot r_i + c) \bmod m, \\
-    &amp; \text{where $ (a, c, m) \in \N^3 $ is unknown}. \\
+    &amp; \text{with unknown $ (a, c, m) \in \N^3 $}. \\
     &amp; \\
     &amp; \text{The following $ (a^*, c^*, m^*) $ is a good guess of $(a,c,m)$}. \\
     &amp; \\
@@ -125,8 +125,9 @@ $
     &amp; \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
     &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, \\
     &amp; c^* = r_1 - a^* \cdot r_0 \bmod m^*, \\
-    &amp; \tab \text{which satisfies }\; r_2 = a^* \cdot r_1 + c^* \bmod m^*,\;
-          \text{ for some }\; i \; \text{ s.t. } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1.
+    &amp; \tab \text{ for some }\; i \; \text{which satisfies } \; 
+	  \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1 \;\text{ and }\;
+          r_2 = a^* \cdot r_1 + c^* \bmod m^*.
   \end{align}
 
 \]
