@@ -121,7 +121,7 @@ $
     &amp; \\
     &amp; m^* \backslash \gcd(s_0, s_1, \ldots),
           \tab \text{where } d_i = r_{i+1} - r_{i},\; s_i = d_{i+1}^2 - d_i \cdot d_{i+2}, \\
-    &amp; a^* = {d_{i+1}}/{d_i} \bmod m^*, 
+    &amp; a^* = \frac{d_{i+1}}{d_i} \bmod m^*, 
           \tab \text{where } \gcd(d_i/\gcd(d_i,d_{i+1}),m^*) = 1, \\
     &amp; c^* = r_{i+1} - a^* r_i \bmod m^*.
   \end{align}
