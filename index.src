@@ -143,6 +143,10 @@ $
   \begin{align}
     &amp; \text{Let $ H $ be a self-adjoint linear map over $ \C^n $}. \\
     &amp; H &gt; O  \; \stackrel{\text{def}}{\iff} \; \forall x \ne \vec{0} \in \C^n, (x,Hx) &gt; 0. \\
+    &amp; \\
+    &amp; \text{Identity map } I &gt; O.\\
+    &amp; M &gt; O, N &gt; O, a &gt; 0 \in \R \;\Rightarrow\;
+          a M &gt; O, \; M + N &gt; O. \\
   \end{align}
 
 \]
