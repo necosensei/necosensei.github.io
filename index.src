@@ -142,7 +142,7 @@ $
 
   \begin{align}
     &amp; \text{Let $ H $ be a self-adjoint linear map}. \\
-    &amp; H &gt; O  \stackrel{\text{def}}{\LeftRightarrow} \forall x \in \C^n\setminus\{\vec{0}\}, (x,Hx) &gt; 0. \\
+    &amp; H &gt; O  \stackrel{\text{def}}{\Leftrightarrow} \forall x \in \C^n\setminus\{\vec{0}\}, (x,Hx) &gt; 0. \\
   \end{align}
 
 \]
