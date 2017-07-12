@@ -106,6 +106,47 @@ $
 
 <pre>
 
+<hr>2017/07/12 (水)
+
+- non-CSPRNG は酷い名前だと思ったので似たようなフレーズの
+  g〇ogle 戦闘力を測定してみた。英語力が無い所為か,あまり
+  しっくり来るフレーズは見つからなかった模様 …
+
+    "cryptographically secure pseudo random number generator"     18100
+    "cryptographically secure pseudorandom number generator"       7830
+    "cryptographic pseudo random number generator"                 3350
+    "cryptographic pseudorandom number generator"                    99
+
+    "non-CSPRNG"                                                     41
+    "non cryptographically secure pseudo random number generator"     3
+    "non cryptographically secure pseudorandom number generator"      2
+    "non cryptographic pseudo random number generator"               12
+    "non cryptographic pseudorandom number generator"                 7
+    "insecure pseudo random number generator"                        19
+    "insecure pseudorandom number generator"                         11
+    "unsecure pseudo random number generator"                         1
+    "unsecure pseudorandom number generator"                          0
+    "vulnerable pseudo random number generator"                       7
+    "vulnerable pseudorandom number generator"                       19
+    "unsafe pseudo random number generator"                           3
+    "unsafe pseudorandom number generator"                            2
+
+    "weak pseudo random number generator"                            73
+    "weak pseudorandom number generator"                             35
+    "bad pseudo random number generator"                             17
+    "bad pseudorandom number generator"                              22
+
+\[
+
+  % positive definite 
+
+  \begin{align}
+    &amp; \text{Let $ H $ be a self-adjoint linear map}. \\
+    &amp; H &gt; O  \stackrel{\text{def}}{\LeftRightarrow} \forall x \in \C^n\setminus\{\vec{0}\}, (x,Hx) &gt; 0. \\
+  \end{align}
+
+\]
+
 <hr>2017/07/11 (火)
 
 - 数式の svg が段々重くなってきた模様. 日記の記述を確認する度に
