@@ -131,8 +131,8 @@ $
     \end{align}} \\
     &amp; \text{Enc}: m \in \{0,1\} \mapsto c, \\
     &amp; \black{\tab\begin{align}
-      &amp; c \leftarrowcoin \sum_{i=1}^m \{0,1\} v_i \bmod {\cal P}(w) &amp; (\text{if} m = 1), \\
-      &amp; c \leftarrowcoin {\cal P}(w)                                &amp; (otherwise). \\
+      &amp; c \leftarrowcoin \sum_{i=1}^m \{0,1\} v_i \bmod {\cal P}(w) &amp; &amp; (\text{if } m = 1), \\
+      &amp; c \leftarrowcoin {\cal P}(w)                                &amp; &amp; (\text{otherwise}). \\
     \end{align}} \\
     &amp; \text{Dec}: c \mapsto m' \\
     &amp; \black{\tab\begin{align}
