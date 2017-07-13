@@ -123,7 +123,7 @@ $
       &amp; pk = (w,v), \\
       &amp; \black{\begin{align}\text{where} \;
         &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\
-        &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
+        &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,M\}, \\
         &amp; {\cal H}_u =
             \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
             \sum_{i=1}^n \{x \in\R^n \mid \|x\| \le n^{-8}\}. \\
@@ -134,7 +134,7 @@ $
       c \leftarrowcoin \left\{
         \begin{array}{ll}
           \displaystyle
-	  \sum_{i=1}^m \{0,1\} \cdot v_i \bmod {\cal P}(w) &amp; (\text{if } m = 1), \\
+	  \sum_{i=1}^M \{0,1\} \cdot v_i \bmod {\cal P}(w) &amp; (\text{if } m = 1), \\
           {\cal P}(w)                                      &amp; (\text{otherwise}). \\
         \end{array} \right.
     \end{align}} \\
