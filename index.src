@@ -141,7 +141,7 @@ $
     &amp; \text{Dec}: c \mapsto m' \\
     &amp; \black{\tab\begin{align}
       &amp; d \leftarrow \langle c,u \rangle, \\
-      &amp; m' \leftarrow (|d-\lfloord\rceil| \le n^{-1}).
+      &amp; m' \leftarrow (|d-\lfloor d\rceil| \le n^{-1}).
     \end{align}} \\
   \end{align}
 
