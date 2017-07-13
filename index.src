@@ -20,6 +20,7 @@
 </head>
 <body style="background-color:white;">$
   \def\vec#1{{\boldsymbol{#1}}}
+  \def\leftarrowcoin{\stackrel{\$}{\leftarrow}}
   \def\C{{\mathbb C}}
   \def\R{{\mathbb R}}
   \def\Q{{\mathbb Q}}
@@ -113,8 +114,6 @@ $
 
 \[
 
-
-  \def\leftarrowcoin{\stackrel{\$}{\leftarrow}}
 
   \begin{align}
     &amp; \text{Setup}: \\
