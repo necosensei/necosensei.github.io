@@ -121,10 +121,11 @@ $
       &amp; sk = u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}. \\
       &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \\
       &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
-      &amp; \text{where p.p.t.} {\cal H}_u : \\
-      &amp; \tab a \leftarrowcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \}, \\
-      &amp; \tab \delta_i \leftarrowcoin \{x \in\R^n \mid \|x\| \le n^{-8}\}, \forall i \in \{1,\ldots,n\} \\
-      &amp; \tab \text{output } a + \sum_{i=1}^n \delta_i. \\
+      &amp; \text{where p.p.t. } {\cal H}_u :
+        \text{ return }
+          h \leftarrowcoin
+	    \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \} +
+            \sum_{i=1}^n \{x \in\R^n \mid \|x\| \le n^{-8}\}, \\
       &amp; pk = (w,v).
     \end{align}} \\
     &amp; \text{Enc}: \\
