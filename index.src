@@ -133,13 +133,14 @@ $
     &amp; \black{\tab\begin{align}
       c \leftarrowcoin \left\{
         \begin{array}{ll}
-          \sum_{i=1}^m \{0,1\} v_i \bmod {\cal P}(w) &amp; (\text{if } m = 1), \\
-          {\cal P}(w)                                &amp; (\text{otherwise}). \\
+          \displaystyle
+	  \sum_{i=1}^m \{0,1\} \cdot v_i \bmod {\cal P}(w) &amp; (\text{if } m = 1), \\
+          {\cal P}(w)                                      &amp; (\text{otherwise}). \\
         \end{array} \right.
     \end{align}} \\
     &amp; \text{Dec}: c \mapsto m' \\
     &amp; \black{\tab\begin{align}
-      &amp; m' \leftarrow (|\text{round}(\langle c,u \rangle)| \le n^{-1}).
+      &amp; m' \leftarrow (|\lfloor\langle c,u \rangle\rceil| \le n^{-1}).
     \end{align}} \\
   \end{align}
 
