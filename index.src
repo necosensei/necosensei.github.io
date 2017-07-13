@@ -119,14 +119,15 @@ $
   \begin{align}
     &amp; \text{Setup}: 1^n \mapsto (sk,pk), \\
     &amp; \black{\tab\begin{align}
-      &amp; sk = u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}. \\
-      &amp; pk = (w,v), \\
+      &amp; sk = u \leftarrowcoin {\cal B}_n, \; pk = (w,v), \\
       &amp; \black{\begin{align}\text{where} \;
         &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\
         &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,M\}, \\
-        &amp; {\cal H}_u =
+        &amp; 
+	{\cal B}_n = \{x \in\R^n \mid \|x\| \le 1\},\;
+	{\cal H}_u =
             \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
-            \sum_{i=1}^n \{x \in\R^n \mid \|x\| \le n^{-8}\}. \\
+	    n^{-8} \sum_{i=1}^n {\cal B}_n,
       \end{align}} \\
     \end{align}} \\
     &amp; \text{Enc}_{(w,v)}: m \in \{0,1\} \mapsto c, \\
