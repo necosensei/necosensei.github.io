@@ -103,6 +103,7 @@ $
 <!-- HAKMEM 169 -->
 <!-- HAKMEM 175 -->
 <!-- Gosper's algorithm -->
+<!-- Ajtai-Dwork -->
 
 <pre>
 
@@ -112,15 +113,36 @@ $
 
 \[
 
-  % Ajtai-Dwork
 
   \def\leftarrowcoin{\stackrel{\$}{\leftarrow}}
 
   \begin{align}
     &amp; \text{Setup}: \\
-    \black{\tab\begin{align}
-      &amp; u \leftarrowcoin \{x\in\R^n|\|x\| \le 1\}, \\
+    &amp; \black{\tab\begin{align}
+      &amp; sk = u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}. \\
+      &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \\
+      &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
+      &amp; \text{where p.p.t.} {\cal H}_u : \\
+      &amp; \tab a \leftarrwcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \}, \\
+      &amp; \tab \delta_i \leftarrwcoin \{x \in\R^n \mid \|x\| \le n^{-8}\}, \forall i \in \{1,\ldots,n\} \\
+      &amp; \tab \text{output } a + \sum_{i=1}^n \delta_i. \\
+      &amp; pk = (w,v).
     \end{align}} \\
+    &amp; \text{Enc}: \\
+    &amp; \black{\tab\begin{align}
+      &amp; u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}, \\
+      &amp; \delta \leftarrowcoin \Xi, \\
+      &amp; v_i \leftarrowcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \} + \delta, \\
+      &amp; sk = u, \; pk = \{v_i\}_i.
+    \end{align}} \\
+    &amp; \text{Dec}: \\
+    &amp; \black{\tab\begin{align}
+      &amp; u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}, \\
+      &amp; \delta \leftarrowcoin \Xi, \\
+      &amp; v_i \leftarrowcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \} + \delta, \\
+      &amp; sk = u, \; pk = \{v_i\}_i.
+    \end{align}} \\
+
   \end{align}
 
 \]
