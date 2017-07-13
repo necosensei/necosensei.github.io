@@ -120,12 +120,14 @@ $
     &amp; \text{Setup}: 1^n \mapsto (sk,pk), \\
     &amp; \black{\tab\begin{align}
       &amp; sk = u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}. \\
-      &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\ 
-      &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
-      &amp; \text{where } {\cal H}_u =
-	    \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
+      &amp; pk = (w,v), \\
+      &amp; \black{\begin{align}\text{where }
+        &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\
+        &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
+        &amp; {\cal H}_u =
+            \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
             \sum_{i=1}^n \{x \in\R^n \mid \|x\| \le n^{-8}\}, \\
-      &amp; pk = (w,v).
+      \end{align}} \\
     \end{align}} \\
     &amp; \text{Enc}: m \in \{0,1\} \mapsto c, \\
     &amp; \black{\tab\begin{align}
@@ -136,7 +138,7 @@ $
           {\cal P}(w)                                      &amp; (\text{otherwise}). \\
         \end{array} \right.
     \end{align}} \\
-    &amp; \text{Dec}: c \mapsto m' \\
+    &amp; \text{Dec}: c \mapsto m', \\
     &amp; \black{\tab\begin{align}
       &amp; d \leftarrow \langle c,u \rangle, \\
       &amp; m' \leftarrow (|d-\lfloor d\rceil| \le n^{-1}).
