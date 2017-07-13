@@ -121,13 +121,12 @@ $
     &amp; \black{\tab\begin{align}
       &amp; sk = u \leftarrowcoin {\cal B}_n, \; pk = (w,v), \\
       &amp; \black{\begin{align}\text{where} \;
-        &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\
-        &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,M\}, \\
-        &amp; 
-	{\cal B}_n = \{x \in\R^n \mid \|x\| \le 1\},\;
-	{\cal H}_u =
+        &amp; {\cal B}_n = \{x \in\R^n \mid \|x\| \le 1\}, \\
+        &amp; {\cal H}_u =
             \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
-	    n^{-8} \sum_{i=1}^n {\cal B}_n,
+	    n^{-8} \sum_{i=1}^n {\cal B}_n, \\
+        &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\
+        &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,M\}. \\
       \end{align}} \\
     \end{align}} \\
     &amp; \text{Enc}_{(w,v)}: m \in \{0,1\} \mapsto c, \\
