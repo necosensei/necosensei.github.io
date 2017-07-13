@@ -114,35 +114,30 @@ $
 
 \[
 
+  % Ajtai-Dwork cryptosystem
 
   \begin{align}
-    &amp; \text{Setup}: \\
+    &amp; \text{Setup}: 1^n \mapsto (sk,pk), \\
     &amp; \black{\tab\begin{align}
       &amp; sk = u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}. \\
-      &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \\
-      &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \min_{i\ne j}\|v_i-v_j\| &ge; n^{n-2}. \\
-      &amp; \text{where p.p.t. } {\cal H}_u :
+      &amp; w_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,n\}, \min_{i\ne j}\|w_i-w_j\| &ge; n^{n-2}, \\ 
+      &amp; v_i \leftarrowcoin {\cal H}_u, \forall i \in \{1,\ldots,m\}, \\
+      &amp; \text{where PPTA } {\cal H}_u :
         \text{ return }
           h \leftarrowcoin
 	    \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
             \sum_{i=1}^n \{x \in\R^n \mid \|x\| \le n^{-8}\}, \\
       &amp; pk = (w,v).
     \end{align}} \\
-    &amp; \text{Enc}: \\
+    &amp; \text{Enc}: m \in \{0,1\} \mapsto c, \\
     &amp; \black{\tab\begin{align}
-      &amp; u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}, \\
-      &amp; \delta \leftarrowcoin \Xi, \\
-      &amp; v_i \leftarrowcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \} + \delta, \\
-      &amp; sk = u, \; pk = \{v_i\}_i.
+      &amp; c \leftarrowcoin \sum_{i=1}^m \{0,1\} v_i \bmod {\cal P}(w) &amp; (\text{if} m = 1), \\
+      &amp; c \leftarrowcoin {\cal P}(w)                                &amp; (otherwise). \\
     \end{align}} \\
-    &amp; \text{Dec}: \\
+    &amp; \text{Dec}: c \mapsto m' \\
     &amp; \black{\tab\begin{align}
-      &amp; u \leftarrowcoin \{x \in\R^n \mid \|x\| \le 1\}, \\
-      &amp; \delta \leftarrowcoin \Xi, \\
-      &amp; v_i \leftarrowcoin \{x \in [0,N)^n \mid \langle x, u \rangle \in \Z \} + \delta, \\
-      &amp; sk = u, \; pk = \{v_i\}_i.
+      &amp; m' \leftarrow (|\text{round}(\langle c,u \rangle)| \le n^{-1}).
     \end{align}} \\
-
   \end{align}
 
 \]
