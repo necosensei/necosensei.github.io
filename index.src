@@ -106,12 +106,34 @@ $
 
 <pre>
 
+<hr>2017/07/13 (木)
+
+- 
+
+\[
+
+  % Ajtai-Dwork
+
+  \def\leftarrowcoin{\stackrel{\$}{\leftarrow}}
+
+  \begin{align}
+    &amp; \text{Setup}: \\
+    \black{\tab\begin{align}
+      &amp; u \leftarrowcoin \{x\in\R^n|\|x\| \le 1\}, \\
+    \end{align}} \\
+  \end{align}
+
+\]
+
+
 <hr>2017/07/12 (水)
 
 - non-CSPRNG は酷い名前だと思ったので似たようなフレーズの
   g〇ogle 戦闘力を測定してみた。英語力が無い所為か,あまり
   しっくり来るフレーズは見つからなかった模様 …
 
+    "pseudo random number generator"                             376000
+    "pseudorandom number generator"                              169000
     "cryptographically secure pseudo random number generator"     18100
     "cryptographically secure pseudorandom number generator"       7830
     "cryptographic pseudo random number generator"                 3350
@@ -135,6 +157,8 @@ $
     "weak pseudorandom number generator"                             35
     "bad pseudo random number generator"                             17
     "bad pseudorandom number generator"                              22
+    "fast pseudo random number generator"                            60
+    "fast pseudorandom number generator"                             46
 
 \[
 
