@@ -110,6 +110,18 @@ $
 
 <hr>2017/07/14 (金)
 
+- 夏風邪をひいたのか、驚くほどのスピードで鼻から水が.
+  駅前などで配布されるマンション広告付きティッシュを
+  今までコツコツ溜めて来たのだが, 一気に消費される …
+
+\[
+
+    % Gaussian integral # 118
+
+    \int_{-\infty}^{\infty} \e^{-x^2} \d x = \sqrt{\pi}
+
+\]
+
 <hr>2017/07/13 (木)
 
 - スマホの場合端末メーカーはOS更新を真面目にやるよりも
@@ -127,7 +139,7 @@ $
 
 \[
 
-  % Ajtai-Dwork cryptosystem
+  % Ajtai-Dwork cryptosystem # 117
 
   \begin{align}
     &amp; \text{Setup}: 1^n \mapsto (sk,pk), \\
@@ -200,7 +212,7 @@ $
 
 \[
 
-  % positive definite 
+  % positive definite # 116
 
   \begin{align}
     &amp; \text{Let $ H $ be a self-adjoint linear map over $ \C^n $}. \\
