@@ -43,6 +43,9 @@
   \def\tab{\;\;\;\;}
   \def\char{\mbox{char}}
   \def\degree{^{\circ}}
+  \def\where{\text{where}\;}
+  \def\Let{\text{Let}\;}
+
   \def\northpos{\img{data:image/png;base64,
     iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEUAAACZmZl3d3dVVVXu7u4z
     MzPMzMwRERGqqqqIiIhmZmb///9ERETd3d0iIiK7u7t0yhCYAAAACXBIWXMAAA7DAAAOwwHHb6hk
@@ -117,17 +120,14 @@ $
 
     % gamma and zeta function # 119
 
-    \log \Gamma(x) = 
-      \left. \frac{\partial}{\partial s}
-    \middle( \zeta_H(s,x) - \zeta(s) \middle) 
-      \right|_{s=0}.
+    \begin{align}
+      &amp; \log \Gamma(x) = \left. \frac{\partial}{\partial s}
+              \middle( \zeta_H(s,x) - \zeta(s) \middle) 
+            \right|_{s=0}, \\
+      &amp; \where \zeta_H(s,x) = \sum_{i=0}^{\infty} \frac{1}{(i+x)^s}.
+    \end{align}
 
 \]
-
-
-
-
-
 
 <hr>2017/07/14 (金)
 
@@ -166,7 +166,7 @@ $
     &amp; \text{Setup}: 1^n \mapsto (sk,pk), \\
     &amp; \black{\tab\begin{align}
       &amp; sk = u \leftarrowcoin {\cal B}_n, \; pk = (w,v), \\
-      &amp; \black{\begin{align}\text{where} \;
+      &amp; \black{\begin{align}\where
         &amp; {\cal B}_n = \{x \in\R^n \mid \|x\| \le 1\}, \\
         &amp; {\cal H}_u =
             \{x \in [0,n^n)^n \mid \langle x, u \rangle \in \Z \} +
@@ -339,7 +339,7 @@ $
 
     \begin{align}
       &amp; (H_n)_{i,j} = \frac{(-1)^{w_H(i \&amp; j)}}{\sqrt{2^n}}, \; i,j \in \{0,\ldots,2^n-1\}, \\
-      &amp; \text{where } \cdot \&amp; \cdot : \text{bitwise and}, \; w_H : \text{Hamming weight}.
+      &amp; \where \cdot \&amp; \cdot : \text{bitwise and}, \; w_H : \text{Hamming weight}.
     \end{align}
 
 \]
@@ -433,7 +433,7 @@ $
          &amp; I = \langle g_1 - w_1, \ldots, g_n - w_n \rangle, \\
          &amp; {\cal G} := \text{groebner bases of $ I $ with respect to monomial order $&gt;_{f}$},\\
          &amp; \gray{\tiny\begin{align}
-	   \text{where } &amp; 
+	   \where &amp; 
 	     \forall i \in \{1,\ldots,m\},
 	     \forall (d_1,\ldots,d_n) \in \Z_{\ge 0}^n, \;
 	     z_i &gt;_{f} \prod_{j=1}^n w_j^{d_j}, \\
@@ -646,7 +646,7 @@ $INTERPRETER
 
   \begin{align}
     &amp; \H = \C + \C \, \j, \\
-    &amp; \text{where } \forall z \in \C, \; z \j = \j \bar{z},\; \j^2 = -1.
+    &amp; \where \forall z \in \C, \; z \j = \j \bar{z},\; \j^2 = -1.
   \end{align}
 
 \]
@@ -680,7 +680,7 @@ splot [0:1][-1:1] (w*v)*sin(h*U(u))*cos(U(u))+cos(U(u)), (w*v)*sin(h*U(u))*sin(U
 
     \begin{align}
       &amp; \left\{ P(u,v) \;\middle|\; (u,v) \in [0,2\pi) \times [-1,1] \right\}, \\
-      &amp; \text{ where } P(u,v) =
+      &amp; \; \where P(u,v) =
         w v \cdot
         \left(
           \begin{array}{l}
