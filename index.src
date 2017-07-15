@@ -118,7 +118,7 @@ $
 
 \[
 
-    % gamma and zeta function # 119
+    % Hurwitz Zeta Function # 119
 
     \begin{align}
       &amp; \log \Gamma(x) = \left. \frac{\partial}{\partial s}
