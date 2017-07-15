@@ -108,6 +108,27 @@ $
 
 <pre>
 
+<hr>2017/07/15 (土)
+
+- 週明けに実施される健康診断の受付票を会社に忘れる orz
+
+
+\[
+
+    % relation between gamma and zeta # 119
+
+    \log \Gamma(x) = 
+      \left. \frac{\partial}{\partial s}
+    \middle( \zeta_H(s,x) - \zeta(s) \middle) 
+      \right|_{s=0}.
+
+\]
+
+
+
+
+
+
 <hr>2017/07/14 (金)
 
 - 夏風邪をひいたのか、驚くほどのスピードで鼻から水が.
