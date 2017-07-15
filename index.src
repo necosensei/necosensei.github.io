@@ -124,7 +124,7 @@ $
       &amp; \log \Gamma(x) = \left. \frac{\partial}{\partial s}
               \middle( \zeta_H(s,x) - \zeta(s) \middle) 
             \right|_{s=0}, \\
-      &amp; \where \zeta_H(s,x) = \sum_{i=0}^{\infty} \frac{1}{(i+x)^s}.
+      &amp; \where \zeta_H(s,q) = \sum_{n=0}^{\infty} \frac{1}{(n+q)^s}.
     \end{align}
 
 \]
