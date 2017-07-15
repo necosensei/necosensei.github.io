@@ -115,7 +115,7 @@ $
 
 \[
 
-    % relation between gamma and zeta # 119
+    % gamma and zeta function # 119
 
     \log \Gamma(x) = 
       \left. \frac{\partial}{\partial s}
