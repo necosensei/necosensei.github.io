@@ -111,10 +111,27 @@ $
 
 <pre>
 
+<hr>2017/07/16 (日)
+
+- 今日も夏風邪でコンディション最悪だが, 食事を全面的に
+  外食に頼ってるため外出 …
+
+\[
+
+    % Fermat's theorem on sums of two squares
+
+    \begin{align}
+      &amp; \forall p:\text{odd prime}, \\
+      &amp; \exists x,y \in \Z,\; p = x^2 + y^2
+            \;\Leftrightarrow\;
+            p = 1 {\pmod 4} .
+    \end{align}
+
+\]
+
 <hr>2017/07/15 (土)
 
 - 週明けに実施される健康診断の受付票を会社に忘れる orz
-
 
 \[
 
