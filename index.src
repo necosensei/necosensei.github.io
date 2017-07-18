@@ -137,8 +137,8 @@ $
 
   \begin{align}
     &amp; \Let N \in \N,\; \\
-    &amp; \exists q \text{ be a prime}, \exists a \in \N, \text{ s.t.} \\
-    &amp; q \backslash N - 1 \;\wedge\; q &gt; \sqrt{N} - 1, \\
+    &amp; \exists a,q \in \N, \text{ s.t.} \\
+    &amp; q \text{ is prime},\; q \backslash (N - 1) \;\wedge\; q &gt; \sqrt{N} - 1, \\
     &amp; a^{N-1} \equiv 1 \pmod N, \\
     &amp; \gcd\left(a^{(N-1)/q}-1,N\right) = 1 \\
     &amp; \Rightarrow N \text{ is prime}.
