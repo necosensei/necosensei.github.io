@@ -136,7 +136,7 @@ $
   % Pocklington criterion
 
   \begin{align}
-    &amp; \Let N \in \N,\; \\
+    &amp; \Let N &gt; 1 \; \in \N,\; \\
     &amp; \exists a,q \in \N, \text{ s.t.} \\
     &amp; q \text{ is prime},\; q \backslash (N - 1) \;\wedge\; q &gt; \sqrt{N} - 1, \\
     &amp; a^{N-1} \equiv 1 \pmod N, \\
