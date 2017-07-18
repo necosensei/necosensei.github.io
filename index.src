@@ -128,8 +128,23 @@ $
     私「いいえ、全くその気はありません。」
     医「…」
 
-- 帰り際に外を見ると土砂降りに. 病院で30分ほど様子を見ると
+- 帰り際に外を見ると土砂降り. 雨の勢いが治まるまで30分ほど
+  病院で雨宿りした後, 折りたたみで帰る.
 
+\[
+
+  % Pocklington criterion
+
+  \begin{align}
+    &amp; \Let N \in \N,\;
+    &amp; \exists q \text{ be a prime}, \exists a \in \N, \text{ s.t.} \\
+    &amp; q \backslash N - 1 \;\wedge\; q &gt; \sqrt{N} - 1, \\
+    &amp; a^{N-1} \equiv 1 \pmod N, \\
+    &amp; \gcd\left(a^{(N-1)/q}-1,N\right) = 1
+    &amp; \Rightarrow N \text{ is prime}.
+  \end{align}
+
+\]
 
 <hr>2017/07/17 (月)
 
