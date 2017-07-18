@@ -133,16 +133,15 @@ $
 
 \[
 
-  % Pocklington criterion
+  % Pocklington-Lehmer test
 
   \begin{align}
-    &amp; \Let N &gt; 1 \; \in \N,\; \\
-    &amp; \exists a,q \in \N, \text{ s.t.} \\
+    &amp; \Let n - 1 = F R \; \where F = \prod_{i=1}^r p_i^{a_i}, \; \gcd(F,R)=1, \text{ and } R &lt; \sqrt{n}. \\
+    &amp; \forall i \in \{1,\ldots,r\},\; \exists b_i \text{ s.t.} \\
     &amp; \tab \black{
     \begin{align}
-      &amp; q \text{ is prime},\; q \backslash (N - 1) \;\wedge\; q &gt; \sqrt{N} - 1, \\
-      &amp; a^{N-1} \equiv 1 \pmod N, \\
-      &amp; \gcd\left(a^{(N-1)/q}-1,N\right) = 1 \\
+      &amp; b_i^{n-1} \equive 1 \pmod n,
+      &amp; \gcd\left(b^{(n-1)/p_i}-1,n\right) = 1 \\
     \end{align}} \\
     &amp; \Rightarrow N \text{ is prime}.
   \end{align}
