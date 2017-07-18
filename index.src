@@ -136,14 +136,14 @@ $
   % Pocklington-Lehmer test
 
   \begin{align}
-    &amp; \Let n - 1 = F\cdot R \;\; \where F = p_1^{a_1} \cdots p_r^{a_r}, \; \gcd(F,R)=1,\; \text{ and } R &lt; \sqrt{n}. \\
-    &amp; \forall i \in \{1,\ldots,r\},\; \exists b_i \text{ s.t.} \\
+    &amp; \Let n - 1 = A\cdot B \;\; \where \gcd(A,B)=1,\; \text{ and } A &gt; \sqrt{n}. \\
+    &amp; \forall p \backslash A,\; \exists a_p \text{ s.t.} \\
     &amp; \tab \black{
     \begin{align}
-      &amp; b_i^{n-1} \equiv 1 \pmod n, \\
-      &amp; \gcd\left(b^{(n-1)/p_i}-1,n\right) = 1 \\
+      &amp; a_p^{n-1} \equiv 1 \pmod n, \\
+      &amp; \gcd\left(a_p^{(n-1)/p}-1,n\right) = 1 \\
     \end{align}} \\
-    &amp; \Rightarrow N \text{ is prime}.
+    &amp; \Rightarrow n \text{ is prime}.
   \end{align}
 
 \]
