@@ -140,7 +140,7 @@ $
     &amp; \forall i \in \{1,\ldots,r\},\; \exists b_i \text{ s.t.} \\
     &amp; \tab \black{
     \begin{align}
-      &amp; b_i^{n-1} \equive 1 \pmod n,
+      &amp; b_i^{n-1} \equiv 1 \pmod n,
       &amp; \gcd\left(b^{(n-1)/p_i}-1,n\right) = 1 \\
     \end{align}} \\
     &amp; \Rightarrow N \text{ is prime}.
