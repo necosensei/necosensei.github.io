@@ -136,8 +136,8 @@ $
   % Pocklington-Lehmer test
 
   \begin{align}
-    &amp; \Let n - 1 = A\cdot B \;\; \where \gcd(A,B)=1,\; \text{ and } A &gt; \sqrt{n}. \\
-    &amp; \forall p \backslash A,\; \exists a_p \text{ s.t.} \\
+    &amp; \Let n - 1 = a\cdot b \;\; \where \gcd(a,b)=1,\; \text{ and } a &gt; \sqrt{n}. \\
+    &amp; \forall p \backslash a,\; \exists a_p \text{ s.t.} \\
     &amp; \tab \black{
     \begin{align}
       &amp; a_p^{n-1} \equiv 1 \pmod n, \\
