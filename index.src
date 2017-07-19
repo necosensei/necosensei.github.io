@@ -132,7 +132,7 @@ $
 
     % Euler's Continued Fraction
 
-    \pi = \frac{4}{1+\frac{1^2}{2+\frac{3^2}{2+\frac{5^2}{2+\frac{7^2}{2+\ddots}}}}}.
+    \pi = \cfrac{4}{1+\cfrac{1^2}{2+\cfrac{3^2}{2+\cfrac{5^2}{2+\cfrac{7^2}{2+\ddots}}}}}.
 
 \]
 
