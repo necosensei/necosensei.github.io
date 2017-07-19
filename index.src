@@ -130,9 +130,9 @@ $
 
 \[
 
-    % continued fraction of Napier's constant
+    % Euler's Continued Fraction
 
-    e = [2; 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, 1, 1, 10, \ldots].
+    \e = [2; 1, 2, 1, 1, 4, 1, 1, 6, 1, 1, 8, 1, 1, 10, \ldots].
 
 \]
 
