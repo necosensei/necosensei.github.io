@@ -111,13 +111,27 @@ $
 
 <pre>
 
+<hr>2017/07/21 (金)
+
+- あまり生産的でない仕事が多すぎる …
+
+- 昨日の数式は The sum of the reciprocals of the pronic numbers
+  と呼ぶらしい. 名前からその数式をググるのは簡単だが, 数式から
+  その名前をググるのは難しいらしい.
+
+\[
+
+
+
+\]
+
 <hr>2017/07/20 (木)
 
 - 虫よけスプレーしたにも関わらず蚊に喰われる. orz
 
 \[
 
-    % 不明
+    % The sum of the reciprocals of the pronic numbers
 
     \sum_{i=1}^n \frac{1}{i\cdot(i+1)} = 1 - \frac{1}{n+1}.
 
