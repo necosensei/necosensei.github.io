@@ -123,7 +123,7 @@ $
 
       % palindromic polynomial
 
-      \text{A polynomial } P(x) \text{ is palindromic} \iff
+      \text{A polynomial } P(x) \text{ of degree $n$ is palindromic} \iff
       P(x) = x^n P\left(\frac{1}{x}\right).
 
 \]
