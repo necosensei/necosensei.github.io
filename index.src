@@ -116,12 +116,15 @@ $
 - あまり生産的でない仕事が多すぎる …
 
 - 昨日の数式は The sum of the reciprocals of the pronic numbers
-  と呼ぶらしい. 名前からその数式をググるのは簡単だが, 数式から
-  その名前をググるのは難しいらしい.
+  (矩形数の逆数和) と呼ぶらしい. 名前からその数式をググるのは簡単
+  だが, 数式からその名前をググるのは難しいらしい.
 
 \[
 
+      % palindromic polynomial
 
+      \text{A polynomial } P(x) \text{ is palindromic} \iff
+      P(x) = x^n P\left(\frac{1}{x}\right).
 
 \]
 
