@@ -111,6 +111,23 @@ $
 
 <pre>
 
+<hr>2017/07/22 (土)
+
+- レイドバトルにほんの 1 ～ 2 分遅刻しただけで
+  1 時間無駄にした orz.
+
+\[
+
+    % Brahmagupta's formula
+
+    \begin{align}
+      &amp; \Let K \mbox{ be the area of a cyclic quadrilateral whose sides have lengths } a, b, c, d. \\
+      &amp; K = \sqrt{(s-a)(s-b)(s-c)(s-d)} \\
+      &amp; \where s = \frac{a+b+c+d}{2}.
+    \end{align}
+
+\]
+
 <hr>2017/07/21 (金)
 
 - あまり生産的でない仕事が多すぎる …
