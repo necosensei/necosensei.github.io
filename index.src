@@ -111,6 +111,11 @@ $
 
 <pre>
 
+<hr>2017/07/23 (日)
+
+- 何かやる度に "libreadline.so.6" not found 等と言われて
+  全てやり直しになる …
+
 <hr>2017/07/22 (土)
 
 - レイドバトルにほんの 1 ～ 2 分遅刻しただけで
@@ -118,7 +123,7 @@ $
 
 \[
 
-    % Brahmagupta's formula
+    % Brahmagupta's formula # 126
 
     \begin{align}
       &amp; \Let K \mbox{ be the area of a cyclic quadrilateral whose sides have lengths } a, b, c, d. \\
@@ -138,7 +143,7 @@ $
 
 \[
 
-      % palindromic polynomial
+      % palindromic polynomial # 125
 
       \text{A polynomial } P(x) \text{ of degree $n$ is palindromic} \iff
       P(x) = x^n P(x^{-1}).
@@ -151,7 +156,7 @@ $
 
 \[
 
-    % The sum of the reciprocals of the pronic numbers
+    % The sum of the reciprocals of the pronic numbers # 124
 
     \sum_{i=1}^n \frac{1}{i\cdot(i+1)} = 1 - \frac{1}{n+1}.
 
@@ -178,7 +183,7 @@ $
 
 \[
 
-    % Euler's Continued Fraction
+    % Euler's Continued Fraction # 123
 
     \pi = \cfrac{4}{1+\cfrac{1^2}{2+\cfrac{3^2}{2+\cfrac{5^2}{2+\cfrac{7^2}{2+\ddots}}}}}.
 
@@ -206,7 +211,7 @@ $
 
 \[
 
-  % Pocklington-Lehmer test
+  % Pocklington-Lehmer test # 122
 
   \begin{align}
     &amp; \Let n - 1 = a\cdot b \;\; \where \gcd(a,b)=1,\; \text{ and } a &gt; \sqrt{n}. \\
@@ -231,7 +236,7 @@ $
 
 \[
 
-    % Involution
+    % Involution # 121
 
     \begin{align}
       &amp; f(f(x)) = x, \\
@@ -247,7 +252,7 @@ $
 
 \[
 
-    % Fermat's theorem on sums of two squares
+    % Fermat's theorem on sums of two squares # 120
 
     \begin{align}
       &amp; \forall p:\text{odd prime}, \\
