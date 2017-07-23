@@ -123,7 +123,7 @@ $
 
     % Harmonic-geometric mean
 
-    \mathit{hgm}(m,n) \cdot \mathit{agm}(m,n) = m n
+    \mathit{HGM}(m,n) \cdot \mathit{AGM}(m,n) = m n
 
 \]
 
