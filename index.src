@@ -121,9 +121,9 @@ $
 
 \[
 
-    % Geometric-harmonic mean
+    % Harmonic-geometric mean
 
-    H(m,n) \cdot M(m,n) = m n
+    \mbox{\it hgm}(m,n) \cdot \mbox{\it agm}(m,n) = m n
 
 \]
 
