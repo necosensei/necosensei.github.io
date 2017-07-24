@@ -120,7 +120,7 @@ $
 
 \[
 
-  % Elliptic integral
+  % Incomplete elliptic integral of the first kind
 
   \begin{align}
     &amp; F(x,0) = \sin^{-1}x, \\
