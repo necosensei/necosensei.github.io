@@ -101,6 +101,7 @@ $
 <!-- ラグランジュ双対 -->
 <!-- Tarski-Seidenberg theorem : -->
 <!-- Parseval's identity : 関数空間上のピタゴラスの定理 -->
+<!-- Titchmarsh convolution theorem -->
 <!-- Jones polynomial -->
 <!-- Lucas Sequence -->
 <!-- Arrow's impossibility theorem -->
@@ -131,7 +132,7 @@ $
 
 \[
 
-    % Plancherel Theorem
+    % Plancherel Theorem # 129
 
     \begin{align}
       &amp; \int_{-\infty}^\infty \|f(x)\|^2 \d x =
@@ -153,7 +154,7 @@ $
 
 \[
 
-  % Incomplete elliptic integral of the first kind
+  % Incomplete elliptic integral of the first kind # 128
 
   \begin{align}
     &amp; F(x,0) = \sin^{-1}x, \\
@@ -173,9 +174,9 @@ $
 
 \[
 
-    % Harmonic-geometric mean
+    % Harmonic-geometric mean # 127
 
-    \mathit{HGM}(m,n) \cdot \mathit{AGM}(m,n) = m n
+    \mathit{HGM}(m,n) \cdot \mathit{AGM}(m,n) = m n.
 
 \]
 
