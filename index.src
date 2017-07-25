@@ -133,8 +133,13 @@ $
 
     % Plancherel Theorem
 
-    \int_{-\infty}^\infty \|f(x)\|^2 \d x =
-    \int_{-\infty}^\infty \|\widehat{f}(\xi)\|^2 \d \xi
+    \begin{align}
+      &amp; \int_{-\infty}^\infty \|f(x)\|^2 \d x =
+            \int_{-\infty}^\infty \|\widehat{f}(\xi)\|^2 \d \xi, \\
+      &amp; \where 
+	    \widehat{f}(\xi) =
+            \int_{-\infty}^\infty f(x)\e^{-2\pi \i \xi x}\d x
+    \end{align}
 
 \]
 
