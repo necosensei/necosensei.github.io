@@ -138,7 +138,8 @@ $
             \int_{-\infty}^\infty \|\hat{f}(\xi)\|^2 \d \xi, \\
       &amp; \where 
 	    \hat{f}(\xi) =
-            \int_{-\infty}^\infty f(x)\e^{-2\pi \i \xi x}\d x.
+            \int_{-\infty}^\infty f(x)\e^{-2\pi \i \xi x}\d x, \;
+	    f \in L^1(\R) \cap L^2(\R).
     \end{align}
 
 \]
