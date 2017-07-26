@@ -37,6 +37,7 @@
   \def\e{{\rm e}}
   \def\i{{\rm i}}
   \def\j{{\rm j}}
+  \def\k{{\rm k}}
   \def\d{{\rm d}}
   \def\calD{{\cal D}}
   \def\Pr{{\rm Pr}}
@@ -110,6 +111,22 @@ $
 <!-- Gosper's algorithm -->
 
 <pre>
+
+<hr>2017/07/26 (水)
+
+- 4連敗 …
+
+\[
+
+    % Hurwitz integer
+
+    H = \left\{
+          a + b \i + c \j + d \k \in \H
+        \;\middle|\;
+          a,b,c,d \in \Z \cup \Z+\frac{1}{2}
+        \right\}.
+
+\]
 
 <hr>2017/07/25 (火)
 
