@@ -123,7 +123,8 @@ $
     H = \left\{
           a + b \i + c \j + d \k \in \H
         \;\middle|\;
-          a,b,c,d \in \frac{1}{2}\Z
+          (a,b,c,d) \in \Z^4 \cup
+	  \left(\Z + \frac{1}{2}\right)^4
         \right\}.
 
 \]
