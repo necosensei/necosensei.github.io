@@ -123,7 +123,7 @@ $
     H = \left\{
           a + b \i + c \j + d \k \in \H
         \;\middle|\;
-          a,b,c,d \in \Z \cup \Z+\frac{1}{2}
+          a,b,c,d \in \frac{1}{2}\Z
         \right\}.
 
 \]
