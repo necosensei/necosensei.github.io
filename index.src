@@ -127,9 +127,9 @@ $
       &amp; \forall \tau' \in H,\;
             \exists \tau  \in \left\{z \in H : |z|\ge 1,\;
 	    -\frac{1}{2} \le \Re(z) \le \frac{1}{2} \right\} \\
-      &amp; \st \exists \alpha, \beta, \gamma, \delta \in \Z,\;
-                \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta},\;
-                \alpha \delta - \beta \gamma = 1.
+      &amp; \st \exists (\alpha, \beta, \gamma, \delta) \in \Z^4,\;
+                \alpha \delta - \beta \gamma = 1,\;
+                \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta}.
     \end{align}
 
 \]
@@ -143,7 +143,7 @@ $
     % Hurwitz integer
 
     H = \left\{
-          a + b \i + c \j + d \k \in \H
+          a + b \,\i + c \,\j + d \,\k \in \H
         \;\middle|\;
           (a,b,c,d) \in \Z^4 \cup
 	  \left(\Z + \frac{1}{2}\right)^4
