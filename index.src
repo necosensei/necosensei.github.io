@@ -123,7 +123,7 @@ $
     % Canonical fundamental domain for the modular group
 
     \begin{align}
-      &amp; \Let H = \{x + y \,\i \mid x,y \in \R, y&gt;0\}, \\
+      &amp; \text{Let upper half plane}\;H = \{x + y \,\i \mid x,y \in \R, y&gt;0\}, \\
       &amp; \forall \tau' \in H, \\
       &amp; \exists \tau  \in \{z \in H \mid |z|\ge 1, |z+1| \ge |z|, |z-1| \ge |z| \}, \\
       &amp; \st \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta},\;
