@@ -123,8 +123,9 @@ $
     % Fundamental domain for the modular group
 
     \begin{align}
-      &amp; \forall \tau' \in \{x + y \i \mid x,y \in \R, y&gt;0\}, \\
-      &amp; \exists \tau  \in \{z \in \C \mid |z|\ge 0,|z+1| \ge |z|, |z-1| \ge |z| \}, \\
+      &amp; \Let \H = \{x + y \,\i \mid x,y \in \R, y&gt;0\}, \\
+      &amp; \forall \tau' \in \H, \\
+      &amp; \exists \tau  \in \{z \in \H \mid |z|\ge 1, |z+1| \ge |z|, |z-1| \ge |z| \}, \\
       &amp; \st \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta},\;
                 \alpha \delta - \beta \gamma = 1
     \end{align}
