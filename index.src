@@ -120,7 +120,7 @@ $
 
 \[
 
-    % Fundamental domain for the modular group
+    % Canonical fundamental domain for the modular group
 
     \begin{align}
       &amp; \Let H = \{x + y \,\i \mid x,y \in \R, y&gt;0\}, \\
