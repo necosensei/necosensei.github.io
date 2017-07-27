@@ -124,8 +124,8 @@ $
 
     \begin{align}
       &amp; \text{Let upper half plane}\;H = \{x + y \,\i \mid x,y \in \R, y&gt;0\}. \\
-      &amp; \forall \tau' \in H, \\
-      &amp; \exists \tau  \in \left\{z \in H : |z|\ge 1, |\Re(z)| \le \frac{1}{2} \right\}, \\
+      &amp; \forall \tau' \in H,\;
+            \exists \tau  \in \left\{z \in H : |z|\ge 1, |\Re(z)| \le \frac{1}{2} \right\} \\
       &amp; \st \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta},\;
                 \alpha \delta - \beta \gamma = 1,\;
                 \alpha, \beta, \gamma, \delta \in \Z.
