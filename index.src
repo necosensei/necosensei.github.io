@@ -46,6 +46,7 @@
   \def\degree{^{\circ}}
   \def\where{\text{where}\;}
   \def\Let{\text{Let}\;}
+  \def\st{\;\text{s.t.}\;}
 
   \def\northpos{\img{data:image/png;base64,
     iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEUAAACZmZl3d3dVVVXu7u4z
@@ -112,6 +113,23 @@ $
 <!-- 24-cell -->
 
 <pre>
+
+<hr>2017/07/27 (木)
+
+- みんな飲み会に行ってしまったので, 凄く静か …
+
+\[
+
+    % Fundamental domain for the modular group
+
+    \begin{align}
+      &amp; \forall \tau' \in \{x + y \i \mid x,y \in \R, y&gt;0\}, \\
+      &amp; \exists \tau  \in \{z \in \C \mid |z|\ge 0,|z+1| \ge |z|, |z-1| \ge |z| \}, \\
+      &amp; \st \tau' = \frac{\alpha \tau + \beta}{\gamma \tau + \delta},\;
+                \alpha \delta - \beta \gamma = 1
+    \end{align}
+
+\]
 
 <hr>2017/07/26 (水)
 
