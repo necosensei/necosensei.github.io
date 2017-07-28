@@ -116,8 +116,25 @@ $
 
 <hr>2017/07/28 (金)
 
-- まさかの 6 連敗. プレミアムレイドパスを買わないと絶対に
-  取れない？等の悪意を疑い始める …
+- まさかの 6 連敗. 悪意を疑い始める …
+
+- 抽象化学という学問分野が存在するらしい. でも英語は Artificial
+  chemistryだった … Abstract chemistry では受け入れて貰えなかった
+  という事か？
+
+\[
+
+  % artificial chemistry
+
+  \begin{align}
+    &amp; \text{An artificial chemistry is defined as a triple } (S,R,A), \\
+    &amp; \where S \text{ is the set of molecules},\\
+    &amp; R \text{ is a set of n-ary operations on the molecules in } S, \\
+    &amp; A \text{ is an algorithm describing how to apply the rules }
+          R \text{ to a subset } P \subset S.
+  \end{align}
+
+\]
 
 <hr>2017/07/27 (木)
 
