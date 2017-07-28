@@ -127,7 +127,7 @@ $
   % artificial chemistry
 
   \begin{align}
-    &amp; \text{An artificial chemistry is defined as a triple } (S,R,A), \\
+    &amp; \text{An artificial chemistry is defined as a tuple } (S,R,A), \\
     &amp; \black{\begin{align} \where
       &amp; S \text{ is the set of molecules},\\
       &amp; R \text{ is a set of n-ary operations on the molecules in } S, \\
