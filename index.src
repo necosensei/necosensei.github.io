@@ -128,10 +128,12 @@ $
 
   \begin{align}
     &amp; \text{An artificial chemistry is defined as a triple } (S,R,A), \\
-    &amp; \where S \text{ is the set of molecules},\\
-    &amp; R \text{ is a set of n-ary operations on the molecules in } S, \\
-    &amp; A \text{ is an algorithm describing how to apply the rules }
-          R \text{ to a subset } P \subset S.
+    \black{\begin{align} \where
+      &amp; S \text{ is the set of molecules},\\
+      &amp; R \text{ is a set of n-ary operations on the molecules in } S, \\
+      &amp; A \text{ is an algorithm describing how to apply the rules }
+            R \text{ to a subset } P \subset S.
+    \end{align}}
   \end{align}
 
 \]
