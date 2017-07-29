@@ -121,8 +121,8 @@ $
     % Estimation lemma
     \begin{align}
       &amp; \Let f \text{ be a complex-valued, continuous function on the contour } \Gamma.\\
-      &amp; \forall z \in \Gamma,\; |f(z)| \le M \implies \\
-      &amp; \left|\int_\Gamma f(z) \d z \right| \le M \ell(\Gamma), \\
+      &amp; \forall z \in \Gamma,\; |f(z)| \le M \implies
+            \left|\int_\Gamma f(z) \d z \right| \le M \cdot \ell(\Gamma), \\
       &amp; \where \ell(\Gamma) \text{ is the arc length of } \Gamma.
     \end{align}
 
