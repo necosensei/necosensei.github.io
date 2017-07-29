@@ -114,6 +114,20 @@ $
 
 <pre>
 
+<hr>2017/07/29 (土)
+
+\[
+
+    % Estimation lemma
+    \begin{align}
+      &amp; \Let f \text{ be a complex-valued, continuous function on the contour } \Gamma.\\
+      &amp; \forall z \in \Gamma,\; |f(z)| \le M \implies \\
+      &amp; \left|\int_\Gamma f(z) \d z \right| \le M \ell(\Gamma), \\
+      &amp; \where \ell(\Gamma) \text{ is the arc length of } \Gamma.
+    \end{align}
+
+\]
+
 <hr>2017/07/28 (金)
 
 - まさかの 6 連敗. 悪意を疑い始める …
