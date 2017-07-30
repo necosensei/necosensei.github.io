@@ -114,6 +114,29 @@ $
 
 <pre>
 
+<hr>2017/07/30 (日)
+
+- 8回目で伝説初ゲット. とてもじゃないけど課金する気にはなれない …
+
+\[
+
+    % valuation
+
+    \begin{align}
+      &amp; v(\vec{x}) = \infty \Leftrightarrow \vec{x} = \vec{0}, \\
+      &amp; v(\vec{x} \cdot \vec{x}) = v(\vec{x}) + v(\vec{y}), \\
+      &amp; v(\vec{x} + \vec{y}) \ge \min(v(\vec{x}), v(\vec{y})), \\
+      &amp; \graysmall{ 
+        \begin{align}
+          \where &amp; \vec{x},\vec{y} : \mbox{elements of a field } K, \\
+	         &amp; v : K \rightarrow \Gamma \cup \{\infty\}, \\
+	         &amp; \Gamma : \mbox{an abelian totally ordered group}.
+        \end{align}
+      }
+    \end{align}
+
+\]
+
 <hr>2017/07/29 (土)
 
 - 7連敗. 取れる気がしない. 因みに伝説ポケモン フリーザー さん
