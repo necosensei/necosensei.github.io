@@ -126,18 +126,16 @@ $
 
   と微妙に違う似たような概念が散々出てきたが,
   今日 statistical distance をググってるうちに
-  以下の沢山あって訳が分からない概念群を見つけた …
+  次の沢山あって訳が分からない概念群を見つけた …
 
-    - Distance
-    - Metric
+    - Metric (distance)
     - Extended metric
     - Pseudometric
     - Quasimetric
     - Metametric
     - Semimetric
-    - Premetric
-    - Divergence
-    - Pseudoquasimetric (hemimetric)
+    - Premetric (divergence)
+    - Hemimetric (pseudoquasimetric)
 </pre>(;ﾟДﾟ)<pre>
 
 \[
@@ -147,6 +145,8 @@ $
     \delta(P,Q) \le \sqrt{\frac{1}{2}D_{\text{KL}}(P\|Q)}.
 
 \]
+
+- あと divergence 意味あり過ぎ …
 
 <hr>2017/07/30 (日)
 
