@@ -120,25 +120,25 @@ $
 
 - 今まで
 
-    Norm (vector space),
-    Norm (extension field),
-    Valuation (algebra),
+    - Norm (vector space),
+    - Norm (extension field),
+    - Valuation (algebra),
 
   と微妙に違う似たような概念が散々出てきたが,
   今日 statistical distance をググってるうちに
-  以下の概念を見つけた …
+  以下の沢山あって訳が分からない概念群を見つけた …
 
-    Distance
-    Metric
-    Extended metric
-    Pseudometric
-    Quasimetric
-    Metametric
-    Semimetric
-    Premetric
-    Divergence
-    Pseudoquasimetric (hemimetric)
-    </pre>(;ﾟДﾟ)<pre>
+    - Distance
+    - Metric
+    - Extended metric
+    - Pseudometric
+    - Quasimetric
+    - Metametric
+    - Semimetric
+    - Premetric
+    - Divergence
+    - Pseudoquasimetric (hemimetric)
+</pre>(;ﾟДﾟ)<pre>
 
 \[
 
