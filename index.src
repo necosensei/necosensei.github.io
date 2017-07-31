@@ -126,6 +126,7 @@ $
 
   と微妙に違う似たような概念が散々出てきたが,
   今日 statistical distance をググってるうちに
+  以下の概念を見つけた …
 
     Distance
     Metric
@@ -137,8 +138,8 @@ $
     Premetric
     Divergence
     Pseudoquasimetric (hemimetric)
-
     </pre>(;ﾟДﾟ)<pre>
+
 \[
 
     % Pinsker's inequality
