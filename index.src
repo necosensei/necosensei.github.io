@@ -114,6 +114,27 @@ $
 
 <pre>
 
+<hr>2017/08/01 (火)
+
+- 伝説ポケモン フリーザー さんに代わって本日より ファイヤー
+  が出現する. 以前ノーマルレイドで失敗した西武柳□駅前図書館
+  でも伝説ポケモン初日ならば人が集まるだろと思い試してみる.
+
+  西武柳□舐めてました. ４人しか集まらない orz
+
+\[
+
+  % Biquadratic Residue # 136
+
+  \begin{align}
+    &amp; \Let p \text{ be a prime} : p \equiv 1 \pmod 4. \\
+    &amp; \exists x \in \N : x^4 \equiv 2 {\pmod p}
+          \iff
+          \exists a,b \in \N : p = a^2 + 64 b^2.
+  \end{align}
+
+\]
+
 <hr>2017/07/31 (月)
 
 - 会社で格子の講義を受ける.
@@ -140,7 +161,7 @@ $
 
 \[
 
-    % Pinsker's inequality
+    % Pinsker's inequality # 135
     
     \delta(P,Q) \le \sqrt{\frac{1}{2}D_{\text{KL}}(P\|Q)}.
 
@@ -158,7 +179,7 @@ $
 
 \[
 
-    % Valuation (algebra)
+    % Valuation (algebra) # 134
 
     \begin{align}
       &amp; v(x) = \infty \iff x = 0, \\
@@ -182,7 +203,7 @@ $
 
 \[
 
-    % Estimation lemma
+    % Estimation lemma # 133
     \begin{align}
       &amp; \Let f \text{ be a complex-valued, continuous function on the contour } \Gamma.\\
       &amp; \forall z \in \Gamma,\; |f(z)| \le M \implies
@@ -203,7 +224,7 @@ $
 
 \[
 
-  % artificial chemistry
+  % artificial chemistry # 132
 
   \begin{align}
     &amp; \text{An artificial chemistry is defined as a tuple } (S,R,A), \\
@@ -223,7 +244,7 @@ $
 
 \[
 
-    % Canonical" "fundamental domain for the modular group
+    % Canonical" "fundamental domain for the modular group # 131
 
     \begin{align}
       &amp; \text{Let upper half plane}\;H = \{x + y \,\i \mid x,y \in \R,\; y&gt;0\}. \\
@@ -243,7 +264,7 @@ $
 
 \[
 
-    % Hurwitz integer
+    % Hurwitz integer # 130
 
     H = \left\{
           a + b \,\i + c \,\j + d \,\k \in \H
@@ -641,10 +662,10 @@ $
 
 <hr>2017/07/10 (月)
 
-- 昨日レベル４で勝ったのに気を良くして, 西部柳□駅前の
+- 昨日レベル４で勝ったのに気を良くして, 西武柳□駅前の
   図書館でも４人くらい集まるだろと思い試してみる.
 
-  西部柳□舐めてました. 一人も集まらない orz
+  西武柳□舐めてました. 一人も集まらない orz
 
 - どうも会社の後輩のK城先生は Amazon と負けプレの区別が
   付いてない模様？区別が付いてないふりをしているだけ？
