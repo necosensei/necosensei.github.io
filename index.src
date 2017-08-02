@@ -122,11 +122,11 @@ $
 
 
   \begin{align}
-    &amp; \Omega \subset K, \\
+    &amp; \Omega \subset \Q[\alpha]/(f(\alpha)) \where f(x) \in \Q[x], \\
     &amp; \Omega \cap \Q = \Z, \\
     &amp; \Omega \text{ is a ring}, \\
-    &amp; a \in \Omega \implies a' \in \Omega, \\
-    &amp; \where K \text{ is a algebraic number field, } a' \text{ is a conjugate element of } a.
+    &amp; a \in \Omega \implies a' \in \Omega
+          \where a' \text{ is a conjugate element of } a.
   \end{align}
 
 \]
