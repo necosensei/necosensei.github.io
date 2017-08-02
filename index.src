@@ -114,6 +114,23 @@ $
 
 <pre>
 
+<hr>2017/08/02 (水)
+
+- 
+
+\[
+
+
+  \begin{align}
+    &amp; \Omega \subset K, \\
+    &amp; \Omega \cap \Q = \Z, \\
+    &amp; \Omega \text{ is a ring}, \\
+    &amp; a \in \Omega \implies a' \in \Omega, \\
+    &amp; \where K \text{ is a algebraic number field, } a' \text{ is a conjugate element of } a.
+  \end{align}
+
+\]
+
 <hr>2017/08/01 (火)
 
 - 天気予報によると本日は午後から雨との事. しかし洗濯
