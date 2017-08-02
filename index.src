@@ -120,9 +120,10 @@ $
 
 \[
 
+  % algebraic integer
 
   \begin{align}
-    &amp; \Omega \subset \Q[\alpha]/(f(\alpha)) \;\where f(x) \in \Q[x], \\
+    &amp; \Omega \subset \Q[\alpha]/(f(\alpha)) \;\where f(x) \in \Q[x] \text{ is irreducible}, \\
     &amp; \Omega \cap \Q = \Z, \\
     &amp; \Omega \text{ is a ring}, \\
     &amp; \Omega \ni a \implies 
