@@ -125,8 +125,8 @@ $
     &amp; \Omega \subset \Q[\alpha]/(f(\alpha)) \;\where f(x) \in \Q[x], \\
     &amp; \Omega \cap \Q = \Z, \\
     &amp; \Omega \text{ is a ring}, \\
-    &amp; \Omega \ni a \implies \Omega \ni a' 
-          \;\where a' \text{ is a conjugate element of } a.
+    &amp; \Omega \ni a \implies 
+          \forall a' : \text{conjugate element of } a,\; \Omega \ni a'.
   \end{align}
 
 \]
