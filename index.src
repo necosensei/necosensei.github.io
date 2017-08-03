@@ -122,6 +122,7 @@ $
 
 \[
 
+    % Ideal class group
 
     \begin{align}
       &amp; I_d \text{ is UFD} \iff |C_d| = 1, \\
