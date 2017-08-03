@@ -131,6 +131,7 @@ $
           \where &amp; I_d : \text{the ring of integers of } \Q(\sqrt{d}),\\
                  &amp; C_d : \text{the ideal class group of } \Q(\sqrt{d}),
         \end{align}
+      }
     \end{align}
 
 \]
