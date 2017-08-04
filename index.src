@@ -127,7 +127,7 @@ $
 
     \begin{align}
       &amp; \Let Q \text{ be a positive definite quadratic form in $n$ variables s.t. } \det Q = D. \\
-      &amp; \exists (g_1, \ldots, g_n) \in \Z^n \s.t. (g_1, \ldots, g_n) \ne (0,\ldots,0), \\
+      &amp; \exists (g_1, \ldots, g_n) \in \Z^n \st (g_1, \ldots, g_n) \ne (0,\ldots,0), \\
       &amp; Q (g_1, \ldots, g_n) \le \left(\frac{4}{3}\right)^{\frac{n-1}{2}} D^{\frac{1}{n}}.
     \end{align}
 
