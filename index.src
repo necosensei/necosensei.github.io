@@ -116,6 +116,25 @@ $
 
 <hr>2017/08/03 (木)
 
+- 昨日伝説レイドで勝ったのに気を良くして, 今日も
+  □無駅前でルギアにチャレンジ! 信じ難い事に人が
+  集まらない. 今日は恒例の人事面談イベントがあっ
+  たので仕方なく1時間ほどで断念 …
+
+\[
+
+    % Positive Definite Quadratic Form
+
+    \begin{align}
+      &amp; \Let Q \text{ be a positive definite quadratic form in $n$ variables s.t. } \det Q = D. \\
+      &amp; \exists (g_1, \ldots, g_n) \in \Z^n \s.t. (g_1, \ldots, g_n) \ne (0,\ldots,0), \\
+      &amp; Q (g_1, \ldots, g_n) \le \left(\frac{4}{3}\right)^{\frac{n-1}{2}} D^{\frac{1}{n}}.
+    \end{align}
+
+\]
+
+<hr>2017/08/03 (木)
+
 - □無公民館でさっくり ファイヤー ゲット! 都市伝説
   によると自分とポケモンとジムの色が揃うとゲット率
   が上がる？
