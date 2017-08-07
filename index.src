@@ -128,22 +128,25 @@ $
   
   帰宅するまでのたった 5 分の間にザー …
 
+- 今日は今まで沢山出てきた名前付き homomorphism
+  の中でもちょっと変わり種.
+
 \[
 
     % Linear representations # 142 
 
     \begin{align}
-      &amp; \forall x,y \in G, \rho(x \cdot y) = \rho(x) \rho(y), \\
+      &amp; \forall x,y \in G,\; \rho(x \cdot y) = \rho(x) \rho(y), \\
       &amp; \graysmall{ 
         \begin{align}
           \where &amp; G : \mbox{a finite group}, \\
-	         &amp; V : \mbox{$K$-vector space}, \\
-	         &amp; \rho : G \rightarrow \GL(V). \\
+                 &amp; V : \mbox{$K$-vector space}, \\
+                 &amp; \rho : G \rightarrow \GL(V). \\
         \end{align}
       }
     \end{align}
 
-\]<!-- 名前付き homomorphism の中でも, ちょっと変わってる奴 -->
+\]
 
 <hr>2017/08/06 (日)
 
