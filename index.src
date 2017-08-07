@@ -114,13 +114,43 @@ $
 
 <pre>
 
+<hr>2017/08/07 (月)
+
+- 台風とやらが来てるらしく, 雨が降ったり止んだり.
+  帰りに上北△駅でジム戦をやりながら雨脚が弱まる
+  のを待つ.
+
+  今がチャンスとばかりに駅を飛び出し, 傘にへばり
+  付きながら家路を急ぐ.
+
+  あれ？雨が全然弱くないような？
+  
+  帰宅するまでのたった 5 分の間にザー …
+
+\[
+
+    % Linear representations # 142 
+
+    \begin{align}
+      &amp; \forall x,y \in G, \rho(x \cdot y) = \rho(x) \rho(y), \\
+      &amp; \graysmall{ 
+        \begin{align}
+          \where &amp; G : \mbox{a finite group}, \\
+	         &amp; V : \mbox{$K$-vector space}, \\
+	         &amp; \rho : G \rightarrow \GL(V). \\
+        \end{align}
+      }
+    \end{align}
+
+\]<!-- 名前付き homomorphism の中でも, ちょっと変わってる奴 -->
+
 <hr>2017/08/06 (日)
 
 - 今週は出勤日が４日しかない …
 
 \[
 
-  % Quadratic reciprocity
+  % Quadratic reciprocity # 141
 
   \left(\frac{p}{q}\right)
   \left(\frac{q}{p}\right)
@@ -135,7 +165,7 @@ $
 
 \[
 
-    % Pythagorean comma
+    % Pythagorean comma # 140
 
     \frac{3^{12}}{2^{19}} = 1.0136432647705078125.
 
@@ -150,7 +180,7 @@ $
 
 \[
 
-    % Positive Definite Quadratic Form
+    % Positive Definite Quadratic Form # 139
 
     \begin{align}
       &amp; \Let Q \text{ be a positive definite quadratic form in $n$ variables s.t. } \det Q = D. \\
@@ -168,7 +198,7 @@ $
 
 \[
 
-    % Ideal class group
+    % Ideal class group # 138
 
     \begin{align}
       &amp; I_d \text{ is UFD} \iff |C_d| = 1, \\
@@ -189,7 +219,7 @@ $
 
 \[
 
-  % algebraic integer
+  % algebraic integer # 137
 
   \begin{align}
     &amp; \Omega \subset \Q[\alpha]/(f(\alpha)) \;\where f(x) \in \Q[x] \text{ is irreducible}, \\
