@@ -39,6 +39,7 @@
   \def\j{{\rm j}}
   \def\k{{\rm k}}
   \def\d{{\rm d}}
+  \def\GL{{\rm GL}}
   \def\calD{{\cal D}}
   \def\Pr{{\rm Pr}}
   \def\tab{\;\;\;\;}
