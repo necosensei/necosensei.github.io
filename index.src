@@ -127,10 +127,10 @@ $
     % Dirichlet character
 
     \begin{align}
-      &amp; \exists k \in \N^+, \forall n \in \Z, \xi(n) = \xi(n + k), \\
-      &amp; \gcd(n,k) = 1 \iff \xi(n) \ne 0, \text{ and} \\
-      &amp; \forall m,n \in \Z, \xi(mn) =\xi(m)\xi(n), \\
-      &amp; \gray{\where \xi : \Z \rightarrow \C.}
+      &amp; \exists k \in \N^+, \forall n \in \Z, \chi(n) = \chi(n + k), \\
+      &amp; \gcd(n,k) = 1 \iff \chi(n) \ne 0, \text{ and} \\
+      &amp; \forall m,n \in \Z, \chi(mn) =\chi(m)\chi(n), \\
+      &amp; \gray{\where \chi : \Z \rightarrow \C.}
     \end{align}
 
 \]
