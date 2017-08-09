@@ -118,6 +118,18 @@ $
 
 <hr>2017/08/08 (火)
 
+- 本日はレイドパス無駄遣いし過ぎた …
+
+\[
+
+    % Dirichlet L-function # 144
+
+    L(\chi,s) = \sum_{n=1}^\infty \chi(n)n^{-s}.
+
+\]
+
+<hr>2017/08/08 (火)
+
 - 昨日の雨が嘘のように太陽光線が降り注ぐ …
 
 - 本日の名前付き homomorphism はディリクレ指標.
@@ -125,7 +137,7 @@ $
 
 \[
 
-    % Dirichlet character
+    % Dirichlet character # 143
 
     \begin{align}
       &amp; \exists k \in \N^+, \forall n \in \Z, \chi(n) = \chi(n + k), \\
