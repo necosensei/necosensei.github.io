@@ -116,7 +116,25 @@ $
 
 <pre>
 
-<hr>2017/08/08 (火)
+<hr>2017/08/10 (木)
+
+- 明日から夏休み.
+
+\[
+
+    % Mobius transformation
+
+    \begin{align}
+      &amp; f(z) = \frac{a z + b}{c z + d}. \\
+      &amp; \gray{\begin{align}
+	      \where &amp; a,b,c,d \in \C, \st ad - bc \ne 0, \\
+                     &amp; z \in \C \cup \{\infty\}.
+            \end{align}}
+    \end{align}
+
+\]
+
+<hr>2017/08/09 (水)
 
 - 本日はレイドパス無駄遣いし過ぎた …
 
