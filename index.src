@@ -151,9 +151,9 @@ $
       &amp; \div \vec{F}|_p = \lim_{V\rightarrow \{p\}}
             \int_{S(V)}\frac{\vec{F}\cdot\hat{\vec{n}}}{|V|} \d S, \\
       &amp; \gray{\begin{align}
-               \where &amp; |V| : \text{the volume of } V, \\
-                      &amp; S(V) : \text{the boundary of } V, \\
-                      &amp; \vec{n} : \text{the outward unit normal to } S.
+               \where &amp; |V|     &amp; : \text{the volume of } V, \\
+                      &amp; S(V)    &amp; : \text{the boundary of } V, \\
+                      &amp; \vec{n} &amp; : \text{the outward unit normal to } S.
             \end{align}}
     \end{align}
 
