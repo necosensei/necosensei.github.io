@@ -31,6 +31,7 @@
   \def\black#1{{\color{black}{#1}}}
   \def\gray#1{{\color{gray}{#1}}}
   \def\graysmall#1{{\small\gray{#1}}}
+  \def\div{{\rm div}}
   \def\Re{{\rm Re}}
   \def\Im{{\rm Im}}
   \def\E{{\rm E}}
