@@ -136,13 +136,13 @@ $
     % Law of the iterated logarithm
 
     \begin{align}
-      &amp; \Let \{Y_i\} \text{ be IID. random variables s.t. }
+      &amp; \Let \{Y_i\} \text{ be IID random variables s.t. }
             \forall i,\; E(Y_i) = 0,\; V(Y_i) = 1. \\
       &amp; \Let S_n = \sum_{i=1}^n Y_i. \\
       &amp; 
       \underset{n \rightarrow \infty}{\lim \sup}
       \frac{S_n}{\sqrt{n\log\log n}}
-      = \sqrt{2}, \tab \text{a.s.},
+      = \sqrt{2}, \tab \text{a.s.}.
     \end{align}
 
 
