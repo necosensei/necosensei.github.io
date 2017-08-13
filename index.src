@@ -128,8 +128,8 @@ $
     % 24-cell
 
     \begin{align}
-      \text{8 vertices:}  &amp; \text{permutation of } (\pm1,   0,   0,   0),  \\
-      \text{16 vertices:} &amp; (\pm1,\pm1,\pm1,\pm1)/2.
+      \text{8 vertices: }  &amp; \text{permutation of } (\pm1,   0,   0,   0),  \\
+      \text{16 vertices: } &amp; (\pm1,\pm1,\pm1,\pm1)/2.
     \end{align}
 
   \]
