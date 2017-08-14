@@ -125,8 +125,8 @@ $
 
     \begin{align}
       &amp; \Let P \text{ be a poset}. \\
-      &amp; \exists \ell,g \in P \st \forall x \in P, \ell \le x \le g, \\
-      &amp; \exists C, \forall Q \subset P \st Q \text{ is totally ordered set s.t. } \ell,g \in Q,\; |Q| = C.\\
+      &amp; \exists F_{-1},F_n \in P \st \forall F \in P, F_{-1} \le F \le F_n, \\
+      &amp; \exists C, \forall Q \subset P \st Q \text{ is totally ordered set s.t. } F_{-1}, F_n \in Q,\; |Q| = C.\\
       &amp; \text{It is strongly connected}. \\
       &amp; \text{Every 1-section is a line segment}.
     \end{align}
