@@ -116,12 +116,28 @@ $
 <!-- 指標 -->
 
 <pre>
+- 今日はやや天候が悪かった. 横浜スタジアムの抽選イベント
+  にてミュウツーが出現した模様 … さすがに応募はしてない.
+
+  \[
+
+    % abstract polytope
+
+    \begin{align}
+      &amp; \Let P \text{ be a poset}.
+      &amp; \exists \ell,g \in P \st \forall x \in P, \ell \le x \le g, \\
+      &amp; \exists C, \forall Q \subset P \text{ be totally ordered set s.t. } \ell,g \in Q,\; |Q| = C.\\
+      &amp; It is strongly connected.
+      &amp; Every 1-section is a line segment.
+    \end{align}
+
+  \]
 
 <hr>2017/08/13 (日)
 
-- 世間ではお盆と言うものをやってるらしい. そのよう
-  な世俗は忘れてひたすら遊んでると, 段々思考回路が
-  子供のそれと変わらなくなっていく気がする …
+- 世間ではお盆なるものをやってるらしい. そのような世俗は
+  忘れて ひたすら遊んでると, 段々 思考回路が子供のそれと
+  変わらなくなっていく気がする (悪い意味で) …
 
   \[
 
