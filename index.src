@@ -127,8 +127,8 @@ $
       &amp; \Let P \text{ be a poset}.
       &amp; \exists \ell,g \in P \st \forall x \in P, \ell \le x \le g, \\
       &amp; \exists C, \forall Q \subset P \text{ be totally ordered set s.t. } \ell,g \in Q,\; |Q| = C.\\
-      &amp; It is strongly connected.
-      &amp; Every 1-section is a line segment.
+      &amp; \text{It is strongly connected}. \\
+      &amp; \text{Every 1-section is a line segment}.
     \end{align}
 
   \]
