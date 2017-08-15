@@ -127,7 +127,7 @@ $
     % Wilson's theorem
 
     \begin{align}
-      &amp; n \in \N \wedge n &gt; 1 \wedge \\
+      &amp; n \in \N \;\wedge\; n &gt; 1 \;\wedge \\
       &amp; (n-1)! = -1 \pmod n \; \Leftrightarrow n:\mbox{prime.}
     \end{align}
 
