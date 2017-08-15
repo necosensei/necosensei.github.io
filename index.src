@@ -128,7 +128,7 @@ $
 
     \begin{align}
       &amp; n \in \N^0+2, \\
-      &amp; (n-1)! = -1 \pmod n \; \Leftrightarrow n:\mbox{prime.}
+      &amp; (n-1)! = -1 \pmod n \; \iff n \mbox{ is a (rational) prime.}
     \end{align}
 
 \]
