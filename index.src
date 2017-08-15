@@ -127,7 +127,7 @@ $
     % Wilson's theorem
 
     \begin{align}
-      &amp; n \in \N+2, \\
+      &amp; n \in \N^0+2, \\
       &amp; (n-1)! = -1 \pmod n \; \Leftrightarrow n:\mbox{prime.}
     \end{align}
 
