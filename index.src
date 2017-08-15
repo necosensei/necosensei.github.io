@@ -116,6 +116,25 @@ $
 <!-- 指標 -->
 
 <pre>
+
+<hr>2017/08/15 (火)
+
+- 昨日にも増して天気が悪い. 18時きっかりにレアポケモンが
+  止んで阿鼻叫喚 …
+
+\[
+
+    % Wilson's theorem
+
+    \begin{align}
+      &amp; n \in \N \wedge n &gt; 1 \wedge \\
+      &amp; (n-1)! = -1 \pmod n \; \Leftrightarrow n:\mbox{prime.}
+    \end{align}
+
+\]
+
+<hr>2017/08/14 (月)
+
 - 今日はやや天候が悪かった. 横浜スタジアムの抽選イベント
   にてミュウツーが出現した模様 … さすがに応募はしてない.
 
@@ -4112,15 +4131,6 @@ https://ja.wikipedia.org/wiki/%E4%BA%8C%E6%AC%A1%E4%BD%93
     % Euler
 
     \gcd(a,n) = 1 \; \Leftrightarrow \; a^{\varphi(n)} = 1 \pmod n
-
-\]
--->
-<!-- 
-\[
-
-    % Wilson 
-
-    (n-1)! = -1 \pmod n \; \Leftrightarrow n:\mbox{prime.}
 
 \]
 -->
