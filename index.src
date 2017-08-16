@@ -42,6 +42,7 @@
   \def\d{{\rm d}}
   \def\GL{{\rm GL}}
   \def\calD{{\cal D}}
+  \def\calF{{\cal F}}
   \def\Pr{{\rm Pr}}
   \def\tab{\;\;\;\;}
   \def\char{\mbox{char}}
