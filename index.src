@@ -153,7 +153,7 @@ $
 
 \[
 
-    % countably additive class
+    % completely additive class
 
     \begin{align}
       &amp; \Let \Omega \text{ be a set},\; \calF \subset 2^\Omega. \\
