@@ -131,7 +131,7 @@ $
     % Infinite parity function
 
     \begin{align}
-      &amp; \Let \omega = \N,\; f:\{0,1\}^\omega \rightarrow \{0,1\},
+      &amp; \Let \omega = \N,\; f:\{0,1\}^\omega \rightarrow \{0,1\},\;
             s,t \in \{0,1\}^\omega. \\
       &amp; f(w)=f(v) \iff w_H(s \oplus t) \in 2 \N.
     \end{align}
