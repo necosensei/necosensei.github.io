@@ -133,7 +133,7 @@ $
     \begin{align}
       &amp; \Let \omega = \N,\; f:\{0,1\}^\omega \rightarrow \{0,1\},\;
             s_1,s_2 \in \{0,1\}^\omega. \\
-      &amp; f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N.
+      &amp; (f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N) \iff f \text{ is an infinite parity function}.
     \end{align}
 
 \]
