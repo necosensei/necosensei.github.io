@@ -131,7 +131,7 @@ $
     % Infinite parity function
 
     \begin{align}
-      &amp; \Let \omega = \N. \\
+      &amp; \Let \omega = \N \;(\text{the smallest infinite ordinal number}). \\
       &amp; f:\{0,1\}^\omega \rightarrow \{0,1\} \text{ is an infinite parity function}
             \stackrel{\text{def}}{\iff} \\
       &amp; \forall s_1,s_2 \in \{0,1\}^\omega,\;
