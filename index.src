@@ -131,10 +131,10 @@ $
     % Infinite parity function
 
     \begin{align}
-      &amp; \Let \omega = \N,\; f:\{0,1\}^\omega \rightarrow \{0,1\},\;
-            s_1,s_2 \in \{0,1\}^\omega. \\
-      &amp; f \text{ is an infinite parity function} \\
-      &amp; \stackrel{\text{def}}{\iff}
+      &amp; \Let \omega = \N,\; f:\{0,1\}^\omega \rightarrow \{0,1\}.\\
+      &amp; f \text{ is an infinite parity function}
+            \stackrel{\text{def}}{\iff} \\
+      &amp; \forall s_1,s_2 \in \{0,1\}^\omega,\;
             \left(f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N
 	    \right).
     \end{align}
