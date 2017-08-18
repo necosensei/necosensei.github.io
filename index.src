@@ -131,16 +131,19 @@ $
     % Infinite parity function
 
     \begin{align}
-      &amp; \Let \omega = \N \;(\text{the smallest infinite ordinal number}). \\
-      &amp; f:\{0,1\}^\omega \rightarrow \{0,1\} \text{ is an infinite parity function}
+      &amp; \Let 2 := \{0,1\}, \\
+      &amp; f:2^\N \rightarrow 2 \text{ is an infinite parity function}
             \stackrel{\text{def}}{\iff} \\
-      &amp; \tab \forall s_1,s_2 \in \{0,1\}^\omega \st w_H(s_1 \oplus s_2) \in \N,\; \\
+      &amp; \tab \forall s_1,s_2 \in 2^\N \st w_H(s_1 \oplus s_2) \in \N,\; \\
       &amp; \tab \tab \left(
 	      f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N
 	    \right).
     \end{align}
 
 \]
+
+- $ \{0,1\} $ を $ 2 $ で略記すると
+
 
 <hr>2017/08/16 (水)
 
