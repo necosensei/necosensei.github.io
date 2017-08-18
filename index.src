@@ -131,10 +131,10 @@ $
     % Infinite parity function
 
     \begin{align}
-      &amp; \Let 2 := \{0,1\}, \\
-      &amp; f:2^\N \rightarrow 2 \text{ is an infinite parity function}
+      &amp; \Let \boldsymbol{2} := \{0,1\}, \\
+      &amp; f:\boldsymbol{2}^\N \rightarrow \boldsymbol{2} \text{ is an infinite parity function}
             \stackrel{\text{def}}{\iff} \\
-      &amp; \tab \forall s_1,s_2 \in 2^\N \st w_H(s_1 \oplus s_2) \in \N,\; \\
+      &amp; \tab \forall s_1,s_2 \in \boldsymbol{2}^\N \st w_H(s_1 \oplus s_2) \in \N,\; \\
       &amp; \tab \tab \left(
 	      f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N
 	    \right).
@@ -142,7 +142,8 @@ $
 
 \]
 
-- $ \{0,1\} $ を $ 2 $ で略記すると
+- $ \{0,1\} $ を $ 2 $ で略記するとやや何言ってんだか分か
+  らなくなる事がある気がする …
 
 
 <hr>2017/08/16 (水)
