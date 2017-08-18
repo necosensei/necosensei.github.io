@@ -135,7 +135,7 @@ $
       &amp; f:\{0,1\}^\omega \rightarrow \{0,1\} \text{ is an infinite parity function}
             \stackrel{\text{def}}{\iff} \\
       &amp; \tab \forall s_1,s_2 \in \{0,1\}^\omega \st w_H(s_1 \oplus s_2) \in \N,\; \\
-      &amp; \tab \left(
+      &amp; \tab \tab \left(
 	      f(s_1)=f(s_2) \iff w_H(s_1 \oplus s_2) \in 2 \N
 	    \right).
     \end{align}
