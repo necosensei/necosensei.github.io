@@ -130,11 +130,11 @@ $
 
 - しかしうちわを貰って来るのを忘れてしまった …
 
-- 今日は "binary" complex number system.
+- 今日は小林さんちのメイドラゴンに因んで twindragon
 
   \[
 
-    % twin dragon curve
+    % "binary complex number system"
 
     \begin{align}
        &amp; \Let S := \left\{ \sum_{k \ge 1} a_k (i-1)^{-k} 
