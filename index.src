@@ -118,6 +118,24 @@ $
 
 <pre>
 
+<hr>2017/08/20 (日)
+
+\[
+
+    % nth prime number
+
+    p_n = 1 + \sum_{r=1}^{2^n} 
+    \left\lceil
+      \sqrt[n]{n} \cdot \sqrt[-n]{
+        \sum_{s=1}^{r} 
+        \left\lceil
+          \cos^2 \pi \frac{(s-1)!+1}{s}
+        \right\rceil
+      }
+    \right\rceil
+
+\]
+
 <hr>2017/08/19 (土)
 
 - 朝起きると日が射してる. ここぞとばかりに大量に蓄積し
@@ -127,7 +145,7 @@ $
 
 \[
 
-    % Basel problem
+    % Basel problem # 154
 
     \begin{align}
       \sin x &amp; = x \sum_{n=0}^\infty (-1)^n\frac{x^{2n}}{(2n+1)!} \\
@@ -148,11 +166,12 @@ $
 
 - しかしうちわを貰って来るのを忘れてしまった …
 
-- 今日は小林さんちのメイドラゴンに因んで twindragon.
+- 今日は月刊アクション連載の小林さんちのメイドラゴンに因
+  んで twindragon. (あまり読んでないが …)
 
   \[
 
-    % "binary complex number system"
+    % "binary complex number system" # 153
 
     \begin{align}
        &amp; \Let S := \left\{ \sum_{k \ge 1} a_k (i-1)^{-k} 
@@ -172,7 +191,7 @@ $
 
 \[
 
-    % Infinite parity function
+    % Infinite parity function # 152
 
     \begin{align}
       &amp; f:2^\N \rightarrow 2 \text{ is an infinite parity function}
@@ -232,7 +251,7 @@ $
 
 \[
 
-    % completely additive class
+    % completely additive class # 151
 
     \begin{align}
       &amp; \Let \Omega \text{ be a set},\; \calF \subset 2^\Omega. \\
@@ -250,7 +269,7 @@ $
 
 \[
 
-    % Wilson's theorem
+    % Wilson's theorem # 150
 
     \begin{align}
       &amp; n \in \N^0+2, \\
@@ -266,7 +285,7 @@ $
 
   \[
 
-    % abstract polytope
+    % abstract polytope # 149
 
     \begin{align}
       &amp; \Let P \text{ be a poset}. \\
@@ -286,7 +305,7 @@ $
 
   \[
 
-    % 24-cell
+    % 24-cell # 148
 
     \begin{align}
       \text{8 vertices: }  &amp; \text{permutation of } (\pm1,   0,   0,   0),  \\
@@ -311,7 +330,7 @@ $
 
   \[
 
-    % Law of the iterated logarithm
+    % Law of the iterated logarithm # 147
 
     \begin{align}
       &amp; \Let \{Y_i\} \text{ be IID random variables s.t. }
@@ -365,7 +384,7 @@ $
 
   \[
 
-    % divergence
+    % divergence # 146
 
     \begin{align}
       &amp; \div \vec{F}|_p = \lim_{V\rightarrow \{p\}}
@@ -386,7 +405,7 @@ $
 
 \[
 
-    % Mobius transformation
+    % Mobius transformation # 145
 
     \begin{align}
       &amp; f(z) = \frac{a z + b}{c z + d}, \\
