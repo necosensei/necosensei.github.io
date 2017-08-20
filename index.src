@@ -125,14 +125,14 @@ $
     % nth prime number
 
     p_n = 1 + \sum_{r=1}^{2^n} 
-    \left\lceil
+    \left\lfloor
       \sqrt[n]{n} \cdot \sqrt[-n]{
         \sum_{s=1}^{r} 
-        \left\lceil
+        \left\lfloor
           \cos^2 \pi \frac{(s-1)!+1}{s}
-        \right\rceil
+        \right\rfloor
       }
-    \right\rceil
+    \right\rfloor
 
 \]
 
