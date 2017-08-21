@@ -138,7 +138,7 @@ $
       &amp; \sum_{\xi\in 2^n} |0^n\rangle |\xi\rangle.    \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f}                \\
       &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ ovserve the first half q-bits}}  \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ ovserve the first half q-registers}}  \\
       &amp; |y_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
@@ -149,7 +149,7 @@ $
               \small y_i = f(\xi)
             }}
             \sum_{x\in 2^n} (-1)^{x \cdot \xi} |x\rangle. \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ ovserve the second half q-bits}}          \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ ovserve the second half q-registers}}          \\
       &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
