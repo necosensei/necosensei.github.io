@@ -159,18 +159,12 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
-      &amp; \tab\tab \gray{\downarrow  \tab\tab \text{ simple case}} \\
-      &amp; 
-      \gray{ \exists \xi_i \in 2^n \st y_i = f(\xi_i),\;
-        (-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0.}
-      
-      \\
-      &amp; \tab\tab \gray{\downarrow}  \\
+      &amp; \tab\tab \gray{\downarrow} \\
       &amp; \gray{x_i \cdot s = 0.} \\
       &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots} \\
-      &amp; \gray{\text{Echelon form with one free variable } s_{k}} \\
+      &amp; \gray{\text{Echelon form with $k$ free variable } s_{j_0},\ldots,s_{j_k}} \\
       &amp; \tab\tab \gray{\downarrow}  \\
-      &amp; \gray{\text{output } s|_{s_{k}=1}}. \\
+      &amp; \gray{\text{output } s|_{s_{j_\ell}=\delta(\ell = m)},\forall m \in \{0,\ldots,k-1\}}. \\
 
     \end{align}
 
