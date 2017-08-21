@@ -127,18 +127,26 @@ $
 
     \begin{align}
       &amp; |0\rangle |0\rangle.                    \\
-      &amp; \sum_{x\in 2^n} |0\rangle |x\rangle.    \\
-      &amp; \sum_{x\in 2^n} |f(x)\rangle |x\rangle. \\
+      &amp; \downarrow \text{ Hadamard transform}   \\
+      &amp; \sum_{\xi\in 2^n} |0\rangle |\xi\rangle.\\
+      &amp; \downarrow \text{ function } f          \\
+      &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
+      &amp; \downarrow \text{ ovservation}          \\
       &amp; |y_i\rangle \sum_{\substack{
-              \small x\in 2^n, \\
-              \small y_i = f(x)
-            }} |x\rangle. \\
+              \small \xi\in 2^n, \\
+              \small y_i = f(\xi)
+            }} |\xi\rangle. \\
+      &amp; \downarrow \text{ Hadamard transform}   \\
       &amp; |y_i\rangle \sum_{\substack{
-              \small x\in 2^n, \\
-              \small y_i = f(x)
+              \small \xi\in 2^n, \\
+              \small y_i = f(\xi)
             }}
-            \sum_{\xi\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle. \\
-      &amp; |\xi_i\rangle |y_i\rangle \sum_{x\in 2^n, y_i = f(x)} (-1)^{w_H(\xi_i \&amp; x)}. \\
+            \sum_{x\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\x\rangle. \\
+      &amp; \downarrow \text{ ovservation}          \\
+      &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
+              \small \xi\in 2^n, \\
+              \small y_i = f(\xi)
+            }} (-1)^{w_H(\xi_i \&amp; x_i)}.
     \end{align}
 
 \]
