@@ -147,19 +147,19 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi}. \\
-      &amp; \gray{\downarrow}  \\
-      &amp; \gray{\sum_{\substack{
+      &amp; \downarrow  \\
+      &amp; \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{x_i \cdot \xi} \ne 0 .} \\
+            }} (-1)^{x_i \cdot \xi} \ne 0 . \\
       &amp; \gray{\downarrow  \text{ the simplest case}} \\
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0.} \\
       &amp; \gray{\downarrow}  \\
-      &amp; \gray{x_i \cdot s = 0.}
-      &amp; \gray{\downarrow} ~ i = 1,2,3,\ldots \\
-      &amp; \text{Echelon form} \\
+      &amp; \gray{x_i \cdot s = 0.} \\
+      &amp; \gray{\downarrow ~ i = 1,2,3,\ldots} \\
+      &amp; \gray{\text{Echelon form}} \\
       &amp; \gray{\downarrow}  \\
-      &amp; s = 0, s_0. \\
+      &amp; \gray{s = 0, s_0}. \\
 
     \end{align}
 
