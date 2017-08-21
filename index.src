@@ -159,14 +159,14 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
-      &amp; \tab\tab \gray{\downarrow  \tab\tab \text{ simple case}} \\
+      &amp; \tab\tab \gray{\downarrow  \tab\tab \text{ simple case with a period} s \in [2^{n-1},2^n) } \\
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0, \tab\where y_i = f(\xi_i).} \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.} \\
       &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots} \\
-      &amp; \gray{\text{Echelon form with one free variable}} \\
+      &amp; \gray{\text{Echelon form with one free variable} s_{n-1}} \\
       &amp; \tab\tab \gray{\downarrow}  \\
-      &amp; \gray{s = 0, s_1}. \\
+      &amp; \gray{\text{output } s|_{s_{n-1}=1}}. \\
 
     \end{align}
 
