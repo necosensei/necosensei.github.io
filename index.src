@@ -141,20 +141,21 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }}
-            \sum_{x\in 2^n} (-1)^{\xi \cdot x} |x\rangle. \\
+            \sum_{x\in 2^n} (-1)^{x \cdot \xi} |x\rangle. \\
       &amp; \downarrow \text{ ovservation}          \\
       &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{\xi \cdot x_i}. \\
+            }} (-1)^{x_i \cdot \xi}. \\
       &amp; \downarrow  \\
       &amp; \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{\xi \cdot x_i} \ne 0 . \\
+            }} (-1)^{x_i \cdot \xi} \ne 0 . \\
       &amp; \downarrow  \text{ simple case} \\
-      &amp; (-1)^{\xi_i \cdot x_i} + (-1)^{(\xi_i \oplus s) \cdot x_i} \ne 0.
-
+      &amp; (-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0. \\
+      &amp; \downarrow  \\
+      &amp; x_i \cdot s = 0.
 
     \end{align}
 
