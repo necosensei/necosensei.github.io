@@ -161,7 +161,7 @@ $
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
       &amp; \tab\tab \gray{\downarrow} \\
       &amp; \gray{x_i \cdot s = 0.} \\
-      &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots,O(n)} \\
+      &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots,\Omega(n)} \\
       &amp; \gray{\text{Echelon form with $k$ free variables } s_{j_1},\ldots,s_{j_k}} \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{\text{output } s|_{s_{j_\ell}=\delta(\ell,m)},\forall m \in \{1,\ldots,k\}}. \\
