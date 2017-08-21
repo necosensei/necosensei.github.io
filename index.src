@@ -134,22 +134,22 @@ $
 
     \begin{align}
       &amp; |0^n\rangle |0^n\rangle.                      \\
-      &amp; \downarrow \text{ Hadamard transform}         \\
+      &amp; \downarrow \tab\tab \text{ Hadamard transform}         \\
       &amp; \sum_{\xi\in 2^n} |0^n\rangle |\xi\rangle.    \\
-      &amp; \downarrow \text{ function } f                \\
+      &amp; \downarrow \tab\tab \text{ function } f                \\
       &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
-      &amp; \downarrow \text{ ovservation}                \\
+      &amp; \downarrow \tab\tab \text{ ovservation}                \\
       &amp; |y_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} |\xi\rangle. \\
-      &amp; \downarrow \text{ Hadamard transform}   \\
+      &amp; \downarrow \tab\tab \text{ Hadamard transform}   \\
       &amp; |y_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }}
             \sum_{x\in 2^n} (-1)^{x \cdot \xi} |x\rangle. \\
-      &amp; \downarrow \text{ ovservation}          \\
+      &amp; \downarrow \tab\tab \text{ ovservation}          \\
       &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
@@ -159,11 +159,11 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
-      &amp; \gray{\downarrow  \text{ simple case}} \\
+      &amp; \gray{\downarrow  \tab\tab \text{ simple case}} \\
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0.} \\
       &amp; \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.} \\
-      &amp; \gray{\downarrow ~ i = 1,2,3,\ldots} \\
+      &amp; \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots} \\
       &amp; \gray{\text{Echelon form}} \\
       &amp; \gray{\downarrow}  \\
       &amp; \gray{s = 0, s_0}. \\
