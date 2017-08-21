@@ -128,10 +128,10 @@ $
     \begin{align}
       &amp; \sum_{x\in 2^n}|x\rangle |0\rangle.    \\
       &amp; \sum_{x\in 2^n}|x\rangle |f(x)\rangle. \\
-      &amp; \sum_{x\in 2^n, y = f(x)}|x\rangle |y\rangle. \\
-      &amp; \sum_{x\in 2^n, y = f(x)}
-        \sum_{\xi\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle |y\rangle. \\
-      &amp; |\xi_i\rangle |y\rangle \sum_{x\in 2^n, y = f(x)} (-1)^{w_H(\xi_i \&amp; x)}. \\
+      &amp; \sum_{x\in 2^n, y_i = f(x)}|x\rangle |y_i\rangle. \\
+      &amp; \sum_{x\in 2^n, y_i = f(x)}
+        \sum_{\xi\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle |y_i\rangle. \\
+      &amp; |\xi_i\rangle |y_i\rangle \sum_{x\in 2^n, y_i = f(x)} (-1)^{w_H(\xi_i \&amp; x)}. \\
     \end{align}
 
 \]
