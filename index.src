@@ -146,12 +146,12 @@ $
       &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{\xi \cdot x_i}.
-      &amp; \downarrow 
+            }} (-1)^{\xi \cdot x_i}. \\
+      &amp; \downarrow  \\
       &amp; \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{\xi \cdot x_i}.
+            }} (-1)^{\xi \cdot x_i} \ne 0 .
     \end{align}
 
 \]
