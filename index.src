@@ -50,7 +50,7 @@
   \def\where{\text{where}\;}
   \def\Let{\text{Let}\;}
   \def\st{\;\text{s.t.}\;}
-  \def\poly{{\tt poly}}
+  \def\poly{{\rm poly}}
 
   \def\northpos{\img{data:image/png;base64,
     iVBORw0KGgoAAAANSUhEUgAAAEAAAABABAMAAABYR2ztAAAAMFBMVEUAAACZmZl3d3dVVVXu7u4z
