@@ -122,10 +122,10 @@ $
 
 - 『暗号』+『すべて』は信じないことにしている …
 
-  暗号のすべてがわかる本(1998) p.212
+  暗号のすべてがわかる本 (1998) p.212
     限られたページ数のため書ききれない事も多い.
 
-  暗号技術のすべて(2017) p.16
+  暗号技術のすべて (2017) p.16
     ページ数の都合で泣く泣くカットした …
 
 \[
@@ -134,7 +134,7 @@ $
 
     \begin{align}
       &amp; |0^n\rangle |0^n\rangle.                      \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform}}         \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform 1}}         \\
       &amp; \sum_{\xi\in 2^n} |0^n\rangle |\xi\rangle.    \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f}                \\
       &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
@@ -143,7 +143,7 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} |\xi\rangle. \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform}}   \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform 2}}   \\
       &amp; |y_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
@@ -172,8 +172,10 @@ $
 
 \]
 
-- 俄古典的計算機科学屋としては ovservation の所(真のrandomized algorithm)
-  にちょっとヤバさを感じる …
+- Hadamard transform 2 は最初の ovservation の前でも良い.
+
+- 俄古典計算機科学屋としては ovservation の所 (真の
+  randomized algorithm) にちょっとヤバさを感じる …
 
 <hr>2017/08/20 (日)
 
