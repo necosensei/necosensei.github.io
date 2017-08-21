@@ -141,12 +141,12 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }}
-            \sum_{x\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\x\rangle. \\
+            \sum_{x\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle. \\
       &amp; \downarrow \text{ ovservation}          \\
       &amp; |y_i\rangle |x_i\rangle \sum_{\substack{
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
-            }} (-1)^{w_H(\xi_i \&amp; x_i)}.
+            }} (-1)^{w_H(\xi \&amp; x_i)}.
     \end{align}
 
 \]
