@@ -126,11 +126,18 @@ $
     % Simon's algorithm
 
     \begin{align}
-      &amp; \sum_{x\in 2^n}|x\rangle |0\rangle.    \\
-      &amp; \sum_{x\in 2^n}|x\rangle |f(x)\rangle. \\
-      &amp; \sum_{x\in 2^n, y_i = f(x)}|x\rangle |y_i\rangle. \\
-      &amp; \sum_{x\in 2^n, y_i = f(x)}
-        \sum_{\xi\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle |y_i\rangle. \\
+      &amp; |0\rangle |0\rangle.                    \\
+      &amp; \sum_{x\in 2^n} |0\rangle |x\rangle.    \\
+      &amp; \sum_{x\in 2^n} |f(x)\rangle |x\rangle. \\
+      &amp; |y_i\rangle \sum_{\substack{
+              \small x\in 2^n, \\
+              \small y_i = f(x)
+            }} |x\rangle. \\
+      &amp; |y_i\rangle \sum_{\substack{
+              \small x\in 2^n, \\
+              \small y_i = f(x)
+            }}
+            \sum_{\xi\in 2^n} (-1)^{w_H(\xi \&amp; x)} |\xi\rangle. \\
       &amp; |\xi_i\rangle |y_i\rangle \sum_{x\in 2^n, y_i = f(x)} (-1)^{w_H(\xi_i \&amp; x)}. \\
     \end{align}
 
