@@ -136,7 +136,7 @@ $
       &amp; |0^n\rangle |0^n\rangle.                      \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform 1}}         \\
       &amp; \sum_{\xi\in 2^n} |0^n\rangle |\xi\rangle.    \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f}                \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f \st \exists \text{ unknown } s \in 2^n, \forall x \in 2^n, f(x) = f(x\oplus s) } \\
       &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ ovserve the first half q-registers}}  \\
       &amp; |y_i\rangle \sum_{\substack{
@@ -159,7 +159,7 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
-      &amp; \tab\tab \gray{\downarrow  \tab\tab \text{ simple case with a period } s \in [2^{n-1},2^n) } \\
+      &amp; \tab\tab \gray{\downarrow  \tab\tab \text{ simple case with } s \in [2^{n-1},2^n) } \\
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0, \tab\where y_i = f(\xi_i).} \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.} \\
