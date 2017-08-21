@@ -162,7 +162,7 @@ $
       &amp; \tab\tab \gray{\downarrow} \\
       &amp; \gray{x_i \cdot s = 0.} \\
       &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots} \\
-      &amp; \gray{\text{Echelon form with $k$ free variable } s_{j_0},\ldots,s_{j_k}} \\
+      &amp; \gray{\text{Echelon form with $k$ free variable } s_{j_0},\ldots,s_{j_{k-1}}} \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{\text{output } s|_{s_{j_\ell}=\delta(\ell,m)},\forall m \in \{0,\ldots,k-1\}}. \\
 
