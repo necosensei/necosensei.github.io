@@ -137,7 +137,7 @@ $
       &amp; |0^n\rangle |0^n\rangle.                      \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ Hadamard transform 1}}         \\
       &amp; \sum_{\xi\in 2^n} |0^n\rangle |\xi\rangle.    \\
-      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f \st \exists s \in 2^n, \forall x \in 2^n, f(x) = f(x\oplus s) } \\
+      &amp; \tab\tab \downarrow \tab\tab \gray{\text{ apply function } f \\ % \st \exists s \in 2^n, \forall x \in 2^n, f(x) = f(x\oplus s) } \\
       &amp; \sum_{\xi\in 2^n} |f(\xi)\rangle |\xi\rangle. \\
       &amp; \tab\tab \downarrow \tab\tab \gray{\text{ observe the first half q-registers}}  \\
       &amp; |y_i\rangle \sum_{\substack{
