@@ -156,10 +156,17 @@ $
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0.} \\
       &amp; \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.}
+      &amp; \gray{\downarrow} ~ i = 1,2,3,\ldots \\
+      &amp; \text{Echelon form} \\
+      &amp; \gray{\downarrow}  \\
+      &amp; s = 0, s_0. \\
 
     \end{align}
 
 \]
+
+- 古典的暗号屋としては再現不可能な ovservation の所にちょっと
+  ヤバさを感じる …
 
 <hr>2017/08/20 (日)
 
