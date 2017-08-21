@@ -163,7 +163,7 @@ $
       &amp; \tab\tab \gray{\downarrow} \\
       &amp; \gray{x_i \cdot s = 0.} \\
       &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots,\poly(n)} \\
-      &amp; \gray{\text{Echelon form with $k$ free variables } s_{j_1},\ldots,s_{j_k}} \\
+      &amp; \gray{\text{Echelon form with $k$ free variables } s_{j_1},\ldots,s_{j_k}} \in 2 \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{\text{output } s|_{s_{j_\ell}=\delta_{\ell,m}},\forall m \in \{1,\ldots,k\}}. \\
 
