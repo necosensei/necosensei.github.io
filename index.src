@@ -164,7 +164,7 @@ $
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.} \\
       &amp; \tab\tab \gray{\downarrow \tab\tab ~ i = 1,2,3,\ldots} \\
-      &amp; \gray{\text{Echelon form with one free variable} s_{n-1}} \\
+      &amp; \gray{\text{Echelon form with one free variable } s_{n-1}} \\
       &amp; \tab\tab \gray{\downarrow}  \\
       &amp; \gray{\text{output } s|_{s_{n-1}=1}}. \\
 
