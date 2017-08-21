@@ -159,7 +159,7 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{x_i \cdot \xi} \ne 0 . \\
-      &amp; \gray{\downarrow  \text{ the simplest case}} \\
+      &amp; \gray{\downarrow  \text{ simple case}} \\
       &amp; \gray{(-1)^{x_i \cdot \xi_i} + (-1)^{x_i \cdot (\xi_i \oplus s)} \ne 0.} \\
       &amp; \gray{\downarrow}  \\
       &amp; \gray{x_i \cdot s = 0.} \\
