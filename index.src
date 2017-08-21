@@ -152,6 +152,10 @@ $
               \small \xi\in 2^n, \\
               \small y_i = f(\xi)
             }} (-1)^{\xi \cdot x_i} \ne 0 .
+      &amp; \downarrow  \text{ simple case} \\
+      &amp; (-1)^{\xi_i \cdot x_i} + (-1)^{\xi_i \oplus s \cdot x_i} \ne 0.
+
+
     \end{align}
 
 \]
