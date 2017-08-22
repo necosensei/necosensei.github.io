@@ -116,8 +116,26 @@ $
 <!-- Gosper's algorithm -->
 <!-- 24-cell -->
 <!-- 指標 -->
+<!-- Shor's algorithm -->
 
 <pre>
+
+<hr>2017/08/22 (火)
+
+- observe が全部 ovserve になってた …
+
+\[
+
+    % Burrows Wheeler Transform
+
+    T_B[i] = \left\{
+      \begin{array}{ll}
+        T[SA[i]-1] &amp; SA[i] &gt; 0  \\
+        T[n-1]     &amp; SA[i] =    0  \\
+      \end{array}{ll}
+    \right.
+
+\]
 
 <hr>2017/08/21 (月)
 
