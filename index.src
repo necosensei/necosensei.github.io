@@ -132,7 +132,7 @@ $
       \begin{array}{ll}
         T[SA[i]-1] &amp; SA[i] &gt; 0  \\
         T[n-1]     &amp; SA[i] =    0  \\
-      \end{array}{ll}
+      \end{array}
     \right.
 
 \]
