@@ -126,7 +126,7 @@ $
 
 \[
 
-    % Burrows Wheeler Transform
+    % Burrows-Wheeler transform
 
     T_B[i] = \left\{
       \begin{array}{ll}
