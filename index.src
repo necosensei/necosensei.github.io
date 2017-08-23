@@ -162,6 +162,7 @@ $
     % binary GCD # 158
 
     \begin{align}
+        &amp; \gcd(n,m) = \gcd(-n,m) , \\
         &amp; \gcd(n,m) = \gcd(m,n) , \\
         &amp; \gcd(n,0) = n , \\
         &amp; \gcd(2n,2m) = 2 \gcd(n,m) , \\
