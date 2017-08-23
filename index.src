@@ -129,6 +129,30 @@ $
   なる文字列を記述した事により, 会社で使用しているメーラーがこれを
   引用と勘違いし美しい模様を展開 …
 
+- Bezout's identity が既に使われていたのを完全に忘れていて, もう一度
+  記述しそうになった. 仮に標本抽出が完全無記憶ランダムだったとして,
+  150 ぐらいで衝突が起こったという事は記憶されている Mathematical
+  Concept の本質的項目数がせいぜい 10,000 くらいって事か …
+  
+  CRC Concise Encyclopedia of Mathematics を一人で記述した Eric
+  Wolfgang Weisstein が如何に驚異的か分かった.
+
+  \[
+
+    % binary GCD
+
+    \begin{align}
+        &amp; \gcd(0,n) = n , \\
+        &amp; \gcd(n,0) = n , \\
+        &amp; \gcd(2n,2m) = 2 \gcd(n,m) , \\
+        &amp; \gcd(2n,2m+1) = \gcd(n,2m+1) , \\
+        &amp; \gcd(2n+1,2m) = \gcd(2n+1,m) , \\
+        &amp; \gcd(2n+1,2k+(2n+1)) = \gcd(2n+1,k) , \\
+        &amp; \gcd(2k+(2n+1),2n+1) = \gcd(k,2n+1). \\
+    \end{align}
+
+  \]
+
 <hr>2017/08/22 (火)
 
 - observe が全部 ovserve になってた …
