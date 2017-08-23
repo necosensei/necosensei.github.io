@@ -142,12 +142,10 @@ $
     % binary GCD
 
     \begin{align}
-        &amp; \gcd(0,n) = n , \\
+        &amp; \gcd(n,m) = \gcd(m,n) , \\
         &amp; \gcd(n,0) = n , \\
         &amp; \gcd(2n,2m) = 2 \gcd(n,m) , \\
-        &amp; \gcd(2n,2m+1) = \gcd(n,2m+1) , \\
         &amp; \gcd(2n+1,2m) = \gcd(2n+1,m) , \\
-        &amp; \gcd(2n+1,2k+(2n+1)) = \gcd(2n+1,k) , \\
         &amp; \gcd(2k+(2n+1),2n+1) = \gcd(k,2n+1). \\
     \end{align}
 
