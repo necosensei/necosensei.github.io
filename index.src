@@ -117,6 +117,24 @@ $
 <!-- 24-cell -->
 <!-- 指標 -->
 <!-- Shor's algorithm -->
+<!-- Succinct data structure -->
+<!-- 二次体 -->
+<!-- 類数 -->
+<!-- ユークリッド整域である二次体 -->
+<!-- 一意分解整域である虚二次体 -->
+<!--
+\[
+    % Euler constant
+    \lim_{n\rightarrow\infty}
+      \left(\sum_{k=1}^n \frac{1}{k} - \ln(n)\right) = \gamma
+\]
+-->
+<!-- 
+\[
+    % Euler
+    \gcd(a,n) = 1 \; \Leftrightarrow \; a^{\varphi(n)} = 1 \pmod n
+\]
+-->
 
 <pre>
 
@@ -134,7 +152,7 @@ $
   158 で衝突が起こったという事は, 朧げながら記憶可能な Mathematical
   Concept の項目数が多くともせいぜい 10,000 くらい (実際はもっと少ない)
   って事か … 所有してると認識してる物の個数とだいたい同じと考えて良
-  さそう. それ以上記憶しても忘れると思われる.
+  さそう.
 
   CRC Concise Encyclopedia of Mathematics をたった一人で記述した Eric
   Wolfgang Weisstein が如何に驚異的か分かった.
@@ -4338,55 +4356,3 @@ $INTERPRETER
 <a href=kako.html>過去</a>
 </body>
 </html>
-
-<!-- ネタ帳 -->
-<!-- Succinct data structure -->
-<!-- Burrows-Wheeler Transform
-
-  O      : totally ordered set
-  s      : \Z/n\Z \leftarrow O
-  s_i(j) : s(i + j)
-
-  S      : sort( (s_i)_{i=0}^{n-1} )
-  t_i    : S_{i}(n-1)
-
-  T_0    : (\epsilon)_{i=0}^{n-1}
-  T_k    : sort( (t_i || T_{k-1,i})_{i=0}^{n-1} )
-
-  T      : (T_{n-1,i} || t_i)_{i=0}^{n-1}
-
--->
-<!--
-二次体 類数 など
-https://ja.wikipedia.org/wiki/%E4%BA%8C%E6%AC%A1%E4%BD%93
-ユークリッド整域である二次体 {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} は、d = -11, -7, -3, -2, -1, 2, 3, 5, 6, 7, 11, 13, 17, 19, 21, 29, 33, 37, 41, 57, 73 だけである。
-一意分解整域である虚二次体 {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} {\displaystyle \scriptstyle \mathbb {Q} ({\sqrt {d}})} は、d = -1, -2, -3, -7, -11, -19, -43, -67, -163 だけである。
--->
-<!--
-\[
-
-    % Euler phi
-
-    \varphi(n) = n \prod_{p\backslash n}\left(1-\frac{1}{p}\right).
-
-\]
--->
-<!--
-\[
-
-    % Euler constant
-
-    \lim_{n\rightarrow\infty}
-      \left(\sum_{k=1}^n \frac{1}{k} - \ln(n)\right) = \gamma
-
-\]
--->
-<!-- 
-\[
-
-    % Euler
-
-    \gcd(a,n) = 1 \; \Leftrightarrow \; a^{\varphi(n)} = 1 \pmod n
-
-\]
--->
