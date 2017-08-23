@@ -137,7 +137,7 @@ $
   CRC Concise Encyclopedia of Mathematics を一人で記述した Eric
   Wolfgang Weisstein が如何に驚異的か分かった.
 
-  \[
+\[
 
     % binary GCD
 
@@ -146,10 +146,10 @@ $
         &amp; \gcd(n,0) = n , \\
         &amp; \gcd(2n,2m) = 2 \gcd(n,m) , \\
         &amp; \gcd(2n+1,2m) = \gcd(2n+1,m) , \\
-        &amp; \gcd(2k+(2n+1),2n+1) = \gcd(k,2n+1). \\
+        &amp; \gcd(2k+(2n+1),2n+1) = \gcd(k,2n+1).
     \end{align}
 
-  \]
+\]
 
 <hr>2017/08/22 (火)
 
@@ -278,7 +278,7 @@ $
 - 今日は月刊アクション連載の小林さんちのメイドラゴンに因
   んで twindragon. (あまり読んでないが …)
 
-  \[
+\[
 
     % "binary complex number system" # 153
 
@@ -288,7 +288,7 @@ $
        &amp; (i-1)S = S \cup (S+1).
     \end{align}
 
-  \]
+\]
 
 <hr>2017/08/17 (木)
 
