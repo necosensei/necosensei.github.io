@@ -131,15 +131,17 @@ $
 
 - Bezout's identity が既に使われていたのを完全に忘れていて, もう一度
   記述しそうになった. 仮に標本抽出が完全無記憶ランダムだったとして,
-  150 ぐらいで衝突が起こったという事は記憶されている Mathematical
-  Concept の本質的項目数がせいぜい 10,000 くらいって事か …
-  
-  CRC Concise Encyclopedia of Mathematics を一人で記述した Eric
+  158 で衝突が起こったという事は, 朧げながら記憶可能な Mathematical
+  Concept の項目数が多くともせいぜい 10,000 くらい (実際はもっと少ない)
+  って事か … 所有してると認識してる物の個数とだいたい同じと考えて良
+  さそう. それ以上記憶しても忘れると思われる.
+
+  CRC Concise Encyclopedia of Mathematics をたった一人で記述した Eric
   Wolfgang Weisstein が如何に驚異的か分かった.
 
 \[
 
-    % binary GCD
+    % binary GCD # 158
 
     \begin{align}
         &amp; \gcd(n,m) = \gcd(m,n) , \\
@@ -157,7 +159,7 @@ $
 
 \[
 
-    % Burrows-Wheeler transform
+    % Burrows-Wheeler transform # 157
 
     T_B[i] = \left\{
       \begin{array}{ll}
@@ -180,7 +182,7 @@ $
 
 \[
 
-    % Simon's algorithm
+    % Simon's algorithm # 156
 
     \begin{align}
       &amp; |0^n\rangle |0^n\rangle.                      \\
@@ -231,7 +233,7 @@ $
 
 \[
 
-    % nth prime number
+    % nth prime number # 155
 
     p_n = 1 + \sum_{r=1}^{2^n} 
     \left\lfloor
