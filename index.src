@@ -166,7 +166,7 @@ $
         &amp; \gcd(n,0) = n , \\
         &amp; \gcd(2n,2m) = 2 \gcd(n,m) , \\
         &amp; \gcd(2n+1,2m) = \gcd(2n+1,m) , \\
-        &amp; \gcd(2(k+n)+1,2n+1) = \gcd(k,2n+1).
+        &amp; \gcd(2n+1,2m+1) = \gcd(n-m,2m+1).
     \end{align}
 
 \]
