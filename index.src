@@ -159,6 +159,22 @@ $
 
 \]
 
+- 昨日のは
+
+\[
+
+    \begin{align}
+      \forall u,v,w \in \O, \\
+      &amp; (u+v) w = u w + v w, \tab u (v+w) = u v + u w, \\
+      &amp; u(uv) = (uu)v, \tab (uv)v = u(vv), \\
+      &amp; \implies u(vu) = (uv)u.
+    \end{align}
+
+\]
+
+  とした方が面白かったか？
+
+
 <hr>2017/08/24 (木)
 
 - 会社がファイル自動暗号化ソフトを入れろと言うので「ダウンロード」
