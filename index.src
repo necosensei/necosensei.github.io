@@ -165,7 +165,7 @@ $
 
     \begin{align}
       &amp; \forall u,v,w \in \O, \\
-      &amp; \begin{array}{lll}
+      &amp; \tab \begin{array}{lll}
               \text{distributive law}:     &amp; (u+v) w = u w + v w, &amp; u (v+w) = u v + u w, \\
               \text{weak associative law}: &amp; u(uv) = (uu)v,       &amp; (uv)v = u(vv)        \\
             \end{array} \\
