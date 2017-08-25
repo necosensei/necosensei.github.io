@@ -148,10 +148,11 @@ $
     % Bit-reversal permutation
 
     \begin{align}
-      &amp; \text{\tt $m=2^n$ ;} \\
-      &amp; \text{\tt for $i=r=0$ to $m-1$} \\
+      &amp; \text{$m = 2^n$ ;} \\
+      &amp; \text{$r \leftarrow 0$ ;} \\
+      &amp; \text{for $i \leftarrow 0$ to $m-1$} \\
       &amp; \tab \text{here $ r = \sigma(i) $.} \\
-      &amp; \tab \text{here $ r = r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $.} \\
+      &amp; \tab \text{$ r \leftarrow r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $.} \\
     \end{align}
 
 \]
