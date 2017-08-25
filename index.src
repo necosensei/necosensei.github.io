@@ -150,9 +150,10 @@ $
     \begin{align}
       &amp; \text{$m = 2^n$ ;} \\
       &amp; \text{$r \leftarrow 0$ ;} \\
-      &amp; \text{for $i \leftarrow 0$ to $m-1$} \\
-      &amp; \tab \text{(* $ r = $ bitrev $(i) $ here. *)} \\
+      &amp; \text{for $\;i \leftarrow 0\;$ to $\;m-1;$ begin} \\
+      &amp; \tab \text{(* $ r = $ bitrev$(i)$ here. *)} \\
       &amp; \tab \text{$ r \leftarrow r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $ ;} \\
+      &amp; \text{end ;}\\
     \end{align}
 
 \]
