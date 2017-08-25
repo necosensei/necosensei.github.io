@@ -154,7 +154,7 @@ $
       &amp; \text{begin}\\
       &amp; \tab \gray{\text{(* $ r = $ bitrev$(i)$ here. *)}} \\
       &amp; \tab \text{$ r \leftarrow r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $ ;} \\
-      &amp; \text{end ;}\\
+      &amp; \text{end}.\\
     \end{align}
 
 \]
