@@ -143,6 +143,19 @@ $
 
 - 全身にどっと疲れが …
 
+\[
+
+    % Bit-reversal permutation
+
+    \begin{align}
+      &amp; \text{\tt $m=2^n$ ;} \\
+      &amp; \text{\tt for $i=r=0$ to $m-1$} \\
+      &amp; \tab \text{here $ r = \sigma(i) $.} \\
+      &amp; \tab \text{here $ r = r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $.} \\
+    \end{align}
+
+\]
+
 <hr>2017/08/24 (木)
 
 - 会社がファイル自動暗号化ソフトを入れろと言うので「ダウンロード」
