@@ -151,8 +151,8 @@ $
       &amp; \text{$m = 2^n$ ;} \\
       &amp; \text{$r \leftarrow 0$ ;} \\
       &amp; \text{for $i \leftarrow 0$ to $m-1$} \\
-      &amp; \tab \text{here $ r = \sigma(i) $.} \\
-      &amp; \tab \text{$ r \leftarrow r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $.} \\
+      &amp; \tab \text{/* $ r = \sigma(i) $ here. */} \\
+      &amp; \tab \text{$ r \leftarrow r \oplus \left(m-\frac{m}{(i\oplus(i+1))+1}\right) $ ;} \\
     \end{align}
 
 \]
