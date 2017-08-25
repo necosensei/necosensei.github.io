@@ -159,23 +159,6 @@ $
 
 \]
 
-- 昨日のは
-
-\[
-
-    \begin{align}
-      &amp; \forall u,v,w \in \O, \\
-      &amp; \tab \begin{array}{lll}
-              \text{distributive law}:     &amp; (u+v) w = u w + v w, &amp; u (v+w) = u v + u w, \\
-              \text{weak associative law}: &amp; u(uv) = (uu)v,       &amp; (uv)v = u(vv)        \\
-            \end{array} \\
-      &amp; \implies \forall u,v \in \O,\; u(vu) = (uv)u.
-    \end{align}
-
-\]
-
-  とした方が面白かったか？
-
 
 <hr>2017/08/24 (木)
 
@@ -208,10 +191,12 @@ $
     % alternative ring
 
     \begin{align}
-      &amp; \forall u,v \in \O, \\
-      &amp; u(uv) = (uu)v, \tab
-            (uv)v = u(vv), \tab
-            u(vu) = (uv)u.
+      &amp; \forall u,v,w \in \O, \\
+      &amp; \tab \begin{array}{lll}
+              \text{distributive law}:     &amp; (u+v) w = u w + v w, &amp; u (v+w) = u v + u w, \\
+              \text{weak associative law}: &amp; u(uv) = (uu)v,       &amp; (uv)v = u(vv)        \\
+            \end{array} \\
+      &amp; \implies \forall u,v \in \O,\; u(vu) = (uv)u.
     \end{align}
 
 \]
