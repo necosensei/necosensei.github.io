@@ -164,7 +164,7 @@ $
 \[
 
     \begin{align}
-      \forall u,v,w \in \O, \\
+      &amp; \forall u,v,w \in \O, \\
       &amp; (u+v) w = u w + v w, \tab u (v+w) = u v + u w, \\
       &amp; u(uv) = (uu)v, \tab (uv)v = u(vv), \\
       &amp; \implies u(vu) = (uv)u.
