@@ -147,7 +147,7 @@ $
 
 \[
 
-    % Chebyshev
+    % Chebyshev's inequality
 
     \Pr\left[
       |X - \E[X]| \ge a
@@ -162,7 +162,7 @@ $
 
 \[
 
-    % Markov
+    % Markov's inequality
 
     \begin{align}
       &amp; \Let X \text{ be a random variable in } \N^+. \\
