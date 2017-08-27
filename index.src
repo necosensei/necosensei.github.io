@@ -139,6 +139,38 @@ $
 
 <pre>
 
+<hr>2017/08/27 (日)
+
+- スマホ・タブレットを合計4台持ち歩いているのだが,
+  モバイル WiFi を使って SIM 1 枚で済ませているので
+  月間通信量が限界に近づいてきた …
+
+\[
+
+    % Chebyshev
+
+    \Pr\left[
+      |X - \E[X]| \ge a
+    \right]
+    \le \left(\frac{\sigma(X)}{a}\right)^2
+
+\]
+
+<hr>2017/08/26 (土)
+
+- 確率が弱いので2～3日確率シリーズで行こう.
+
+\[
+
+    % Markov
+
+    \begin{align}
+      &amp; \Let X \text{ be a random variable in } \N^+. \\
+      &amp; \gamma \Pr\left[X \ge \gamma \right] \le \E[X]. \\
+    \end{align}
+
+\]
+
 <hr>2017/08/25 (金)
 
 - 全身にどっと疲れが …
