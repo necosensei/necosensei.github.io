@@ -147,7 +147,7 @@ $
 
 \[
 
-    % Chebyshev's inequality
+    % Chebyshev's bound
 
     \Pr\left[
       |X - \E[X]| \ge a
@@ -162,7 +162,7 @@ $
 
 \[
 
-    % Markov's inequality
+    % Markov's bound
 
     \begin{align}
       &amp; \Let X \text{ be a random variable in } \R^{\ge0}. \\
