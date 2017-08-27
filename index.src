@@ -36,6 +36,7 @@
   \def\Re{{\rm Re}}
   \def\Im{{\rm Im}}
   \def\E{{\rm E}}
+  \def\V{{\rm V}}
   \def\e{{\rm e}}
   \def\i{{\rm i}}
   \def\j{{\rm j}}
@@ -152,7 +153,7 @@ $
     \Pr\left[
       |X - \E[X]| \ge a
     \right]
-    \le \left(\frac{\sigma(X)}{a}\right)^2
+    \le \frac{\V[X]}{a^2}
 
 \]
 
