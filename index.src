@@ -165,7 +165,7 @@ $
     % Markov's inequality
 
     \begin{align}
-      &amp; \Let X \text{ be a random variable in } \N^+. \\
+      &amp; \Let X \text{ be a random variable in } \R^{\ge0}. \\
       &amp; \gamma \Pr\left[X \ge \gamma \right] \le \E[X]. \\
     \end{align}
 
