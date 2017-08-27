@@ -150,10 +150,7 @@ $
 
     % Chebyshev's bound
 
-    \Pr\left[
-      |X - \E[X]| \ge a
-    \right]
-    \le \frac{\V[X]}{a^2}
+    \gamma^2 \Pr\left[|X - \E[X]| \ge \gamma \right] \le \V[X]
 
 \]
 
