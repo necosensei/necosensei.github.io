@@ -163,7 +163,7 @@ $
     % Markov's bound
 
     \begin{align}
-      &amp; \Let X \text{ be a random variable on } \R^{\ge0}. \\
+      &amp; \Let X \text{ be a random variable on } \R^{\ge0}, \gamma &gt; 0. \\
       &amp; \gamma \Pr\left[X \ge \gamma \right] \le \E[X]. \\
     \end{align}
 
