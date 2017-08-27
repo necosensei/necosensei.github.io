@@ -150,7 +150,7 @@ $
 
     % Chebyshev's bound
 
-    \gamma^2 \Pr\left[|X - \E[X]| \ge \gamma \right] \le \V[X]
+    \gamma^2 \Pr\left[|X - \E[X]| \ge \gamma \right] \le \V[X].
 
 \]
 
@@ -163,7 +163,7 @@ $
     % Markov's bound
 
     \begin{align}
-      &amp; \Let X \text{ be a random variable in } \R^{\ge0}. \\
+      &amp; \Let X \text{ be a random variable on } \R^{\ge0}. \\
       &amp; \gamma \Pr\left[X \ge \gamma \right] \le \E[X]. \\
     \end{align}
 
