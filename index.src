@@ -140,6 +140,19 @@ $
 
 <pre>
 
+<hr>2017/08/28 (月)
+
+\[
+
+    % Chernoff's bound
+
+    \begin{align}
+      &amp; \Let t, \gamma &gt; 0. \\
+      &amp; \e^{t \gamma} \Pr\left[X \ge \gamma \right] \le \E[\e^{tX}]. \\
+    \end{align}
+
+\]
+
 <hr>2017/08/27 (日)
 
 - スマホ・タブレットを合計4台持ち歩いているのだが,
