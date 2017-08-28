@@ -144,7 +144,7 @@ $
 
 \[
 
-    % generalized Markov's bound
+    % Extended Markov's bound
 
     \begin{align}
       &amp; \Let \varphi : \R \rightarrow \R \text{ be strictly increasing and non-negative}. \\
