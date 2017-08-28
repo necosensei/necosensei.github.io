@@ -149,6 +149,8 @@ $
     \begin{align}
       &amp; \Let t &gt; 0. \\
       &amp; \e^{t \gamma} \Pr\left[X \ge \gamma \right] \le \E[\e^{tX}]. \\
+      \\
+      &amp; \e^{-t \gamma} \Pr\left[X \le \gamma \right] \le \E[\e^{-tX}]. \\
     \end{align}
 
 \]
