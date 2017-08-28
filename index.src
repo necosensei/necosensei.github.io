@@ -140,7 +140,22 @@ $
 
 <pre>
 
+<hr>2017/08/29 (火)
+
+\[
+
+    % generalized Markov's bound
+
+    \begin{align}
+      &amp; \Let \varphi : \R \rightarrow \R \text{ be strictly increasing and non-negative}. \\
+      &amp; \varphi(\gamma) \Pr\left[X \ge \gamma \right] \le \E[\varphi(X)].
+    \end{align}
+
+\]
+
 <hr>2017/08/28 (月)
+
+- ちょっと忙しい, ポケＧＯが …
 
 \[
 
