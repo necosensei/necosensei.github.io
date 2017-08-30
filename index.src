@@ -161,7 +161,8 @@ $
 
 \]
 
-- $ 1 \text{ nat} = \log_2 \e \text{ bit} \sim 1.44269504088896 \ldots \text{ bit} $ という情報量単位があるらしい.
+- $ 1 \text{ nat} = \log_2 \e \text{ bit} \sim 1.44269504088896 \ldots \text{ bit} $ という情報量単位
+  があるらしい.
 
 <hr>2017/08/29 (火)
 
