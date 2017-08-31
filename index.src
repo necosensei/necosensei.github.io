@@ -153,7 +153,11 @@ $
       \def\tr{\text{tr}}
       \begin{align}
         &amp; \tr\left(\prod_k X_{\sigma(k)}\right) = \tr\left(\prod_k X_{k}\right), \\
-        &amp; \where \sigma: \text{cyclic permutation}, X_k : $n\times n$-matrix.
+        &amp; \black{
+        \begin{align}
+	  \where &amp; X_k : \text{$n\times n$-matrix}, \\
+                 &amp; \sigma: \text{cyclic permutation}.
+        \end{align}}
       \end{align}
     }
 
