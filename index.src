@@ -152,7 +152,7 @@ $
     {
       \def\tr{\text{tr}}
       \begin{align}
-        &amp; \tr\left(\prod_k X_{\sigma(k)}\right) = \tr\left(\prod_k X_{k}\right) \\
+        &amp; \tr\left(\prod_k X_{\sigma(k)}\right) = \tr\left(\prod_k X_{k}\right), \\
         &amp; \where \sigma: \text{cyclic permutation}.
       \end{align}
     }
