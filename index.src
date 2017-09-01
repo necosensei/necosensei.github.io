@@ -144,6 +144,14 @@ $
 
 -
 
+\[
+
+    % Idempotence (binary operations)
+
+    \forall A \in \{0,1\}, A \wedge A = A \vee A = \max(A,A) = A.
+
+\]
+
 <hr>2017/08/31 (木)
 
 - 以前何となく直感で研究していた理論を厳密に記述してみたら
