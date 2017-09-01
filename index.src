@@ -151,7 +151,7 @@ $
 
 \[
 
-    % trace
+    % trace (linear algebra)
     
     {
       \def\tr{\text{tr}}
