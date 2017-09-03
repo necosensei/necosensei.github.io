@@ -151,7 +151,10 @@ $
 
     % Fibonacci probability distribution
 
-    p(k) = 2^{-k} F_{k-2}, \tab k = 2,3,4,\ldots
+    \begin{align}
+      &amp; p(k) = 2^{-k} F_{k-2}, \tab k = 2,3,4,\ldots \\
+      &amp; \where F_n : \text{$n$-th Fibonacci number}.
+    \end{align}
 
 \]
 
