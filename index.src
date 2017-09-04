@@ -141,6 +141,22 @@ $
 
 <pre>
 
+<hr>2017/09/04 (月)
+
+- 
+
+\[
+
+    % ordered field
+
+    \begin{align}
+      &amp; \forall a,b,c \in F : \text{a field with a total order $\le$}, \\
+      &amp; a \le b \rightarrow a+c \le b+c, \\
+      &amp; 0 \le a \wedge 0 \le b \rightarrow 0 \le a b.
+    \end{align}
+
+\]
+
 <hr>2017/09/03 (日)
 
 - メディアサーバが水曜以降反応してない事に今日気づいた.
