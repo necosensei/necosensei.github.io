@@ -153,8 +153,8 @@ $
 
     \begin{align}
       &amp; \forall a,b,c \in F : \text{a field with a total order $\le$}, \\
-      &amp; a \le b \rightarrow a+c \le b+c, \\
-      &amp; 0 \le a \wedge 0 \le b \rightarrow 0 \le a b.
+      &amp; (a \le b) \; \rightarrow \; (a+c) \le (b+c), \\
+      &amp; (0 \le a) \wedge (0 \le b) \; \rightarrow \; (0 \le a b).
     \end{align}
 
 \]
