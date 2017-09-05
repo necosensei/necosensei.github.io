@@ -141,6 +141,20 @@ $
 
 <pre>
 
+<hr>2017/09/05 (火)
+
+\[
+
+    % Fueter-Polya theorem
+
+    \begin{align}
+      &amp; \text{If $f(x,y)$ is real quadratic polynomial bijection } \N^2 \rightarrow \N, \\
+      &amp; f(x,y) \text{ is } P(x,y) \text{ or } P(y,x),
+            \where P(x,y) = \frac{1}{2}((x+y)^2 + 3 x + y).
+    \end{align}
+
+\]
+
 <hr>2017/09/04 (月)
 
 - メディアサーバの /dev/sdf の S.M.A.R.T. ? とやらを覗い
