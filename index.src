@@ -150,7 +150,7 @@ $
     % Cantor function
 
     \begin{align}
-      &amp; f_n(x)| _{n\rightarrow \infty}, \\
+      &amp; f_n|_{n\rightarrow \infty} : [0,1]  \rightarrow [0,1], \\
       &amp; \black{
         \begin{align}
           \where 
@@ -162,8 +162,7 @@ $
                 \frac{1}{2} +
                 \frac{1}{2} \times f_n(3x-2) &amp; \text{if $ \frac{2}{3} \le x \le 1 $}, \\
               \end{array}
-            \right. \\
-            &amp; \where x \in [0,1].
+            \right.
         \end{align}
       }
     \end{align}
