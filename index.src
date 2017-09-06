@@ -150,16 +150,21 @@ $
     % Cantor function
 
     \begin{align}
-      &amp; f_0(x) = x, \\
-      &amp; f_{n+1}(x) = \left\{
-        \begin{array}{ll}
-	  \frac{1}{2} \times f_n(3x)   &amp; \text{if $ 0 \le x &lt; \frac{1}{3} $}, \\
-	  \frac{1}{2}                  &amp; \text{if $ \frac{1}{3} \le x &lt; \frac{2}{3} $}, \\
-	  \frac{1}{2} +
-	  \frac{1}{2} \times f_n(3x-2) &amp; \text{if $ \frac{2}{3} \le x \le 1 $}, \\
-        \end{array}
-      \right. \\
-      &amp; \where x \in [0,1].
+      &amp; f_n(x)| _{n\rightarrow \infty}, \\
+      &amp; \where \black{
+        \begin{align}
+          &amp; f_0(x) = x, \\
+          &amp; f_{n+1}(x) = \left\{
+            \begin{array}{ll}
+              \frac{1}{2} \times f_n(3x)   &amp; \text{if $ 0 \le x &lt; \frac{1}{3} $}, \\
+              \frac{1}{2}                  &amp; \text{if $ \frac{1}{3} \le x &lt; \frac{2}{3} $}, \\
+              \frac{1}{2} +
+              \frac{1}{2} \times f_n(3x-2) &amp; \text{if $ \frac{2}{3} \le x \le 1 $}, \\
+            \end{array}
+          \right. \\
+          &amp; \where x \in [0,1].
+        \end{align}
+      }
     \end{align}
 
 \]
