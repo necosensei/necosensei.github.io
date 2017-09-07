@@ -143,7 +143,47 @@ $
 
 <hr>2017/09/07 (木)
 
--
+- 情報セキュリティハンドブック (2004) オーム社の付録の数学的準備
+  を見ると
+
+    確率論
+    計算量理論
+    整数論
+    代数系
+    楕円曲線
+    離散対数問題と素因数分解問題
+    信号処理
+
+  となっていた. 職業柄, 頭の中の体系と cross-section が大きい.
+
+\[
+
+    % Cramer-Shoup cryptosystem
+
+    \begin{align}
+      \text{Key generation}(1^\lambda):
+        &amp; (G,q) \leftarrowcoin {\cal G}(1^\lambda), H \leftarrowcoin {\cal H}(1^\lambda,q), \\
+        &amp; (x_1,x_2,y_1,y_2,z) \leftarrowcoin (\Z/q\Z)^5, \\
+        &amp; (g_1,g_2) \leftarrowcoin G,\; (c,d,h) \leftarrow (g_1^{x_1}g_2^{x_2}, g_1^{y_1}g_2^{y_2}, g_1^z), \\
+        &amp; \text{public key \it pk} = (G,q,H,g_1,g_2,c,d,h),\; \text{secret key \it sk} = (x_1,x_2,y_1,y_2,z), \\
+      \text{Encryption}(\text{\it pk},m):
+        &amp; r \leftarrowcoin \Z/q\Z, \\
+        &amp; (u_1, u_2, e) \leftarrow (g_1^r, g_2^r, m h^r), \\
+        &amp; \alpha \leftarrow H(u_1, u_2, e), \\
+        &amp; v \leftarrow c^r d^{r\alpha}, \\
+        &amp; \text{cipher text \it ct} = (u_1,u_2,e,v),\\
+      \text{Decryption}(\text{\it sk},\text{\it ct}):
+        &amp; \alpha \leftarrow H(u_1, u_2, e), \\
+        &amp; m = 
+	\left\{
+	\begin{array}{ll}
+	  \bot            &amp; \text{ if $u_2^{x_2+y_2\alpha} \ne v$}, \\
+	  \frac{e}{u_1^z} &amp; \text{ otherwise}. \\
+	\end{array}
+	\right.
+    \end{align}
+
+\]
 
 <hr>2017/09/06 (水)
 
