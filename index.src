@@ -162,8 +162,8 @@ $
 
     \begin{align}
       \text{Key generation}(1^\lambda):
-        &amp; \text{simple finite cyclic group and its order } (G,q) \leftarrowcoin {\cal G}(1^\lambda),\\
-	&amp; \text{universal one-way hash function } H \leftarrowcoin {\cal H}(q),\; H : \{0,1\}^* \rightarrow \Z/q\Z, \\
+        &amp; \text{simple finite cyclic group and its order }: (G,q) \leftarrowcoin {\cal G}(1^\lambda),\\
+	&amp; \text{universal one-way hash function } \{0,1\}^* \rightarrow \Z/q\Z : H \leftarrowcoin {\cal H}(q),\\
         &amp; (x_1,x_2,y_1,y_2,z) \leftarrowcoin (\Z/q\Z)^5, \\
         &amp; (g_1,g_2) \leftarrowcoin G,\; (c,d,h) \leftarrow (g_1^{x_1}g_2^{x_2}, g_1^{y_1}g_2^{y_2}, g_1^z), \\
         &amp; \text{public key } pk = (G,q,H,g_1,g_2,c,d,h),\; \text{secret key } sk = (x_1,x_2,y_1,y_2,z), \\
