@@ -163,17 +163,17 @@ $
     \begin{align}
       \text{Key generation}(1^\lambda):
         &amp; \text{simple finite cyclic group and its order } (G,q) \leftarrowcoin {\cal G}(1^\lambda),\\
-	&amp; \text{universal one-way hash function } H \leftarrowcoin {\cal H}(q),\; H : \{0,1\}^\* \rightarrow \Z/q\Z, \\
+	&amp; \text{universal one-way hash function } H \leftarrowcoin {\cal H}(q),\; H : \{0,1\}^* \rightarrow \Z/q\Z, \\
         &amp; (x_1,x_2,y_1,y_2,z) \leftarrowcoin (\Z/q\Z)^5, \\
         &amp; (g_1,g_2) \leftarrowcoin G,\; (c,d,h) \leftarrow (g_1^{x_1}g_2^{x_2}, g_1^{y_1}g_2^{y_2}, g_1^z), \\
-        &amp; \text{public key \it pk} = (G,q,H,g_1,g_2,c,d,h),\; \text{secret key \it sk} = (x_1,x_2,y_1,y_2,z), \\
-      \text{Encryption}(\text{\it pk},m):
+        &amp; \text{public key } pk = (G,q,H,g_1,g_2,c,d,h),\; \text{secret key } sk = (x_1,x_2,y_1,y_2,z), \\
+      \text{Encryption}(pk,m):
         &amp; r \leftarrowcoin \Z/q\Z, \\
         &amp; (u_1, u_2, e) \leftarrow (g_1^r, g_2^r, m h^r), \\
         &amp; \alpha \leftarrow H(u_1, u_2, e), \\
         &amp; v \leftarrow c^r d^{r\alpha}, \\
-        &amp; \text{cipher text \it ct} = (u_1,u_2,e,v),\\
-      \text{Decryption}(\text{\it sk},\text{\it ct}):
+        &amp; \text{cipher text } ct = (u_1,u_2,e,v),\\
+      \text{Decryption}(sk, ct):
         &amp; \alpha \leftarrow H(u_1, u_2, e), \\
         &amp; m = 
 	\left\{
