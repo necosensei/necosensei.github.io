@@ -143,9 +143,11 @@ $
 
 <hr>2017/09/08 (金)
 
-- 
+- 数式レンダリングに 16 秒もかかるようになってきた.
 
 \[
+
+    % Minkowski's question mark function
 
     \begin{align}
       &amp; ?(x) = a_0 + 2 \sum_{n=1}^{m} \frac{(-1)^{n+1}}{2^{a_1+\cdots+a_n}}, \\
