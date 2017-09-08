@@ -143,6 +143,8 @@ $
 
 <hr>2017/09/08 (金)
 
+- いまだに連分数が上手く記述できない …
+
 - 数式レンダリングに 16 秒もかかるようになってきた.
 
 \[
@@ -152,7 +154,10 @@ $
     \begin{align}
       &amp; ?(x) = a_0 + 2 \sum_{n=1}^{m} \frac{(-1)^{n+1}}{2^{a_1+\cdots+a_n}}, \\
       &amp; \where x = a_0 + \cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{
-        \raise{1ex}{a_{m-1}+\cfrac{\ddots}{a_m}}
+        \begin{array}{l}
+	  \ddots \\
+          \raise{1ex}{a_{m-1}+\cfrac{1}{a_m}} \\
+        \end{array}
       }}}.
     \end{align}
 
