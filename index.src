@@ -152,7 +152,7 @@ $
       &amp; \where x = a_0 + \cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{
         \begin{array}{l}
 	  \ddots \\
-          a_{m-1}+\cfrac{}{a_m} \\
+          \raisebox{5mm}{a_{m-1}+\cfrac{}{a_m}} \\
         \end{array}
       }}}.
     \end{align}
