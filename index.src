@@ -154,10 +154,7 @@ $
     \begin{align}
       &amp; ?(x) = a_0 + 2 \sum_{n=1}^{m} \frac{(-1)^{n+1}}{2^{a_1+\cdots+a_n}}, \\
       &amp; \where x = a_0 + \cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{
-        \begin{array}{l}
-	  \ddots \\
-          \raise{1ex}{a_{m-1}+\cfrac{1}{a_m}} \\
-        \end{array}
+          \raise{1ex}{\overset{\ddots}{a_{m-1}}+\cfrac{1}{a_m}}
       }}}.
     \end{align}
 
