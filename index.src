@@ -142,9 +142,23 @@ $
 
 <hr>2017/09/09 (土)
 
+\[
+
+    \begin{align}
+      &amp; e_0 = 2,\; e_n = e_{n-1}^2 - e_{n-1} + 1 \\
+      &amp; \iff
+      &amp; e_0 = 2,\; e_n = \prod_{i=0}^{n-1}e_{i} + 1. \\
+    \end{align}
+
+\]
+
+<hr>2017/09/09 (土)
+
 - 4T のハードディスクが税込み 9999円 だったのだが買うべきか？
 
 \[
+
+    % Minkowski's question mark function
 
     ?\left(\frac{p+r}{q+s}\right) = \frac{1}{2}
     \left(
