@@ -140,6 +140,25 @@ $
 
 <pre>
 
+<hr>2017/09/11 (月)
+
+-
+
+\[
+
+  \left|
+    \begin{array}{cccccc}
+        3      &amp; 1      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 4      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 1      &amp; 5      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 1      &amp; 1      &amp; 6      &amp;        &amp; 1   \\
+        \vdots &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp; 1   \\
+        1      &amp; 1      &amp; 1      &amp; 1      &amp;        &amp; n+1 \\
+    \end{array}
+  \right| = n!H_n
+
+\]
+
 <hr>2017/09/10 (日)
 
 - 昨日から第二次夏休み. 本日も晴天で暑い. 昨日一日暑い中
