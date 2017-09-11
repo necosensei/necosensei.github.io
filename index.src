@@ -146,7 +146,7 @@ $
 
 \[
 
-  \frac{1}{n!}
+  \frac{1}{n!} \;
   \left|
     \begin{array}{cccccc}
         3      &amp; 1      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
