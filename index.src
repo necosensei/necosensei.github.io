@@ -146,6 +146,7 @@ $
 
 \[
 
+  \frac{1}{n!}
   \left|
     \begin{array}{cccccc}
         3      &amp; 1      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
@@ -155,7 +156,7 @@ $
         \vdots &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp;     \\
         1      &amp; 1      &amp; 1      &amp;        &amp;        &amp; n+1 \\
     \end{array}
-  \right| = n!H_n
+  \right| = H_n.
 
 \]
 
