@@ -154,8 +154,7 @@ $
         1      &amp; 4      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
         1      &amp; 1      &amp; 5      &amp; 1      &amp; \ldots &amp; 1   \\
         1      &amp; 1      &amp; 1      &amp; 6      &amp;        &amp;     \\
-        \multirow{2}{*}{\vdots} &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp;     \\
-               &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp;     \\
+        \vdots &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp;     \\
         1      &amp; 1      &amp; 1      &amp;        &amp;        &amp; n+1 \\
     \end{array}
   \right| = H_n.
