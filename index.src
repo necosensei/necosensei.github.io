@@ -174,10 +174,7 @@ $
              1 + \cfrac{q}{
 	          1 + \cfrac{q^2}{
 		       1 + \cfrac{q^3}{
-                             \begin{array}{r}
-                               1 + \phantom{\cfrac{q^4}{}} \\
-                               \ddots \\
-                             \end{array}
+                               1 + \cfrac{q^4}{\ddots}
                            }
                       }
                   }
