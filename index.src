@@ -175,7 +175,7 @@ $
 	          1 + \cfrac{q^2}{
 		       1 + \cfrac{q^3}{
                              \begin{array}{ccc}
-                               1 &amp; + &amp;        \\
+                               1 &amp; + &amp; \phantom{\cfrac{q^4}{1+}}       \\
                                  &amp;   &amp; \ddots \\
                              \end{array}
                            }
