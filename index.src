@@ -175,8 +175,8 @@ $
 	          1 + \cfrac{q^2}{
 		       1 + \cfrac{q^3}{
                              \begin{array}{ccc}
-                               1 &amp; + &amp; \rule{1em}{0ex} \\
-                                 &amp;   &amp; \ddots          \\
+                               1 &amp; + &amp;        \\
+                                 &amp;   &amp; \ddots \\
                              \end{array}
                            }
                       }
