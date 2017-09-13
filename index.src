@@ -173,9 +173,7 @@ $
     R(q) := \cfrac{q^{1/5}}{
              1 + \cfrac{q}{
 	          1 + \cfrac{q^2}{
-		       1 + \cfrac{q^3}{
-                               1 + \cfrac{q^4}{\ddots}
-                           }
+		       1 + \cfrac{q^3}{\ddots}
                       }
                   }
              }.
