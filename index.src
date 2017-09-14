@@ -148,8 +148,8 @@ $
 
     % Algebraic number
     
-    \left\{ a \in \C \;\middle|\; \exists f(X) \in \Q[X] \;\st\;
-            f(X) \ne 0 \;\wedge\; f(a) = 0 \right\}.
+    \left\{ \alpha \in \C \;\middle|\; \exists P(X) \in \Q[X] \;\st\;
+            P(X) \ne 0 \;\wedge\; P(\alpha) = 0 \right\}.
 
 \]
 
