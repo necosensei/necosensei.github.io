@@ -148,7 +148,7 @@ $
 
     % Algebraic number
     
-    \left\{ a \in \C \mid \exists f(X) \in \Q[X],
+    \left\{ a \in \C \;\middle|\; \exists f(X) \in \Q[X] \;\st\;
             f(X) \ne 0 \;\wedge\; f(a) = 0 \right\}.
 
 \]
