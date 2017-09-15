@@ -167,7 +167,7 @@ $
 
 \[
 
-    % Goppa's code
+    % Goppa code
   
     \begin{align}
       &amp; C(X,{\cal P},D) := \{ (f(P_1),\ldots,f(P_n)) \;|\; f \in L(D) \} \subset \F_q^n, \\
