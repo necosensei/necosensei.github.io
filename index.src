@@ -147,6 +147,7 @@ $
   新規鯖材料集め         → ６６％
   新規鯖構築
   故障鯖サルベージ
+  サルベージド動画の消化
   故障鯖修理
 
   積み〇〇の整理
@@ -167,8 +168,20 @@ $
 \[
 
     % Goppa's code
-
-    C(X,\calP,D) := \{ (f(P_1),\cdot,f(P_n)) \;|\; f \in L(D) \} \subset \F_q^n.
+  
+    \begin{align}
+      &amp; C(X,{\cal P},D) := \{ (f(P_1),\cdot,f(P_n)) \;|\; f \in L(D) \} \subset \F_q^n,
+      &amp; \black{
+        \begin{align}
+          \where 
+          &amp; X \text{ be a nonsingular plane curve over $\F_q$}, \\
+          &amp; {\cal P} = \{P_1,\ldots,P_n\} \subset X(\F_q) \text{ be a set of $n$ distinct $\F_q$-rational points on $X$}, \\
+          &amp; D \text{ be a divisor on $X$ s.t. } {\cal P}\cap\text{supp}D = \varnothing, \\
+          &amp; L(D) \text{ be the space of rational functions associated to $D$}, \\
+          &amp; C(X,{\cal P},D) \text{ be the algebraic geometric code}. \\
+        \end{align}
+      }\\
+    \end{align}
 
 \]
 
