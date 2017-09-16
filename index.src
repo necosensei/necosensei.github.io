@@ -162,13 +162,13 @@ $
     % Reed-Solomon code
   
     \begin{align}
-      &amp; C := \{ (f(\alpha_1),\ldots,f(\alpha_n)) \;|\; f \in L_k \} \subset \F_q^n, \\
+      &amp; C(k,q) := \{ (f(\alpha_1),\ldots,f(\alpha_n)) \;|\; f \in L_k \} \subset \F_q^n, \\
       &amp; \black{
         \begin{align}
           \where 
-          &amp; \alpha = \{\alpha_1,\ldots,\alpha_n\} \subset \F_q \text{ be a set of $n$ distinct points of $\F_q$}, \\
-          &amp; L_k \subset \F_q[X] \text{ be the vector space of polynomial over $\F_q$ of degree $ &lt; k $}, \\
-          &amp; C \text{ be Reed-Solomon code}. \\
+          &amp; \alpha = \{\alpha_1,\ldots,\alpha_n\} \subset \F_q \text{ is a set of $n$ distinct points of $\F_q$}, \\
+          &amp; L_k \subset \F_q[X] \text{ be the set of polynomial over $\F_q$ of degree $ &lt; k $}, \\
+          &amp; C(k,q) \text{ is Reed-Solomon code}. \\
         \end{align}
       }\\
     \end{align}
@@ -211,11 +211,11 @@ $
       &amp; \black{
         \begin{align}
           \where 
-          &amp; X \text{ be a nonsingular plane curve over $\F_q$}, \\
-          &amp; {\cal P} = \{P_1,\ldots,P_n\} \subset X(\F_q) \text{ be a set of $n$ distinct $\F_q$-rational points on $X$}, \\
-          &amp; D \text{ be a divisor on $X$ s.t. } {\cal P}\cap\text{supp}D = \varnothing, \\
-          &amp; L(D) \text{ be the space of rational functions associated to $D$}, \\
-          &amp; C(X,{\cal P},D) \text{ be the algebraic geometric code}. \\
+          &amp; X \text{ is a nonsingular plane curve over $\F_q$}, \\
+          &amp; {\cal P} = \{P_1,\ldots,P_n\} \subset X(\F_q) \text{ is a set of $n$ distinct $\F_q$-rational points on $X$}, \\
+          &amp; D \text{ is a divisor on $X$ s.t. } {\cal P}\cap\text{supp}D = \varnothing, \\
+          &amp; L(D) \text{ is the space of rational functions associated to $D$}, \\
+          &amp; C(X,{\cal P},D) \text{ is the algebraic geometric code}. \\
         \end{align}
       }\\
     \end{align}
