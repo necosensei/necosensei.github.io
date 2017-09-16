@@ -167,7 +167,7 @@ $
         \begin{align}
           \where 
           &amp; \alpha = \{\alpha_1,\ldots,\alpha_n\} \subset \F_q \text{ is a set of $n$ distinct points of $\F_q$}, \\
-          &amp; L_k \subset \F_q[X] \text{ be the set of polynomial over $\F_q$ of degree $ &lt; k $}, \\
+          &amp; L_k \subset \F_q[X] \text{ is the set of polynomial over $\F_q$ of degree $ &lt; k $}, \\
           &amp; C(k,q) \text{ is Reed-Solomon code}. \\
         \end{align}
       }\\
