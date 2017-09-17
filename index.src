@@ -158,8 +158,8 @@ $
       = \frac{1}{2\pi}\int_{-\pi}^{\pi} |f(x)|^2 \d x, \\
       &amp; \black{
         \begin{align}
-          \where &amp; c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) \e^{-\i n x} \d x, \\
-	         &amp; f \in L^2[-\pi,\pi]. \\
+          \where \; &amp; c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) \e^{-\i n x} \d x, \\
+	            &amp; f \in L^2[-\pi,\pi]. \\
         \end{align}
       }
     \end{align}
