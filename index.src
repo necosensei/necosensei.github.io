@@ -164,8 +164,12 @@ $
 
 \[
 
+    % Monstrous moonshine
 
-
+    \begin{align}
+      &amp; j(\tau) = \frac{1}{q} + 744 + 196884 q + 21493760 q^2 + 864299970 q^3 + 20245856256 q^4 + \cdots, \\
+      &amp; \where q = \e^{2\pi\i\tau}.
+    \end{align}
 
 \]
 
