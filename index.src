@@ -149,8 +149,8 @@ $
   % Martingale
 
   \begin{align}
-    &amp; E(|X_n|) &lt; \infty, \\
-    &amp; E(X_{n+1}|X_1,\ldots,X_n) = X_n. \\
+    &amp; \E(|X_n|) &lt; \infty, \\
+    &amp; \E(X_{n+1}|X_1,\ldots,X_n) = X_n. \\
   \end{align}
 
 \]
