@@ -149,7 +149,7 @@ $
 
   \[
 
-      % Bernoulli map
+      % Bernoulli map # 187
 
       b(x) = 2 x - \left\lfloor 2 x \right\rfloor.
 
@@ -165,7 +165,7 @@ $
 
   \[
 
-      % Gauss map" "continued fraction
+      % Gauss map" "continued fraction # 186
 
       h(x) = \frac{1}{x} - \left\lfloor \frac{1}{x} \right\rfloor.
 
@@ -177,7 +177,7 @@ $
 
 \[
 
-  % Martingale (probability theory)
+  % Martingale (probability theory) # 185
 
   \begin{align}
     &amp; \E(|X_n|) &lt; \infty, \\
@@ -210,7 +210,7 @@ $
 
 \[
 
-    % Monstrous moonshine
+    % Monstrous moonshine # 184
 
     \begin{align}
       &amp; j(\tau) = \frac{1}{q} + 744 + 196884 q + 21493760 q^2 + 864299970 q^3 + 20245856256 q^4 + \cdots, \\
@@ -230,7 +230,7 @@ $
 - 今日は関数空間上のピタゴラスの定理
 
 \[
-    % Parseval's identity
+    % Parseval's identity # 183
 
     \begin{align}
       &amp; \sum_{n=-\infty}^{\infty} |c_n|^2
@@ -259,7 +259,7 @@ $
 
 \[
 
-    % Reed-Solomon code
+    % Reed-Solomon code # 182
   
     \begin{align}
       &amp; C(k,q) := \{ (f(\alpha_1),\ldots,f(\alpha_n)) \;|\; f \in L_k \} \subset \F_q^n, \\
@@ -306,7 +306,7 @@ $
 
 \[
 
-    % Goppa code
+    % Goppa code # 181
   
     \begin{align}
       &amp; C(X,{\cal P},D) := \{ (f(P_1),\ldots,f(P_n)) \;|\; f \in L(D) \} \subset \F_q^n, \\
@@ -330,7 +330,7 @@ $
 
 \[
 
-    % Algebraic number
+    % Algebraic number # 180
     
     \left\{ \alpha \in \C \;\middle|\; \exists P(X) \in \Q[X] \;\st\;
             P(X) \ne 0 \;\wedge\; P(\alpha) = 0 \right\}.
@@ -365,7 +365,7 @@ $
 
 \[
 
-    % Rogers-Ramanujan continued fraction
+    % Rogers-Ramanujan continued fraction # 179
 
     R(q) := \cfrac{q^{1/5}}{
              1 + \cfrac{q}{
@@ -386,6 +386,8 @@ $
 
 \[
 
+  % # 178
+
     \frac{\zeta'(0)}{\zeta(0)} = \log 2\pi.
 
 \]
@@ -396,6 +398,8 @@ $
   人口密度凄すぎ …
 
 \[
+
+  % # 177
 
   \frac{1}{n!} \;
   \left|
@@ -418,6 +422,8 @@ $
 
 \[
 
+  % # 176
+
   \begin{align}
     &amp; e_n = e_{n-1}^2 - e_{n-1} + 1
           \;\iff\;
@@ -433,7 +439,7 @@ $
 
 \[
 
-    % Minkowski's question mark function
+    % Minkowski's question mark function # 175
 
     ?\left(\frac{p+r}{q+s}\right) = \frac{1}{2}
     \left(
@@ -452,7 +458,7 @@ $
 
 \[
 
-    % Minkowski's question mark function
+    % Minkowski's question mark function # 174
 
     \begin{align}
       &amp; ?(x) = a_0 + 2 \sum_{n=1}^{m} \frac{(-1)^{n+1}}{2^{a_1+\cdots+a_n}}, \\
@@ -480,7 +486,7 @@ $
 
 \[
 
-    % Cramer-Shoup cryptosystem
+    % Cramer-Shoup cryptosystem # 173
 
     \begin{align}
       \text{Key generation}(1^\lambda): \;
@@ -530,7 +536,7 @@ $
 
 \[
 
-    % Cantor function
+    % Cantor function # 172
 
     \begin{align}
       &amp; f_n|_{n\rightarrow \infty} : [0,1]  \rightarrow [0,1], \\
@@ -561,7 +567,7 @@ $
 
 \[
 
-    % Fueter-Polya theorem
+    % Fueter-Polya theorem # 171
 
     \begin{align}
       &amp; \text{If $f(x,y)$ is real quadratic polynomial bijection between } \N^2 \text{ and } \N, \\
@@ -579,7 +585,7 @@ $
 
 \[
 
-    % ordered field
+    % ordered field # 170
 
     \begin{align}
       &amp; \forall a,b,c \in F : \text{a field with a total order $\le$}, \\
@@ -597,7 +603,7 @@ $
 
 \[
 
-    % Fibonacci probability distribution
+    % Fibonacci probability distribution # 169
 
     \begin{align}
       &amp; p(k) = 2^{-k} F_{k-2}, \tab k = 2,3,4,\ldots \\
@@ -613,7 +619,7 @@ $
 
 \[
 
-  % catenary
+  % catenary # 168
 
   \frac{\d y}{\d x} = \int \sqrt{ (\d x)^2 + (\d y)^2 }.
 
@@ -625,7 +631,7 @@ $
 
 \[
 
-    % Idempotence (binary operations)
+    % Idempotence (binary operations) # 167
 
     \forall A \in \{0,1\}, A \wedge A = A \vee A = \max(A,A) = A.
 
@@ -638,7 +644,7 @@ $
 
 \[
 
-    % trace (linear algebra)
+    % trace (linear algebra) # 166
     
     {
       \def\tr{\text{tr}}
@@ -669,7 +675,7 @@ $
 
 \[
 
-    % Kullback–Leibler divergence
+    % Kullback–Leibler divergence # 165
 
     D_{\text{KL}}(P\|Q) = \sum_i P(i) \log\frac{P(i)}{Q(i)}.
 
@@ -687,7 +693,7 @@ $
 
 \[
 
-    % generalized Markov's bound
+    % generalized Markov's bound # 164
 
     \begin{align}
       &amp; \Let \varphi : \R \rightarrow \R \text{ be strictly increasing and non-negative}. \\
@@ -702,7 +708,7 @@ $
 
 \[
 
-    % Chernoff's bound
+    % Chernoff's bound # 163
 
     \begin{align}
       &amp; \Let t &gt; 0. \\
@@ -720,7 +726,7 @@ $
 
 \[
 
-    % Chebyshev's bound
+    % Chebyshev's bound # 162
 
     \gamma^2 \Pr\left[|X - \E[X]| \ge \gamma \right] \le \V[X].
 
@@ -732,7 +738,7 @@ $
 
 \[
 
-    % Markov's bound
+    % Markov's bound # 161
 
     \begin{align}
       &amp; \Let X \text{ be a random variable on } \R^{\ge0}, \gamma &gt; 0. \\
@@ -747,7 +753,7 @@ $
 
 \[
 
-    % Bit-reversal permutation
+    % Bit-reversal permutation # 160
 
     \begin{align}
       &amp; \text{$m = 2^n$ ;} \\
@@ -794,7 +800,7 @@ $
 
 \[
 
-    % alternative ring
+    % alternative ring # 159
 
     \begin{align}
       &amp; \forall u,v,w \in \O, \\
