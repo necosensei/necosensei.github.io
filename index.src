@@ -142,10 +142,23 @@ $
 
 <hr>2017/09/22 (金)
 
-- 今日は一日中強烈な頭痛と疲労で朦朧としている.
 
 - 上司にEXレイドパス貰ったぜ！と自慢される. くっ、マジ羨ましい …
 
+- 今日は一日中強烈な頭痛と疲労で朦朧としている.
+
+\[
+
+    % Transfer operator
+
+    \begin{align}
+      &amp; [{\cal L}_g\rho](y) = 
+      \sum_{x:y=g(x)}
+      \frac{1}{\frac{\partial g}{\partial x}} \rho(x), \\
+      &amp; \where g: X \rightarrow X \text{ be a iterated map.} \\
+    \end{align}
+
+\]
 
 <hr>2017/09/21 (木)
 
