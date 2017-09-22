@@ -153,7 +153,7 @@ $
 
     \begin{align}
       &amp; [{\cal L}_g\rho](y) = 
-      \sum_{x:y=g(x)}
+      \sum_{x \in g^{-1}(y)}
       \frac{1}{|g'(x)|} \rho(x), \\
       &amp; \where g: [0,1] \rightarrow [0,1] \text{ is a iterated map.} \\
     \end{align}
