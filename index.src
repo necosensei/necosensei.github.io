@@ -154,8 +154,8 @@ $
     \begin{align}
       &amp; [{\cal L}_g\rho](y) = 
       \sum_{x:y=g(x)}
-      \frac{1}{\frac{\partial g}{\partial x}} \rho(x), \\
-      &amp; \where g: X \rightarrow X \text{ be a iterated map.} \\
+      \frac{1}{\left|\frac{\partial g}{\partial x}\right|} \rho(x), \\
+      &amp; \where g: X \rightarrow X \text{ is a iterated map.} \\
     \end{align}
 
 \]
