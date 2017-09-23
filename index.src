@@ -152,7 +152,7 @@ $
 
     \begin{align}
       &amp; \forall x \in X,\; f(x) \ge x \;\implies\;
-            \exists y \in X \s.t. y = f(y), \\
+            \exists y \in X \st y = f(y), \\
       &amp; \black{\begin{align}
         \where &amp; (X,\ge) \text{ is a non-empty chain complete poset and}\\
                &amp; f : X \rightarrow X.
