@@ -151,12 +151,12 @@ $
     % Bourbaki-Witt theorem # 189
 
     \begin{align}
+      &amp; \black{\begin{align}
+        \Let &amp; (X,\ge) \text{ be a non-empty chain complete poset and}\\
+             &amp; f : X \rightarrow X \text{ be a map}.
+      \end{align}}\\
       &amp; \forall x \in X,\; f(x) \ge x \;\implies\;
             \exists y \in X \st y = f(y), \\
-      &amp; \black{\begin{align}
-        \where &amp; (X,\ge) \text{ is a non-empty chain complete poset and}\\
-               &amp; f : X \rightarrow X.
-      \end{align}}
     \end{align}
 
 \]
