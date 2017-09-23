@@ -156,7 +156,7 @@ $
              &amp; f : X \rightarrow X \text{ be a map}.
       \end{align}}\\
       &amp; \forall x \in X,\; f(x) \ge x \;\implies\;
-            \exists y \in X \st y = f(y), \\
+            \exists y \in X \st y = f(y).
     \end{align}
 
 \]
