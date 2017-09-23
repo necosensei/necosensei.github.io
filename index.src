@@ -142,9 +142,23 @@ $
 
 <hr>2017/09/23 (土)
 
-- 昨日の頭痛は幾分緩和した. しかし砂２倍イベント …
+- 昨日の頭痛は幾分緩和した. しかし今日から砂２倍イベント.
+
+- Wikipedia を眺めていたら不動点定理が沢山あり過ぎて眩暈が …
 
 \[
+
+    % Bourbaki-Witt theorem # 189
+
+    \begin{align}
+      &amp; \forall x \in X,\; f(x) \ge x \;\implies\;
+            \exists y \in X \s.t. y = f(y), \\
+      &amp; \black{\begin{align}
+        \where &amp; (X,\ge) \text{ is a non-empty chain complete poset and}\\
+               &amp; f : X \rightarrow X.
+      \end{align}}
+    \end{align}
+
 \]
 
 <hr>2017/09/22 (金)
@@ -156,13 +170,13 @@ $
 
 \[
 
-    % Transfer operator
+    % Transfer operator # 188
 
     \begin{align}
       &amp; [{\cal L}_g\rho](y) = 
       \sum_{x \in g^{-1}(y)}
       \frac{1}{|g'(x)|} \rho(x), \\
-      &amp; \where g: [0,1] \rightarrow [0,1] \text{ is a iterated map.} \\
+      &amp; \where g: [0,1) \rightarrow [0,1) \text{ is a iterated map.} \\
     \end{align}
 
 \]
