@@ -152,8 +152,8 @@ $
 
     % Hurwitz matrix
 
-    H_{i,j} = \left\{\begin{array}{cl}
-      a_{n+i-2j} &amp;   0 \le 2j-i \le n, \\
+    H_{i,j}|_{i,j \in \{1,\ldots,n\}} = \left\{\begin{array}{cl}
+      a_{n-(2j-i)} &amp;   0 \le 2j-i \le n, \\
       0          &amp;   \text{otherwise}.\\
     \end{array}\right.
 
