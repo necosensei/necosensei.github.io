@@ -152,7 +152,7 @@ $
 
     % Hurwitz matrix
     \begin{align}
-      &amp; H = (\tilde{a}_{n+i-2j})_{\;i,j \in \{1,\ldots,n\}}, \\
+      &amp; H = (\tilde{a}_{\,n+i-2j})_{\;i,j \in \{1,\ldots,n\}}, \\
       &amp; \where\; \tilde{a}_i = \left\{\begin{array}{cl}
         a_i &amp;   0 \le i \le n, \\
         0   &amp;   \text{otherwise}.\\
