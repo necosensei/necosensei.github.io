@@ -152,10 +152,10 @@ $
 
     % Hurwitz matrix
     \begin{align}
-      &amp; H = (h_{ij})_{i,j \in \{1,\ldots,n\}}, \\
-      &amp; \where h_{ij} = \left\{\begin{array}{cl}
-        a_{n-(2j-i)} &amp;   0 \le (2j-i) \le n, \\
-        0          &amp;   \text{otherwise}.\\
+      &amp; H = (a'_{n-(2j-i)})_{i,j \in \{1,\ldots,n\}}, \\
+      &amp; \where a'_i = \left\{\begin{array}{cl}
+        a_i &amp;   0 \le i \le n, \\
+        0   &amp;   \text{otherwise}.\\
       \end{array}\right.
     \end{align}
 
