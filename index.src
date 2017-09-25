@@ -148,12 +148,13 @@ $
 
     % Hurwitz matrix
 
-    H = \left(\begin{array}{ccccc}
-          a_1 &amp; a_3 &amp; a_5 &amp;        &amp;     \\
-          a_0 &amp; a_2 &amp; a_4 &amp;        &amp;     \\
-            0 &amp; a_1 &amp; a_3 &amp;        &amp;     \\
-       \vdots &amp;     &amp;     &amp; \ddots &amp;     \\
-            0 &amp;     &amp;     &amp;        &amp; a_n \\
+    H = \left(\begin{array}{cccccc}
+          a_1 &amp; a_3 &amp; a_5 &amp; \cdots &amp;         &amp;     \\
+          a_0 &amp; a_2 &amp; a_4 &amp;        &amp;         &amp;     \\
+            0 &amp; a_1 &amp; a_3 &amp;        &amp;         &amp;     \\
+       \vdots &amp;     &amp;     &amp; \ddots &amp;         &amp;     \\
+            0 &amp;     &amp;     &amp;        &amp; a_{n-1} &amp;   0 \\
+              &amp;     &amp;     &amp; \cdots &amp; a_{n-2} &amp; a_n \\
     \end{array}\right).
 
 \]
