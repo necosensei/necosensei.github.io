@@ -154,7 +154,7 @@ $
     \begin{align}
       &amp; H = (h_{ij})_{i,j \in \{1,\ldots,n\}}, \\
       &amp; \where h_{ij} = \left\{\begin{array}{cl}
-        a_{n-(2j-i)} &amp;   0 \le 2j-i \le n, \\
+        a_{n-(2j-i)} &amp;   0 \le (2j-i) \le n, \\
         0          &amp;   \text{otherwise}.\\
       \end{array}\right.
     \end{align}
