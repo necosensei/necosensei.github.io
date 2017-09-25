@@ -153,7 +153,8 @@ $
     % Hurwitz matrix
 
     H = \left(\begin{array}{ccccccc}
-      a_{n-1} &amp; a_{n-3} &amp; a_{n-5} &amp; \cdots &amp;     &amp;     &amp;   0    \\
+      a_{n-1} &amp; a_{n-3} &amp; a_{n-5} &amp; \cdots &amp; a_{n-2\lfloor n/2 \rfloor-1}  &amp;     &amp;   0    \\
+
       a_n     &amp; a_{n-2} &amp; a_{n-4} &amp;        &amp;     &amp;     &amp;        \\
         0     &amp; a_{n-1} &amp; a_{n-3} &amp;        &amp;     &amp;     &amp; \vdots \\
               &amp;         &amp;         &amp; \ddots &amp;     &amp;     &amp;        \\
