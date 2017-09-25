@@ -157,7 +157,7 @@ $
       a_n     &amp; a_{n-2} &amp; a_{n-4} &amp;        &amp;     &amp;     &amp;        \\
         0     &amp; a_{n-1} &amp; a_{n-3} &amp;        &amp;     &amp;     &amp; \vdots \\
               &amp;         &amp;         &amp; \ddots &amp;     &amp;     &amp;        \\
-      \vdots  &amp;         &amp;         &amp;        &amp; a_2 &amp; a_0 &amp;        \\
+      \vdots  &amp;         &amp;         &amp;        &amp; a_2 &amp; a_0 &amp;   0    \\
               &amp;         &amp;         &amp;        &amp; a_3 &amp; a_1 &amp;   0    \\
         0     &amp;         &amp;         &amp; \cdots &amp; a_4 &amp; a_2 &amp; a_0    \\
     \end{array}\right).
