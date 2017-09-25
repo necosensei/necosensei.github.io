@@ -152,16 +152,10 @@ $
 
     % Hurwitz matrix
 
-    H = \left(\begin{array}{ccccccc}
-      a_{n-1} &amp; a_{n-3} &amp; a_{n-5} &amp; \cdots &amp; a_{n-2\lceil n/2 \rceil+1}  &amp;     &amp;   0    \\
-
-      a_n     &amp; a_{n-2} &amp; a_{n-4} &amp;        &amp;     &amp;     &amp;        \\
-        0     &amp; a_{n-1} &amp; a_{n-3} &amp;        &amp;     &amp;     &amp; \vdots \\
-              &amp;         &amp;         &amp; \ddots &amp;     &amp;     &amp;        \\
-      \vdots  &amp;         &amp;         &amp;        &amp; a_2 &amp; a_0 &amp;   0    \\
-              &amp;         &amp;         &amp;        &amp; a_3 &amp; a_1 &amp;   0    \\
-        0     &amp;         &amp;         &amp; \cdots &amp; a_4 &amp; a_2 &amp; a_0    \\
-    \end{array}\right).
+    H_{i,j} = \left\{\begin{array}{ll}
+      a_{n-2i+j} &amp;   0 \le n-2i+j \le n \\
+      0          &amp;   \text{otherwise}.\\
+    \end{array}\right.
 
 \]
 
