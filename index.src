@@ -153,7 +153,7 @@ $
     % Hurwitz matrix
 
     H_{i,j} = \left\{\begin{array}{cl}
-      a_{n-2i+j} &amp;   0 \le n-2i+j \le n, \\
+      a_{n+i-2j} &amp;   0 \le n+i-2j \le n, \\
       0          &amp;   \text{otherwise}.\\
     \end{array}\right.
 
