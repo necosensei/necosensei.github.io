@@ -160,7 +160,7 @@ $
 
     \begin{align}
       &amp; \Let P \text{ be a poset}. \\
-      &amp; \forall C:\text{chain} \subset P, \exists u \in P \st \forall c \in C, u \ge c, \\
+      &amp; \forall C:\text{chain in } P, \exists u \in P \st \forall c \in C, u \ge c, \\
       &amp; \implies\; \exists m \in P \st \neg ( \exists x \in P, x \ge m )
     \end{align}
 
