@@ -28,10 +28,10 @@
 
     \begin{array}{ll}
       \identifier &amp; :\; \alphabet \\
-                  &amp; |\; \identifier \alphabet \\
+                  &amp; |\;\; \identifier \alphabet \\
       \expr       &amp; :\; \identifier \\
-	          &amp; |\; (\lambda\identifier.\;\expr) \\
-	          &amp; |\; (\expr\;\expr) \\
+	          &amp; |\;\; (\lambda\identifier.\;\expr) \\
+	          &amp; |\;\; (\expr\;\expr) \\
     \end{array}
   }
 
