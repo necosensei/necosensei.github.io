@@ -27,6 +27,8 @@
     \def\alphabet{\ntsym{alphabet}}
 
     \begin{array}{ll}
+      \alphabet   &amp; :\;   \texttt{A} | \texttt{B} | \texttt{C} | \cdots | \texttt{Z} \\
+                  &amp; |\;\; \texttt{a} | \texttt{b} | \texttt{c} | \cdots | \texttt{z} \\ 
       \identifier &amp; :\; \alphabet \\
                   &amp; |\;\; \identifier \alphabet \\
       \expr       &amp; :\; \identifier \\
