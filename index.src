@@ -26,7 +26,7 @@
     \def\identifier{\ntsym{identifier}}
     \def\alphabet{\ntsym{alphabet}}
 
-    \begin{array}{lll}
+    \begin{array}{lcl}
       \alphabet   &amp; ::= &amp; \texttt{a} | \texttt{b} | \texttt{c} | \cdots | \texttt{z} \\
       \identifier &amp; ::= &amp; \alphabet \\
                   &amp; |   &amp; \identifier \alphabet \\
