@@ -26,13 +26,13 @@
     \def\identifier{\ntsym{identifier}}
     \def\alphabet{\ntsym{alphabet}}
 
-    \begin{array}{lcl}
-      \alphabet   &amp; : &amp; \texttt{a} | \texttt{b} | \texttt{c} | \cdots | \texttt{z} \\
-      \identifier &amp; : &amp; \alphabet \\
-                  &amp; | &amp; \identifier \alphabet \\
-      \expr       &amp; : &amp; \identifier \\
-	          &amp; | &amp; (\lambda\identifier.\;\expr) \\
-	          &amp; | &amp; (\expr\;\expr) \\
+    \begin{array}{lll}
+      \alphabet   &amp; ::= &amp; \texttt{a} | \texttt{b} | \texttt{c} | \cdots | \texttt{z} \\
+      \identifier &amp; ::= &amp; \alphabet \\
+                  &amp; |   &amp; \identifier \alphabet \\
+      \expr       &amp; ::= &amp; \identifier \\
+	          &amp; |   &amp; (\lambda\identifier.\;\expr) \\
+	          &amp; |   &amp; (\expr\;\expr) \\
     \end{array}
   }
 
