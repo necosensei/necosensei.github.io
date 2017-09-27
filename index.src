@@ -21,7 +21,7 @@
   % Lambda calculus
 
   {
-    \def\ntsym#1{\langle\text{#1}\rangle}
+    \def\ntsym#1{\langle\texttt{#1}\rangle}
     \def\expr{\ntsym{expr}}
     \def\identifier{\ntsym{identifier}}
     \begin{align}
