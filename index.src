@@ -24,11 +24,15 @@
     \def\ntsym#1{\langle\texttt{#1}\rangle}
     \def\expr{\ntsym{expr}}
     \def\identifier{\ntsym{identifier}}
-    \begin{align}
-      \expr :\; &amp; \identifier \\
-            |\; &amp; (\lambda\identifier.\;\expr) \\
-            |\; &amp; (\expr\;\expr) \\
-    \end{align}
+    \def\alphabet{\ntsym{alphabet}}
+
+    \begin{array}{ll}
+      \identifier &amp; :\; \alphabet \\
+                  &amp; |\; \identifier \alphabet \\
+      \expr       &amp; :\; \identifier \\
+	          &amp; |\; (\lambda\identifier.\;\expr) \\
+	          &amp; |\; (\expr\;\expr) \\
+    \end{array}
   }
 
 \]
