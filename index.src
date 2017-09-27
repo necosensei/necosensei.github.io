@@ -25,9 +25,9 @@
     \def\expr{\ntsym{expr}}
     \def\identifier{\ntsym{identifier}}
     \begin{align}
-      1.\; &amp; \expr ::= \identifier \\
-      2.\; &amp; \expr ::= (\lambda\identifier.\;\expr) \\
-      3.\; &amp; \expr ::= (\expr\;\expr) \\
+      \expr :\; &amp; \identifier \\
+            |\; &amp; (\lambda\identifier.\;\expr) \\
+            |\; &amp; (\expr\;\expr) \\
     \end{align}
   }
 
