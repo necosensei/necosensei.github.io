@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+<!DOCTYPE html>
 <pre>
 
 <hr>2017/09/27 (水)
@@ -11,17 +11,25 @@
   たので画面の左右に同時に出して受けてみたが思ったよりも遥かに頭に入
   らない事が分かった.
 
-- 有名な数学親父ギャグとのこと.
+- 有名な寒い数学親父ギャグとのこと.
 
   Q: What do you call a young eigensheep?
   A: A lamb, duh!
 
 \[
 
-  \begin{align}
-    1. &amp;
+  % Lambda calculus
 
-  \end{align}
+  {
+    \def\ntsym#1{\langle\text{#1}\rangle}
+    \def\expr{\ntsym{expr}}
+    \def\identifier{\ntsym{identifier}}
+    \begin{align}
+      1. &amp; \expr ::= \identifier \\
+      2. &amp; \expr ::= (\lambda\identifier.\;\expr) \\
+      3. &amp; \expr ::= (\expr\;\expr) \\
+    \end{align}
+  }
 
 \]
 
