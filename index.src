@@ -16,8 +16,8 @@
                    \varepsilon \;\text{ be the empty string,} \\
                  &amp; V_i = \left\{
                          \begin{array}{ll}
-                           \{ \varepsilon \}                     &amp; i =    0, \\
-                           \{ wv \mid w \in V_{i-1}, v \in V \}, &amp; i &gt; 0. \\
+                           \{ \varepsilon \}                        &amp; i =    0, \\
+                           \{ wv \mid w \in V_{i-1}, \; v \in V \}, &amp; i &gt; 0. \\
                          \end{array}
                        \right. \\
         \end{align}
