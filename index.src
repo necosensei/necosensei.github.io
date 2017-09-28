@@ -17,7 +17,7 @@
                  &amp; V_i = \left\{
                          \begin{array}{ll}
                            \{ \varepsilon \}                        &amp; i =    0, \\
-                           \{ wv \mid w \in V_{i-1}, \; v \in V \}, &amp; i &gt; 0. \\
+                           \{ wv \mid w \in V_{i-1}, \; v \in V \}, &amp; i \in \N^+. \\
                          \end{array}
                        \right. \\
         \end{align}
