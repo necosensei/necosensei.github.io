@@ -14,8 +14,9 @@
 
     % Birch and Swinnerton-Dyer conjecture
 
+    \left.
     \prod_{p\le x}\frac{N_p}{p} \simeq C \log(x)^r
-    \;|\;_{x\rightarrow\infty}
+    \;\right|_{\;x\rightarrow\infty}
 
 \]
 
