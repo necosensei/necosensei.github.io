@@ -1,6 +1,39 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/09/30 (土)
+
+-
+
+\[
+
+    % Neil's semicubical parabola
+
+    X^3 - Y^2 = 0
+
+\]
+
+#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set   parametric
+
+unset key
+unset tics
+unset border
+
+x(t) = t^2
+y(t) = t^3
+
+plot [-2:2] x(t),y(t)
+
+#!
+
+
+
+
+
+
+
 <hr>2017/09/29 (金)
 
 - 眠気の昼夜逆転を利用していつも午後2:00頃に出社する悪い習慣を排
