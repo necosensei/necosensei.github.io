@@ -21,7 +21,10 @@ unset tics
 x(t) = 3*t/(1+t**3)
 y(t) = 3*t**2/(1+t**3)
 
-plot [-0.5:50] x(t),y(t)
+set multiplot
+plot [-2:-1] x(t),y(t)
+plot [-1:0] x(t),y(t)
+plot [0:1] x(t),y(t)
 
 #!
 </a>
