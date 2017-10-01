@@ -1,6 +1,38 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/01 (日)
+
+- 楕円曲線のなり損ない.
+
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22folium+of+Descartes%22" target="_blank">
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 200,200
+
+set parametric
+
+set zeroaxis
+unset key
+unset border
+unset tics
+
+x(t) = 3*t/(1+t**3)
+y(t) = 3*t**2/(1+t**3)
+
+plot [-2:2] x(t),y(t)
+
+#!
+</a>
+
+\[
+
+    % folium of Descartes
+
+    X^3 + Y^3 - 3XY = 0
+
+\]
+
 <hr>2017/09/30 (土)
 
 - 楕円曲線のなり損ない.
