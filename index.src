@@ -5,14 +5,6 @@
 
 -
 
-\[
-
-    % Neil's semicubical parabola
-
-    X^3 - Y^2 = 0
-
-\]
-
 #! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set   parametric
@@ -28,11 +20,13 @@ plot [-2:2] x(t),y(t)
 
 #!
 
+\[
 
+    % Neil's semicubical parabola
 
+    X^3 - Y^2 = 0
 
-
-
+\]
 
 <hr>2017/09/29 (金)
 
