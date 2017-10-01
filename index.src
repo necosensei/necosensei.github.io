@@ -20,7 +20,7 @@ unset tics
 x(t) = 3*t/(1+t**3)
 y(t) = 3*t**2/(1+t**3)
 
-plot [-1:2] x(t),y(t)
+plot [-2:2] x(t),y(t)
 
 #!
 </a>
