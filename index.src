@@ -3,22 +3,23 @@
 
 <hr>2017/09/30 (土)
 
--
+- 楕円曲線のなり損ない.
 
 #! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set terminal svg size 300,300
-# set size ratio -1
-set zeroaxis
+
 set parametric
-# unset key
-# unset tics
-# unset border
+
+set zeroaxis
+unset key
+unset border
+unset tics
 
 x(t) = t**2
 y(t) = t**3
 
-plot [-2:2] x(t),y(t)
+plot [-2:2][-0.1:4] x(t),y(t)
 
 #!
 
