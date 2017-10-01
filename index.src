@@ -27,7 +27,7 @@ set yrange [-3:2]
 
 plot [-20:-1] x(t),y(t) lc rgb "red"
 plot [-1:0] x(t),y(t) lc rgb "green"
-plot [0:1] x(t),y(t) lc rgb "blue"
+plot [0:20] x(t),y(t) lc rgb "blue"
 
 #!
 </a>
