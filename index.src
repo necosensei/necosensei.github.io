@@ -4,7 +4,8 @@
 <hr>2017/09/30 (土)
 
 - 楕円曲線のなり損ない.
-<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Neil%27s+semicubical+parabola%22" target="_blank">
+
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22semicubical+parabola%22" target="_blank">
 #! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set terminal svg size 200,200
@@ -26,7 +27,7 @@ plot [-2:2][-0.1:4] x(t),y(t)
 
 \[
 
-    % Neil's semicubical parabola
+    % semicubical parabola
 
     X^3 - Y^2 = 0
 
