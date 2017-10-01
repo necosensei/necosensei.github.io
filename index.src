@@ -5,16 +5,18 @@
 
 -
 
-#! /usr/local/bin/gnuplot -e "set terminal svg size 400,300" - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-set   parametric
+set terminal svg size 300,300
+# set size ratio -1
+set zeroaxis
+set parametric
+# unset key
+# unset tics
+# unset border
 
-unset key
-unset tics
-unset border
-
-x(t) = t^2
-y(t) = t^3
+x(t) = t**2
+y(t) = t**3
 
 plot [-2:2] x(t),y(t)
 
