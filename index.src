@@ -9,8 +9,7 @@
 
     % repunit prime # 198
 
-    \frac{10^{270343}-1}{9} = \underbrace{1 \cdots 1}_{270343}
-    \text{ is prime}.
+    \frac{10^{270343}-1}{9} = \underbrace{1 \cdots 1}_{270343} \; \text{ is prime}.
 
 \]
 
