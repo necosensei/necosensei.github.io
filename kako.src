@@ -1,4 +1,727 @@
+<!DOCTYPE html>
 <pre>
+
+<hr>2017/09/30 (土)
+
+- 楕円曲線のなり損ない.
+
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22semicubical+parabola%22" target="_blank">
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 200,200
+
+set parametric
+
+set zeroaxis
+unset key
+unset border
+unset tics
+
+x(t) = t**2
+y(t) = t**3
+
+plot [-2:2][-0.1:4] x(t),y(t)
+
+#!
+</a>
+
+\[
+
+    % semicubical parabola
+
+    X^3 - Y^2 = 0
+
+\]
+
+<hr>2017/09/29 (金)
+
+- 眠気の昼夜逆転を利用していつも午後2:00頃に出社する悪い習慣を排
+  し一気に午前11:00頃に出社する！！！
+
+  あんまり改善してないかも …
+
+- 研究の結果, 会社のシステムに誰がどんな本を (会社の金で) 買った
+  のかを逐一チェック出来る恐るべきシステムが存在するのを発見した
+  のだが, 見てると結構面白い. F 岡先生どんだけ BSD 好きなんだ …
+
+\[
+
+    % Birch and Swinnerton-Dyer conjecture
+
+    \left.
+    \prod_{p\le x}\frac{N_p}{p} 
+    \;\right|_{\;x\rightarrow\infty} \;
+    \approx C \log(x)^r.
+
+\]
+
+<hr>2017/09/28 (木)
+
+- とうとう昼夜が逆転してきた.
+
+\[
+
+    % Kleene closure
+
+    \begin{align}
+      &amp; \black{
+        \begin{align}
+          \Let\; &amp; V \;\text{ be a set, }\; 
+                   \varepsilon \;\text{ be the empty string,} \\
+                 &amp; V_i = \left\{
+                         \begin{array}{ll}
+                           \{ \varepsilon \}                        &amp; i =    0, \\
+                           \{ wv \mid w \in V_{i-1}, \; v \in V \}, &amp; i \in \N^+. \\
+                         \end{array}
+                       \right. \\
+        \end{align}
+      } \\
+      &amp; V^* = \bigcup_{i=0}^{\infty}V_i.
+    \end{align}
+
+\]
+
+<hr>2017/09/27 (水)
+
+- 猛烈に頭が痛い. 季節の変わり目になるとこの頭痛になる事がある. 最近
+  の強烈な眠気と朦朧も同じ原因であろう. だが今日は打合せの約束をして
+  しまったので, がんばって出社. しかし打合せは延期になった模様 …
+
+- 環境と中間管理職のe-ラーニング研修とやらを受けるよう業務命令が下っ
+  たので画面の左右に同時に出して受けてみたが思ったよりも遥かに頭に入
+  らない事が分かった.
+
+- 有名な寒い数学親父ギャグとのこと.
+
+  Q: What do you call a young eigensheep?
+  A: A lamb, duh!
+
+\[
+
+  % Lambda calculus # 193
+
+  {
+    \def\ntsym#1{\langle\texttt{#1}\rangle}
+    \def\expr{\ntsym{expr}}
+    \def\identifier{\ntsym{identifier}}
+    \def\alphabet{\ntsym{alphabet}}
+
+    \begin{array}{lcl}
+      \alphabet   &amp; ::= &amp; \texttt{a} | \texttt{b} | \texttt{c} | \cdots | \texttt{z} \\
+      \identifier &amp; ::= &amp; \alphabet \\
+                  &amp; |   &amp; \identifier \alphabet \\
+      \expr       &amp; ::= &amp; \identifier \\
+	          &amp; |   &amp; (\lambda\identifier.\;\expr) \\
+	          &amp; |   &amp; (\expr\;\expr) \\
+    \end{array}
+  }
+
+\]
+
+<hr>2017/09/26 (火)
+
+- Symante○がまたThund○rbirdのメールスプールをぶっ壊したせいで100件
+  弱のメールが読めなくなってしまった. 明らかにメールスプールの処理が
+  正しく出来ておらず, マルウェア付きスパムが本当に除去できているのか
+  もかなり怪しい. 正直脅威でもなんでもない読まないスパムなんかよりも
+  仕事のメールを勝手に削除するソフトの方がずっとマルウェアなんだが…
+
+  会社の方針とウイルススキャンソフトの特性により Symante○しか入れら
+  れない. 被害があまりにも酷いのでメールスプールのスキャンを停止せざ
+  るを得ないが, 結果として会社マシンのメールスプールがウイルスインキュ
+  ベータに. Symante○ はほとんど調べる必要の無いファイルを延々スキャ
+  ンするっていう … 頭が悪すぎる.
+
+- 遂に月の通信量が限界を突破した, と同時にポケＧＯに繋がらなくなった,
+  と思ったらサーバ障害だったようだ.
+
+\[
+
+    % Kuratowski-Zorn's lemma # 192
+
+    \begin{align}
+      &amp; \Let P\,\text{ be a poset}. \\
+      &amp; \forall C:\text{chain in } P,\; \exists u \in P \st \forall c \in C, u \ge c, \\
+      &amp; \implies\; \exists m \in P \st \neg ( \exists x \in P, x &gt; m )
+    \end{align}
+
+\]
+
+<hr>2017/09/25 (月)
+
+- ブラウザの反応があまりにも重いので 8 月以前の日記を kako.html
+  に移した結果 index.html が 2MByte から 200KByte へのダイエット
+  に成功した模様.
+
+- ときどき $ \cdots $ で書きにくい行列がある.
+
+\[
+
+    % Hurwitz matrix # 191
+
+    \begin{align}
+      &amp; H(p) = (\tilde{a}_{\,n+i-2j})_{\;i,j \in \{1,\ldots,n\}}, \\
+      &amp; 
+        \where\; p(x) = \sum_{i=0}^{n} a_i x^i, \;\text{ and }\;
+                 \tilde{a}_i = \left\{\begin{array}{cl}
+                   a_i &amp;   0 \le i \le n, \\
+                   0   &amp;   \text{otherwise}.\\
+                 \end{array}\right.\\
+    \end{align}
+
+\]
+
+<hr>2017/09/24 (日)
+
+- 砂を稼ぐ為, 魔界都市新宿へ …
+
+\[
+    % Bessel's inequality # 190
+
+    \begin{align}
+      &amp; \sum_{k=1}^{\infty} |\langle f,e_k \rangle|^2 \le \|f\|^2, \\
+      &amp; \where \; e_1,e_2,\ldots \text{ is an orthonormal sequence in a Hilbert space}.
+    \end{align}
+
+\]
+
+<hr>2017/09/23 (土)
+
+- 昨日の頭痛は幾分緩和した. しかし今日から砂２倍イベント.
+
+- Wikipedia を眺めていたら不動点定理が沢山あり過ぎて眩暈が …
+
+\[
+
+    % Bourbaki-Witt theorem # 189
+
+    \begin{align}
+      &amp; \black{\begin{align}
+        \Let &amp; (X,\ge) \text{ be a non-empty chain complete poset and}\\
+             &amp; f : X \rightarrow X \text{ be a map}.
+      \end{align}}\\
+      &amp; \forall x \in X,\; f(x) \ge x \;\implies\;
+            \exists y \in X \st y = f(y).
+    \end{align}
+
+\]
+
+<hr>2017/09/22 (金)
+
+
+- 上司にEXレイドパス貰ったぜ！と自慢される. くっ、マジ羨ましい …
+
+- 今日は一日中強烈な頭痛と疲労で朦朧としている.
+
+\[
+
+    % Transfer operator # 188
+
+    \begin{align}
+      &amp; [{\cal L}_g\rho](y) = 
+      \sum_{x \in g^{-1}(y)}
+      \frac{1}{|g'(x)|} \rho(x), \\
+      &amp; \where g: [0,1) \rightarrow [0,1) \text{ is a iterated map.} \\
+    \end{align}
+
+\]
+
+<hr>2017/09/21 (木)
+
+- 今日はプレミアムフライデーもどきで職場の人々は早々に退社して
+  しまった.
+
+- 人が集まらずレイドパスを１個無駄にした …
+
+  \[
+
+      % Bernoulli map # 187
+
+      b(x) = 2 x - \left\lfloor 2 x \right\rfloor.
+
+  \]
+
+<hr>2017/09/20 (水)
+
+- &lt;PRE&gt; タグでネチネチ記述してる日記を, 何とかして意識高い系
+  ワードプレス？みたいにしようと目論んでいるのだが, 忙しくて
+  出来ない (主にポケＧＯで …).
+
+- ネットワークエラーでレイドパスを１個吸い取られた orz
+
+  \[
+
+      % Gauss map" "continued fraction # 186
+
+      h(x) = \frac{1}{x} - \left\lfloor \frac{1}{x} \right\rfloor.
+
+  \]
+
+<hr>2017/09/19 (火)
+
+- 会社の後輩が対独立をタイドクリツと読んでいた …
+
+\[
+
+  % Martingale (probability theory) # 185
+
+  \begin{align}
+    &amp; \E(|X_n|) &lt; \infty, \\
+    &amp; \E(X_{n+1}|X_1,\ldots,X_n) = X_n. \\
+  \end{align}
+
+\]
+
+<hr>2017/09/18 (月)
+
+- 花小金□駅前でスイクンのレイドが行われていたので参加した.
+  6～7才くらいの子供が話しかけてきたので, Raid Boss Capture
+  画面を覗いてみると, 恐ろしい勢いで Curve Excellent を決め
+  まくっている. 世代によって良く使用されるデバイスが変遷し
+  ており, 明らかにデバイス操作解像度の感覚が異なっている.
+
+    世代  得意なデバイス
+    ----- ----------------
+    1945- そろばん
+    1955- 電卓
+    1965- レバー(ジョイスティック)
+    1975- 十字キー
+    1985- マウス
+    1995- 携帯電話
+    2005- スマホ
+
+  こんな感じだろうか？因みに私は下手くそな throw でスイクン
+  を捕まえ, Curve Excellent を連発していた子供は逃がしてし
+  まった …
+
+\[
+
+    % Monstrous moonshine # 184
+
+    \begin{align}
+      &amp; j(\tau) = \frac{1}{q} + 744 + 196884 q + 21493760 q^2 + 864299970 q^3 + 20245856256 q^4 + \cdots, \\
+      &amp; \where q = \e^{2\pi\i\tau}.
+    \end{align}
+
+\]
+
+<hr>2017/09/17 (日)
+
+- 昨日から急激に寒くなってきた. 
+
+- ずーと同じ音楽を聞いてると洗脳効果によって, その曲が心地
+  よくなってくる. ここ数日スマホにイヤフォンを付けて持ち歩
+  いたところ見事にポケＧＯに洗脳される …
+
+- 今日は関数空間上のピタゴラスの定理
+
+\[
+    % Parseval's identity # 183
+
+    \begin{align}
+      &amp; \sum_{n=-\infty}^{\infty} |c_n|^2
+            = \frac{1}{2\pi}\int_{-\pi}^{\pi} |f(x)|^2 \d x, \\
+      &amp; \where \; c_n = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) \e^{-\i n x} \d x,\; f \in L^2[-\pi,\pi]. \\
+    \end{align}
+
+\]
+
+<hr>2017/09/16 (土)
+
+- 起きた時刻が割と遅かったので, 新規鯖の材料調達に出かけるか
+  後回しにするか迷ったが, どう考えても今日出かける以外ない …
+
+  +--------+--------------+--------+------+
+  |  日時  | 活動可能時間 | 残日数 | 天候 |
+  +--------+--------------+--------+------+
+  |  今日  |  5h (16:00-) |   ２   | 小雨 |
+  |  明日  | 12h (09:00-) |   １   | 台風 |
+  | 明後日 | 12h (09:00-) |   ０   | 晴れ |
+  +--------+--------------+--------+------+
+
+- to do list (update)
+
+  新規鯖材料調達         → ９０％
+
+\[
+
+    % Reed-Solomon code # 182
+  
+    \begin{align}
+      &amp; C(k,q) := \{ (f(\alpha_1),\ldots,f(\alpha_n)) \;|\; f \in L_k \} \subset \F_q^n, \\
+      &amp; \black{
+        \begin{align}
+          \where 
+          &amp; \alpha = \{\alpha_1,\ldots,\alpha_n\} \subset \F_q \text{ is a set of $n$ distinct points of $\F_q$}, \\
+          &amp; L_k \subset \F_q[X] \text{ is the set of polynomial over $\F_q$ of degree $ &lt; k $}, \\
+          &amp; C(k,q) \text{ is Reed-Solomon code}. \\
+        \end{align}
+      }\\
+    \end{align}
+
+\]
+
+<hr>2017/09/15 (金)
+
+- to do list
+
+  新規鯖材料調達         → ６０％
+  新規鯖構築
+  故障鯖サルベージ
+  サルベージド動画の消化
+  故障鯖修理
+
+  積み〇〇の整理
+  ゲーム棚の整理
+  本棚の整理
+  所有物データ更新
+  段ボール整理
+  掃除
+
+  洗濯                   → ５０％
+
+  ポッポマラソン         → ペンディング
+  ポケモン整理           → ペンディング
+  通勤経路ジムの金ジム化 → １０％
+  鋼金メダル             → １００％
+  トレーナーレベル３９   → １００％
+
+  就寝時間シフト
+
+  日記の重い数式解消
+
+\[
+
+    % Goppa code # 181
+  
+    \begin{align}
+      &amp; C(X,{\cal P},D) := \{ (f(P_1),\ldots,f(P_n)) \;|\; f \in L(D) \} \subset \F_q^n, \\
+      &amp; \black{
+        \begin{align}
+          \where 
+          &amp; X \text{ is a nonsingular plane curve over $\F_q$}, \\
+          &amp; {\cal P} = \{P_1,\ldots,P_n\} \subset X(\F_q) \text{ is a set of $n$ distinct $\F_q$-rational points on $X$}, \\
+          &amp; D \text{ is a divisor on $X$ s.t. } {\cal P}\cap\text{supp}D = \varnothing, \\
+          &amp; L(D) \text{ is the space of rational functions associated to $D$}, \\
+          &amp; C(X,{\cal P},D) \text{ is the algebraic geometric code}. \\
+        \end{align}
+      }\\
+    \end{align}
+
+\]
+
+<hr>2017/09/14 (木)
+
+- 休暇中にやりたい事が沢山あるが半分も出来てない. 外食を止めるべきか？
+
+\[
+
+    % Algebraic number # 180
+    
+    \left\{ \alpha \in \C \;\middle|\; \exists P(X) \in \Q[X] \;\st\;
+            P(X) \ne 0 \;\wedge\; P(\alpha) = 0 \right\}.
+
+\]
+
+<hr>2017/09/13 (水)
+
+- ポケモンＧＯでは強いポケモンを作る為には, 素体となる良いポケモンと
+  飴と呼ばれるポケモン毎に異なる材料と, 砂と呼ばれるどのポケモンにも
+  共通に使える材料を集める必要がある. そして砂は非常に枯渇しやすい.
+
+  砂を入手する主要な手段は
+
+    １. 沢山歩いて沢山卵を孵す
+    ２. 仲間ジムのポケモンに沢山木の実を与える
+    ３. 野生のポケモンを沢山集める
+
+  無課金ユーザは手段１の効率がガチ勢(廃課金ユーザ)の 0.111 … 倍しか
+  無いので特に砂の枯渇が激しい. 
+
+  手段２はがんばれば効率良くなるかもしれないが, 様々な制限があり木の
+  実をポケモンに無尽蔵に与え続ける高効率なスキームを確立するのは容易
+  ではなさそう.
+
+  従って典型的無課金ユーザのおいらは必然的に手段３に頼らなくてはなら
+  ない. しかしこの暑い中で歩いてポケモンを集めるなどもっての外. そこ
+  で今日は一計を案じ遠征することにした.
+
+  即ちクーラーの利いた無料のバスで, お△場を何周も巡ってひたすらポケ
+  モンをゲット …
+
+\[
+
+    % Rogers-Ramanujan continued fraction # 179
+
+    R(q) := \cfrac{q^{1/5}}{
+             1 + \cfrac{q}{
+	          1 + \cfrac{q^2}{
+		       1 + \cfrac{q^3}{\ddots}
+                      }
+                  }
+             }.
+
+\]
+
+<hr>2017/09/12 (火)
+
+- 休暇でも自動的に外出する気になるよう, 食事を完全に外食に頼っている.
+  老化により全身の細胞が破壊されまくっているはずなので高蛋白な食事を
+  取るよう心掛けているのだが, あまりにバリエーションが乏しくいい加減
+  飽きてきた …
+
+\[
+
+  % # 178
+
+    \frac{\zeta'(0)}{\zeta(0)} = \log 2\pi.
+
+\]
+
+<hr>2017/09/11 (月)
+
+- 新□駅近くのジムでレイド前の攻防に参加したのだが,
+  人口密度凄すぎ …
+
+\[
+
+  % # 177
+
+  \frac{1}{n!} \;
+  \left|
+    \begin{array}{cccccc}
+        3      &amp; 1      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 4      &amp; 1      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 1      &amp; 5      &amp; 1      &amp; \ldots &amp; 1   \\
+        1      &amp; 1      &amp; 1      &amp; 6      &amp;        &amp;     \\
+        \vdots &amp; \vdots &amp; \vdots &amp;        &amp; \ddots &amp;     \\
+        1      &amp; 1      &amp; 1      &amp;        &amp;        &amp; n+1 \\
+    \end{array}
+  \right| = H_n.
+
+\]
+
+<hr>2017/09/10 (日)
+
+- 昨日から第二次夏休み. 本日も晴天で暑い. 昨日一日暑い中
+  歩き回ったので本日は真に休暇を取ることにした.
+
+\[
+
+  % # 176
+
+  \begin{align}
+    &amp; e_n = e_{n-1}^2 - e_{n-1} + 1
+          \;\iff\;
+          e_n = \prod_{i=0}^{n-1}e_{i} + 1, \\
+    &amp; \where e_0 = 2.
+  \end{align}
+
+\]
+
+<hr>2017/09/09 (土)
+
+- 4T のハードディスクが税込み 9,980円 だったのだが買うべきか？
+
+\[
+
+    % Minkowski's question mark function # 175
+
+    ?\left(\frac{p+r}{q+s}\right) = \frac{1}{2}
+    \left(
+      ?\left(\frac{p}{q}\right) +
+      ?\left(\frac{r}{s}\right)
+    \right).
+
+\]
+
+
+<hr>2017/09/08 (金)
+
+- いまだに連分数が上手く記述できない …
+
+- 数式レンダリングに 16 秒もかかるようになってきた.
+
+\[
+
+    % Minkowski's question mark function # 174
+
+    \begin{align}
+      &amp; ?(x) = a_0 + 2 \sum_{n=1}^{m} \frac{(-1)^{n+1}}{2^{a_1+\cdots+a_n}}, \\
+      &amp; \where x = a_0 + \cfrac{1}{a_1+\cfrac{1}{a_2+\cfrac{1}{
+          \raise{1ex}{\overset{\ddots}{a_{m-1}}+\cfrac{1}{a_m}}
+      }}}.
+    \end{align}
+
+\]
+
+<hr>2017/09/07 (木)
+
+- 情報セキュリティハンドブック (2004) オーム社の付録の数学的準備
+  を見ると
+
+    確率論
+    計算量理論
+    整数論
+    代数系
+    楕円曲線
+    離散対数問題と素因数分解問題
+    信号処理
+
+  となっていた. 職業柄, 頭の中の体系と cross-section が大きい.
+
+\[
+
+    % Cramer-Shoup cryptosystem # 173
+
+    \begin{align}
+      \text{Key generation}(1^\lambda): \;
+        &amp; (G,q) \leftarrowcoin {\cal G}(1^\lambda) :
+	      \text{simple finite cyclic group and its order},\\
+	&amp; H \leftarrowcoin {\cal H}(q) :
+	      \text{universal one-way hash function } \{0,1\}^* \rightarrow \Z/q\Z,\\
+        &amp; (x_1,x_2,y_1,y_2,z) \leftarrowcoin (\Z/q\Z)^5, \\
+        &amp; (g_1,g_2) \leftarrowcoin G,\; (c,d,h) \leftarrow (g_1^{x_1}g_2^{x_2}, g_1^{y_1}g_2^{y_2}, g_1^z), \\
+        &amp; pk = (G,q,H,g_1,g_2,c,d,h) : \text{public key}, \\
+	&amp; sk = (x_1,x_2,y_1,y_2,z)   : \text{secret key}, \\
+      \text{Encryption}(pk,m): \;
+        &amp; r \leftarrowcoin \Z/q\Z, \\
+        &amp; (u_1, u_2, e) \leftarrow (g_1^r, g_2^r, m h^r), \\
+        &amp; \alpha \leftarrow H(u_1, u_2, e), \\
+        &amp; v \leftarrow c^r d^{r\alpha}, \\
+        &amp; ct = (u_1,u_2,e,v) : \text{cipher text}, \\
+      \text{Decryption}(sk, ct): \;
+        &amp; \alpha \leftarrow H(u_1, u_2, e), \\
+        &amp; m = 
+	\left\{
+	\begin{array}{ll}
+	  \bot            &amp; \text{ if $u_2^{x_2+y_2\alpha} \ne v$}, \\
+	  \frac{e}{u_1^z} &amp; \text{ otherwise}. \\
+	\end{array}
+	\right.
+    \end{align}
+
+\]
+
+- 驚くべき美しさなのだが, 本日の富□先生の勉強会では
+  どんよりした空気が流れていたので, とてもそう主張
+  する気になれなかった …
+
+<hr>2017/09/06 (水)
+
+- 来週第二次夏休みを実行予定なのだが, 現状 Quality of Life が
+  低すぎなので, 何とか向上させる為の施策を考えたい …
+
+    沖縄日帰り旅行     → サンゴ
+    米国旅行           → バッファロー
+    オーストラリア旅行 → カンガルー
+    南米旅行           → カブトムシ
+
+  うーん, ポケモン捕まえる為に旅行するほどガチじゃない.
+  (せいぜい横浜だよな …)
+
+\[
+
+    % Cantor function # 172
+
+    \begin{align}
+      &amp; f_n|_{n\rightarrow \infty} : [0,1]  \rightarrow [0,1], \\
+      &amp; \black{
+        \begin{align}
+          \where 
+            &amp; f_0(x) = x, \\
+            &amp; f_{n+1}(x) = \left\{
+              \begin{array}{ll}
+                \frac{1}{2} \times f_n(3x)   &amp; \text{if $ 0 \le x &lt; \frac{1}{3} $}, \\
+                \frac{1}{2}                  &amp; \text{if $ \frac{1}{3} \le x &lt; \frac{2}{3} $}, \\
+                \frac{1}{2} +
+                \frac{1}{2} \times f_n(3x-2) &amp; \text{if $ \frac{2}{3} \le x \le 1 $}. \\
+              \end{array}
+            \right.
+        \end{align}
+      }
+    \end{align}
+
+\]
+
+<hr>2017/09/05 (火)
+
+- 最近帰りに必ず雨が降る.
+
+- メディアサーバが 1 日持たない. 安鯖の在庫をおろして
+  載せ替えるべきか？
+
+\[
+
+    % Fueter-Polya theorem # 171
+
+    \begin{align}
+      &amp; \text{If $f(x,y)$ is real quadratic polynomial bijection between } \N^2 \text{ and } \N, \\
+      &amp; f(x,y) \text{ is } P(x,y) \text{ or } P(y,x),
+            \where P(x,y) = \frac{1}{2}((x+y)^2 + 3 x + y).
+    \end{align}
+
+\]
+
+<hr>2017/09/04 (月)
+
+- メディアサーバの /dev/sdf の S.M.A.R.T. ? とやらを覗い
+  たら幾らか error log が溜まっていたが, これが原因なん
+  だろうか？
+
+\[
+
+    % ordered field # 170
+
+    \begin{align}
+      &amp; \forall a,b,c \in F : \text{a field with a total order $\le$}, \\
+      &amp; (a \le b) \; \rightarrow \; (a+c) \le (b+c), \\
+      &amp; (0 \le a) \wedge (0 \le b) \; \rightarrow \; (0 \le a b).
+    \end{align}
+
+\]
+
+<hr>2017/09/03 (日)
+
+- メディアサーバが水曜以降反応してない事に今日気づいた.
+  暑い夏の間ずっと mpeg 圧縮し続けたせいか, どうも調子
+  悪そう.
+
+\[
+
+    % Fibonacci probability distribution # 169
+
+    \begin{align}
+      &amp; p(k) = 2^{-k} F_{k-2}, \tab k = 2,3,4,\ldots \\
+      &amp; \where F_n : \text{$n$-th Fibonacci number}.
+    \end{align}
+
+\]
+
+<hr>2017/09/02 (土)
+
+- 睡眠時間がズレる問題によりほとんど眠れず, 早朝より出かける.
+  結構な雨. 午後からは天候が完全に回復し, 傘が荷物に.
+
+\[
+
+  % catenary # 168
+
+  \frac{\d y}{\d x} = \int \sqrt{ (\d x)^2 + (\d y)^2 }.
+
+\]
+
+<hr>2017/09/01 (金)
+
+- ちょっと涼しくなってきたので夜中にうろうろし始める.
+
+\[
+
+    % Idempotence (binary operations) # 167
+
+    \forall A \in \{0,1\}, A \wedge A = A \vee A = \max(A,A) = A.
+
+\]
 
 <hr>2017/08/31 (木)
 
