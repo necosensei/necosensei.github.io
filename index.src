@@ -9,7 +9,11 @@
 
     % repunit prime # 198
 
-    \frac{10^{1031}-1}{9} = \underbrace{1 \cdots 1}_{1031} \; \text{ is a prime number}.
+    \begin{aling}
+      &amp; \Let r_n = \frac{10^{n}-1}{9} = \underbrace{1 \cdots 1}_{n}. \\
+      &amp; \text{$r_n$ is prime for $ n = 2, 19, 23, 317, 1031 $, and} \\
+      &amp; \text{probable prime for $ n = 49081, 86453, 109297, 270343 $}. \\
+    \end{aling}
 
 \]
 
