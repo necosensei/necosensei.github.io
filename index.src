@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/02 (月)
+
+- 
+
+\[
+
+    % repunit prime # 198
+
+    \frac{10^1031-1}{9} = \underbrace{1 \cdot 1}_{1031}.
+
+\]
+
 <hr>2017/10/01 (日)
 
 - 楕円曲線のなり損ない.
@@ -34,7 +46,7 @@ plot [0:20] x(t),y(t) lc rgb "blue"
 
 \[
 
-    % folium of Descartes
+    % folium of Descartes # 197
 
     X^3 + Y^3 - 3XY = 0
 

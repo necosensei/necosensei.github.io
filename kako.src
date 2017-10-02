@@ -27,7 +27,7 @@ plot [-2:2][-0.1:4] x(t),y(t)
 
 \[
 
-    % semicubical parabola
+    % semicubical parabola # 196
 
     X^3 - Y^2 = 0
 
@@ -46,7 +46,7 @@ plot [-2:2][-0.1:4] x(t),y(t)
 
 \[
 
-    % Birch and Swinnerton-Dyer conjecture
+    % Birch and Swinnerton-Dyer conjecture # 195
 
     \left.
     \prod_{p\le x}\frac{N_p}{p} 
@@ -61,7 +61,7 @@ plot [-2:2][-0.1:4] x(t),y(t)
 
 \[
 
-    % Kleene closure
+    % Kleene closure # 194
 
     \begin{align}
       &amp; \black{
