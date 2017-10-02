@@ -293,6 +293,36 @@ folium of Descartes # 197
 </g>
 </svg></span>
 
+- ソース (gnuplot).
+
+
+set terminal svg size 200,200
+
+set parametric
+set samples 1024
+
+set zeroaxis
+unset key
+unset border
+unset tics
+
+x(t) = 3*t/(1+t**3)
+y(t) = 3*t**2/(1+t**3)
+
+set multiplot
+set xrange [-3:2]
+set yrange [-3:2]
+
+plot [-20:-1] x(t),y(t) lc rgb "red"
+plot [-1:0] x(t),y(t) lc rgb "green"
+plot [0:20] x(t),y(t) lc rgb "blue"
+
+
+
+- svg 変換方法
+
+| gnuplot - | svgo -i - -o -
+
 </pre>
 <a href="kako.html">過去</a>
 

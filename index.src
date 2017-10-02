@@ -52,5 +52,13 @@ plot [0:20] x(t),y(t) lc rgb "blue"
 
 \]
 
+- ソース (gnuplot).
+
+$SOURCE
+
+- svg 変換方法
+
+$INTERPRETER
+
 </pre>
 <a href=kako.html>過去</a>
