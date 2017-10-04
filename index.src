@@ -1,6 +1,31 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/05 (木)
+
+\[
+
+    % Logistic map # 201
+
+    x_{n+1} = a x_n (1 - x_n).
+
+\]
+
+<hr>2017/10/04 (水)
+
+- どうしても寝る時間が遅くなってしまう.
+
+\[
+
+    % Blum-Blum-Shub Pseudorandom number generator # 200
+
+    \begin{align}
+      &amp; x_{n+1} = x_n^2 \bmod N, \\
+      &amp; \where N = pq,\; p,q : prime. \\
+    \end{align}
+
+\]
+
 <hr>2017/10/03 (火)
 
 - 会社の Web システムは大抵下らないブラウザ独自の機能を使いまくっており,
