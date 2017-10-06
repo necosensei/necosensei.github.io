@@ -10,7 +10,7 @@
     \begin{align}
       &amp; \exists \psi_{q,p}:[0,1] \rightarrow \R : \text{one-dimensional continuous functions}, \\
       &amp; \forall f:[0,1]^n \rightarrow \R : \text{multivariate continuous functions}, \\
-      &amp; \exists \Phi_q: \R \rightarrow \R :\text{one-dimensional continuous functions}\; \st \\
+      &amp; \exists \Phi_q: \R \rightarrow \R :\text{one-dimensional continuous functions} \st \\
       &amp;
         f(x_1,\ldots,x_n) =
         \sum_{q=0}^{2n} \Phi_q\left(\sum_{p=1}^{n}\psi_{q,p}(x_p)\right).
