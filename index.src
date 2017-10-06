@@ -8,12 +8,9 @@
     % Kolmogorov-Arnold representation theorem
 
     \begin{align}
-      &amp; \text{There exist one-dimensional continuous functions }\;
-        \psi_{q,p}:[0,1] \rightarrow \R, \\
-      &amp; \text{For any multivariate continuous function }\;
-        f:[0,1]^n \rightarrow \R, \\
-      &amp; \text{There exist one-dimensional continuous functions }\;
-        \Phi_q: \R \rightarrow \R \st \\
+      &amp; \exists \psi_{q,p}:[0,1] \rightarrow \R, \;
+            \forall f:[0,1]^n \rightarrow \R, \;
+            \exists \Phi_q: \R \rightarrow \R \st \\
       &amp;
         f(x_1,\ldots,x_n) =
         \sum_{q=0}^{2n} \Phi_q\left(\sum_{p=1}^{n}\psi_{q,p}(x_p)\right).
