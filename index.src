@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <pre>
+
+<hr>2017/10/07 (土)
+
+- 連休中に故障したメディアサーバの修理を行いたいところだが,
+  午後からは天気が良くなったので, 結局フラフラ出かけてしまった …
+
+\[
+
+    % Lyapunov exponent
+
+    \begin{align}
+      &amp; \Let x_{n+1} = f(x_n) \text{ be a dynamical system}. \\
+      &amp; \lambda = \lim_{n\rightarrow\infty}\frac{1}{n}\sum_{i=0}^{n-1}
+                \ln | f'(x_i) |.
+    \end{align}
+
+\]
+
 <hr>2017/10/06 (金)
-<!-- Kolmogorov-Arnold representation theorem -->
 
 - 帰りに土砂降りに合う. しかし今日は運良く１０分程度でジム配置が完了.
 
