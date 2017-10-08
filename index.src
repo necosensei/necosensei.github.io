@@ -11,7 +11,7 @@
 
     % Lagrange's four-square theorem
 
-    \forall a \in \N,\; \exists a_0,a_1,a_2,a_3 \in \N \st
+    \forall a \in \N,\; \exists a_0,a_1,a_2,a_3 \in \N \;\st\;
     a = \sum_{i=0}^3 a_i^2.
 
 \]
