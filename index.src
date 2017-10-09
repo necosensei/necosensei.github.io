@@ -8,7 +8,7 @@
 
     % Metcalfe's law
 
-    V \approx c n^2.
+    V \sim c n^2.
 
 \]
 
