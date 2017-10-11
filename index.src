@@ -18,7 +18,8 @@
 
     \begin{align}
       &amp; (n) = \bigcap_{i=1}^{r} (p_i^{d_i}),  \\
-      &amp; \where  n = \pm \prod_{i=1}^{r} p_i^{d_i} \in \Z.
+      &amp; \where  n = \pm \prod_{i=1}^{r} p_i^{d_i} \in \Z, \;
+            p_i : rational prime.
     \end{align}
 
 \]
