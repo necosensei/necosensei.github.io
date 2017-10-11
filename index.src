@@ -5,8 +5,12 @@
 
 - <a href="https://arxiv.org/abs/1709.06678" target="_blank">A blueprint for demonstrating quantum supremacy with superconducting qubits</a>
 
-  Superconducting quantum computing で 9 q-bit 出来た. 60 q-bit も行
+  Superconducting quantum computing で 9 qubit 出来た. 60 qubit も行
   けるってことか？
+
+- <a href="https://newsroom.intel.com/news/intel-delivers-17-qubit-superconducting-chip-advanced-packaging-qutech/" target="_blank">Intel Delivers 17-Qubit Superconducting Chip with Advanced Packaging to QuTech</a>
+
+  Intel も作って出荷してるらしい (17 qubit) <a href="https://www.youtube.com/watch?time_continue=2&v=qEvrPYmvBIY" target="_blank">開封の儀</a>
 
   <!-- Brun's theorem -->
 
