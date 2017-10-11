@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <pre>
-<!-- Brun's theorem -->
+
+<hr>2017/10/12 (水)
+- <a href="https://arxiv.org/abs/1709.06678">A blueprint for demonstrating quantum supremacy with superconducting qubits</a>
+  Superconducting quantum computing で 9 q-bit 出来た. 60 q-bit も行け
+  そうってことか？
+  <!-- Brun's theorem -->
+
 <hr>2017/10/11 (水)
 
 - 会社のイントラの proxy には暫く前からフィルター機能が導入されてる
@@ -25,9 +31,6 @@
 
 \]
 
-- <a href="https://arxiv.org/abs/1709.06678">A blueprint for demonstrating quantum supremacy with superconducting qubits</a>
-  Superconducting quantum computing で 9 q-bit 出来た. 60 q-bit も行け
-  そうってことか？
 
 <hr>2017/10/10 (火)
 
