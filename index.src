@@ -27,7 +27,7 @@
 		       0 &amp; (x \in \Z), \\
 		       x - \lfloor x \rfloor - \frac{1}{2} &amp; (x \in \R\setminus\Z), \\
                      \end{array}
-		   \right
+		   \right.
                 &amp; a,b,c \text{ are pairwise coprime positive integers}.
         \end{align}}
       \end{align}
