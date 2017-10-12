@@ -19,12 +19,13 @@
 
       {
       \def\f#1{\left(\!\left(#1\right)\!\right)}
+      \def\ff#1{\left(\!\!\left(#1\right)\!\!\right)}
       \begin{align}
         &amp; D(a,b;c)+ D(b,c;a)+ D(c,a;b)=
           \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
         &amp; \\
         &amp; \graysmall{\begin{align}
-          \where\; &amp; D(a,b;c) = \sum_{i=1}^{c-1} \f{\frac{ia}{c}} \f{\frac{ib}{c}}, \\
+          \where\; &amp; D(a,b;c) = \sum_{i=1}^{c-1} \ff{\frac{ia}{c}} \ff{\frac{ib}{c}}, \\
                    &amp; \f{x} = \left\{
                        \begin{array}{ll}
                          0 &amp; (x \in \Z), \\
