@@ -19,7 +19,7 @@
 
       {
       \def\f#1{\left(\!\left(#1\right)\!\right)}
-      \def\ff#1{\left(\!\!\left(#1\right)\!\!\right)}
+      \def\ff#1{\left(\!\!\!\left(#1\right)\!\!\!\right)}
       \begin{align}
         &amp; D(a,b;c)+ D(b,c;a)+ D(c,a;b)=
           \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
