@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <pre>
+  <!-- Brun's theorem -->
 
 <hr>2017/10/12 (木)
 
@@ -12,7 +13,26 @@
 
   Intel も作って出荷してるらしい (17 qubit) <a href="https://www.youtube.com/watch?time_continue=2&v=qEvrPYmvBIY" target="_blank">開封の儀</a>
 
-  <!-- Brun's theorem -->
+  \[
+
+      % Rademacher reciprocity
+
+      \begin{align}
+        &amp; D(a,b;c)+ D(b,c;a)+ D(c,a;b)=
+	  \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
+        &amp; \black{\begin{align}
+	  \where &amp; D(a,b;c) = \sum_{i=1}^{c-1} f\left(a\frac{i}{c}\right) f\left(b\frac{i}{c}\right), \\
+	         &amp; f(x) = \left\{
+		     \begin{array}{ll}
+		       0 &amp; (x \in \Z), \\
+		       x - \lfloor x \rfloor - \frac{1}{2} &amp; (x \in \R\setminus\Z), \\
+                     \end{array}
+		   \right
+                &amp; a,b,c \text{ are pairwise coprime positive integers}.
+        \end{align}}
+      \end{align}
+
+  \]
 
 <hr>2017/10/11 (水)
 
