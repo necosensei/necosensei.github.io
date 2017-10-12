@@ -19,15 +19,16 @@
 
       \begin{align}
         &amp; D(a,b;c)+ D(b,c;a)+ D(c,a;b)=
-	  \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
+          \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
+        &amp; \\
         &amp; \black{\begin{align}
-	  \where\; &amp; D(a,b;c) = \sum_{i=1}^{c-1} f\left(\frac{ia}{c}\right) f\left(\frac{ib}{c}\right), \\
+          \where\; &amp; D(a,b;c) = \sum_{i=1}^{c-1} f\left(\frac{ia}{c}\right) f\left(\frac{ib}{c}\right), \\
                    &amp; f(x) = \left\{
-		       \begin{array}{ll}
-		         0 &amp; (x \in \Z), \\
-		         x - \lfloor x \rfloor - \frac{1}{2} &amp; (x \in \R\setminus\Z), \\
+                       \begin{array}{ll}
+                         0 &amp; (x \in \Z), \\
+                         x - \lfloor x \rfloor - \frac{1}{2} &amp; (x \in \R\setminus\Z), \\
                        \end{array}
-		     \right. \\
+                     \right. \\
                    &amp; a,b,c \;\text{ are pairwise coprime positive integers}.
         \end{align}}
       \end{align}
