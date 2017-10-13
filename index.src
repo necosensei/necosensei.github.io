@@ -8,7 +8,12 @@
 
       {
         \def\P{{\mathbb P}}
-        \sum_{p\,:\,p+2\in\P} \left(\frac{1}{p}+\frac{1}{p+2}\right) \approx 1.902160583104.
+        \sum_{p\,:\,p+2\in\P} \left(\frac{1}{p}+\frac{1}{p+2}\right) 
+	=
+	\left(\frac{1}{3}+\frac{1}{5}\right) +
+	\left(\frac{1}{5}+\frac{1}{7}\right) +
+	\left(\frac{1}{11}+\frac{1}{13}\right) + \cdots
+	\approx 1.902160583104.
       }
 
   \]
