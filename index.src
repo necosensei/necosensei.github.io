@@ -195,7 +195,7 @@
 
     \begin{align}
       &amp; x_{n+1} = x_n^2 \bmod N, \\
-      &amp; \where N = pq,\; p,q : prime. \\
+      &amp; \where N = pq,\; p,q : \text{prime}. \\
     \end{align}
 
 \]
