@@ -8,7 +8,7 @@
 
       {
         \def\P{{\mathbb P}}
-        \sum_{(p,p+2)\in \P^2} \left(\frac{1}{p}+\frac{1}{p+2}\right) \approx 1.902160583104.
+        \sum_{p:p+2\in\P} \left(\frac{1}{p}+\frac{1}{p+2}\right) \approx 1.902160583104.
       }
 
   \]
