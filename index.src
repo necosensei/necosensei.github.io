@@ -2,6 +2,14 @@
 <pre>
   <!-- Brun's theorem -->
 
+  \[
+
+      % Brun's theorem
+
+      \sum_{(p,p+2)\in \P^2} \left(\frac{1}{p}+\frac{1}{p+2}\right) \approx 1.902160583104.
+
+  \]
+
 <hr>2017/10/12 (木)
 
 - <a href="https://arxiv.org/abs/1709.06678" target="_blank">A blueprint for demonstrating quantum supremacy with superconducting qubits</a>
