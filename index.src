@@ -5,7 +5,7 @@
 
   \[
 
-      % Brun's theorem
+      % Brun's theorem # 209
 
       {
         \def\P{{\mathbb P}}
@@ -32,7 +32,7 @@
 
   \[
 
-      % Rademacher reciprocity
+      % Rademacher reciprocity # 208
 
       {
       \def\f#1{\left(\!\left(#1\right)\!\right)}
@@ -70,7 +70,7 @@
 
 \[
 
-    % fundamental theorem of arithmetic
+    % fundamental theorem of arithmetic # 207
 
     \begin{align}
       &amp; (n) = \bigcap_{i=1}^{r} (p_i^{d_i}),  \\
@@ -88,7 +88,7 @@
 
 \[
 
-    % Optional stopping theorem
+    % Optional stopping theorem # 206
 
     \E(Y_N) = \E(Y_1).
 
@@ -100,7 +100,7 @@
 
 \[
 
-    % Metcalfe's law
+    % Metcalfe's law # 205
 
     V \sim c\,n^2.
 
@@ -114,7 +114,7 @@
 
 \[
 
-    % Lagrange's four-square theorem
+    % Lagrange's four-square theorem # 204
 
     \forall a \in \N,\; \exists a_0,a_1,a_2,a_3 \in \N \;\st\;
     a = \sum_{i=0}^3 a_i^2.
@@ -128,7 +128,7 @@
 
 \[
 
-    % Lyapunov exponent
+    % Lyapunov exponent # 203
 
     \begin{align}
       &amp; \Let x_{n+1} = f(x_n) \text{ be a dynamical system}. \\
@@ -144,7 +144,7 @@
 
 \[
 
-    % Kolmogorov-Arnold representation theorem
+    % Kolmogorov-Arnold representation theorem # 202
 
     \begin{align}
       &amp; \exists \psi_{q,p}:[0,1] \rightarrow \R : \text{one-dimensional continuous functions}, \\
