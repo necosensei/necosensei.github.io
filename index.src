@@ -7,7 +7,12 @@
 
 \[
 
+      % principal ideal domain # 210
 
+      \begin{align}
+        &amp; \text{U.F.D.} \supset \text{P.I.D.} \;, \\
+        &amp; \text{under axiom of countable choice}.
+      \end{align}
 
 \]
 
@@ -18,7 +23,7 @@
 
   \[
 
-      % Laguerre
+      % Laguerre # 210
 
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
