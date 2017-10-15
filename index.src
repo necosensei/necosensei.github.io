@@ -16,7 +16,7 @@
 	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset b + [-\sqrt{d},\sqrt{d}], \\
         &amp; \\
         &amp; \graysmall{\where \;
-                b = \frac{1}{n}a_{n-1}
+                b = -\frac{a_{n-1}}{n}
                 ,\;
                 d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
                 2 \left(\frac{n-1}{n}a_{n-2}\right)
