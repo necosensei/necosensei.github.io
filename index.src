@@ -11,7 +11,7 @@
       % Laguerre
 
       \begin{align}
-        &amp; \Let x^n + a_{n-1} x^{n-1} + \cdot + a_0  = \prod_{i=1}^{n}(x-\alpha_i). \\
+        &amp; \Let x^n + a_{n-1} x^{n-1} + \cdots + a_0  = \prod_{i=1}^{n}(x-\alpha_i). \\
         &amp; \forall \alpha_i \in \R 
 	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset b + [-\sqrt{d},\sqrt{d}], \\
         &amp; \\
