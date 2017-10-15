@@ -13,10 +13,10 @@
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} x^{i} = \prod_{i=1}^{n}(x-\alpha_i). \\
         &amp; \forall \alpha_i \in \R 
-	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset b + [-\sqrt{d},\sqrt{d}], \\
+	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset e + [-\sqrt{d},\sqrt{d}], \\
         &amp; \\
         &amp; \graysmall{\where \;
-                b = -\frac{a_{n-1}}{n}
+                e = -\frac{a_{n-1}}{n}
                 ,\;
                 d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
                 2 \left(\frac{n-1}{n}a_{n-2}\right)
