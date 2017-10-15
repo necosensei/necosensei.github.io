@@ -13,13 +13,13 @@
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
         &amp; \{\alpha_1,\ldots,\alpha_n\} \subset \R
-	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset E + [-\sqrt{V},\sqrt{V}], \\
+	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset \mu + [-\sigma,\sigma], \\
         &amp; \\
         &amp; \graysmall{\where \;
-                E = -\frac{a_{n-1}}{n}
+                \mu = -\frac{a_{n-1}}{n}
                 ,\;
-                V = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
-                2 \left(\frac{n-1}{n}a_{n-2}\right)
+                \sigma = \sqrt{\left(\frac{a_{n-1}}{n}\right)^2 -
+                       2 \left(\frac{a_{n-2}}{n(n-1)}\right)}
               .}
       \end{align}
 
