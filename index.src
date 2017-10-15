@@ -15,10 +15,12 @@
         &amp; \forall \alpha_i \in \R 
 	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset b + [-\sqrt{d},\sqrt{d}], \\
         &amp; \\
-        &amp; \graysmall{
-	        \where \; d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
-                          2 \left(\frac{n-1}{n}a_{n-2}\right),\;
-                          b = \frac{1}{n}a_{n-1}.}
+        &amp; \graysmall{\where \;
+                b = \frac{1}{n}a_{n-1}
+                ,\;
+                d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
+                2 \left(\frac{n-1}{n}a_{n-2}\right)
+              .}
       \end{align}
 
   \]
