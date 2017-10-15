@@ -12,7 +12,7 @@
 
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
-        &amp; \forall i \in \{1,\ldots,n\},\; \alpha_i \in \R 
+        &amp; \{\alpha_1,\ldots,\alpha_n\} \subset \R
 	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset E + [-\sqrt{V},\sqrt{V}], \\
         &amp; \\
         &amp; \graysmall{\where \;
