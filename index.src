@@ -18,7 +18,7 @@
         &amp; \graysmall{\where \;
                 \mu = -\frac{a_{n-1}}{n}
                 ,\;
-                \sigma = \sqrt{\left(\frac{a_{n-1}}{n}\right)^2 -
+                \sigma = \sqrt{\mu^2 -
                        2 \left(\frac{a_{n-2}}{n(n-1)}\right)}
               .}
       \end{align}
