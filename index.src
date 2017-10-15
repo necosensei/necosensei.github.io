@@ -14,6 +14,7 @@
         &amp; \Let x^n + \sum_{i=0}^{n-1} a_i x^i = \prod_{i=1}^{n}(x-\alpha_i). \\
         &amp; \forall \alpha_i \in \R 
 	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset [-\sqrt{d},\sqrt{d}] + b, \\
+        &amp; \\
         &amp; \graysmall{
 	        \where \; d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
                           2 \left(\frac{n-1}{n}a_{n-2}\right),\;
