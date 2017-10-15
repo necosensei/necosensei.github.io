@@ -12,8 +12,8 @@
 
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
-        &amp; \{\alpha_1,\ldots,\alpha_n\} \subset \R
-	      \implies \{\alpha_1,\ldots,\alpha_n\} \subset \mu + (n-1)[-\sigma,\sigma], \\
+        &amp; \{\alpha_i\} \subset \R
+	      \implies \{\alpha_i\} \subset \mu + (n-1)[-\sigma,\sigma], \\
         &amp; \\
         &amp; \graysmall{\where \;
                 \mu = -\frac{a_{n-1}}{n}
