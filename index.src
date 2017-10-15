@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/15 (日)
+
+- 朝から雨な上に上着が必要なくらい寒い. 今日は遠出するのは止め.
+
+\[
+
+
+
+\]
+
 <hr>2017/10/14 (土)
 
 - 電車に傘を忘れそうになる. 今まで何度も電車に傘を忘れたが,
@@ -13,7 +23,7 @@
       \begin{align}
         &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
         &amp; \{\alpha_i\} \subset \R
-	      \implies \{\alpha_i\} \subset \mu + (n-1)[-\sigma,\sigma], \\
+              \implies \{\alpha_i\} \subset \mu + (n-1)\sigma[-1,1], \\
         &amp; \\
         &amp; \graysmall{\where \;
                 \mu = -\frac{a_{n-1}}{n}
