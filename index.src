@@ -10,7 +10,7 @@
       % principal ideal domain # 210
 
       \begin{align}
-        &amp; \text{U.F.D.} \supset \text{P.I.D.} \;, \\
+        &amp; \text{P.I.D.} \subset \text{U.F.D.}\;, \\
         &amp; \text{under axiom of countable choice}.
       \end{align}
 
