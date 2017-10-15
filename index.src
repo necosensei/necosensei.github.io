@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/14 (土)
+
+- 電車に傘を忘れそうになる. 今まで何度も電車に傘を忘れたが,
+  あまり学習してないらしい …
+
+  \[
+
+      % Laguerre
+
+      \begin{align}
+        &amp; \{\alpha_1,\ldots,\alpha_n\} \subset \R, \\
+        &amp; \prod_{i=1}^{n}(x-\alpha_i) = x^n + \sum_{i=0}^{n-1} a_i x^i, \\
+        &amp; \implies \{\alpha_1,\ldots,\alpha_n\} \subset b+[-\sqrt{d},\sqrt{d}], \\
+        &amp; \where \; b = \frac{1}{n}a_{n-1},\;
+	                d = \left(\frac{n-1}{n}a_{n-1}\right)^2 -
+			    2 \left(\frac{n-1}{n}a_{n-2}\right).
+      \end{align}
+
+  \]
+
 <hr>2017/10/13 (金)
 
 - 世の中には『愚痴聞き代行』というビジネスが存在するらしい …
