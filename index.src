@@ -21,6 +21,14 @@ M -0.3 -0.3 V 4 Z
 M 0 2 L 1 3 L 1 2 L 3 2 L 3 1 L 2 0 L 2 1 L 1 1 Z
 #!
 </g>
+<g fill="transparent" stroke="black" stroke-width="0.04" transform="matrix(30 0 0 -30 110 190)" >
+#! sed 's/^\(.*\)$/<path d="\1" \/>/g'
+M -0.3 -0.3 H 4 Z
+M -0.3 -0.3 V 4 Z
+M 0 2 L 1 3 L 1 2 L 3 2 L 3 1 L 2 0 L 2 1 L 1 1 Z
+#!
+</g>
+
 </svg>
 
 <hr>2017/10/16 (月)
