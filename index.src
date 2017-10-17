@@ -17,6 +17,8 @@
 #! sed 's/^\(.*\)$/<path d="\1" fill="transparent" stroke="black" \/>/g'
 M 10 10 H 90 Z
 M 10 10 V 90 Z
+M 0 0 H 100 Z
+M 0 0 V 100 Z
 #!
 </svg>
 
