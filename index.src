@@ -29,8 +29,8 @@
           \pi^{(n)} : &amp; \N^n             &amp; \hookrightarrow \hspace{-8pt} \rightarrow &amp; \N, \\
                       &amp; (k_1,\ldots,k_n) &amp; \mapsto     &amp; \pi(\pi^{(n-1)}(k_1,\ldots,k_{n-1}),k_n),
         \end{array}} \\
-        &amp; \where\; \black{\begin{array}{rccc}
-          \pi : &amp; \N^2             &amp; \hookrightarrow \hspace{-8pt} \rightarrow &amp; \N, \\
+        &amp; \black{\begin{array}{rccc}
+          \where\; \pi : &amp; \N^2             &amp; \hookrightarrow \hspace{-8pt} \rightarrow &amp; \N, \\
                       &amp; (k_1,k_2) &amp; \mapsto     &amp; 
 	\displaystyle \frac{1}{2} (k_1+k_2) (k_1+k_2+1) + k_2.
         \end{array}} \\
