@@ -14,7 +14,7 @@
 \]
 
 <svg width="200px" height="200px" version="1.1" xmlns="http://www.w3.org/2000/svg">
-<g fill="transparent" stroke="black" stroke-width="2" transform="matrix(30 0 0 -30 10 190)" >
+<g fill="transparent" stroke="black" stroke-width="0.2" transform="matrix(30 0 0 -30 10 190)" >
 #! sed 's/^\(.*\)$/<path d="\1" \/>/g'
 M 0 0 H 4 Z
 M 0 0 V 4 Z
