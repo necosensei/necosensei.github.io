@@ -12,7 +12,7 @@
 
       \begin{align}
         &amp; \exists D_1, D_2 : \text{smooth domains in }\,\R^2 \;\st\; D_1 \not\cong D_2,\; \Lambda(D_1) = \Lambda(D_2), \\
-        &amp; \where\; \Lambda(D) = \{\lambda \in \R^+ \mid \exists u : D \rightarrow \R \;\st\; \Delta u + \lambda u = 0,\; u|_{\partial D}=0\}.
+        &amp; \where\; \Lambda(D) = \{\lambda \in \R^+ \mid \exists u : D \rightarrow \R \;\st\; \Delta u + \lambda u = 0,\; u|_{\partial D}=0,\; u \ne 0\}.
       \end{align}
 
 \]
