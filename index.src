@@ -14,12 +14,14 @@
 \]
 
 <svg width="200px" height="200px" version="1.1" xmlns="http://www.w3.org/2000/svg">
-#! sed 's/^\(.*\)$/<path d="\1" fill="transparent" stroke="black" \/>/g'
+<g transform="matrix(1 0 0 1 10 10)" fill="transparent" stroke="black" >
+#! sed 's/^\(.*\)$/<path d="\1" \/>/g'
 M 10 10 H 90 Z
 M 10 10 V 90 Z
 M 0 0 H 100 Z
 M 0 0 V 100 Z
 #!
+</g>
 </svg>
 
 <hr>2017/10/16 (月)
