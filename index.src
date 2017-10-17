@@ -24,7 +24,7 @@
 
       % Cantor tuple function # 211
 
-      \begin{alignedat}
+      \begin{alignedat}{1}
         &amp; \black{\begin{alignedat}{3}
           \pi^{(n)} : &amp; \N^n             &amp; &amp; \rightarrow &amp; &amp; \N, \\
                       &amp; (k_1,\ldots,k_n) &amp; &amp; \mapsto     &amp; &amp; \pi(\pi^{(n-1)}(k_1,\ldots,k_{n-1}),k_n), \\
