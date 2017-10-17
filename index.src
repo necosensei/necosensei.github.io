@@ -10,6 +10,10 @@
 
     % Can One Hear the Shape of a Drum?
 
+      \begin{align}
+        &amp; \exists D_1 \ne D_2 \;\st\; \Lambda(D_1) = \Lambda(D_2), \\
+        &amp; \where\; \Lambda(D) = \{\lambda \mid \Delta u + \lambda u = 0,\; u|_{\partial D}=0\}.
+      \end{align}
 
 \]
 <svg width="250px" height="110px" version="1.1" xmlns="http://www.w3.org/2000/svg"><g fill="transparent" stroke="black" stroke-width="0.04" transform="matrix(30 0 0 -30 10 100)" >
