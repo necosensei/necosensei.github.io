@@ -8,9 +8,9 @@
     % The zeta function of an elliptic curve over F_p
 
     \begin{align}
-      &amp; \zeta_{E(\F_p)}(z) = \frac{1 - t z + p z^2}{(1-z)(1-pz)}, \\
+      &amp; \zeta_{E(\F_p)}(T) = \frac{1 - a_p T + p T^2}{(1-T)(1-pT)}, \\
       &amp; \graysmall{\begin{align}
-        \where\; &amp; \zeta_{E(\F_p)}(z) := \exp\left(\sum_{n} \# E(\F_{p^n})\frac{z^n}{n} \right), \\
+        \where\; &amp; \zeta_{E(\F_p)}(T) := \exp\left(\sum_{n} \# E(\F_{p^n})\frac{T^n}{n} \right), \\
       \end{align}}
     \end{align}
 
