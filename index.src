@@ -23,7 +23,7 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Can+One+Hear+the+Shape+of+a+Drum%3F%22" target="_blank">
 #! ./svg-turtle.pl
 \svg 250 110
-\fill gray
+\fill lightgray
 \transform 30 0 0 -30 10 100
 # M -0.3 -0.3 H 3.8 Z
 # M -0.3 -0.3 V 3.8 Z
