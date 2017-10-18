@@ -5,8 +5,24 @@
 
 - 洗濯物を電気的に解決した途端に晴天 … しかし夜にはまた雨.
 
-- この日記で出てきた幾つかの数式と密接な関係がある<a href="https://www.google.co.jp/search?q=%22symbolic+dynamics%22" target="_blank">記号力学系
-  (Symbolic dynamics)</a> なる学問体系があるらしい …
+- この日記で出てきた幾つかの数式と密接な関係がある<a href="https://www.google.co.jp/search?q=%22symbolic+dynamics%22" target="_blank">記号力学系</a>
+  <a href="https://www.google.co.jp/search?q=%22symbolic+dynamics%22" target="_blank">(Symbolic dynamics)</a> なる学問体系があるらしい …
+
+\[
+
+    % Ihara zeta function
+
+    \begin{align}
+      &amp; \zeta_{\sigma}(t) = \frac{1}{\det(I-tA)}, \\
+      &amp; \where\; \\
+      &amp; \sigma : \text{transition on a directed multi graph $G$}, \\
+      &amp; p_n(\sigma) : \text{number of loop of $\sigma^n$}, \\
+      &amp; A : \text{adjacency matrix of $G$}, \\
+      &amp; \zeta_{\sigma}(t) := \exp\left(\sum_{n} p_n(\sigma)\frac{t^n}{n} \right).
+    \end{align}
+
+\]
+
 
 <hr>2017/10/17 (火)
 
@@ -15,7 +31,7 @@
 
 \[
 
-    % Can One Hear the Shape of a Drum?
+    % Can One Hear the Shape of a Drum? # 212
 
       \begin{align}
         &amp; \exists D_1, D_2 : \text{smooth domains in }\,\R^2 \;\st\; D_1 \not\cong D_2,\; \Lambda(D_1) = \Lambda(D_2), \\
