@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/18 (水)
+
+- 洗濯物を電気的に解決した途端に晴天 …
+
 <hr>2017/10/17 (火)
 
 - 最近毎日雨なので, ついに洗濯物のスケジュールが破綻 …
@@ -19,6 +23,7 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Can+One+Hear+the+Shape+of+a+Drum%3F%22" target="_blank">
 #! ./svg-turtle.pl
 \svg 250 110
+\fill gray
 \transform 30 0 0 -30 10 100
 # M -0.3 -0.3 H 3.8 Z
 # M -0.3 -0.3 V 3.8 Z
