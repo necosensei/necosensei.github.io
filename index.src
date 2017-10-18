@@ -16,7 +16,8 @@
       &amp; \zeta_{G}(t) = \frac{1}{\det(I-tA)}, \\
       &amp; \graysmall{\begin{align}
         \where\; &amp; \zeta_{G}(t) := \exp\left(\sum_{n} p_n(\sigma)\frac{t^n}{n} \right), \\
-	         &amp; \sigma : \text{transition on a directed multi graph $G$}, \\
+	         &amp; G : \text{a directed multi graph}, \\
+	         &amp; \sigma : \text{transition on $G$}, \\
                  &amp; p_n(\sigma) : \text{number of fixed transitions of $\sigma^n$}, \\
                  &amp; A : \text{adjacency matrix of $G$}. \\
       \end{align}}
