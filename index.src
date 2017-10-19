@@ -7,7 +7,7 @@
 
 \[
 
-    % Zeta function of an elliptic curve over finite field
+    % Zeta function of an elliptic curve over a finite field
 
     \begin{align}
       &amp; \zeta_{E(\F_q)}(T) = \frac{1 - a_q T + q T^2}{(1-T)(1-qT)}, \\
