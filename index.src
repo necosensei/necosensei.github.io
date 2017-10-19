@@ -13,6 +13,9 @@
       &amp; \zeta_{E(\F_q)}(T) = \frac{1 - a_q T + q T^2}{(1-T)(1-qT)}, \\
       &amp; \graysmall{\begin{align}
         \where\; &amp; \zeta_{E(\F_q)}(T) := \exp\left(\sum_{n} \# E(\F_{q^n})\frac{T^n}{n} \right), \\
+                 &amp; E : \text{elliptic curve}, \\
+                 &amp; E(K) : \text{the set of $K$-rational points on $E$}, \\
+                 &amp; \#E(K) : \text{number of $K$-rational points on $E$}.
       \end{align}}
     \end{align}
 
