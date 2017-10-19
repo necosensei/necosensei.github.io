@@ -7,7 +7,7 @@
 
 \[
 
-    % The zeta function of an elliptic curve over F_p
+    % Zeta function of an elliptic curve over finite field
 
     \begin{align}
       &amp; \zeta_{E(\F_q)}(T) = \frac{1 - a_q T + q T^2}{(1-T)(1-qT)}, \\
@@ -27,7 +27,7 @@
 
 \[
 
-    % Ihara zeta function # 213
+    % Zeta function of a finite graph # 213
 
     \begin{align}
       &amp; \zeta_{G}(t) = \frac{1}{\det(I-tA)}, \\
