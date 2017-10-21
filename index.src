@@ -1,6 +1,40 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/21 (土)
+
+- こう毎日雨だとさすがに気が滅入る. 今日も遠征は中止.
+
+\[
+
+    \begin{align}
+      &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \iff
+            f(x) = \sum_{y\in E}\mu(y,x) g(y), \\
+      &amp; \graysmall{\begin{align}
+        \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element},
+                 &amp; \begin{array}{rccc}
+		            \zeta : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
+		                    &amp; (x,y)        &amp; \mapsto      &amp;
+				    \left\{
+		                       \begin{array}{rl}
+				         1 &amp; \text{ if $ x \preceq y $}, \\
+				         0 &amp; \text{ otherwise}, \\
+		                       \end{array}
+				    \right. \\
+                       \end{array} \\
+      \end{align}}
+    \end{align}
+
+
+
+
+
+\]
+
+
+
+
+
 <hr>2017/10/20 (金)
 
 - 超夜型人間ゆえ昼間は集中力不足な上に, 英語力も乏しいので
