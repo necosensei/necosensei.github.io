@@ -8,16 +8,26 @@
 \[
 
     \begin{align}
-      &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \iff
+      &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \;\iff\;
+
             f(x) = \sum_{y\in E}\mu(y,x) g(y), \\
       &amp; \graysmall{\begin{align}
         \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element}, \\
-                 &amp; \begin{array}{rccc}
+                 &amp; \begin{array}{rccl}
 		            \zeta : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
 		                    &amp; (x,y)        &amp; \mapsto      &amp;
 				    \left\{
 		                       \begin{array}{rl}
 				         1 &amp; \text{ if $ x \preceq y $}, \\
+				         0 &amp; \text{ otherwise}, \\
+		                       \end{array}
+				    \right. \\
+		            \mu   : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
+		                    &amp; (x,y)        &amp; \mapsto      &amp;
+				    \left\{
+		                       \begin{array}{ll}
+				         1 &amp; \text{ if $ x = y $}, \\
+				         -\sum_{z:x \preceq z \prec y} &amp; \text{ if $ x \prec y $}, \\
 				         0 &amp; \text{ otherwise}, \\
 		                       \end{array}
 				    \right. \\
