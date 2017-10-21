@@ -14,16 +14,15 @@
       &amp; \graysmall{\begin{align}
         \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element}, \\
                  &amp; \begin{array}{rccl}
-		            \zeta : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
-		                    &amp; (x,y)        &amp; \mapsto      &amp;
+		            \zeta,\mu : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
+		                    &amp; \zeta(x,y)       &amp; := &amp;
 				    \left\{
 		                       \begin{array}{rl}
 				         1 &amp; \text{ if $ x \preceq y $}, \\
 				         0 &amp; \text{ otherwise}, \\
 		                       \end{array}
 				    \right. \\
-		            \mu   : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
-		                    &amp; (x,y)        &amp; \mapsto      &amp;
+		                    &amp; \mu(x,y)        &amp; := &amp;
 				    \left\{
 		                       \begin{array}{ll}
 				         1 &amp; \text{ if $ x = y $}, \\
