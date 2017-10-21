@@ -28,7 +28,7 @@
 				         1 &amp; \text{ if $ x = y $}, \\
 					 \displaystyle
 				         -\sum_{z:x \preceq z \prec y} \mu(x,z) &amp; \text{ if $ x \prec y $}, \\
-				         0 &amp; \text{ otherwise}, \\
+				         0 &amp; \text{ otherwise}. \\
 		                       \end{array}
 				    \right. \\
                        \end{array} \\
