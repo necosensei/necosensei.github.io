@@ -11,7 +11,7 @@
       &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \iff
             f(x) = \sum_{y\in E}\mu(y,x) g(y), \\
       &amp; \graysmall{\begin{align}
-        \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element},
+        \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element}, \\
                  &amp; \begin{array}{rccc}
 		            \zeta : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
 		                    &amp; (x,y)        &amp; \mapsto      &amp;
