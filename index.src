@@ -13,26 +13,12 @@
 
 \[
 
+    % multinomial theorem
+
     \left(\sum_{i=1}^{n} x_i\right)^m
     =
-    \sum_{
-      \substack{
-        m = \sum_{i=1}^n d_i, \\
-        \forall i,\, d_i \ge 0
-      }
-    }
+    \sum_{m = \sum_{i=1}^n d_i}
     \binom{m}{d_1,\ldots,d_n} \prod_{i=1}^n x_i^{d_i}.
-
-    %
-    % \sum_{
-    %   \rlap{\vec{\tilde{x}} \in {\cal N} +\vec{x} }\tab
-    % }
-    %
-    % \sum_{\substack{
-    %   \small \xi\in 2^n, \\
-    % 	\small y_i = f(\xi)
-    % }}
-    % 
 
 \]
 
