@@ -17,7 +17,7 @@
 
     \left(\sum_{i=1}^{n} x_i\right)^m
     =
-    \sum_{m = \sum_{i=1}^n d_i}
+    \sum_{\tiny\displaystyle\sum_{i=1}^n d_i = m}
     \binom{m}{d_1,\ldots,d_n} \prod_{i=1}^n x_i^{d_i}.
 
 \]
