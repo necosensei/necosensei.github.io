@@ -30,7 +30,7 @@
 
   \[
 
-      %
+      % floor function
 
       \begin{align}
         &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{i\,m}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
