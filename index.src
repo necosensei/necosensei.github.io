@@ -33,7 +33,7 @@
       %
 
       \begin{align}
-        &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{im}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
+        &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{i\,m}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
         &amp; \where\; m,n \in \N_{+} : \text{mutually prime}.
       \end{align}
 
