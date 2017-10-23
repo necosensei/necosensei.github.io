@@ -21,9 +21,24 @@
   日は会社の食堂が休みがちで被害を被る事が多いのだが,
   どうやら営業してるらしい …
 
+- 昼食を取った後やや仕事. 凄まじく静かでとても捗った
+  ので早めに帰る.
+
 - DOCTYPE 宣言とやらを HTML5 標準にしてみた. これで
   この日記も HTML5 対応だ. 何か意味があるのか否かは
   不明だが, 古いブラウザは切り捨てる事になるかも.
+
+  \[
+
+      %
+
+      \begin{align}
+        &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{im}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
+        &amp; \where\; m,n \in \N_{+} : \text{mutually prime}.
+      \end{align}
+
+
+  \]
 
 <hr>2017/10/22 (日)
 
@@ -45,7 +60,6 @@
     \binom{m}{d_1,\ldots,d_n} \prod_{i=1}^n x_i^{d_i}.
 
 \]
-
 - $\sum$ の下に $\sum$ は犯罪的 …
 
 <hr>2017/10/21 (土)
