@@ -10,13 +10,13 @@
       % Curry's paradox
 
       \begin{align}
-        &amp; \forall Y : \text{predicate},         &amp; \\
-        &amp; 1. \; X := (X \rightarrow Y)          &amp; \\
-        &amp; 2. \; X \rightarrow X                 &amp; \text{identity} \\
-        &amp; 3. \; X \rightarrow (X \rightarrow Y) &amp; \text{substitute right of 2, by 1} \\
-        &amp; 4. \; X \rightarrow Y                 &amp; \text{contraction} \\
-        &amp; 5. \; X                               &amp; \text{substitute 4, by 1} \\
-        &amp; 6. \; Y                               &amp; \text{from 5 and 4 by modus ponens} \\
+        &amp; \forall Y : \text{predicate},         &amp; &amp; \\
+        &amp; 1. \; X := (X \rightarrow Y)          &amp; &amp; \text{definition of } X, \\
+        &amp; 2. \; X \rightarrow X                 &amp; &amp; \text{identity}, \\
+        &amp; 3. \; X \rightarrow (X \rightarrow Y) &amp; &amp; \text{substitute right of 2, by 1}, \\
+        &amp; 4. \; X \rightarrow Y                 &amp; &amp; \text{contraction}, \\
+        &amp; 5. \; X                               &amp; &amp; \text{substitute 4, by 1}, \\
+        &amp; 6. \; Y                               &amp; &amp; \text{from 5 and 4 by modus ponens}, \\
       \end{align}
 
 \]
