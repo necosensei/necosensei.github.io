@@ -11,7 +11,7 @@
 
       \begin{align}
         &amp; \forall Y : \text{predicate},         &amp; &amp; \\
-        &amp; 1. \; X := (X \rightarrow Y)          &amp; &amp; \text{define a predicate } X, \\
+        &amp; 1. \; X := (X \rightarrow Y)          &amp; &amp; \text{definition of a predicate } X, \\
         &amp; 2. \; X \rightarrow X                 &amp; &amp; \text{identity}, \\
         &amp; 3. \; X \rightarrow (X \rightarrow Y) &amp; &amp; \text{substitute right of 2, by 1}, \\
         &amp; 4. \; X \rightarrow Y                 &amp; &amp; \text{contraction}, \\
