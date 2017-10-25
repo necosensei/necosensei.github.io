@@ -12,6 +12,12 @@
 \transform 10 0 0 -10 10 60 {
   \fill red
   \path M 0 0 L 8 0 L 8 3 Z
+  \fill blue
+  \path M 8 3 L 13 3 L 13 5 Z
+  \fill yellow
+  \path M 8 3 L 13 3 L 13 2 L 10 2 L 10 1 L 8 1 Z
+  \fill green
+  \path M 8 1 L 8 0 L 13 0 L 13 2 L 10 2 L 10 1 L 8 1 Z
 }
 #!
 </a>
