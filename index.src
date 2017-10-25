@@ -10,14 +10,22 @@
 #! ./svg-turtle.pl
 \svg 150 130
 \transform 10 0 0 -10 10 60 {
-  \fill red
-  \path M 0 0 L 8 0 L 8 3 Z
-  \fill blue
-  \path M 8 3 L 13 3 L 13 5 Z
-  \fill yellow
-  \path M 8 3 L 13 3 L 13 2 L 10 2 L 10 1 L 8 1 Z
-  \fill green
-  \path M 8 1 L 8 0 L 13 0 L 13 2 L 10 2 L 10 1 L 8 1 Z
+  \transform 1 0 0 1 0 0 {
+    \fill red
+    \path M 0 0 L 8 0 L 8 3 Z
+  }
+  \transform 1 0 0 1 8 3 {
+    \fill blue
+    \path M 0 0 L 5 0 L 5 2 Z
+  }
+  \transform 1 0 0 1 8 1 {
+    \fill yellow
+    \path M 0 2 L 5 2 L 5 1 L 2 1 L 2 0 L 0 0 Z
+  }
+  \transform 1 0 0 1 8 0 {
+    \fill green
+    \path M 0 1 L 0 0 L 5 0 L 5 2 L 2 2 L 2 1 L 0 1 Z
+  }
 }
 #!
 </a>
