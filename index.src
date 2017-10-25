@@ -6,6 +6,16 @@
   使いこなせないのは LaTeX か, または私に何か本質的な問題が
   あるとしか思えない …
 
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Missing+square+puzzle%22" target="_blank">
+#! ./svg-turtle.pl
+\svg 150 130
+\transform 10 0 0 -10 10 10 {
+  \fill red
+  \path M 0 0 L 8 0 L 8 3 Z
+}
+#!
+</a>
+
 <hr>2017/10/24 (火)
 
 - 避難訓練とやらが行われ, 賞味期限の近づいた
