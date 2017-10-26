@@ -2,6 +2,18 @@
 <pre>
 <hr>2017/10/25 (水)
 
+\[
+
+  % Waring's problem
+
+  \forall k \in \N^+, \exists s \in \N^+,
+  \forall n \in \N, \exists a_i \in \N_0
+  \st n = \sum_{i=1}^s a_i^k
+
+\]
+
+<hr>2017/10/25 (水)
+
 - もう四半世紀も LaTeX を使っているのに, いまだに思うように
   使いこなせないのは LaTeX か, または私に何か本質的な問題が
   あるとしか思えない …
@@ -111,7 +123,7 @@ $SOURCE
 
       \begin{align}
         &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{i\,m}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
-        &amp; \where\; m,n \in \N_{+} : \text{mutually prime}.
+        &amp; \where\; m,n \in \N^{+} : \text{mutually prime}.
       \end{align}
 
 
