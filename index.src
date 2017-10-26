@@ -7,7 +7,7 @@
   % Waring's problem
 
   \forall k \in \N^+, \exists s \in \N^+ \st
-  \forall n \in \N, \exists a_i \in \N_0, n = \sum_{i=1}^s a_i^k
+  \forall n \in \N, \exists (a_1,\ldots,a_s) \in \N_0^s, n = \sum_{i=1}^s a_i^k
 
 \]
 
