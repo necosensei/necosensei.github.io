@@ -3,13 +3,12 @@
 
 <hr>2017/10/27 (金)
 
-- 1977 年 8 月に Scientific American 誌の Martin Gardner のコラム
+- 1977年8月に Scientific American 誌の Martin Gardner のコラム
   The "Mathematical Games" に掲載された多分初めての RSA 懸賞問題. 
-  1994 年 4 月 26 日に Arjen K. Lenstra et al. が解いたとの事.
 
 \[
 
-  % RSA-129
+  % The Magic Words are Squeamish Ossifrage
 
   \begin{align}
     &amp; \black{\begin{align}
@@ -19,19 +18,24 @@
       c = &amp; 9686961375462206147714092225435588290575999112457431987469512093   \\
           &amp; 0816298225145708356931476622883989628013391990551829945157815154,  \\
     \end{align}} \\
-    &amp; \text{find } m = c^{1/e} \bmod n .
+    &amp; \text{find } c^{1/e} \bmod n .
   \end{align}
 
 \]
 
+- 昔サマーウォーズというアニメで話題になった模様 …
+
+- 1977年10月に日経サイエンスに掲載されたらしい一松信の邦訳を見る
+  と Rivest は 4 京年かかると見積もっていた.
+
+  600人以上のボランティアが半年間にわたって2台の fax を含む1,600台
+  ほどのマシンからCPU時間を貢献した結果, 1994年4月26日に Arjen K.
+  Lenstra たちが素因数分解に成功したとの事.
+
 - パソコン1台とそこら辺で拾ってきた gnfs ソフトで試してみたが,
   N が 425 bit もあるのでちょっと歯が立たなかった orz
 
-  なお因数はググればすぐ見つかる模様 …
-
-- サマーウォーズというアニメで話題になった話題になった模様
-
-- ズルをして平文を確認.
+  なお因数はググればすぐ見つかる模様 … ズルをして平文確認.
 
 #! /usr/local/bin/gp -q
 e = 9007 ;
