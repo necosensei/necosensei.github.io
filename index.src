@@ -63,6 +63,10 @@ m = lift(Mod(c,n)^d) ;
 print(decode(m)) ;
 #!
 
+- ソース (pari/gp)
+
+$SOURCE
+
 <hr>2017/10/26 (木)
 
 - また睡眠サイクルがどんどんズレてきた …
