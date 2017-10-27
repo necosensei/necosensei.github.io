@@ -3,8 +3,11 @@
 
 <hr>2017/10/27 (金)
 
-- (多分) 初めての RSA 懸賞問題. April 26, 1994 に Arjen K. Lenstra et al.
-  が解いたとの事.
+- 1977 年 8 月に Scientific American 誌の Martin Gardner のコラム
+  The "Mathematical Games" に掲載された多分初めての RSA 懸賞問題. 
+  1994 年 4 月 26 日に Arjen K. Lenstra et al. が解いたとの事.
+  パソコン1台とそこら辺で拾ってきた gnfs ソフトで試してみたが,
+  N が 425 bit もあるのでちょっと歯が立たなかった … orz
 
 \[
 
