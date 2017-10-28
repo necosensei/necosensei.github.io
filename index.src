@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/10/28 (土)
+
+- 睡眠サイクルのズレにより, とうとう就寝時間が 7:00AM くらいになって
+  しまう. 朝 13:00 頃起きると結構な雨. ベッドから出るのがかったるく
+  ウダウダしてる内に 17:00 くらいになってしまう. ポケモンＧＯでは
+  レイドバトルに参加できる時間帯が早朝から夕方までに制限されている
+  ので慌てて武装して外に飛び出す.
+
+\[
+
+  % Fixed-point combinator # 223
+
+  {
+    \def\Y{\textsf{Y}}
+    \Y = \lambda f.(\lambda x.f\ (x\ x))\ (\lambda x.f\ (x\ x))
+  }
+
+\]
+
 <hr>2017/10/27 (金)
 
 - 1977年8月に Scientific American 誌の Martin Gardner のコラム The
@@ -9,7 +28,7 @@
 
 \[
 
-  % The Magic Words are Squeamish Ossifrage
+  % The Magic Words are Squeamish Ossifrage # 222
 
   \begin{align}
     &amp; \black{\begin{align}
@@ -42,9 +61,9 @@
   える範囲と思われる. なお因数はググればすぐ見つかる模様.
 
 - 現代暗号学的には school book RSA はあまり安全ではない.1977年10月
-  に日経サイエンスに掲載された一松信の邦訳を見ると, オリジナル記事
-  には, やはりあまり安全ではないメッセージリカバリ署名？のようなモ
-  ノが含まれていた模様 … 
+  に日経サイエンスに掲載されたらしい邦訳を見ると, オリジナル記事に
+  は, やはりあまり安全ではないメッセージリカバリ署名？のようなモノ
+  が含まれていた … この頃は訳語もまだこなれていなかった模様.
 
 - 天才に解けない暗号など無い等と豪語した Edgar Allan Poeに一生懸命
   釘を刺してる Gardner のコラムは まあそんなに間違ってはいないが,
@@ -96,7 +115,7 @@ $SOURCE
 
 \[
 
-  % Waring's problem
+  % Waring's problem # 221
 
   \forall k \in \N^+, \exists s \in \N^+ \st
   \forall n \in \N_0, \exists (a_1,\ldots,a_s) \in \N_0^s,
@@ -115,6 +134,9 @@ $SOURCE
 - こいつ↓も Curry's paradox と呼ぶらしい. 全然関係ないけど …
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Missing+square+puzzle%22" target="_blank">
 #! ./svg-turtle.pl
+
+# % Missing square puzzle # 220
+
 \svg 150 130
 \transform 10 0 0 -10 10 60 {
   \transform 1 0 0 1 0 0 {
@@ -168,7 +190,7 @@ $SOURCE
 
 \[
 
-      % Curry's paradox
+      % Curry's paradox # 219
 
       \begin{align}
         &amp; \forall Y : \text{proposition},       &amp; &amp; \\
@@ -211,7 +233,7 @@ $SOURCE
 
   \[
 
-      % floor function
+      % floor function # 218
 
       \begin{align}
         &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{i\,m}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
@@ -233,7 +255,7 @@ $SOURCE
 
 \[
 
-    % multinomial theorem
+    % multinomial theorem # 217
 
     \left(\sum_{i=1}^{n} x_i\right)^m
     =
@@ -249,7 +271,7 @@ $SOURCE
 
 \[
 
-    % Incidence algebra
+    % Incidence algebra # 216
 
     \begin{align}
       &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \;\iff\;
@@ -296,7 +318,7 @@ $SOURCE
 
 \[
 
-  % j-invariant
+  % j-invariant # 215
 
   j(\i) = 1728.
 
@@ -308,7 +330,7 @@ $SOURCE
 
 \[
 
-    % Zeta function of an elliptic curve over a finite field
+    % Zeta function of an elliptic curve over a finite field # 214
 
     \begin{align}
       &amp; \zeta_{E(\F_q)}(T) = \frac{1 - a_q T + q T^2}{(1-T)(1-qT)}, \\
