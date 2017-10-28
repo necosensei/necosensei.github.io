@@ -177,9 +177,9 @@
 
 <hr>2017/10/27 (金)
 
-- 1977年8月に Scientific American 誌の Martin Gardner のコラム
-  The "Mathematical Games" に掲載された多分初めての RSA 懸賞問題. 
-  (変数と問題文は現代風に翻案)
+- 1977年8月に Scientific American 誌の Martin Gardner のコラム The
+  "Mathematical Games" に掲載された多分初めての RSA 懸賞問題. (変数
+  と問題文は現代風に翻案)
 
 <span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="81.557ex" height="18.176ex" style="vertical-align: -8.505ex;" viewBox="0 -4164 35114.9 7825.7" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
 <g>
@@ -585,41 +585,39 @@ The Magic Words are Squeamish Ossifrage
 
 - 昔サマーウォーズというアニメで話題になったらしい …
 
-- 1977年当時 Rivest は 4 京年かかると見積もっていたが, Arjen K.
-  Lenstra 達が南極以外の全大陸の20ヶ国から600人の有志の協力を集め,
-  5000 mips year の計算量を quadratic sieve につぎ込み, スパコン
-  45 時間分の線形代数を行った結果1994年4月に<span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.395ex" height="1.676ex" style="vertical-align: -0.338ex;" viewBox="0 -576.1 600.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
+- 1977 年当時 Rivest は 4 京年かかると見積もっていたが, およそ17年
+  後の 1994 年 4月に Arjen K. Lenstra 達が複数多項式二次篩法で <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.395ex" height="1.676ex" style="vertical-align: -0.338ex;" viewBox="0 -576.1 600.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
 <title id="MathJax-SVG-3-Title">n</title>
 <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
  <use xlink:href="#MJMATHI-6E" x="0" y="0"></use>
 </g>
-</svg></span>の素因数分解に成功
-  したとの事. Internet を介して大規模に暗号解析を行った最初期の
-  プロジェクトの一つで, 2 台の fax を含む 1600台のマシンが 8 ヶ月
-  に渡って sieve を実行したと伝えられている.
+</svg></span>
+  の素因数分解に成功した. Internetを介して大規模に暗号解析を行った
+  最初期のプロジェクトの一つで, 南極以外の全大陸の20ヶ国から 600人
+  以上の有志の協力を集め, 5000 mips year の計算量を sieve につぎ込
+  んだ. 線形代数にはスパコンを 45 時間使用したとのこと. 2 台の fax
+  を含む 1600 台のマシンが 8ヶ月 に渡って sieve を実行したと伝えら
+  れている.
 
-- パソコン1台とそこら辺で拾ってきた gnfs ソフトで2～3時間試してみた
-  が, <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.395ex" height="1.676ex" style="vertical-align: -0.338ex;" viewBox="0 -576.1 600.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
+- パソコン 1台とそこら辺で拾ってきた gnfs ソフトで 2～3時間 試して
+  みたが, <span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1.395ex" height="1.676ex" style="vertical-align: -0.338ex;" viewBox="0 -576.1 600.5 721.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
 <title id="MathJax-SVG-4-Title">n</title>
 <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true">
  <use xlink:href="#MJMATHI-6E" x="0" y="0"></use>
 </g>
-</svg></span> が 425 bit もあるのでちょっと歯が立たなかった. orz
+</svg></span> が 425 bit もあるのでちょっと歯が立たなかった … orz
+  Google Cloud Compute Engine 30ドル分を使って CADO-NFS なる OSSを
+  1日弱稼働させれば解けるらしい. パソコン1台でも数日かければ十分狙
+  える範囲と思われる. なお因数はググればすぐ見つかる模様.
 
-  google cloud compute engine 30ドル分を使って CADO-NFS なる oss を
-  1日動かせば解けるらしい. パソコン1台でも数日かければ十分狙える範囲
-  ではあるようだ.
+- 現代暗号学的には school book RSA はあまり安全ではない.1977年10月
+  に日経サイエンスに掲載された一松信の邦訳を見ると, オリジナル記事
+  には, やはりあまり安全ではないメッセージリカバリ署名が含まれてい
+  た模様 … 
 
-  なお因数はググればすぐ見つかる模様.
-
-- 現代暗号学的には school book RSA は あまり安全ではない. 1977年10月
-  に日経サイエンスに掲載された一松信の邦訳を見ると, オリジナルの記事
-  には,やはりあまり安全ではないメッセージリカバリ署名が含まれていた
-  模様 … 
-
-  天才に解けない暗号など無い等とと豪語した Edgar Allan Poe に一生懸命
-  釘を刺してる Gardner のコラムはそんなに間違ってはいないが, 幾分微笑
-  ましい.
+  天才に解けない暗号など無い等と豪語した Edgar Allan Poeに一生懸命
+  釘を刺してる Gardner のコラムは そんなに間違ってはいないが, 幾分
+  微笑ましい.
 
 - 平文とリカバードメッセージを確認.
 
