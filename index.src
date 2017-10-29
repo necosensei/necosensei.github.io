@@ -14,7 +14,7 @@
   % Brouwer's fixed-point theorem # 224
 
   \begin{align}
-    &amp; \Let\; K \text{ be a compact convex subset of an Euclidean space}. \\
+    &amp; \Let\; K \text{ be a convex compact subset of an Euclidean space}. \\
     &amp; \forall f: K \rightarrow K:\; \text{continuous},\; \exists x \in K \st f(x) = x.
   \end{align}
 
