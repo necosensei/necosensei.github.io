@@ -16,12 +16,17 @@
 
 \[
 
-    % 
+    %  Jacobi triple product
 
-
-
-
-
+    \begin{align}
+      &amp; \forall x,y \in \C \st |x| &lt; 1 \wedge y \ne 0, \\
+      &amp; \prod_{m=1}^{\infty}
+        \left( 1 - x^{2m} \right)
+        \left( 1 + x^{2m-1} y^2 \right)
+        \left( 1 + \frac{x^{2m-1}}{y^2} \right)
+      =
+      \sum_{n=-\infty}^{\infty} x^{n^2} y^{2n}.
+    \end{align}
 
 \]
 
