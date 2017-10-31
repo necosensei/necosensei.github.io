@@ -24,14 +24,16 @@
 
    % Watson Quintuple Product
 
-      \sum_{n=-\infty}^{\infty} q^{n(3n+1)} (z^{3n} - z^{-3n-1})
-      =
+    \begin{align}
+      &amp; \sum_{n=-\infty}^{\infty} q^{n(3n+1)} (z^{3n} - z^{-3n-1}) \\
+      &amp; =
       \prod_{m=1}^{\infty}
         \left( 1 - q^{2m} \right)
         \left( 1 + q^{2m} z \right)
         \left( 1 + q^{2m-2} z^{-1} \right)
         \left( 1 + q^{4m-2} z^{2} \right)
         \left( 1 + q^{4m-2} z^{-2} \right).
+    \end{align}
 
 \]
 
