@@ -17,9 +17,21 @@
 
   どうしてこうなった？ さすがにこれは投稿できなかった.
 
+- S木先生が『数論』という名前なのに, 内容は初等整数論と代数の
+  シラバス？を書かなくてはならないと嘆いていた …
+
 \[
 
+   % Watson Quintuple Product
 
+      \sum_{n=-\infty}^{\infty} q^{n(3n+1)} (z^{3n} - z^{-3n-1})
+      =
+      \prod_{m=1}^{\infty}
+        \left( 1 - q^{2m} \right)
+        \left( 1 + q^{2m} z \right)
+        \left( 1 + q^{2m-2} z^{-1} \right)
+        \left( 1 + q^{4m-2} z^{2} \right)
+        \left( 1 + q^{4m-2} z^{-2} \right).
 
 \]
 
