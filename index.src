@@ -23,7 +23,7 @@
           p,q,r \in \P \implies &amp; 2^npq \text{ and } 2^nr \text{ are amicable,} \\
                                 &amp; \text{i.e. }\;f(2^npq) = f(2^nr), \\
                                 &amp; \where
-      f: \N \rightarrow \N : M \mapsto \sum_{
+      f: \N \rightarrow \N, M \mapsto \sum_{
         \substack{
           \small
           d\backslash M \\
