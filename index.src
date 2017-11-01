@@ -13,8 +13,8 @@
     \begin{align}
       &amp; \black{
         \begin{align}
-          \Let &amp; p = 3 \times 2^{n-1} - 1, \\
-               &amp; q = 3 \times 2^{n} - 1, \\
+          \Let &amp; p = 3 \times 2^{n} - 1, \\
+               &amp; q = 3 \times 2^{n-1} - 1, \\
                &amp; r = 9 \times 2^{2n-1} - 1. \\
         \end{align}
       } \\
