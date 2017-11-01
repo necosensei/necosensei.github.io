@@ -21,7 +21,8 @@
       &amp; p,q,r \in \P \implies
         2^npq \text{ and } 2^nr \text{ are amicable, i.e.} \\
       &amp; 
-        f(2^npq) = f(2^nr) \where
+        \tab\tab
+        f(2^npq) = f(2^nr) \;\where
         f(M) = \sum_{
         \substack{
           \small
