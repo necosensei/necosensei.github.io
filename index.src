@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/01 (水)
+
+-
+
+\[
+
+    % Thabit ibn Qurra theorem
+
+    \begin{align}
+      &amp; \black{
+        \begin{align}
+          \Let &amp; p = 3 \times 2^{n-1} - 1, \\
+               &amp; q = 3 \times 2^{n} - 1, \\
+               &amp; r = 9 \times 2^{2n-1} - 1. \\
+        \end{align}
+      } \\
+      &amp; p,q,r \in \P \implies
+        2^npq \text{ and } 2^nr \text{ are amicable}. \\
+    \end{align}
+\]
+
 <hr>2017/10/31 (火)
 
 - 職場で人権標語を作成せよというオーダーが下ったので, 人権標語で
