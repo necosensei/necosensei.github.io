@@ -18,12 +18,11 @@
                &amp; r = 9 \cdot 2^{2n-1} - 1. \\
         \end{align}
       } \\
-      &amp; p,q,r \in \P \implies
-        2^npq \text{ and } 2^nr \text{ are amicable, i.e.} \\
-      &amp; 
-        \tab\tab
-        f(2^npq) = f(2^nr) \;\where
-        f(M) = \sum_{
+      &amp; \black{
+        \begin{align}
+          p,q,r \in \P \implies &amp; 2^npq \text{ and } 2^nr \text{ are amicable, i.e.} \\
+                                &amp; f(2^npq) = f(2^nr) \;\where
+      f(M) = \sum_{
         \substack{
           \small
           d\backslash M \\
@@ -31,6 +30,7 @@
           d \ne M
         }
       } d.
+      \end{align}
     \end{align}
     }
 
