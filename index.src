@@ -20,8 +20,8 @@
       } \\
       &amp; \black{
         \begin{align}
-          p,q,r \in \P \implies &amp; 2^npq \text{ and } 2^nr \text{ are amicable, i.e.} \\
-                                &amp; f(2^npq) = f(2^nr) \;\where
+          p,q,r \in \P \implies &amp; 2^npq \text{ and } 2^nr \text{ are amicable,} \\
+                                &amp; \text{i.e. }\;f(2^npq) = f(2^nr) \;\where
       f(M) = \sum_{
         \substack{
           \small
