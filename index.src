@@ -19,21 +19,19 @@
         \end{align}
       } \\
       &amp; p,q,r \in \P \implies
-        2^npq \text{ and } 2^nr \text{ are amicable}. \\
-      &amp; M = \sum_{
+        2^npq \text{ and } 2^nr \text{ are amicable, i.e.} \\
+      &amp; 
+        f(2^npq) = f(2^nr) \where
+        f(M) = \sum_{
         \substack{
           \small
           d\backslash M \\
           \small
           d \ne M
         }
-      } d \; \in 2 \N \; \Leftrightarrow \\
-      &amp; M = 2^{p-1} (2^p − 1) \mbox{ where } 2^p − 1 \mbox{ is prime}.
+      } d.
     \end{align}
     }
-
-
-
 
 \]
 
