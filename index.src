@@ -8,7 +8,8 @@
 \[
 
     % Thabit ibn Qurra theorem
-
+    {
+    \def\P{{\mathbb P}}
     \begin{align}
       &amp; \black{
         \begin{align}
@@ -20,6 +21,7 @@
       &amp; p,q,r \in \P \implies
         2^npq \text{ and } 2^nr \text{ are amicable}. \\
     \end{align}
+    }
 \]
 
 <hr>2017/10/31 (火)
