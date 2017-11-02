@@ -25,7 +25,7 @@
           d \ne m
         }
       } d 
-      \;\wedge\;
+      \tab\wedge\tab
       m \not\in \sum_{
         \substack{
           \small
@@ -33,7 +33,7 @@
           \small
           d \ne m
         }
-      } \{0,1\} d
+      } \{0,1\}\,d .
 \]
 
 <hr>2017/11/01 (水)
