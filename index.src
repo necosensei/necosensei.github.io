@@ -26,14 +26,14 @@
           d \ne m
         }
       } d \\
-      &amp; \not\exists b_d \in \{0,1\} \st m = \sum_{
+      &amp; m \not\in \sum_{
         \substack{
           \small
           d\backslash m \\
           \small
           d \ne m
         }
-      } b_d d \\
+      } \{0,1\} d \\
     \end{align}
 \]
 
