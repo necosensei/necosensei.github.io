@@ -17,6 +17,8 @@
 
     % Weird numbers
 
+      m \in \N,
+      \tab
       m \gt \sum_{
         \substack{
           \small
@@ -24,8 +26,8 @@
           \small
           d \ne m
         }
-      } d 
-      \tab\wedge\tab
+      } d,
+      \tab
       m \not\in \sum_{
         \substack{
           \small
