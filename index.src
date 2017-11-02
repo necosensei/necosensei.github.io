@@ -19,7 +19,7 @@
 
       m \in \N,
       \tab
-      m \gt \sum_{
+      m \lt \sum_{
         \substack{
           \small
           d\backslash m \\
