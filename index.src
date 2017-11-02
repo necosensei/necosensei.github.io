@@ -17,24 +17,23 @@
 
     % Weird numbers
 
-    \begin{align}
-      &amp; m \gt \sum_{
+      m \gt \sum_{
         \substack{
           \small
           d\backslash m \\
           \small
           d \ne m
         }
-      } d \\
-      &amp; m \not\in \sum_{
+      } d 
+      \;\wedge\;
+      m \not\in \sum_{
         \substack{
           \small
           d\backslash m \\
           \small
           d \ne m
         }
-      } \{0,1\} d \\
-    \end{align}
+      } \{0,1\} d
 \]
 
 <hr>2017/11/01 (水)
