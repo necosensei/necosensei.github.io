@@ -17,16 +17,24 @@
 
     % Weird numbers
 
-      m \gt \sum_{
+    \begin{align}
+      &amp; m \gt \sum_{
         \substack{
           \small
           d\backslash m \\
           \small
           d \ne m
         }
-      } d.
-    }
-
+      } d \\
+      &amp; \not\exist b_d \in \{0,1\} \st m = \sum_{
+        \substack{
+          \small
+          d\backslash m \\
+          \small
+          d \ne m
+        }
+      } b_d d \\
+    \end{align}
 \]
 
 <hr>2017/11/01 (水)
