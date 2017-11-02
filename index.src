@@ -26,7 +26,7 @@
           d \ne m
         }
       } d \\
-      &amp; \not\exist b_d \in \{0,1\} \st m = \sum_{
+      &amp; \not\exists b_d \in \{0,1\} \st m = \sum_{
         \substack{
           \small
           d\backslash m \\
