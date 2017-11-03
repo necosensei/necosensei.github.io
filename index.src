@@ -36,10 +36,11 @@
 \[
 
    \begin{align}
-     &amp; \forall A \in \R_{&gt;1},
-           \exists ! \{ a_i \}_{i=1}^{\infty} \in \N^{\infty} \st a_i \ge a_{i-1}^2,\; 
-           A = \prod_{i=1}^{\infty} \left(1 + \frac{1}{a_i}\right), \\
-     &amp; \where\; a_0 = 1.
+     &amp; \forall A \in \R_{&gt;1},\;
+           \exists ! \{ a_i \}_{i=1}^{\infty} \in \N^{\infty}
+	           \st a_i \ge a_{i-1}^2, \\
+     &amp; \where\; a_0 = 1,\;\text{ and }\;
+           A = \prod_{i=1}^{\infty} \left(1 + \frac{1}{a_i}\right). \\
    \end{align}
 
 \]
