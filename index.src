@@ -36,8 +36,8 @@
 \[
 
    A \in \R_{&gt;1} \implies
-   \forall i \in \N^+,\; \exists ! a_i \in \N \st a_i \ge a_{i-1}^2,\; 
-   A = \prod_{i=1}^{\infty} \left(1 + \frac{1}{a_i}\right)
+   \exists ! \{ a_i \}_{i=1}^{\infty} \in \N^{\infty} \st a_i \ge a_{i-1}^2,\; 
+   A = \prod_{i=1}^{\infty} \left(1 + \frac{1}{a_i}\right).
 
 \]
 
