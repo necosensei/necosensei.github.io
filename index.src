@@ -20,7 +20,7 @@
           \right] + \sum_{k=1}^{n-1} f(k) \\
     &amp; =
     \int_{0}^{n} f(x)\d x + \sum_{k=1}^{p} \frac{B_{k+1}}{(k+1)!}
-    \frac{1}{2} \left[
+    \left[
             f^{(k)} (n) - f^{(k)} (0) 
           \right]  + R_p \;.
   \end{align}
