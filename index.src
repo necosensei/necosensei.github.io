@@ -10,12 +10,10 @@
     \begin{align}
       &amp; \exists \alpha \in \R \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
-      &amp; \black{\begin{align}
-        \where &amp; n,m \in \N_{&gt;1}, \; \\
-               &amp; \vec{X}_0 = (0  ,n\cdot m), \;
+      &amp; \where \; n,m \in \N_{&gt;1},\;
+                \vec{X}_0 = (0  ,n\cdot m), \;
                      \vec{X}_1 = (-n, n^2), \;
                      \vec{X}_2 = (m, m^2). \\
-      \end{align}}
     \end{align}
 
 \]
