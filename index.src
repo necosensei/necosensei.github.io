@@ -8,7 +8,7 @@
     % Matiyasevich-Stechkin visual sieve
 
     \begin{align}
-      &amp; \exists \alpha \in \R \;\st\;
+      &amp; \exists \alpha \in \Q \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
       &amp; \where \; n,m \in \N_{&gt;1},\;
                 \vec{X}_0 = (0  ,n\cdot m), \;
