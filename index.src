@@ -9,11 +9,11 @@
 
     \begin{align}
       &amp; \exists \alpha \in \R \;\st\;
-            \vec{x}_0 = \alpha \vec{x}_1 + (1-\alpha) \vec{x}_2, \\
+            \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
       &amp; \black{\begin{align}
-        \where &amp; \vec{x}_0 = (0  ,-x_1 x_2) \\
-               &amp; \vec{x}_1 = (x_1, x_1^2) \\
-               &amp; \vec{x}_2 = (x_2, x_2^2). \\
+        \where &amp; \vec{X}_0 = (0  ,-x_1 x_2), \\
+               &amp; \vec{X}_1 = (x_1, x_1^2), \\
+               &amp; \vec{X}_2 = (x_2, x_2^2). \\
       \end{align}}
     \end{align}
 
