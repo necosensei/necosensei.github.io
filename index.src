@@ -8,7 +8,9 @@
     % Matiyasevich-Stechkin visual sieve
 
     \begin{align}
-      &amp; \exists \alpha \in \Q \;\st\;
+      &amp; \Let\; \ell \in \N_{&gt;3}, \; \vec{X}_0 = (0  ,\ell), \; \\
+      &amp; \exists n,m \in \N_{&gt;1},\; \ell = n\cdot m \\
+      &amp; \implies \exists \alpha \in \Q \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
       &amp; \where \; n,m \in \N_{&gt;1},\;
                       \vec{X}_0 = (0  ,n\cdot m), \;
