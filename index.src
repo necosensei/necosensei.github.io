@@ -9,9 +9,10 @@
 
     \begin{align}
       &amp; \Let\; \ell \in \N_{&gt;3}. \\
-      &amp; \exists n,m \in \N_{&gt;1},\;\st\; \ell = n\cdot m \\
-      &amp; \implies \exists \alpha \in \Q \;\st\;
+      &amp; \not\exists \alpha \in \Q \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
+      &amp; \implies 
+            \not\exists n,m \in \N_{&gt;1},\;\st\; \ell = n\cdot m \\
       &amp; \graysmall{\where\;
             \vec{X}_0 = (0  ,\ell),\;
             \vec{X}_1 = (-n, n^2), \;
