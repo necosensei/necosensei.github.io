@@ -12,10 +12,9 @@
       &amp; \exists n,m \in \N_{&gt;1},\; \ell = n\cdot m \\
       &amp; \implies \exists \alpha \in \Q \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
-      &amp; \where \; n,m \in \N_{&gt;1},\;
-                      \vec{X}_0 = (0  ,n\cdot m), \;
-                      \vec{X}_1 = (-n, n^2), \;
-                      \vec{X}_2 = (m, m^2). \\
+      &amp; \phantom{\implies}
+                   \where \vec{X}_1 = (-n, n^2), \;
+                   \vec{X}_2 = (m, m^2). \\
     \end{align}
 
 \]
