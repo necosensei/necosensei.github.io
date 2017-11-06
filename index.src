@@ -7,7 +7,7 @@
 
     % Deduction theorem
 
-    (A \vdash B) \vdash (\vdash A \implies B).
+    (A \vdash B) \vdash (\vdash A \rightarrow B).
 
 \]
 
