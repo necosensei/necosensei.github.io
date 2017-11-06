@@ -9,9 +9,9 @@
 
     \begin{align}
       &amp; \Let\; \ell \in \N_{&gt;3}. \\
-      &amp; \gray{\exists n,m \in \N_{&gt;1},\;\st\;} \ell = n\cdot m \\
+      &amp; \graysamll{\exists n,m \in \N_{&gt;1},\;\st\;} \ell = n\cdot m \\
       &amp; \implies
-            \gray{\exists \alpha \in \Q \;\st\;}
+            \graysamll{\exists \alpha \in \Q \;\st\;}
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
       &amp; \graysmall{\where\;
             \vec{X}_0 = (0  ,\ell),\;
