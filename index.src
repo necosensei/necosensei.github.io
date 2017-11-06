@@ -9,9 +9,10 @@
 
     \begin{align}
       &amp; \Let\; \ell \in \N_{&gt;3},\; \vec{X}_0 = (0,\ell),\; \\
-      &amp; \exists \alpha \in \Q \;\st\;
+      &amp; \exists (\alpha,\vec{X}_1,\vec{X}_2) \;\st\;
             \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
-      &amp; \where \; n,m \in \N_{&gt;1},\;
+      &amp; \where\; \alpha \in \Q,\;
+                     n,m \in \N_{&gt;1},\;
                      \vec{X}_1 = (-n, n^2), \;
                      \vec{X}_2 = (m, m^2). \\
     \end{align}
