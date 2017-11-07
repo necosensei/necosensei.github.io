@@ -29,7 +29,7 @@
 
     % Gray code
 
-    \texttt{v} \oplus (\texttt{v} \gg 1)
+    x \oplus (x \gg 1)
 
 \]
 
