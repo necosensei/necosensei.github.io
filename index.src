@@ -12,7 +12,7 @@
 
     \begin{align}
       &amp; \frac{\pi}{2} = M(x,y) \int_{0}^{\frac{\pi}{2}}
-              \frac{\d\theta}{\sqrt{x^2 \cos^2 \theta + y^2 \sin^2 \theta}} \\
+              \frac{\d\theta}{\sqrt{x^2 \cos^2 \theta + y^2 \sin^2 \theta}}, \\
       &amp; \where 
       M(x,y) \text{ denotes the arithmetic-geometric mean of $x$ and $y$}.
     \end{align}
