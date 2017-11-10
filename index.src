@@ -14,10 +14,10 @@
     &amp; \frac{1}{\pi} = \sum_{k=0}^{\infty} s(k) \frac{A k + B}{C^k}, \\
     &amp; \black{
       \begin{align}
-        \text{e.g. }\; A = &amp;\,  163 \cdot 3344418,\;
+        \text{e.g. }\; A = \; &amp;  163 \cdot 3344418,\;
 	               B = 13591409,\;
 	               C = j\left(\frac{1+\sqrt{-163}}{2}\right), \\
-		       s(k) = &amp;\, \frac{12\,\i}{\sqrt{C}} {2k \choose k} {3k \choose k} {6k \choose 3k}.
+		       s(k) = \; &amp; \frac{12\,\i}{\sqrt{C}} {2k \choose k} {3k \choose k} {6k \choose 3k}.
       \end{align}
     } \\
   \end{align}
