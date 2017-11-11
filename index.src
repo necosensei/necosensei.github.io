@@ -11,7 +11,7 @@
 
 \svg 200 175
 \transform 1 0 0 -1 0 175 {
-#  \fill gray
+  \stroke lightgray
   \path M 0 0 L 100 175 L 200 0 Z
 
   \path M 0 0 L 10 17.5 L 20 0 Z
@@ -30,10 +30,13 @@
   \line 20 35 180 35
   \line 160 0 80 140
 
-  \stroke red
-  \fill white
+  \stroke black
+#  \fill white
   \path M 60 35 L 110 122.5 L 180 0 L 190 17.5 L 110 157.5 L 40 35 Z
-  \fill gray
+#  \fill gray
+  \path M 100 105 L 110 122.5 L 180 0 L 20 0 L 10 17.5 L 150 17.5 Z
+  \fill lightgray
+
   \path M 100 105 L 110 122.5 L 180 0 L 20 0 L 10 17.5 L 150 17.5 Z
 
 }
