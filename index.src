@@ -11,24 +11,25 @@
 
 \svg 200 175
 \transform 1 0 0 -1 0 175 {
-  \stroke lightgray
-  \path M 0 0 L 100 175 L 200 0 Z
 
-  \path M 0 0 L 10 17.5 L 20 0 Z
-  \path M 90 157.5 L 100 175 L 110 157.5 Z
-  \path M 180 0 L 190 17.5 L 200 0 Z
-
-  \line 20 0 110 157.5
-  \line 10 17.5 190 17.5
-  \line 180 0 90 157.5
-
-  \path M 0 0 L 20 35 L 40 0 Z
-  \path M 80 140 L 100 175 L 120 140 Z
-  \path M 160 0 L 180 35 L 200 0 Z
-
-  \line 40 0 120 140
-  \line 20 35 180 35
-  \line 160 0 80 140
+#   \stroke lightgray
+#   \path M 0 0 L 100 175 L 200 0 Z
+# 
+#   \path M 0 0 L 10 17.5 L 20 0 Z
+#   \path M 90 157.5 L 100 175 L 110 157.5 Z
+#   \path M 180 0 L 190 17.5 L 200 0 Z
+# 
+#   \line 20 0 110 157.5
+#   \line 10 17.5 190 17.5
+#   \line 180 0 90 157.5
+# 
+#   \path M 0 0 L 20 35 L 40 0 Z
+#   \path M 80 140 L 100 175 L 120 140 Z
+#   \path M 160 0 L 180 35 L 200 0 Z
+# 
+#   \line 40 0 120 140
+#   \line 20 35 180 35
+#   \line 160 0 80 140
 
   \stroke black
   \fill white
