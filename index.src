@@ -31,12 +31,11 @@
   \line 160 0 80 140
 
   \stroke black
-#  \fill white
+  \fill white
   \path M 60 35 L 110 122.5 L 180 0 L 190 17.5 L 110 157.5 L 40 35 Z
-#  \fill gray
+  \fill gray
   \path M 100 105 L 110 122.5 L 180 0 L 20 0 L 10 17.5 L 150 17.5 Z
-#  \fill lightgray
-  \stroke red
+  \fill lightgray
   \path M 140 35 L 150 17.5 L 10 17.5 L 90 157.5 L 110 157.5 L 40 35 Z
 
 }
