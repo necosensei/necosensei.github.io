@@ -2,16 +2,11 @@
 <pre>
 
 <hr>2017/11/11 (土)
-
-
-
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Penrose+triangle%22" target="_blank">
 #! ./svg-turtle.pl
-
-# % Missing square puzzle # 220
-
+# % Penrose triangle
 \svg 200 175
 \transform 1 0 0 -1 0 175 {
-
 #   \stroke lightgray
 #   \path M 0 0 L 100 175 L 200 0 Z
 # 
@@ -30,7 +25,6 @@
 #   \line 40 0 120 140
 #   \line 20 35 180 35
 #   \line 160 0 80 140
-
   \stroke black
   \fill white
   \path M 60 35 L 110 122.5 L 180 0 L 190 17.5 L 110 157.5 L 40 35 Z
@@ -38,11 +32,9 @@
   \path M 100 105 L 110 122.5 L 180 0 L 20 0 L 10 17.5 L 150 17.5 Z
   \fill lightgray
   \path M 140 35 L 150 17.5 L 10 17.5 L 90 157.5 L 110 157.5 L 40 35 Z
-
 }
-
 #!
-
+</a>
 
 <hr>2017/11/10 (金)
 
