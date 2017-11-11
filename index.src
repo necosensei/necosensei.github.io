@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/11 (土)
+
+
+
+#! ./svg-turtle.pl
+
+# % Missing square puzzle # 220
+
+\svg 200 175
+\transform 1 0 0 -1 0 175 {
+  \fill gray
+  \path M 0 0 L 100 175 L 200 0 Z
+}
+
+#!
+
+
 <hr>2017/11/10 (金)
 
 - 早速 AM10:15 出発という厳しい条件を外したので, 昨日のスキームは
