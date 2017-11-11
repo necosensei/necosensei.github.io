@@ -22,7 +22,7 @@
 
 \[
 
-   % Watson Quintuple Product
+   % Watson Quintuple Product # 226
 
     \begin{align}
       &amp; \sum_{n=-\infty}^{\infty} q^{n(3n+1)} (z^{3n} - z^{-3n-1}) \\
@@ -52,7 +52,7 @@
 
 \[
 
-    %  Jacobi triple product
+    %  Jacobi triple product # 225
 
     \begin{align}
       &amp; \forall x,y \in \C \st |x| &lt; 1 \wedge y \ne 0, \\

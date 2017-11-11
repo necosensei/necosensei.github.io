@@ -6,9 +6,9 @@
 - 早朝から頑張ってイ□ンモールに行ったが, 徒労だった事が発覚.
   ポケモンＧＯ的に …
 
-<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Penrose+triangle%22" target="_blank">
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Impossible+object%22" target="_blank">
 #! ./svg-turtle.pl
-# % Penrose triangle
+# % Impossible object # 237
 \svg 200 175
 \transform 1 0 0 -1 0 175 {
 #   \stroke lightgray
@@ -47,7 +47,7 @@
 
 \[
 
-  % Ramanujan-Sato series
+  % Ramanujan-Sato series # 236
 
   \begin{align}
     &amp; \frac{1}{\pi} = \sum_{k=0}^{\infty} s(k) \frac{A k + B}{C^k}, \\
@@ -70,7 +70,7 @@
 
 \[
 
-    % arithmetic-geometric mean
+    % arithmetic-geometric mean # 235
 
     \begin{align}
       &amp; \frac{\pi}{2} = M(x,y) \int_{0}^{\frac{\pi}{2}}
@@ -97,7 +97,7 @@
 
 \[
 
-    % Franciscus Vieta
+    % Franciscus Vieta # 234
 
     \begin{align}
       &amp; \frac{\pi}{2} = \prod_{i=1}^{\infty} \frac{2}{a_i}, \\
@@ -137,7 +137,7 @@
 
 \[
 
-    % Gray code
+    % Gray code # 233
 
     x \oplus (x \gg 1)
 
@@ -149,7 +149,7 @@
 
 \[
 
-    % Deduction theorem
+    % Deduction theorem # 232
 
     (A \vdash B) \vdash (\vdash A \rightarrow B).
 
@@ -162,7 +162,7 @@
 
 \[
 
-    % Matiyasevich-Stechkin visual sieve
+    % Matiyasevich-Stechkin visual sieve # 231
 
     \begin{align}
       &amp; \Let\; \ell \in \N_{&gt;3}. \\
@@ -190,7 +190,7 @@
 
 \[
 
-  % Ramanujan summation
+  % Ramanujan summation # 230
 
   \begin{align}
     &amp; \frac{1}{2} \left[
@@ -239,6 +239,8 @@
 
 \[
 
+   % Cantor # 229
+
    \begin{align}
      &amp; \forall A \in \R_{&gt;1},\;
            \exists ! ( a_i )_{i=1}^{\infty} \in \N^{\infty}
@@ -263,7 +265,7 @@
 
 \[
 
-    % Weird numbers
+    % Weird numbers # 228
 
       m \in \N,
       \tab
@@ -293,7 +295,7 @@
 
 \[
 
-    % Amicable numbers
+    % Amicable numbers # 227
     {
     \def\P{{\mathbb P}}
     \begin{align}
