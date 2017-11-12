@@ -10,7 +10,7 @@
 
 \[
 
-  % Fixed-point combinator # 238
+  % Z-Combinator # 238
 
   {
     \def\Z{\textsf{Z}}
