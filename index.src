@@ -8,6 +8,17 @@
   は, 定期券が使えなくとも地域経済の中心地に無料でアクセス
   可能だという事を学んだ. やや規模が小さいのが難だが …
 
+\[
+
+  % Fixed-point combinator # 238
+
+  {
+    \def\Z{\textsf{Z}}
+    \Z = \lambda f.(\lambda x.f\ (\lambda y.\ x\ x\ y))\ (\lambda x.f\ (\lambda y.\ x\ x\ y))
+  }
+
+\]
+
 <hr>2017/11/11 (土)
 
 - 早朝から頑張ってイ□ンモールに行ったが, 徒労だった事が発覚.
