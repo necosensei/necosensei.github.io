@@ -9,8 +9,12 @@
 
   % Dedekind numbers # 239
 
-  M(n) = \{f \mid f:\{0,1\}^n \rightarrow \{0,1\},\;
-  \vec{x} \ge \vec{y} \rightarrow f(\vec{x}) \ge f(\vec{y}) \}.
+  \begin{align}
+    &amp; M(n) = \{f \mid f:\{0,1\}^n \rightarrow \{0,1\},\;
+          \vec{x} \ge \vec{y} \implies f(\vec{x}) \ge f(\vec{y}) \}, \\
+    &amp; \where\; (x_1,\ldots,x_n) \ge (y_1,\ldots,y_n) \iff
+                   \forall i \in \{1,\ldots,n\},\; x_i \ge y_i.
+  \end{align}
 
 \]
 
