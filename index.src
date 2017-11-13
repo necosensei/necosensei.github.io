@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/13 (月)
+
+- 
+
+\[
+
+  % Dedekind numbers # 239
+
+  M(n) = \{f \mid f:\{0,1\}^n \rightarrow \{0,1\},\;
+  \vec{x} \ge \vec{y} \rightarrow f(\vec{x}) \ge f(\vec{y}) \}.
+
+\]
+
+
 <hr>2017/11/12 (日)
 
 - 明日から定期券が使えない状態が解消される. ようやくこれで
