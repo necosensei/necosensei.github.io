@@ -8,7 +8,9 @@
 
 \[
 
-      \begin{align}
+    % Hyperbolic geometry # 240
+
+    \begin{align}
         &amp; \black{\small
           \begin{align}
             \mbox{Let}\; &amp; {\cal P}\;\mbox{be the set of all points in a plane},  \\
@@ -19,7 +21,7 @@
         &amp; \exists (\ell_1,\ell_2) \in {\cal L}^2 \st  \\
         &amp; \tab \ell_1 \ne \ell_2 \;\wedge\; \\
         &amp; \tab \forall i \in \{1,2\}, p \in \ell_i \;\wedge\; \ell_0 \cap \ell_i = \varnothing.
-      \end{align}
+    \end{align}
 \]
 
 <hr>2017/11/13 (月)
