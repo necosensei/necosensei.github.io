@@ -17,10 +17,10 @@
                          &amp; {\cal L}\;\mbox{be the set of all straight lines in the plane}. \\
           \end{align}
         } \\
-        &amp; \forall (p,\ell_0) \in {\cal P} \times {\cal L} \st p \not\in \ell_0, \\
-        &amp; \exists (\ell_1,\ell_2) \in {\cal L}^2 \st  \\
-        &amp; \tab \ell_1 \ne \ell_2 \;\wedge\; \\
-        &amp; \tab \forall i \in \{1,2\}, p \in \ell_i \;\wedge\; \ell_0 \cap \ell_i = \varnothing.
+        &amp; \forall (p,\ell) \in {\cal P} \times {\cal L} \st p \not\in \ell, \\
+        &amp; \exists (\ell_0,\ell_1) \in {\cal L}^2 \st  \\
+        &amp; \tab \ell_0 \ne \ell_1 \;\wedge\; \forall b \in \{0,1\},\; \\
+        &amp; \tab \tab p \in \ell_b \;\wedge\; \ell_b \cap \ell = \varnothing.
     \end{align}
 \]
 
