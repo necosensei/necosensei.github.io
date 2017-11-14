@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/14 (火)
+
+- 2年目社員のK城先生はK鉄先生からだけでなくテクニカルアドバイザ
+  のX川先生からも資料のダメ出しを食らって凹んでた模様 …
+
+\[
+
+      \begin{align}
+        &amp; \black{\small
+          \begin{align}
+            \mbox{Let}\; &amp; {\cal P}\;\mbox{be the set of all points in a plane},  \\
+                         &amp; {\cal L}\;\mbox{be the set of all straight lines in the plane}. \\
+          \end{align}
+        } \\
+        &amp; \forall (p,\ell_0) \in {\cal P} \times {\cal L} \st p \not\in \ell_0, \\
+        &amp; \exists (\ell_1,\ell_2) \in {\cal L}^2 \st  \\
+        &amp; \tab \ell_1 \ne \ell_2 \;\wedge\; \\
+        &amp; \tab \forall i \in \{1,2\}, p \in \ell_i \;\wedge\; \ell_0 \cap \ell_i = \varnothing.
+      \end{align}
+\]
+
 <hr>2017/11/13 (月)
 
 - そろそろ某シンポジウムの発表の準備があちこちで始まった模様 …
