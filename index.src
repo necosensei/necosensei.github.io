@@ -3,6 +3,14 @@
 
 <hr>2017/11/15 (水)
 
+- 悪い連鎖
+
+  伝説レイド開始 → アプリが落ちる
+                 → 再参加に手間取る
+                 → レイド貢献度が下がる
+                 → 報酬とボールの数が減る
+                 → 伝説ポケモンを取り逃がす orz
+
 \[
 
    % Mobius transformation
@@ -14,7 +22,7 @@
          \where\; &amp; f_4(z) = z + \frac{a}{c}, \\
                   &amp; f_3(z) = - \frac{ad-bc}{c^2} \cdot z, \\
                   &amp; f_2(z) = \frac{1}{z}, \\
-                  &amp; f_1(z) = z + \frac{d}{c}.
+                  &amp; f_1(z) = z + \frac{d}{c}\;.
        \end{align}
      }
    \end{align}
