@@ -19,8 +19,10 @@
      &amp; \frac{a z + b}{c z + d} = (f_4 \circ f_3 \circ f_2 \circ f_1)(z), \\
      &amp; \black{
        \begin{align}
-         \where\; &amp; f_4(z) = z + \alpha, \; f_3(z) = \beta z, \\
-                  &amp; f_2(z) = z^{-1},     \; f_1(z) = z + \gamma, \\
+         \where\; &amp; f_4 : z \mapsto z + \alpha, \;
+	                f_3 : z \mapsto \beta z,    \;
+                        f_2 : z \mapsto z^{-1},     \;
+			f_1 : z \mapsto z + \gamma, \\
                   &amp; \gray{\alpha = a c^{-1},\;
                         \beta  = - (ad-bc) c^{-2},\;
 		        \gamma = d c^{-1}\;.}
