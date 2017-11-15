@@ -21,9 +21,9 @@
        \begin{align}
          \where\; &amp; f_4(z) = z + \alpha, \; f_3(z) = \beta z, \\
                   &amp; f_2(z) = z^{-1},     \; f_1(z) = z + \gamma, \\
-                  &amp; \alpha = \frac{a}{c},\;
-                        \beta  = - \frac{ad-bc}{c^2},\;
-		        \gamma = \frac{d}{c}\;.
+                  &amp; \gray{\alpha = a c^{-1},\;
+                        \beta  = - (ad-bc) c^{-2},\;
+		        \gamma = d c^{-1}\;.}
        \end{align}
      }
    \end{align}
