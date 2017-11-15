@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/15 (水)
+
+\[
+
+   % Mobius transformation
+
+   \begin{align}
+     &amp; \frac{a z + b}{c z + d} = (f_4 \circ f_3 \circ f_2 \circ f_1)(z), \\
+     &amp; \black{
+       \begin{align}
+         \where\; &amp; f_4(z) = z + \frac{a}{c}, \\
+                  &amp; f_3(z) = - \frac{ad-bc}{c^2} \cdot z, \\
+                  &amp; f_2(z) = \frac{1}{z}, \\
+                  &amp; f_1(z) = z + \frac{d}{c}.
+       \end{align}
+     }
+   \end{align}
+
+\]
+
 <hr>2017/11/14 (火)
 
 - 2年目社員のK城先生はK鉄先生からだけでなくテクニカルアドバイザ
