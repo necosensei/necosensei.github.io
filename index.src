@@ -19,17 +19,17 @@
    % Kermack-McKendrick Model
 
    \begin{align}
-     &amp; \frac{\d S}{\d t} = - \beta\,  S \times I, \\
-     &amp; \frac{\d I}{\d t} =   \beta\,  S \times I - \gamma\, I, \\
-     &amp; \frac{\d R}{\d t} =   \gamma\, I. \\
+     &amp; \frac{\d}{\d t} S = - \beta\,  S \times I, \\
+     &amp; \frac{\d}{\d t} I =   \beta\,  S \times I - \gamma\, I, \\
+     &amp; \frac{\d}{\d t} R =   \gamma\, I. \\
      &amp; \black{
        \begin{align}
-         \where S      : &amp; \text{number of susceptible}, \\
-                I      : &amp; \text{number of infected}, \\
-                R      : &amp; \text{number of recovered}, \\
-                t      : &amp; \text{time}, \\
-                \beta  : &amp; \text{infection rate, and} \\
-                \gamma : &amp; \text{recovery rate}.
+         \where S      : \; &amp; \text{number of susceptible}, \\
+                I      : \; &amp; \text{number of infected}, \\
+                R      : \; &amp; \text{number of recovered}, \\
+                t      : \; &amp; \text{time}, \\
+                \beta  : \; &amp; \text{infection rate, and} \\
+                \gamma : \; &amp; \text{recovery rate}.
        \end{align}
      }
    \end{align}
