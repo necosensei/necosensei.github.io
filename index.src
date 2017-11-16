@@ -24,7 +24,7 @@
 	 \frac{\d}{\d t} &amp; S &amp; = &amp; - \beta\,  S \times I &amp;, &amp; \\
 	 \frac{\d}{\d t} &amp; I &amp; = &amp;   \beta\,  S \times I &amp;  &amp; - \gamma\, I, \\
 	 \frac{\d}{\d t} &amp; R &amp; = &amp;                       &amp;  &amp;   \gamma\, I,
-       \end{align}
+       \end{array}
      } \\
      &amp; \black{
        \begin{align}
