@@ -24,6 +24,7 @@
      &amp; \frac{\d}{\d t} R =   \gamma\, I. \\
      &amp; \black{
        \begin{align}
+                                                                \\
          \where S      : \; &amp; \text{number of susceptible}, \\
                 I      : \; &amp; \text{number of infected}, \\
                 R      : \; &amp; \text{number of recovered}, \\
