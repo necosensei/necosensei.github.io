@@ -41,6 +41,19 @@
 
 \]
 
+- いっぱいあって訳が分からないシリーズ.
+
+  \begin{equation} \end{equation}
+  \begin{equation*} \end{equation*}
+  \begin{eqnarray} \end{eqnarray}
+  \begin{eqnarray*} \end{eqnarray*}
+  \begin{align} \end{align}
+  \begin{align*} \end{align*}
+  \begin{alignat} \end{alignat}
+  \begin{aligned} \end{aligned}
+  \begin{alignedat} \end{alignedat}
+  …
+
 <hr>2017/11/15 (水)
 
 - 悪い連鎖
