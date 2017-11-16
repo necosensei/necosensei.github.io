@@ -19,9 +19,13 @@
    % Kermack-McKendrick Model
 
    \begin{align}
-     &amp; \frac{\d}{\d t} S = - \beta\,  S \times I, \\
-     &amp; \frac{\d}{\d t} I =   \beta\,  S \times I - \gamma\, I, \\
-     &amp; \frac{\d}{\d t} R =   \gamma\, I. \\
+     &amp; \black{
+       \begin{align}
+	 \frac{\d}{\d t} S = - &amp; \beta\,  S \times I, \\
+	 \frac{\d}{\d t} I =   &amp; \beta\,  S \times I - &amp; &amp; \gamma\, I, \\
+	 \frac{\d}{\d t} R =   &amp;                       &amp; &amp; \gamma\, I, \\
+       \end{align}
+     } \\
      &amp; \black{
        \begin{align}
                                                                 \\
