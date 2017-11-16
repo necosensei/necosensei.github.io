@@ -21,9 +21,9 @@
    \begin{align}
      &amp; \black{
        \begin{align}
-	 &amp; \frac{\d}{\d t} S = &amp; - \beta\,  S \times I &amp; , \\
-	 &amp; \frac{\d}{\d t} I = &amp;   \beta\,  S \times I &amp; - \gamma\, I, \\
-	 &amp; \frac{\d}{\d t} R = &amp;                       &amp;   \gamma\, I,
+	 \frac{\d}{\d t} S = &amp;&amp; - \beta\,  S \times I &amp; , \\
+	 \frac{\d}{\d t} I = &amp;&amp;   \beta\,  S \times I &amp; - \gamma\, I, \\
+	 \frac{\d}{\d t} R = &amp;&amp;                       &amp;   \gamma\, I,
        \end{align}
      } \\
      &amp; \black{
