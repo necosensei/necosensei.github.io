@@ -20,11 +20,11 @@
 
    \begin{align}
      &amp; \black{
-       \begin{array}{lccrlr}
-	 \frac{\d}{\d t} &amp; S &amp; = &amp; - \beta\,  S \times I &amp;, &amp; \\
-	 \frac{\d}{\d t} &amp; I &amp; = &amp;   \beta\,  S \times I &amp;  &amp; - \gamma\, I, \\
-	 \frac{\d}{\d t} &amp; R &amp; = &amp;                       &amp;  &amp;   \gamma\, I,
-       \end{array}
+       \begin{alignat}{3}
+	 \frac{\d}{\d t} &amp; &amp; S = &amp; &amp; - \beta\,  S \times I &amp; &amp;             , \\
+	 \frac{\d}{\d t} &amp; &amp; I = &amp; &amp;   \beta\,  S \times I &amp; &amp; - \gamma\, I, \\
+	 \frac{\d}{\d t} &amp; &amp; R = &amp; &amp;                       &amp; &amp;   \gamma\, I,
+       \end{alignat}
      } \\
      &amp; \black{
        \begin{align}
