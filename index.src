@@ -8,8 +8,33 @@
   する. 面倒なのでいつも All → Install を選んでいるのが悪いの
   だろうか ?
 
-- 本日は早帰デー？とやららしい.
+- 本日は早帰デー？とやららしい. みんな早く帰ってしまったので
+  静かで恐ろしく仕事が捗った …
 
+- 若者達がバタバタダウンして行くのを見るに, この左半身筋肉痛は
+  ウイルス性疾患, 即ち風邪なのではないか？と疑い始める...
+
+\[
+
+   % Kermack-McKendrick Model
+
+   \begin{align}
+     &amp; \frac{\d}{\d t} S = - \beta S \cdot I, \\
+     &amp; \frac{\d}{\d t} I =   \beta S \cdot I - \gamma I, \\
+     &amp; \frac{\d}{\d t} R =   \gamma I. \\
+     &amp; \black{
+       \begin{align}
+         \where S      : &amp; \text{number of susceptible}, \\
+                I      : &amp; \text{number of infected}, \\
+                R      : &amp; \text{number of recovered}, \\
+                t      : &amp; \text{time}, \\
+                \beta  : &amp; \text{infection rate, and} \\
+                \gamma : &amp; \text{recovery rate}.
+       \end{align}
+     }
+   \end{align}
+
+\]
 
 <hr>2017/11/15 (水)
 
