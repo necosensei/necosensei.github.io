@@ -41,17 +41,20 @@
 
 \]
 
-- いっぱいあって訳が分からないシリーズ.
+- いっぱいあって訳が分からないシリーズ. (LaTeX)
 
-  \\begin{equation} \\end{equation}
-  \\begin{equation*} \\end{equation*}
-  \\begin{eqnarray} \\end{eqnarray}
-  \\begin{eqnarray*} \\end{eqnarray*}
-  \\begin{align} \\end{align}
-  \\begin{align*} \\end{align*}
-  \\begin{alignat} \\end{alignat}
-  \\begin{aligned} \\end{aligned}
-  \\begin{alignedat} \\end{alignedat}
+  equation
+  equation*
+  eqnarray
+  eqnarray*
+  tabular
+  matrix
+  array
+  align
+  align*
+  alignat
+  aligned
+  alignedat
   …
 
 <hr>2017/11/15 (水)
