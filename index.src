@@ -20,10 +20,10 @@
 
    \begin{align}
      &amp; \black{
-       \begin{alignat}{3}
-	 \frac{\d}{\d t} &amp; &amp; S = &amp; &amp; - \beta\,  S \times I &amp; &amp;             , \\
-	 \frac{\d}{\d t} &amp; &amp; I = &amp; &amp;   \beta\,  S \times I &amp; &amp; - \gamma\, I, \\
-	 \frac{\d}{\d t} &amp; &amp; R = &amp; &amp;                       &amp; &amp;   \gamma\, I,
+       \begin{alignat}{4}
+	 \frac{\d}{\d t} &amp; &amp; S = &amp; &amp; - \beta\,  S \times I &amp; &amp; , &amp; &amp; \\
+	 \frac{\d}{\d t} &amp; &amp; I = &amp; &amp;   \beta\,  S \times I &amp; &amp; - &amp; &amp; \gamma\, I, \\
+	 \frac{\d}{\d t} &amp; &amp; R = &amp; &amp;                       &amp; &amp;   &amp; &amp; \gamma\, I,
        \end{alignat}
      } \\
      &amp; \black{
