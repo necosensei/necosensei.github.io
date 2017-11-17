@@ -46,6 +46,15 @@
   しかしたら上手い方法があるかもしれないので, あとで確認し
   てみよう.
 
+\[
+
+    % Ising model
+
+      H = - \sum_{\langle i,j \rangle} J_{i,j} \sigma_i\sigma_j
+          - \sum_i h_i \sigma_i.
+
+\]
+
 <hr>2017/11/16 (木)
 
 - 今まで 〇ygwin とやらを多分 10 回以上 wind〇ws にインストール
