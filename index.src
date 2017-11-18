@@ -6,6 +6,22 @@
 - -debuginfo パッケージをアンインストールしたら本当に50GByte
   減った !
 
+- ntfs とやらにシンボリックリンクを張りまくって C ドライブの
+  容量不足を適当になんとかしたら windows10 の update に成功.
+  どうやら新しい windows10 は linux が使えるらしい. もしかし
+  て 〇ygwin 要らなかった？
+
+\[
+
+    % Toda lattice
+
+    \begin{align}
+      &amp; \frac{\d}{\d t} p_n = \e^{-(q_n - q_{n-1})} -\e^{-(q_{n+1} - q_{n})}, \\
+      &amp; \frac{\d}{\d t} q_n = p_n.
+    \end{align}
+
+\]
+
 <hr>2017/11/17 (金)
 
 - 〇ygwin を wind〇ws10 にインストール中. 前回失敗したので,
