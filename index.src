@@ -16,8 +16,8 @@
     % Toda lattice
 
     \begin{align}
-      &amp; \frac{\d}{\d t} p_n = \e^{-(q_n - q_{n-1})} -\e^{-(q_{n+1} - q_{n})}, \\
-      &amp; \frac{\d}{\d t} q_n = p_n.
+      &amp; \frac{\d}{\d t}\, p_n = \e^{-(q_n - q_{n-1})} -\e^{-(q_{n+1} - q_{n})}, \\
+      &amp; \frac{\d}{\d t}\, q_n = p_n.
     \end{align}
 
 \]
