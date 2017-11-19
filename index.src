@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/19 (日)
+
+- ついにレベル40に到達！これでようやく新人トレーナーになれた.
+
+\[
+
+    % Lax pair
+
+    \begin{align}
+      &amp; \frac{\partial}{\partial t}\, L = [A,L], \\
+      &amp; \where\; [A,L] = AL - LA.
+    \end{align}
+
+\]
+
 <hr>2017/11/18 (土)
 
 - -debuginfo パッケージをアンインストールしたら本当に50GByte
