@@ -10,7 +10,7 @@
     % Lax pair
 
     \begin{align}
-      &amp; \frac{\partial\,L}{\partial\,t} = [A,L], \\
+      &amp; \frac{\partial L}{\partial\,t} = [A,L], \\
       &amp; \where\; [A,L] = AL - LA.
     \end{align}
 
