@@ -13,7 +13,7 @@
 \svg 220 194
 \transform 100 0 0 -100 110 97 {
   \fill black
-  \circle 0 0 5
+  \circle 0 0 0.05
 }
 
 #!
