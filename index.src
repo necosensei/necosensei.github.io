@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/21 (火)
+
+- 
+
+\[
+
+    % Weierstrass function
+
+    \begin{align}
+      &amp;  f(x) = \sum_{n=0}^\infty a^n \cos(b^n \pi x), \\
+      &amp;  \where a \in (0,1),\; b \in 2\N + 1,\; and \\
+      &amp;  a b &gt; 1 + \frac{3}{2}\pi.
+    \end{align}
+
+\]
+
 <hr>2017/11/20 (月)
 
 - 寒い. 超絶寒い. 仕方なく暖房ON.
