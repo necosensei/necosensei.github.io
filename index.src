@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/22 (水)
+
+- K城先生が発表が下手すぎて, かなり絞られた …
+
+\[
+
+    % Bertrand's postulate
+
+    \forall n \in \N_{&gt;3},\; \P \cup (n,2n-2) \ne \varnothing.
+
+\]
+
 <hr>2017/11/21 (火)
 
 - 今日も寒い模様. いつもより早い時間に眠くなる.
