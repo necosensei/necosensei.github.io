@@ -8,8 +8,10 @@
 \[
 
     % Bertrand's postulate
-
-    \forall n \in \N_{&gt;3},\; \P \cup (n,2n-2) \ne \varnothing.
+    {
+      \def\P{{\mathbb P}}
+      \forall n \in \N_{&gt;3},\; \P \cup (n,2n-2) \ne \varnothing.
+    }
 
 \]
 
