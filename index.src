@@ -10,7 +10,7 @@
     % Bertrand's postulate
     {
       \def\P{{\mathbb P}}
-      \forall n \in \N_{&gt;3},\; \P \cup (n,2n-2) \ne \varnothing.
+      \forall n \in \N_{&gt;3},\; \P \cap (n,2n-2) \ne \varnothing.
     }
 
 \]
