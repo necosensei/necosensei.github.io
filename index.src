@@ -7,8 +7,9 @@
 
 \[
 
+    % Central binomial coefficient
 
-
+    \frac{1}{\sqrt{1-4x}} = \sum_{n=0}^\infty {2n \chose n} x^n.
 
 \]
 
