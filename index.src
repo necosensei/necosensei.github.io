@@ -13,7 +13,7 @@
 
     \begin{aligned}
       &amp; f(n) \;\st\; f(n) \bmod f(1) = 0,\\
-      &amp; \where f(x) = \sum_{i=0}^{m-1} a_i x^i.
+      &amp; \where f(x) = \sum_{i=0}^{m-1} a_i x^i,\; a_i \in \{0,\ldots,n-1\}.
     \end{aligned}
 
 \]
