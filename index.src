@@ -10,7 +10,7 @@
 
     \begin{alignedat}{2}
       \phi : \;&amp; \Z[X_0,\ldots,X_n] &amp; &amp; \rightarrow \{0,1\} \\
-               &amp; f(X_0,\ldots,X_n)  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \Z^n = \varnothing ).
+               &amp; f(X_0,\ldots,X_n)  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \Z^n \ne \varnothing ).
     \end{alignedat}
 
 \]
