@@ -7,6 +7,9 @@
   花小金□を疑似新□化した結果砂10万を稼ぎ出す事に成功.
 
 \[
+
+    % Hilbert's tenth problem
+
     \begin{aligned}
         &amp; \black{\begin{alignedat}{2}
             \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
