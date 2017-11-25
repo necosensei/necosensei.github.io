@@ -9,8 +9,8 @@
 \[
 
     \begin{alignedat}{2}
-      \phi : &amp; \Z[X_0,\ldots,X_n] &amp; &amp; \rightarrow \{0,1\},
-             &amp; f(X_0,\ldots,X_n)  &amp; &amp; \rightarrow
+      \phi : &amp; \Z[X_0,\ldots,X_n] &amp; &amp; \rightarrow \{0,1\}, \\
+             &amp; f(X_0,\ldots,X_n)  &amp; &amp; \mapsto
 	       \delta( \{ (X_0,\ldots,X_n) \in \Z^n \st f(X_0,\ldots,X_n) = 0 \} = \varnothing ).
     \end{alignedat}
 
