@@ -13,9 +13,9 @@
     \begin{aligned}
         &amp; \black{\begin{alignedat}{2}
             \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
-                            &amp; f(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \Z^n \ne \varnothing ), \\
+                            &amp; g(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \Z^n \ne \varnothing ), \\
                  \psi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
-                            &amp; g(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \N_0^n \ne \varnothing ).
+                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \N_0^n \ne \varnothing ).
           \end{alignedat}} \\
         &amp; \\
         &amp; \psi_n(f(X_0,\ldots,X_{n-1})) = \phi_{4n}(g(x_0,\ldots,x_{4n-1})), \\
