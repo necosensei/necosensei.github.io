@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/25 (土)
+
+- 現在ポケＧＯイベント中だが, 新□に行くのは憚られたので
+  花小金□を疑似新□化した結果砂10万を稼ぎ出す事に成功.
+
+\[
+
+    \begin{alignedat}{2}
+      \phi : &amp; \Z[X_0,\ldots,X_n] &amp; &amp; \rightarrow \{0,1\},
+             &amp; f(X_0,\ldots,X_n)  &amp; &amp; \rightarrow
+	       \delta( \{ (X_0,\ldots,X_n) \in \Z^n \st f(X_0,\ldots,X_n) = 0 \} = \varnothing ).
+    \end{alignedat}
+
+\]
+
 <hr>2017/11/24 (金)
 
 - 晩飯を食いに食堂に行ったら上司がポッポマラソンしていた …
