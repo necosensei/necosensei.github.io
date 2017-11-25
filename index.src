@@ -9,12 +9,14 @@
 \[
     \begin{aligned}
         &amp; \black{\begin{alignedat}{2}
-            \Let \phi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
-                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \Z^n \ne \varnothing ), \\
+            \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; f(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \Z^n \ne \varnothing ), \\
                  \psi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
-                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \N^n \ne \varnothing ).
+                            &amp; g(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \N^n \ne \varnothing ).
           \end{alignedat}} \\
-        &amp; \psi_n    (f(X_0,\ldots,X_{n-1})) = \phi_{4n} (f((x_0^2+x_1^2+x_2^2+x_3^2),\ldots,(x_{4n-4}^2+ x_{4n-3}^2+ x_{4n-2}^2+ x_{4n-1}^2))) .
+        &amp; \\
+        &amp; \psi_n(f(X_0,\ldots,X_{n-1})) = \phi_{4n}(g(x_0,\ldots,x_{4n-1})), \\
+        &amp; \where g(x_0,\ldots,x_{4n-1}) = f((x_0^2+x_1^2+x_2^2+x_3^2),\ldots,(x_{4n-4}^2+ x_{4n-3}^2+ x_{4n-2}^2+ x_{4n-1}^2)).
     \end{aligned}
 
 \]
