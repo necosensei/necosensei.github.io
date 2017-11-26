@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/26 (日)
+
+- 味を占めてまた砂10万稼いだので今日も第十問題 …
+
+\[
+
+    % Hilbert's tenth problem
+
+    \begin{aligned}
+        &amp; \black{\begin{alignedat}{2}
+            \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; g(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \Z^n = \varnothing ), \\
+                 \psi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \N_0^n = \varnothing ).
+          \end{alignedat}} \\
+        &amp; \\
+        &amp; \phi_n(g(x_0,\ldots,x_{n-1})) = \prod_{k=0}^{2^n-1} \psi_{n}(g((-1)^{k_0}X_0,\ldots,(-1)^{k_n}X_{n-1})), \\
+        &amp; \where k = \sum_{i=0}^{n-1} k_i 2^i,\; k_i \in \{0,1\}.
+
+    \end{aligned}
+
+\]
+
 <hr>2017/11/25 (土)
 
 - 現在ポケＧＯイベント中だが, 新□に行くのは憚られたので
