@@ -5,6 +5,17 @@
 
 - 異常に忙しい割に仕事が捗らない気がする …
 
+\[
+
+    % Schroder-Hipparchus Number
+
+    S(n) = \begin{cases}
+            1                                            &amp; n \in \{1,2\} \\
+            \frac{1}{n} ( (6n-9) S(n-1) - (n-3) S(n-2) ) &amp; n \in \{3,4,5,\ldots\}.
+           \end{cases}
+
+\]
+
 <hr>2017/11/26 (日)
 
 - 味を占めてまた砂10万稼いだので今日も第十問題 …
