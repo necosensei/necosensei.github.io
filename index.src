@@ -9,10 +9,11 @@
 
     % Schroder-Hipparchus Number
 
-    S(n) = \begin{cases}
-            \displaystyle 1                                            &amp; n \in \{1,2\} \\
-            \displaystyle \frac{1}{n} ( (6n-9) S(n-1) - (n-3) S(n-2) ) &amp; n \in \{3,4,5,\ldots\}.
-           \end{cases}
+    S(n) = \left\{
+      \begin{array}{cl}
+        \displaystyle 1                                            &amp; n \in \{1,2\} \\
+        \displaystyle \frac{1}{n} ( (6n-9) S(n-1) - (n-3) S(n-2) ) &amp; n \in \{3,4,5,\ldots\}.
+      \end{array} \right.
 
 \]
 
