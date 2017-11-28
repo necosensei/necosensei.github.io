@@ -10,7 +10,7 @@
   % Strongly connected component
 
   \begin{aligned}
-    &amp; G/\sim \\
+    &amp; G/\sim \;\text{ is a DAG,} \\
     &amp; 
     \begin{aligned}
       \where &amp; G = (V,E) : di-graph,\; \\
