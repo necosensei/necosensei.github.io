@@ -13,7 +13,7 @@
     &amp; G/\sim \;\text{ is a DAG,} \\
     &amp; 
     \begin{aligned}
-      \where &amp; G = (V,E) : directed graph,\; \\
+      \where &amp; G = (V,E) : \text{directed graph},\; \\
              &amp; V : \text{finite set},\; \\
              &amp; E \subset V \times V,\; \\
              &amp; \sim :  \text{equivalent relation of being strongly connected}.\;
