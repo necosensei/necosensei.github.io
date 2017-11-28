@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/28 (火)
+
+- 某シンポジウムに参加申し込みする.
+
+\[
+
+  % Strongly connected component
+
+  \begin{aligned}
+    &amp; G/\sim \\
+    &amp; 
+    \begin{aligned}
+      \where &amp; G = (V,E),\; \\
+             &amp; V : \text{finite set},\; \\
+             &amp; E \subset V \times V,\; \\
+             &amp; \sim :  \text{equivalent relation of being strongly connected},\;
+    \end{aligned}
+  \end{aligned}
+
+\]
+
 <hr>2017/11/27 (月)
 
 - 異常に忙しい割に仕事が捗らない気がする …
