@@ -13,7 +13,7 @@
     &amp; G/\sim \\
     &amp; 
     \begin{aligned}
-      \where &amp; G = (V,E),\; \\
+      \where &amp; G = (V,E) : di-graph,\; \\
              &amp; V : \text{finite set},\; \\
              &amp; E \subset V \times V,\; \\
              &amp; \sim :  \text{equivalent relation of being strongly connected},\;
