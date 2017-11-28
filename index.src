@@ -15,7 +15,7 @@
     \begin{aligned}
       \where &amp; G = (V,E) : \text{directed graph},\; \\
              &amp; V : \text{finite set},\; \\
-             &amp; E \subset V \times V,\; \\
+             &amp; E \subset V \times V,\; \text{ and}\\
              &amp; \sim :  \text{equivalent relation of being strongly connected}.\;
     \end{aligned}
   \end{aligned}
