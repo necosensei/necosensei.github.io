@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/11/29 (水)
+
+\[
+
+    \lfloor \log_2 n \rfloor = w - 1 - \mathrm{nlz}(n).
+
+\]
+
 <hr>2017/11/28 (火)
 
 - 某シンポジウムに参加申し込みする.
