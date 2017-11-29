@@ -5,6 +5,8 @@
 
 \[
 
+    % number of leading zeros
+
     \lfloor \log_2 n \rfloor = w - 1 - \mathrm{nlz}(n).
 
 \]
