@@ -7,7 +7,10 @@
 
     % number of leading zeros
 
-    \lfloor \log_2 n \rfloor = w - 1 - \mathrm{nlz}(n).
+    \begin{aligned}
+      &amp; \lfloor \log_2 n \rfloor = w - 1 - \mathrm{nlz}(n), \\
+      &amp; \where w : \text{word length in bits.}.
+    \end{aligned}
 
 \]
 
@@ -26,7 +29,7 @@
       \where &amp; G = (V,E) : \text{directed graph},\; \\
              &amp; V : \text{finite set},\; \\
              &amp; E \subset V \times V,\; \text{ and}\\
-             &amp; \sim :  \text{equivalent relation of strongly connected vertices}.\;
+             &amp; \sim :  \text{equivalence relation of strongly connected vertices}.\;
     \end{aligned}
   \end{aligned}
 
