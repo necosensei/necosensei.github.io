@@ -6,11 +6,16 @@
 \[
 
     % number of leading zeros
-
+    {\def\nlz{\mathrm{nlz}}
     \begin{aligned}
-      &amp; \lfloor \log_2 n \rfloor = w - 1 - \mathrm{nlz}(n), \\
-      &amp; \where w : \text{word length in bits.}.
+      &amp; \lfloor \log_2 n \rfloor = w - 1 - \nlz(n), \\
+      &amp; 
+      \begin{aligned}
+        \where &amp; w : \text{word length in bits}, \\
+	       &amp; \nlz : \text{number of leading zeros}.
+      \end{aligned}
     \end{aligned}
+    }
 
 \]
 
