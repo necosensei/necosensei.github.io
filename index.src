@@ -23,11 +23,14 @@
 
 \[
 
-  \begin{array}{ccc}
-    \frac{a_0}{a_0+a_2}             &amp; &gt; &amp; \frac{b_0}{b_0+b_2}, \\
-    \frac{a_1}{a_1+a_3}             &amp; &gt; &amp; \frac{b_1}{b_1+b_3}, \\
-    \frac{a_0+a_1}{a_0+a_1+a_2+a_3} &amp; &lt; &amp; \frac{b_0+b_1}{b_0+b_1+b_2+b_3}.
-  \end{array}
+  \begin{aligned}
+    &amp; \exists a_0,a_1,a_2,a_3,b_0,b_1,b_2,b_3 \st \\
+    &amp; \begin{array}{ccc}
+            \displaystyle \frac{a_0}{a_0+a_2}             &amp; &gt; &amp; \displaystyle \frac{b_0}{b_0+b_2}, \\
+            \displaystyle \frac{a_1}{a_1+a_3}             &amp; &gt; &amp; \displaystyle \frac{b_1}{b_1+b_3}, \\
+            \displaystyle \frac{a_0+a_1}{a_0+a_1+a_2+a_3} &amp; &lt; &amp; \displaystyle \frac{b_0+b_1}{b_0+b_1+b_2+b_3}.
+          \end{array}
+  \end{aligned}
 
 \]
 
