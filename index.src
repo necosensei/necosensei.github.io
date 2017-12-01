@@ -24,7 +24,8 @@
 \[
 
   \begin{aligned}
-    &amp; \exists a_0,a_1,a_2,a_3,b_0,b_1,b_2,b_3 \st \\
+    &amp; \exists a_0,a_1,a_2,a_3,b_0,b_1,b_2,b_3 \in \N \;\st \\
+    &amp; \\
     &amp; \begin{array}{ccc}
             \displaystyle \frac{a_0}{a_0+a_2}             &amp; &gt; &amp; \displaystyle \frac{b_0}{b_0+b_2}, \\
             \displaystyle \frac{a_1}{a_1+a_3}             &amp; &gt; &amp; \displaystyle \frac{b_1}{b_1+b_3}, \\
