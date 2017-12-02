@@ -26,12 +26,12 @@
   % Simpson's paradox
 
   \begin{aligned}
-    &amp; \exists a_{00},a_{10},a_{01},a_{11},b_{00},b_{10},b_{01},b_{11} \in \N \;\st \\
+    &amp; \exists a_0,a_1,a_2,a_3,b_0,b_1,b_2,b_3 \in \N \;\st \\
     &amp; \\
     &amp; \begin{array}{ccc}
-            \displaystyle \frac{a_{00}}{a_{00}+a_{01}}             &amp; &gt; &amp; \displaystyle \frac{b_{00}}{b_{00}+b_{01}}, \\
-            \displaystyle \frac{a_{10}}{a_{10}+a_{11}}             &amp; &gt; &amp; \displaystyle \frac{b_{10}}{b_{10}+b_{11}}, \\
-            \displaystyle \frac{a_{00}+a_{10}}{a_{00}+a_{01}+a_{10}+a_{11}} &amp; &lt; &amp; \displaystyle \frac{b_{00}+b_{10}}{b_{00}+b_{01}+b_{10}+b_{11}}.
+            \displaystyle \frac{a_0}{a_0+a_1}             &amp; &gt; &amp; \displaystyle \frac{b_0}{b_0+b_1}, \\
+            \displaystyle \frac{a_2}{a_2+a_3}             &amp; &gt; &amp; \displaystyle \frac{b_2}{b_2+b_3}, \\
+            \displaystyle \frac{a_0+a_2}{a_0+a_1+a_2+a_3} &amp; &lt; &amp; \displaystyle \frac{b_0+b_2}{b_0+b_1+b_2+b_3}.
           \end{array}
   \end{aligned}
 
