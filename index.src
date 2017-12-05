@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/05 (火)
+
+- 2日前に書いたお馴染みの Quadratic reciprocity は
+  思いっきり<a href=kako.html>過去</a>に使っていた …
+
+- reciprocity law がだんだん難しくなってきて, 何言って
+  るか分からなくなりつつある. Hilbert reciprocity 前後
+  で脱落しそう …
+
+\[
+
+    % Quartic reciprocity
+
+    \left[ \frac{\pi}{\theta} \right]
+    \left[ \frac{\theta}{\pi} \right]^{-1} =
+    (-1)^{\frac{N\pi - 1}{4}\frac{N\theta - 1}{4}} .
+
+\]
+
 <hr>2017/12/04 (月)
 
 - K城先生は発表を無難にこなした模様.
