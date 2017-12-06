@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/06 (水)
+
+- 異様に眠い.
+
+\[
+
+  x^n + y^n = (x+y) (x+\zeta y) \cdots (x+\zeta^{n-1} y).
+
+\]
+
 <hr>2017/12/05 (火)
 
 - 2日前に書いたお馴染みの Quadratic reciprocity は
