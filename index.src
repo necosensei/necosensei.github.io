@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/09 (土)
+
+- 昨日珍しく会社でプログラムを書いたせいか, 今日は異様に眠い.
+  昼間居眠りしてしまう.
+
+\[
+
+    % probabilists' Hermite polynomials
+
+    \mathit{He}_n(x) = \left( x - \frac{\d}{\d x} \right)^n \cdot 1 .
+
+\]
+
 <hr>2017/12/08 (金)
 
 - ク□ネコは相変わらず間が悪く, 風呂に入ってる時にやって来るが,
