@@ -11,7 +11,7 @@
 
     % probabilists' Hermite polynomials
 
-    \mathit{He}_n(x) = \e^{-\frac{D^2}{2}} x^n
+    \mathit{He}_n(x) = \e^{-\frac{D^2}{2}} x^n .
 
 \]
 
