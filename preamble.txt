@@ -38,7 +38,7 @@
   \def\i{{\rm i}}
   \def\j{{\rm j}}
   \def\k{{\rm k}}
-  \def\d{\mathrm{d}}
+  \def\d{{\mathrm d}}
   \def\GL{{\rm GL}}
   \def\calD{{\cal D}}
   \def\calF{{\cal F}}
