@@ -3,6 +3,25 @@
 
 <hr>2017/12/12 (火)
 
+- 某シンポジウムで発表予定の簡単な実装をなんとか完成.
+  方式がいわゆる検証アルゴリズムを含むのだが, 十数本
+  ある検証式のうち半分くらいがバグを含んでいて機能し
+  ない事実を突き付けて共著者を小一時間問い詰める …
+
+\[
+
+    % Oregonator
+
+    \begin{aligned}
+      &amp; A + Y \rightarrow X + P, \\
+      &amp; X + Y \rightarrow 2 P, \\
+      &amp; A + X \rightarrow 2 X + 2 Z, \\
+      &amp; X + X \rightarrow A + P, \\
+      &amp; B + Z \rightarrow \frac{1}{2} f\,Y, \\
+    \end{aligned}
+
+\]
+
 <!-- Oregonator -->
 
 <hr>2017/12/11 (月)
