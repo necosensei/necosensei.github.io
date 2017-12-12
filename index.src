@@ -18,6 +18,13 @@
       &amp; A + X \rightarrow 2 X + 2 Z, \\
       &amp; X + X \rightarrow A + P, \\
       &amp; B + Z \rightarrow \frac{1}{2} f\,Y, \\
+      &amp; \frac{\d}{\d t} A = \frac{\d}{\d t} B = \frac{\d}{\d t} P = 0, \\
+      &amp; \frac{\d}{\d t} X =   k_1 A Y - k_2 X Y + k_3 A X - 2 k_4 X^2, \\
+      &amp; \frac{\d}{\d t} Y = - k_1 A Y - k_2 X Y + \frac{1}{2} f k_c B Z, \\
+      &amp; \frac{\d}{\d t} Z = 2 k_3 A X - k_c B Z.
+      &amp; f : \text{an adjustable stiochiometric factor}, \\
+      &amp; k_i : \text{the actual, experimentally derived, rate constants}, \\
+      &amp; k_c : \text{an adjustable rate parameter}, \\
     \end{aligned}
 
 \]
