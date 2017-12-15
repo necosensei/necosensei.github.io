@@ -10,12 +10,11 @@
 
     % Sturm sequence
 
-    f_0 \in \R[x],\;
-    f_1 = \frac{\d f_0}{\d x},\;
-    \gcd(f_0, f_1) \in \R
-    \implies
-    f_i = - f_{i-2} \bmod f_{i-1} 
-    \text{ is a Sturm sequence}.
+    \begin{aligned}
+      &amp; \Let f_0 \in \R[x],\; f_1 = \frac{\d f_0}{\d x},\\
+      &amp; \gcd(f_0, f_1) \in \R
+            \implies f_i = - f_{i-2} \bmod f_{i-1} \text{ is a Sturm sequence}.
+    \end{aligned}
 
 \]
 
