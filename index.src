@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/18 (月)
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Eulerian+Cycle%22" target="_blank">
+#! ./svg-turtle.pl
+
+# % Eulerian Cycle #
+
+\svg 200 200
+\transform 100 0 0 -100 100 100 {
+  \path M -0.5 0 L 0 -0.5 L 0.5 0 L 0.5 -0.5 L -0.5 -0.5 L -0.5 0.5 L -1 0 L 0 -1 L 1 0 L 1 -1 L -1 -1 L -1 1 L 1 1 L 1 0 L 0 1 L -0.5 0.5 L 0.5 0.5 L 0.5 0 L 0 0.5 Z
+}
+#!
+</a>
+
 <hr>2017/12/17 (日)
 
 - 共著者から半年前に作ってもう全く記憶にないプログラムの
