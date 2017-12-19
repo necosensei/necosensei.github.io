@@ -8,7 +8,31 @@
   since, graphs exist that are symmetric but not arc-transitive.
                                                         -- <a href="http://mathworld.wolfram.com/Arc-TransitiveGraph.html" target="_blank">mathworld</a>
 
-  <!-- Doyle graph -->
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
+#! /usr/local/bin/gp -q | /usr/local/bin/neato -Tsvg -Gsize=5,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+name(alpha,beta) = (alpha % 9) * 3 + (beta % 3) ;
+{
+  print("graph Doyle{") ;
+  print("  node [shape=point];") ;
+  print("  edge [color=black];") ;
+  for(alpha=0,8,
+    for(beta=0,2,
+      a = name(alpha, beta) ;
+      b = name(4*alpha+1, beta-1) ;
+      c = name(4*alpha-1, beta-1) ;
+      d = name(7*alpha+7, beta+1) ;
+      e = name(7*alpha-7, beta+1) ;
+
+      print1("  ",a,"--",b,"; ") ;
+      print1(a,"--",c,"; ") ;
+      print1(a,"--",d,"; ") ;
+      print(a,"--",e,";") ;
+    )
+  ) ;
+  print("}") ;
+}
+#!
+</a>
 
 <hr>2017/12/18 (月)
 
