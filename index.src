@@ -11,6 +11,7 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
 #! /usr/local/bin/perl | /usr/local/bin/nearto -Tsvg -Gsize=5,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
+$r0    = 10 ;
 $beta0 = 1 ;
 $pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
 
@@ -35,7 +36,7 @@ for($alpha=0; $alpha<=8; $alpha++){
     if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
     if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
 
-    $r = ($beta + $beta0) ;
+    $r = $r0 * ($beta + $beta0) ;
     $x = $r * cos(2*$pi*$alpha/9.0) ;
     $y = $r * sin(2*$pi*$alpha/9.0) ;
     print("  $a [pos=\"$x,$y!\"];\n") ;
