@@ -9,9 +9,9 @@
                                                         -- <a href="http://mathworld.wolfram.com/Arc-TransitiveGraph.html" target="_blank">mathworld</a>
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
-#! /usr/local/bin/perl | /usr/local/bin/nearto -Tsvg -Gsize=5,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=5,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$r0    = 10 ;
+$r0    = 1 ;
 $beta0 = 1 ;
 $pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
 
