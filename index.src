@@ -10,10 +10,19 @@
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
 #! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=5,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$beta0 = 1 ;
+$pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
+
 sub name{
   my($alpha,$beta) = @_ ;
   return(($alpha % 9) * 3 + ($beta % 3)) ;
 }
+
+print("graph Doyle{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
 for($alpha=0; $alpha<=8; $alpha++){
   for($beta=0; $beta<=2; $beta++){
     $a = &name($alpha, $beta) ;
@@ -21,15 +30,18 @@ for($alpha=0; $alpha<=8; $alpha++){
     $c = &name(4*$alpha-1, $beta-1) ;
     $d = &name(7*$alpha+7, $beta+1) ;
     $e = &name(7*$alpha-7, $beta+1) ;
-   if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
-   if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
-   if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
-   if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
+    if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
+    if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
+    if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
+    if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
+
+    $r = ($beta + $beta0) ;
+    $x = $r * cos(2*$pi*$alpha/9.0) ;
+    $y = $r * sin(2*$pi*$alpha/9.0) ;
+    print("  $a [pos=\"$x,$y!\"];\n") ;
   }
 }
-print("graph Doyle{\n") ;
-print("  node [shape=point];\n") ;
-print("  edge [color=black];\n") ;
+
 for $i (keys(%A)){
   ($a,$b) = split(/,/,$i,2) ;
   print("  ${a}--${b}; \n") ;
