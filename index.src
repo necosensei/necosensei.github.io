@@ -37,8 +37,9 @@ for($alpha=0; $alpha<=8; $alpha++){
     if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
 
     $r = $r0 * ($beta + $beta0) ;
-    $x = $r * cos(2*$pi*$alpha/9.0) ;
-    $y = $r * sin(2*$pi*$alpha/9.0) ;
+    $theta  = (2*$pi*$alpha/9.0 + $pi*$beta) ;
+    $x = $r * cos($theta) ;
+    $y = $r * sin($theta) ;
     print("  $a [pos=\"$x,$y!\"];\n") ;
   }
 }
