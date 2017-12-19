@@ -17,7 +17,7 @@ $pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
 
 sub name{
   my($alpha,$beta) = @_ ;
-  return(($alpha % 9) * 3 + ($beta % 3)) ;
+  return((($alpha+9*9*9) % 9) * 3 + (($beta+3*3*3) % 3)) ;
 }
 
 print("graph Doyle{\n") ;
