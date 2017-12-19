@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/19 (火)
+
+- More confusingly still, arc-transitive graphs are sometimes called
+  symmetric graphs. This terminology conflict is particularly confusing
+  since, graphs exist that are symmetric but not arc-transitive.
+                                                 -- <a href="http://mathworld.wolfram.com/Arc-TransitiveGraph.html" target="_blank">mathworld</a>
+
+  <!-- Doyle graph -->
+
 <hr>2017/12/18 (月)
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Eulerian+Cycle%22" target="_blank">
