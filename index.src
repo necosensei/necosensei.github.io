@@ -17,7 +17,7 @@ $pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
 
 sub name{
   my($alpha,$beta) = @_ ;
-  return((($alpha+9*9*9) % 9) * 3 + (($beta+3*3*3) % 3)) ;
+  return((($alpha+9*9*9) % 9) + (($beta+3*3*3) % 3)) * 9 ;
 }
 
 print("graph Doyle{\n") ;
@@ -35,9 +35,6 @@ for($alpha=0; $alpha<=8; $alpha++){
     if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
     if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
     if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
-
-#    $r = $r0 * ($beta + $beta0) ;
-#    $theta  = (2*$pi*$alpha/9.0 + 2*$pi*$beta/3.0) ;
     $r = 2 ;
     $theta  = (2*$pi*$a/27.0);
     $x = $r * cos($theta) ;
