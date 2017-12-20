@@ -32,7 +32,7 @@ for($alpha=0; $alpha<=1; $alpha++){
     if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
     if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
 
-    $r = 2 ;
+    $r = 1 ;
     $theta  = (2*$pi*$a/6.0);
     $x = $r * cos($theta) ;
     $y = $r * sin($theta) ;
