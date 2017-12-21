@@ -11,8 +11,8 @@
     % differential graded algebra
 
     \begin{aligned}
-      \text{(i)}  &amp; \d \circ \d = 0, \\
-      \text{(ii)} &amp; \d (a\cdot b) = (\d a) \cdot b + (-1)^{\deg(a)} a \cdot(\d b).
+      \text{(i) }  &amp; \d \circ \d = 0, \\
+      \text{(ii) } &amp; \d (a\cdot b) = (\d a) \cdot b + (-1)^{\deg(a)} a \cdot(\d b).
     \end{aligned}
 
 \]
