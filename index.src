@@ -76,7 +76,7 @@ sub name{
   ) ;
 }
 
-print("graph Doyle{\n") ;
+print("graph DoyleGrpha{\n") ;
 print("  node [shape=point];\n") ;
 print("  edge [color=black];\n") ;
 
