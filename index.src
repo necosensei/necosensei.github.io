@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/21 (木)
+
+-
+
 <hr>2017/12/20 (水)
+
+- Three utilities problem の Wikipedia,
+  日本語版が見当たらないのが解せない …
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Utility+graph%22" target="_blank">
 #! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
@@ -32,7 +39,7 @@ for($alpha=0; $alpha<=1; $alpha++){
     if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
     if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
 
-    $r = 2 ;
+    $r = 1 ;
     $theta  = (2*$pi*$a/6.0);
     $x = $r * cos($theta) ;
     $y = $r * sin($theta) ;
