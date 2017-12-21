@@ -3,7 +3,19 @@
 
 <hr>2017/12/21 (木)
 
--
+- 極端に寒くなったせいか, 非常に体調が悪い. しかし, 今日は
+  ノイズが入らず, 意外にも集中できた.
+
+\[
+
+    % differential graded algebra
+
+    \begin{aligned}
+      \text{(i)}  &amp; \d \circ \d = 0, \\
+      \text{(ii)} &amp; \d (a\cdot b) = (\d a) \cdot b + (-1)^{\deg(a)} a \cdot(\d b).
+    \end{aligned}
+
+\]
 
 <hr>2017/12/20 (水)
 
