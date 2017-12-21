@@ -55,7 +55,6 @@ print("}\n") ;
 #!
 </a>
 
-
 <hr>2017/12/19 (火)
 
 - More confusingly still, arc-transitive graphs are sometimes called
@@ -64,7 +63,7 @@ print("}\n") ;
                                                         -- <a href="http://mathworld.wolfram.com/Arc-TransitiveGraph.html" target="_blank">mathworld</a>
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
-#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=4,4\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=4,3\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 $r0    = 1 ;
 $beta0 = 1 ;
@@ -108,8 +107,9 @@ for $i (keys(%A)){
 print("}\n") ;
 #!
 </a>
-
 - 適当な配置は美しくないな … 後で修正しよう.
+
+- 修正したが, それほど美しくない …
 
 <hr>2017/12/18 (月)
 
