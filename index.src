@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/24 (日)
+
+- 散髪に行こうかと思ったが, 面倒臭くなって却下 …
+
+\[
+
+  % Enigma
+
+  \begin{aligned}
+    &amp; c_i = (((((m_i + s_{i,0})^\sigma_0 + s_{i,1})^\sigma_1 + s_{i,2})^{\sigma_2\rho\sigma_2^{-1}}-s_{i,2})^{\sigma_1^{-1}}-s_{i,1})^{\sigma_0^{-1}}-s_{i,0}, \\
+    &amp; \sum_{j=0,2} s_{i+1,j} n^j = 1 + \sum_{j=0,2} s_{i,j} n^j \bmod n^3,
+    &amp; \where c_i,m_i,s_{i,0},s_{i,1},s_{i,2} \in \Z/n\Z \\
+  \end{aligned}
+
+\]
+
 <hr>2017/12/23 (土)
 
 - 神□町で適当に古本を買い漁った結果, 荷物が結構重たくなってしまった.
