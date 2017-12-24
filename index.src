@@ -7,7 +7,7 @@
 
 \[
 
-  % Enigma
+  % Enigma" "cipher
 
   \begin{aligned}
     &amp; c_i = (((((m_i + s_{i,0})^{\sigma_0} + s_{i,1})^{\sigma_1} + s_{i,2})^{\left(\sigma_2\rho\sigma_2^{-1}\right)}-s_{i,2})^{\sigma_1^{-1}}-s_{i,1})^{\sigma_0^{-1}}-s_{i,0}, \\
