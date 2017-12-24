@@ -10,13 +10,15 @@
   % Enigma" "cipher
 
   \begin{aligned}
-    &amp; c_i = (f^{-1}_{i,0}\circ f^{-1}_{i,1}\circ f^{-1}_{i,2}((f_{i,2}\circ f_{i,1}\circ f_{i,0} (m_i^{\pi}))^{\rho}))^{\pi^{-1}}, \\
+    &amp; c_i = (F^{-1}_i((F_i(m_i^{\pi}))^{\rho}))^{\pi^{-1}}, \\
     &amp; \sum_{j=0}^2 s_{i+1,j} \cdot n^j = \left(1 + \sum_{j=0}^2 s_{i,j} \cdot n^j \right) \bmod n^3, \\
     &amp; 
     \begin{aligned}
       \where 
              &amp;         {f_{i,j} : } \Z/n\Z \rightarrow \Z/n\Z, \\
              &amp; \phantom{f_{i,j} : } x \mapsto (x + s_{i,j})^{\sigma_j}, \\
+             &amp;         {F_i : } \Z/n\Z \rightarrow \Z/n\Z, \\
+             &amp; \phantom{F_i : } x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
              &amp; \text{plain text} : m_i \in \Z/n\Z, \\
              &amp; \text{cipher text} : c_i \in \Z/n\Z, \\
              &amp; \text{secret key} : s_{i,j} \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n. \\
