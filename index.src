@@ -11,7 +11,7 @@
 
   \begin{aligned}
     &amp;
-    \begin{alignedat}
+    \begin{alignedat}{2}
       c_i &amp; = F^{-1}_i(F_i(m_i^{\pi}
           &amp;&amp; )^{\rho})^{\pi^{-1}}, \\
       m_i &amp; = F^{-1}_i(F_i(c_i^{\pi}
