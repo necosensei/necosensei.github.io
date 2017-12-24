@@ -19,7 +19,8 @@
              &amp; \text{secret key} : s_{i,j} \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n. \\
              &amp; F_i : x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
              &amp; f_{i,j} : x \mapsto (x + s_{i,j})^{\sigma_j}, \\
-             &amp; \sum_{j=0}^2 s_{i+1,j} \cdot n^j = \left(1 + \sum_{j=0}^2 s_{i,j} \cdot n^j \right) \bmod n^3 \; \text{ for } \; s_{i+1,j}, s_{i,j} \in \{0,\cdot,n-1\} , \\
+	     &amp; \text{for } \; s_{i+1,j}, s_{i,j} \in \{0,\ldots,n-1\}, \\
+             &amp; \tab \sum_{j=0}^2 s_{i+1,j} \cdot n^j = \left(1 + \sum_{j=0}^2 s_{i,j} \cdot n^j \right) \bmod n^3.
     \end{aligned}
   \end{aligned}
 
