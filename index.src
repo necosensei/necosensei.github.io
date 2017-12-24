@@ -5,6 +5,9 @@
 
 - 散髪に行こうかと思ったが, 面倒臭くなって却下 …
 
+- 恒等置換を表す記号 $ e,I,I_n,1,(1),\cdots $ が沢山あって, ちょっと
+  ググっただけでも誰一人一致してなくて鬱 …
+
 \[
 
   % Enigma" "cipher
@@ -22,7 +25,7 @@
       \where 
              &amp; \text{plain text} : m_i \in \Z/n\Z, \\
              &amp; \text{cipher text} : c_i \in \Z/n\Z, \\
-             &amp; \text{secret key} : s_{0,j} \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n,\; \rho^2 = () \\
+             &amp; \text{secret key} : s_{0,j} \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n,\; \rho^2 = 1, \\
              &amp; F_i : x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
              &amp; f_{i,j} : x \mapsto (x + s_{i,j})^{\sigma_j}, \\
 	     &amp; \text{for } \; s_{i+1,j}, s_{i,j} \in \{0,\ldots,n-1\}, \\
