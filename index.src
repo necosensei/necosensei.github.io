@@ -10,7 +10,7 @@
   % Enigma" "cipher
 
   \begin{aligned}
-    &amp; c_i = (F^{-1}_i((F_i(m_i^{\pi}))^{\rho}))^{\pi^{-1}}, \\
+    &amp; c_i = F^{-1}_i(F_i(m_i^{\pi})^{\rho})^{\pi^{-1}}, \\
     &amp; 
     \begin{aligned}
       \where 
