@@ -10,8 +10,13 @@
   % Enigma" "cipher
 
   \begin{aligned}
-    &amp; c_i = F^{-1}_i(F_i(m_i^{\pi})^{\rho})^{\pi^{-1}}, \\
-    &amp; m_i = F^{-1}_i(F_i(c_i^{\pi})^{\rho})^{\pi^{-1}}, \\
+    &amp;
+    \begin{alignedat}
+      c_i &amp; = F^{-1}_i(F_i(m_i^{\pi}
+          &amp;&amp; )^{\rho})^{\pi^{-1}}, \\
+      m_i &amp; = F^{-1}_i(F_i(c_i^{\pi}
+          &amp;&amp; )^{\rho})^{\pi^{-1}}, \\
+    \end{alignedat}
     &amp; 
     \begin{aligned}
       \where 
