@@ -15,11 +15,11 @@
     &amp; 
     \begin{aligned}
       \where 
-             &amp; f_{i,j} : x \mapsto (x + s_{i,j})^{\sigma_j}, \\
-             &amp; F_i : x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
              &amp; \text{plain text} : m_i \in \Z/n\Z, \\
              &amp; \text{cipher text} : c_i \in \Z/n\Z, \\
              &amp; \text{secret key} : s_{i,j} \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n. \\
+             &amp; F_i : x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
+             &amp; f_{i,j} : x \mapsto (x + s_{i,j})^{\sigma_j}, \\
     \end{aligned}
   \end{aligned}
 
