@@ -1,6 +1,25 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/25 (月)
+
+- The world's largest explicitly known prime numbers have always been
+  Mersenne primes, at least from 1772 until 1980 when this book was
+  written. But the situation will probably change soon, since Mersenne
+  primes are getting harder to find, and since ...
+                                                        -- D.E. Knuth
+
+- As of January 2017, the six largest known primes are Mersenne primes.
+  The last 16 record primes were Mersenne primes.
+
+\[
+
+    % Largest known prime number
+
+    p = 2^{74207281} - 1.
+
+\]
+
 <hr>2017/12/24 (日)
 
 - 散髪に行こうかと思ったが, 面倒臭くなって却下 …
