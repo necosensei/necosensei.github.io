@@ -8,7 +8,7 @@
 
   % Friedlander-Iwaniec theorem
   { \def\P{{\mathbb P}}
-    \exists^{\infty} p \in \P \st \exists a,b \in \N \st p = a^2 + b^4. }
+    \exists^{\infty} p \in \P \st \exists a,b \in \N, p = a^2 + b^4. }
 
 \]
 
