@@ -13,7 +13,7 @@
     \lim_{x\rightarrow\infty}
       \frac{\pi\left( x + (\log x)^{\lambda} \right) - \pi\left( x \right)}
            {(\log x)^{\lambda - 1}}
-    \;\text{ does not exist}.
+    \;\text{ does not exist for $ \lambda &gt; 1 $}.
 
 \]
 
