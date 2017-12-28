@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2017/12/28 (木)
+
+- 解析数論？とやらには, 主張は素人でもすぐ理解できそうだが, 証明は
+  とても読む気になれない定理が沢山ありそうな雰囲気 …
+
+\[
+
+    % Maier's theorem
+
+    \lim_{x\rightarrow\infty}
+      \frac{\pi\left( x + (\log x)^{\lambda} \right) - \pi\left( x \right)}
+           {(\log x)^{\lambda - 1}}
+    \;\text{ does not exist}.
+
+\]
+
 <hr>2017/12/27 (水)
 
 - 破損時即購入した物と修理上がりの合計２台の全く同じスマホを所有して
