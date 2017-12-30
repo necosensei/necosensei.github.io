@@ -5,11 +5,11 @@
 
 - 帰省した. スマホで日記を書くのはいまいちな気がしてきた.
 
-¥[
+\[
 
-¥lim_{N¥rightarrow¥infty}¥frac{\#\{p¥le N:¥alpha¥le¥theta_p¥le¥beta¥}}{¥#¥{p¥le N¥}} = ¥frac{2}{¥pi}¥int_¥alpha^¥beta¥sin^2¥theta¥d¥theta.
+  \lim_{N\rightarrow\infty}\frac{\#\{p\le N:\alpha\le\theta_p\le\beta\}}{\#\{p\le N\}} = \frac{2}{\pi}\int_\alpha^\beta\sin^2\theta\d\theta.
 
-¥]
+\]
 
 <hr>2017/12/29 (金)
 
