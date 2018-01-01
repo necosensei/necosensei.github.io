@@ -3,6 +3,59 @@
 
 <hr>2017/12/30 (土)
 
+- UTF-8ではバックスラッシュと円記号が分離したのか？
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Franklin+graph%22" target="_blank">
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
+
+sub name{
+  my($alpha) = @_ ;
+  return(
+    ($alpha+18*18) % 18
+  ) ;
+}
+
+print("graph FranklinGraph{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
+for($alpha=0; $alpha<18; $alpha++){
+    $a = &name($alpha) ;
+    $b = &name($alpha+1) ;
+    $c = &name($alpha-1) ;
+    $d = &name($alpha+(1-($alpha % 2)*2)*5) ;
+
+    if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
+    if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
+    if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
+
+    $r = 1 ;
+    $theta  = (2*$pi*$a/18.0);
+    $x = $r * cos($theta) ;
+    $y = $r * sin($theta) ;
+    print("  $a [pos=\"$x,$y!\"];\n") ;
+  }
+}
+
+for $i (keys(%A)){
+  ($a,$b) = split(/,/,$i,2) ;
+  print("  ${a}--${b}; \n") ;
+}
+print("}\n") ;
+#!
+</a>
+
+\[
+
+
+
+
+\]
+
+<hr>2017/12/30 (土)
+
 - 帰省した. スマホで日記を書くのはいまいちな気がしてきた.
   数式書くインフラが不足してる気がする.
 
