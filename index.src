@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/01 (月)
+
+\[
+
+  % Characteristic polynomial of a graph
+
+  \pi_G(x)=4x^3-x^5.
+
+
+\]
+
 <hr>2017/12/31 (日)
 
 - UTF-8ではバックスラッシュと円記号が分離したのか？
