@@ -10,10 +10,12 @@
 
 $pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
 
+$N=12;
+
 sub name{
   my($alpha) = @_ ;
   return(
-    ($alpha+18*18) % 18
+    ($alpha+$N*$N) % $N
   ) ;
 }
 
@@ -21,7 +23,7 @@ print("graph FranklinGraph{\n") ;
 print("  node [shape=point];\n") ;
 print("  edge [color=black];\n") ;
 
-for($alpha=0; $alpha<18; $alpha++){
+for($alpha=0; $alpha<$N; $alpha++){
     $a = &name($alpha) ;
     $b = &name($alpha+1) ;
     $c = &name($alpha-1) ;
@@ -32,7 +34,7 @@ for($alpha=0; $alpha<18; $alpha++){
     if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
 
     $r = 1 ;
-    $theta  = (2*$pi*$a/18.0);
+    $theta  = (2*$pi*$a/($N*1.0));
     $x = $r * cos($theta) ;
     $y = $r * sin($theta) ;
     print("  $a [pos=\"$x,$y!\"];\n") ;
