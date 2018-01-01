@@ -36,7 +36,6 @@ for($alpha=0; $alpha<18; $alpha++){
     $x = $r * cos($theta) ;
     $y = $r * sin($theta) ;
     print("  $a [pos=\"$x,$y!\"];\n") ;
-  }
 }
 
 for $i (keys(%A)){
