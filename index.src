@@ -10,8 +10,9 @@
   % Chvatal's art gallery theorem
 
   \left\lfloor\frac{n}{3}\right\rfloor
-  \text{ guards are always sufficient and sometimes necessary to guard
-         a simple polygon with } n \text{ vertices}.
+  \text{ guards are always sufficient and}
+  \text{ sometimes necessary to guard a simple polygon with }
+  n \text{ vertices}.
 
 \]
 
