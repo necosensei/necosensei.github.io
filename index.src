@@ -7,7 +7,7 @@
 
 \[
 
-  % Chvatal's art gallery theorem
+  % Chvatal's Art Gallery Theorem
 
   \left\lfloor\frac{n}{3}\right\rfloor
   \text{ guards are always sufficient and}
