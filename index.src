@@ -1,10 +1,32 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/03 (水)
+
+- 東京に戻った.
+
+\[
+
+  % Chvatal's art gallery theorem
+
+  \left\lfloor\frac{n}{3}\right\rfloor
+  \text{ guards are always sufficient and sometimes necessary to guard
+         a simple polygon with } n \text{ vertices}.
+
+\]
+
 <hr>2018/01/02 (火)
 
+\[
 
+  % Bayes' theorem
 
+  { 
+    \def\P{{\rm P}}
+    \P(A|B) = \frac{\P(B|A) \P(A)}{\P(B)}.
+  }
+
+\]
 
 <hr>2018/01/01 (月)
 
@@ -13,7 +35,6 @@
   % Characteristic polynomial of a graph
 
   \pi_G(x)=4x^3-x^5.
-
 
 \]
 
