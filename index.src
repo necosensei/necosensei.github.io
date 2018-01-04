@@ -12,7 +12,7 @@
 
    % the largest integer
 
-   \textbf{Theorem. }\textit{If }\; n \textit{ is the largest positive integer, then } n = 1.
+   \textbf{Theorem. }\textit{If }\, n \textit{ is the largest positive integer, then }\, n = 1.
 
 \]
 
