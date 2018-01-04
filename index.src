@@ -7,7 +7,7 @@
 
    % the largest integer
 
-   \text{If } n \text{ is the largest positive integer, then } n = 1.
+   \text{Theorem: If } n \text{ is the largest positive integer, then } n = 1.
 
 \]
 
