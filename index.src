@@ -1,22 +1,39 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/04 (木)
+
+\[
+
+   % the largest positive integer
+
+   \text{If } n \text{ is the largest positive integer, then } n = 1.
+
+\]
+
 <hr>2018/01/03 (水)
 
 - 東京に戻った.
+
+- やはりキーボードで入力する方が何倍も楽だな …
 
 \[
 
   % Chvatal's Art Gallery Theorem
 
-  \left\lfloor\frac{n}{3}\right\rfloor
-  \text{ guards are always sufficient and}
-  \text{ sometimes necessary to guard a simple polygon with }
-  n \text{ vertices}.
+  \begin{aligned}
+    &amp; \left\lfloor\frac{n}{3}\right\rfloor
+          \text{ guards are always sufficient and} \\
+    &amp; \text{ sometimes necessary to guard a simple polygon with }
+          n \text{ vertices}.
+  \end{aligned}
 
 \]
 
 <hr>2018/01/02 (火)
+
+- 実家近くの□ジマ電気に行く. Nintend〇 Switch が普通に売られて
+  いるのを初めて見た …
 
 \[
 
@@ -24,7 +41,7 @@
 
   { 
     \def\P{{\rm P}}
-    \P(A|B) = \frac{\P(B|A) \P(A)}{\P(B)}.
+    \P(A|B) = \frac{\P(B|A)\,\P(A)}{\P(B)}.
   }
 
 \]
