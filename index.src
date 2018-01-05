@@ -25,7 +25,7 @@
 
 \[
 
-  \{ (\cos \theta, \sin \theta) \mid \theta \in \N \}
+  \{ (\cos \theta, \sin \theta) \mid \theta \in \N_0 \}
   \cong
   \{ (\cos \theta, \sin \theta) \mid \theta \in \N^+ \}.
 
