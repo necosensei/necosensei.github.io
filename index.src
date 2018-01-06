@@ -3,8 +3,7 @@
 
 <hr>2018/01/06 (金)
 
-- 以前日記に書いた Largest known prime number が日記に書いた次の日に
-  <a href="https://www.mersenne.org/primes/press/M77232917.html">更新された</a>とのこと. ギリギリ嘘じゃなかった …
+- Largest known prime number は日記に書いた次の日に<a href="https://www.mersenne.org/primes/press/M77232917.html">更新</a> …
 
 \[
 
@@ -13,6 +12,13 @@
     p = 2^{77232917} - 1.
 
 \]
+
+- どうやら某シンポジウムは初日最初のセッションで発表になる模様 …
+
+  - 珍しく雪の多い北陸地方で開催
+  - 初日最初のセッションで発表
+
+  悪い悪寒 …
 
 <hr>2018/01/05 (金)
 
