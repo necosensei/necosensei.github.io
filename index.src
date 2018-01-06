@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/06 (金)
+
+Largest known prime number が 01/03 に<a href="https://www.mersenne.org/primes/press/M77232917.html">更新された</a>とのこと …
+
+\[
+
+    % Largest known prime number
+
+    p = 2^{77232917} - 1.
+
+\]
+
 <hr>2018/01/05 (金)
 
 - 玉川上□からシャトルバスを出すと言うのでIKE△とやらに行ってみた.
