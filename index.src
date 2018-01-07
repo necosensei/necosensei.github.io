@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <pre>
 
-<hr>2018/01/06 (金)
+<hr>2018/01/07 (日)
+
+- CPU の speculative execution の side channel attack とやらで炎上してる
+  らしい …
+
+\[
+
+    % Modular lattice
+
+    x \le b \implies x \vee (a \wedge b) = (x \vee a) \wedge b.
+
+\]
+
+<hr>2018/01/06 (土)
 
 - <a href="#20171225">以前</a> Largest known prime number を日記に書いたが, 次の日には<a href="https://www.mersenne.org/primes/press/M77232917.html">更新</a> …
 
