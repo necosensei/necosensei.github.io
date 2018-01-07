@@ -3,8 +3,10 @@
 
 <hr>2018/01/07 (日)
 
-- CPU の speculative execution の side channel attack とやらで炎上してる
-  らしい …
+- x86 ? CPU の Speculative Execution の Side Channel Attack で Ring
+  Protection が突破出来るらしい. Intel の偉い人が発覚直前に株を売り
+  抜けたとかで炎上してるとのこと. OS にパッチを当てるとコンテクスト
+  スイッチのパフォーマンスが大幅に落ちるそうだ …
 
 \[
 
