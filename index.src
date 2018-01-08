@@ -12,8 +12,8 @@
   % Mazur's torsion theorem
 
   \begin{aligned}
-    E(\Q)_{\text{tors}} \cong G, \\
-    \where G \in 
+    &amp; E(\Q)_{\text{tors}} \cong G, \\
+    &amp; \where G \in 
       \{ \Z/n\Z \mid n\in \{1,\ldots,10,12\} \} \cup
       \{ \Z/2\Z \times \Z/2m\Z \mid m \in \{1,\ldots,4\} \}.
   \end{aligned}
