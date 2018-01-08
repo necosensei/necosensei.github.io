@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/08 (月)
+
+- 今日で冬休みが終わる.
+
+- 朝から雨で珍しポケモンが湧きやや狂喜.
+
+\[
+
+  % Mazur's torsion theorem
+
+  \begin{aligned}
+    &amp; \exists G \in \{ \Z/n\Z, \Z/2\Z \times \Z/2m\Z \mid n\in \{1,\ldots,10,12\}, m \in \{1,\ldots,4\} \} \\
+    &amp; \st E(\Q)_{\text{tors}} \cong G.
+  \end{aligned}
+
+\]
+
 <hr>2018/01/07 (日)
 
 - x86 ? CPU の Speculative Execution の Side Channel Attack で Ring
