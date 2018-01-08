@@ -11,10 +11,8 @@
 
   % Mazur's torsion theorem
 
-  \begin{aligned}
-    &amp; \exists G \in \{ \Z/n\Z, \Z/2\Z \times \Z/2m\Z \mid n\in \{1,\ldots,10,12\}, m \in \{1,\ldots,4\} \} \\
-    &amp; \st E(\Q)_{\text{tors}} \cong G.
-  \end{aligned}
+  E(\Q)_{\text{tors}} \cong G
+  \in \{ \Z/n\Z,\; \Z/2\Z \times \Z/2m\Z \mid n\in \{1,\ldots,10,12\}, m \in \{1,\ldots,4\} \}.
 
 \]
 
