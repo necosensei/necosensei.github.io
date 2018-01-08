@@ -15,8 +15,8 @@
     &amp; E(\Q)_{\text{tors}} \cong G, \\
     &amp; 
     \begin{aligned}
-      \where G \in &amp; \{ \Z/n\Z \mid n\in \{1,\ldots,10,12\} \} \cup \\
-                   &amp; \{ \Z/2\Z \times \Z/2m\Z \mid m \in \{1,\ldots,4\} \}.
+      \where G \in \; &amp; \{ \Z/n\Z \mid n\in \{1,\ldots,10,12\} \} \; \cup \\
+                      &amp; \{ \Z/2\Z \times \Z/2m\Z \mid m \in \{1,\ldots,4\} \}.
     \end{aligned}
   \end{aligned}
 
