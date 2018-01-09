@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/09 (火)
+
+- 気が向いたので会社の図書館で久しぶりに数セミを立ち読みしてたら
+  ややラノベ風になってた …
+
+\[
+
+    % Bernoulli number
+
+    \begin{aligned}
+      &amp; \zeta(-n) = - \frac{B_{n+1}}{n+1}, \\
+      &amp; \where n \in \N^+.
+    \end{aligned}
+
+\]
+
 <hr>2018/01/08 (月)
 
 - 今日で冬休みが終わる.
