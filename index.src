@@ -10,7 +10,7 @@
 
    % Bump function
 
-   \Phi(x) = \begin{cases}
+   \Psi(x) = \begin{cases}
      \exp(-\frac{1}{1-x^2}) &amp; \text{for } x \in (-1,1), \\
      0                      &amp; \text{otherwise}.
    \end{cases}
