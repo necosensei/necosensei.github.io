@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/10 (水)
+
+- 3年に一度あるかないかくらいの酷い体調不良で会社を早退. どうも
+  コンビニ食に当たったらしい …
+
+- Weierstrass function は使ってしまったので Dirichlet function.
+
+\[
+
+   % Pathological (mathematics)
+
+   f(x) = \begin{cases}
+     1 &amp; x \in \Q, \\
+     0 &amp; x \in \R\setminus\Q.
+   \end{cases}
+
+\]
+
 <hr>2018/01/09 (火)
 
 - 会社のクラウド？仮想マシンにソフトをインストールする事が新たに
