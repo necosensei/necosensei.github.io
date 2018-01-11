@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/11 (木)
+
+- まだあまり調子が良くないが, ほとんど臥せっていたおかげで, 昨日
+  よりは段違いに改善. 
+
+\[
+
+   % Bump function
+
+   \Phi(x) = \begin{cases}
+     \exp(-\frac{1}{1-x^2}) &amp; \text{for } x \in (-1,1), \\
+     0                      &amp; \text{otherwise}.
+   \end{cases}
+
+\]
+
 <hr>2018/01/10 (水)
 
 - 3年に一度あるかないかくらいの酷い体調不良で会社を早退. どうも
