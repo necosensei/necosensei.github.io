@@ -8,7 +8,7 @@
 
 \[
 
-    \forall a \in \C, \exist! \tau \in D : \text{the fundamental domain for the modular group}
+    \forall a \in \C, \exists! \tau \in D : \text{the fundamental domain for the modular group}
     \st j(\tau) - a = 0.
 
 \]
