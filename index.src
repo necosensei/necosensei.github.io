@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/11 (土)
+
+- 今日から人気伝説ポケモン カイオーガ がジムに出現. 早速玉□上水
+  で逃げられ, 頭にきて新宿出張.
+
+\[
+
+    % 
+
+
+\]
+
 <hr>2018/01/10 (金)
 
 - 睡眠時間を倍に増やしてなんとか通常生活を運営できる最低限の体調
@@ -11,7 +23,7 @@
     % j-invariant
 
     \begin{aligned}
-      &amp; \forall a \in \C, \exists! \tau \in D \st j(\tau) - a = 0, \\
+      &amp; \forall a \in \C,\; \exists! \tau \in D,\; j(\tau) - a = 0, \\
       &amp; \where D: \text{the fundamental domain for the modular group}.
     \end{aligned}
 
