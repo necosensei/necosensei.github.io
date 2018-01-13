@@ -8,8 +8,12 @@
 
 \[
 
-    \forall a \in \C, \exists! \tau \in D : \text{the fundamental domain for the modular group}
-    \st j(\tau) - a = 0.
+    % j-invariant
+
+    \begin{aligned}
+      &amp; \forall a \in \C, \exists! \tau \in D \st j(\tau) - a = 0, \\
+      &amp; \where D: \text{the fundamental domain for the modular group}.
+    \end{aligned}
 
 \]
 
