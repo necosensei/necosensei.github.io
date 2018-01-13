@@ -3,12 +3,15 @@
 
 <hr>2018/01/10 (金)
 
-- 睡眠時間を倍に増やしてなんとか通常生活を運営する最低限の体調
+- 睡眠時間を倍に増やしてなんとか通常生活を運営できる最低限の体調
   を確保できたと思っていたら, いきなり新年会かよ …
 
+\[
 
+    \forall a \in \C, \exist! \tau \in D : \text{the fundamental domain for the modular group}
+    \st j(\tau) - a = 0.
 
-
+\]
 
 <hr>2018/01/11 (木)
 
