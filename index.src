@@ -18,16 +18,31 @@ $a = 1 ;
 
 sub operate{
   my($x,$y,$n,$L,$ox,$oy) = @_ ;
-  print("  $a [pos=\"$x,$y!\"];\n") ;
-  $a++ ;
+  my($cur ) = $a++ ;
+  my($next);
+
+  print("  $cur [pos=\"$x,$y!\"];\n") ;
   if($n < $N){
     $L *= 0.5 ;
     $n += 1 ;
-    if(($x+2*$L!=$ox)||($y!=$oy)){ operate($x+$L,$y,$n,$L,$x,$y) } ;
-    if(($x-2*$L!=$ox)||($y!=$oy)){ operate($x-$L,$y,$n,$L,$x,$y) } ;
-    if(($x!=$ox)||($y+2*$L!=$oy)){ operate($x,$y+$L,$n,$L,$x,$y) } ;
-    if(($x!=$ox)||($y-2*$L!=$oy)){ operate($x,$y-$L,$n,$L,$x,$y) } ;
+    if(($x+2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x+$L,$y,$n,$L,$x,$y);
+      print("  ${cur}--${next} [color = blue]; \n") ;
+    } ;
+    if(($x-2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x-$L,$y,$n,$L,$x,$y);
+      print("  ${next}--${cur} [color = blue]; \n") ;
+    } ;
+    if(($x!=$ox)||($y+2*$L!=$oy)){
+      $next = operate($x,$y+$L,$n,$L,$x,$y);
+      print("  ${cur}--${next} [color = red]; \n") ;
+    } ;
+    if(($x!=$ox)||($y-2*$L!=$oy)){
+      $next = operate($x,$y-$L,$n,$L,$x,$y);
+      print("  ${next}--${cur} [color = red]; \n") ;
+    } ;
   }
+  return $cur ;
 }
 
 print("graph FreeGroup{\n") ;
