@@ -12,7 +12,7 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Free+group%22" target="_blank">
 #! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$N=3;
+$N=4;
 
 $a = 1 ;
 
