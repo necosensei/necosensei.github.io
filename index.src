@@ -9,7 +9,7 @@
 - 今日から人気伝説ポケモン カイオーガ がジムに出現. 早速玉□上水
   で逃げられ, 頭にきて新宿出張.
 
-<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Free+group%22" target="_blank">
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22The+Cayley+graph+of+the+free+group+on+two+generators%22" target="_blank">
 #! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 $N=5;
