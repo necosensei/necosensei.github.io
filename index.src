@@ -49,7 +49,7 @@ print("digraph F2{\n") ;
 print("  node [shape=point];\n") ;
 print("  edge [color=black];\n") ;
 
-operate(0,0,1,1,0,0) ;
+operate(0,0,1,4,0,0) ;
 
 print("}\n") ;
 #!
