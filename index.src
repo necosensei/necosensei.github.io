@@ -3,6 +3,49 @@
 
 <hr>2018/01/14 (日)
 
+#! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=5;
+
+$a = 1 ;
+
+sub operate{
+  my($x,$y,$n,$L,$ox,$oy) = @_ ;
+  my($cur ) = $a++ ;
+  my($next);
+
+  print("  $cur [pos=\"$x,$y!\"];\n") ;
+  if($n < $N){
+    $L *= 0.5 ;
+    $n += 1 ;
+    if(($x+2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x+$L,$y,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = blue]; \n") ;
+    } ;
+    if(($x-2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x-$L,$y,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = blue]; \n") ;
+    } ;
+    if(($x!=$ox)||($y+2*$L!=$oy)){
+      $next = operate($x,$y+$L,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = red]; \n") ;
+    } ;
+    if(($x!=$ox)||($y-2*$L!=$oy)){
+      $next = operate($x,$y-$L,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = red]; \n") ;
+    } ;
+  }
+  return $cur ;
+}
+
+print("digraph F2{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
+operate(0,0,1,4,0,0) ;
+
+print("}\n") ;
+#!
 
 <hr>2018/01/13 (土)
 
