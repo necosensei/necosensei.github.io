@@ -3,6 +3,9 @@
 
 <hr>2018/01/14 (日)
 
+- Poincare disk model とやらを作ろうとして neato の代わりに circo
+  に突っ込んでみたら, どういう理屈か分からないがこうなった ／(^o^)＼
+
 #! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 $N=6;
