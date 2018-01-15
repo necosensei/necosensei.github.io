@@ -3,6 +3,14 @@
 
 <hr>2018/01/15 (月)
 
+- 今度は twopi というのを使ってみた.
+
+       twopi draws graphs using a radial layout
+
+  やっぱり思ったのとは違う. circular layout と radial layout で何が
+  違うのか全然分からないが, 全然違うという事は分かった. graphviz を
+  使った自動配置は諦めよう …
+
 #! /usr/local/bin/perl | /usr/local/bin/twopi -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 $N=5;
@@ -51,6 +59,18 @@ print("}\n") ;
 
 - Poincare disk model とやらを作ろうとして neato の代わりに circo
   に突っ込んでみたら, どういう理屈か分からないがこうなった ／(^o^)＼
+  graphviz のマニュアルを適当に読むと
+
+       circo  draws graphs using a circular layout
+
+  と書いてあるが, 良く読むと
+
+       The block-cutpoint tree is then laid out using a recursive  radial
+       algorithm.
+
+  何の事だか良く分からないが, 良く分からないソフトを使うと良く分か
+  らない結果が得られるという事か？
+
 
 #! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
