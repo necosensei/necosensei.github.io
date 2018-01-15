@@ -38,9 +38,9 @@ sub operate{
   return $cur ;
 }
 
-print("digraph F2{\n") ;
+print("digraph Cayley_graph_of_F2{\n") ;
 print("  node [shape=point];\n") ;
-print("  edge [color=black];\n") ;
+print("  edge [color=black, penwidth=2.0];\n") ;
 
 operate(0,0,1,4,0,0) ;
 
@@ -88,9 +88,9 @@ sub operate{
   return $cur ;
 }
 
-print("digraph F2{\n") ;
+print("digraph Cayley_graph_of_F2{\n") ;
 print("  node [shape=point];\n") ;
-print("  edge [color=black];\n") ;
+print("  edge [color=black, penwidth=2.0];\n") ;
 
 operate(0,0,1,4,0,0) ;
 
