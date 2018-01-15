@@ -5,7 +5,7 @@
 
 #! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$N=5;
+$N=6;
 
 $a = 1 ;
 
