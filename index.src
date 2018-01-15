@@ -5,7 +5,7 @@
 
 #! /usr/local/bin/perl | /usr/local/bin/twopi -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$N=6;
+$N=5;
 
 $a = 1 ;
 
@@ -40,7 +40,7 @@ sub operate{
 
 print("digraph Cayley_graph_of_F2{\n") ;
 print("  node [shape=point];\n") ;
-print("  edge [color=black, penwidth=8.0];\n") ;
+print("  edge [color=black, penwidth=4.0];\n") ;
 
 operate(0,0,1,4,0,0) ;
 
