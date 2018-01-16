@@ -14,9 +14,8 @@
     % Mexican hat potential
 
     \begin{aligned}
-      &amp; V(\phi) = \mu |\phi|^2 + \lambda |\phi|^4, \\
-      &amp; \mu,\lambda,V \in \R,\; \phi \in \C, \\
-      &amp; \mu &lt; 0,\; \lambda &gt; 0.
+      V : &amp; \C   \rightarrow \R, \\
+          &amp; \phi \mapsto     - |\phi|^2 + |\phi|^4.
     \end{aligned}
 
 \]
