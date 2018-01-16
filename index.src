@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/16 (火)
+
+- 会社のクラウド？仮想マシンに chr〇me (または他の実行ファイル)を
+  インストールする方法を教えてもらい無事起動できた.
+  
+- 某シンポジウム発表用スライドを作成する必要があるのだが集中力が
+  無くてなかなか進まない …
+
+\[
+
+    % spontaneous symmetry breaking
+
+    \begin{aligned}
+      &amp; L = \partial^\nu \phi^* \partial_\nu \phi - V(\phi), \\
+      &amp; V(\phi) = \mu |\phi|^2 + \lambda |\phi^4|, \\
+      &amp; \mu &lt; 0,\; \lambda &gt; 0.
+    \end{aligned}
+
+\]
+
 <hr>2018/01/15 (月)
 
 - 今度は twopi というのを使ってみた.
