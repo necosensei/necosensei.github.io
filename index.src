@@ -15,8 +15,8 @@
 
     \begin{aligned}
       &amp; V(\phi) = \mu |\phi|^2 + \lambda |\phi|^4, \\
-      &amp; \mu,\lambda,V \in \R,\; \mu &lt; 0,\; \lambda &gt; 0, \\
-      &amp; \phi \in \C.
+      &amp; \mu,\lambda,V \in \R,\; \phi \in \C, \\
+      &amp; \mu &lt; 0,\; \lambda &gt; 0.
     \end{aligned}
 
 \]
