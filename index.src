@@ -11,12 +11,12 @@
 
 \[
 
-    % spontaneous symmetry breaking
+    % Mexican hat potential
 
     \begin{aligned}
-      &amp; L = \partial^\nu \phi^* \partial_\nu \phi - V(\phi), \\
-      &amp; V(\phi) = \mu |\phi|^2 + \lambda |\phi^4|, \\
-      &amp; \mu &lt; 0,\; \lambda &gt; 0.
+      &amp; V(\phi) = \mu |\phi|^2 + \lambda |\phi|^4, \\
+      &amp; \mu,\lambda,V \in \R,\; \mu &lt; 0,\; \lambda &gt; 0, \\
+      &amp; \phi \in \C.
     \end{aligned}
 
 \]
