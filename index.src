@@ -14,8 +14,8 @@
     % Mexican hat potential
 
     \begin{aligned}
-      V : &amp; \C   \rightarrow \R, \\
-          &amp; \phi \mapsto     - |\phi|^2 + |\phi|^4.
+      V : \; &amp; \C   \rightarrow \R, \\
+             &amp; \phi \mapsto     - |\phi|^2 + |\phi|^4.
     \end{aligned}
 
 \]
