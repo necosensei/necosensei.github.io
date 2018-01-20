@@ -21,7 +21,7 @@ set terminal svg size 200,200
 set polar
 set samples 1024
 
-set zeroaxis
+unset zeroaxis
 unset key
 unset border
 unset tics
