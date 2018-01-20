@@ -22,6 +22,7 @@ set polar
 set samples 1024
 
 unset zeroaxis
+unset raxis
 unset key
 unset border
 unset tics
