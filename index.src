@@ -14,6 +14,22 @@
 
 \]
 
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 200,200
+
+set polar
+set samples 1024
+
+set zeroaxis
+unset key
+unset border
+unset tics
+
+plot [0:20] sin(t)/t lc rgb "red"
+
+#!
+
 <hr>2018/01/18 (木)
 
 - 今日は早帰デーだったので, やや早く帰宅.
