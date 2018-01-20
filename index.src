@@ -23,8 +23,8 @@ set samples 1024
 
 unset zeroaxis
 unset key
-unset border
-unset tics
+set border
+set tics
 
 plot [0:20] sin(t)/t lc rgb "red"
 
