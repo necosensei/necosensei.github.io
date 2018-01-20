@@ -13,7 +13,7 @@
     r = \frac{a \sin\theta}{\theta}.
 
 \]
-
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Cochleoid%22" target="_blank">
 #! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set terminal svg size 200,200
@@ -24,7 +24,7 @@ set samples 1024
 unset zeroaxis
 unset raxis
 unset key
-unset border
+set border
 unset tics
 
 set xrange [-0.3:1]
@@ -33,6 +33,7 @@ set yrange [0:1.3]
 plot [0:20] sin(t)/t lc rgb "red"
 
 #!
+</a>
 
 <hr>2018/01/18 (木)
 
