@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/01/20 (土)
+
+- 今日の 12:00 ～ 15:00 だけ出現する『なみのりピカチュウ』の誘惑
+  に負けてポケＧＯ三昧 orz
+
+- Korteweg-de Vries equation は使ってしまったので Cnoidal wave.
+
+\[
+
+    % Cnoidal wave
+
+    {
+      \def\cn{\textrm{cm}}
+      \begin{aligned}
+        &amp; u(x,t) = u_0 + 2 \kappa^2 k^2 \cn^2 \kappa (x - ct + \delta), \\
+        &amp; \where c = 6 u_0 - (1-2k^2)\kappa^2.
+      \end{aligned}
+    }
+\]
+
 <hr>2018/01/19 (金)
 
 - 某シンポジウム発表用スライドの作成, 遅々として進まなかったが
