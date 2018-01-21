@@ -13,7 +13,7 @@
     % Cnoidal wave
 
     {
-      \def\cn{\textrm{cm}}
+      \def\cn{\textrm{cn}}
       \begin{aligned}
         &amp; u(x,t) = u_0 + 2 \kappa^2 k^2 \cn^2 \kappa (x - ct + \delta), \\
         &amp; \where c = 6 u_0 - (1-2k^2)\kappa^2.
