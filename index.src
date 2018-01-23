@@ -60,8 +60,10 @@ sub operate{
 }
 
 print("\\svg 200 200\n") ;
-print("\\transform 200 0 0 -200 0 200 {\n") ;
+print("\\transform 200 0 0 -200 0 86.60254 {\n") ;
 &operate(0,0,0,1,0) ;
+&operate(0,0,$cos,-$sin,0) ;
+&operate(0,$cos,-$sin,$cos,$sin) ;
 print("}\n") ;
 
 #!
