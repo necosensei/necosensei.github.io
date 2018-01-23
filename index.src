@@ -21,6 +21,8 @@
 
 - そういえば岡本部屋の場所を聞きそびれた.
 
+- 昨日に引き続き即興グラフィック.
+
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Koch+snowflake%22" target="_blank">
 #! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
