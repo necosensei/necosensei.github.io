@@ -21,6 +21,7 @@
 
 - そういえば岡本部屋の場所を聞きそびれた.
 
+<a href="https://ja.wikipedia.org/wiki/%E3%82%B3%E3%83%83%E3%83%9B%E6%9B%B2%E7%B7%9A" target="_blank">
 #! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 $N=4;
@@ -65,8 +66,8 @@ print("\\transform 200 0 0 -200 0 86.60254 {\n") ;
 &operate(0,1,0,-$cos,-$sin) ;
 &operate(0,1-$cos,-$sin,-$cos,$sin) ;
 print("}\n") ;
-
 #!
+</a>
 
 <hr>2018/01/22 (月)
 
