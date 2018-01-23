@@ -23,7 +23,7 @@
 
 #! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$N=3;
+$N=4;
 
 $pi  = 3.14159_26535_89793_23846_26433_83279_50288 ;
 $cos = cos($pi/3.0) ;
@@ -61,7 +61,7 @@ sub operate{
 
 print("\\svg 200 200\n") ;
 print("\\transform 200 0 0 -200 0 200 {\n") ;
-&operate(0,0,0,1,1) ;
+&operate(0,0,0,1,0) ;
 print("}\n") ;
 
 #!
