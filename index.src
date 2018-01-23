@@ -7,8 +7,64 @@
   予約した新幹線に乗る時刻がギリギリになった … 遅め
   の新幹線にして正解だった.
 
-  共著者のスライドを送ったら, 内容の不穏さのせいか,
+  共著者に発表スライドを送ったら, 内容の不穏さのせいか,
   絶対時間までに来いと念を押される …
+
+- 何とか無事到着. 発表は何事もなく完了.
+
+
+- 会議場の外は物凄い吹雪.
+
+- 旅行に出るときはなるべく自宅のオフィスを再現できる
+  ようにしてるのだが, マイクロ USB 電源が 9 本必要な
+  のはさすがにやり過ぎだったと反省.
+
+- そういえば岡本部屋の場所を聞きそびれた.
+
+#! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=3;
+
+$pi  = 3.14159_26535_89793_23846_26433_83279_50288 ;
+$cos = cos($pi/3.0) ;
+$sin = sin($pi/3.0) ;
+
+sub operate{
+  my($n,$x,$y,$dx,$dy) = @_ ;
+  my($dx0,$dy0,$dx1,$dy1,$dx2,$dy2);
+  if($n < $N){
+    $n++ ;
+    $dx0 =   $dx/3.0 ;
+    $dy0 =   $dy/3.0 ;
+    $dx1 =   $cos * $dx0 - $sin * $dy0 ;
+    $dy1 =   $sin * $dx0 + $cos * $dy0 ;
+    $dx2 =   $cos * $dx0 + $sin * $dy0 ;
+    $dy2 = - $sin * $dx0 + $cos * $dy0 ;
+
+    &operate($n,$x,$y,$dx0,$dy0) ;
+    $x += $dx0 ;
+    $y += $dy0 ;
+    &operate($n,$x,$y,$dx1,$dy1) ;
+    $x += $dx1 ;
+    $y += $dy1 ;
+    &operate($n,$x,$y,$dx2,$dy2) ;
+    $x += $dx2 ;
+    $y += $dy2 ;
+    &operate($n,$x,$y,$dx0,$dy0) ;
+  }else{
+    print("  \\line $x $y ");
+    $x += $dx ;
+    $y += $dy ;
+    print("$x $y\n");
+  }
+}
+
+print("\\svg 200 200\n") ;
+print("\\transform 200 0 0 -200 0 200 {\n") ;
+&operate(0,0,0,1,1) ;
+print("}\n") ;
+
+#!
 
 <hr>2018/01/22 (月)
 
