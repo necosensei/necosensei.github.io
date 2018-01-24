@@ -14,8 +14,8 @@
     % Velu's formula
 
     \phi_{\alpha} : (x,y) \mapsto \left(
-      x + frac{3 \alpha^2 + A}{x-\alpha},
-      y - frac{(3 \alpha^2 + A) y}{(x-\alpha)^2},
+      x + \frac{3 \alpha^2 + A}{x-\alpha},
+      y - \frac{(3 \alpha^2 + A) y}{(x-\alpha)^2},
     \right).
 
 \]
