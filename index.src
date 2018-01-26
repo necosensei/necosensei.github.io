@@ -10,9 +10,9 @@
 
 \begin{aligned}
   &amp; \text{Me}(P,Q)=\begin{cases}
-          P &amp; P=Q \\
-          k P - (k-1) Q &amp; \text{sign}(P-Q) = 1\\
-          k Q - (k-1) P &amp; \text{sign}(P-Q) = -1\\
+          P &amp; P=Q, \\
+          k P - (k-1) Q &amp; \text{sign}(P-Q) = 1 ,\\
+          k Q - (k-1) P &amp; \text{sign}(P-Q) = -1 ,\\
         \end{cases} \\
   &amp; \where \text{sign}((x,y)) = \left(\frac{y}{p}\right).
 \end{aligned}
