@@ -40,8 +40,8 @@
   \def\vecs{\textbf{s}}
   \begin{aligned}
     &amp; \exists {\cal A} : \text{p.p.t.} \st \\
-    &amp; \text{Adv}_{\cal A} := \Pr \left[ \vecs == \vecs^* \mid
-      \vecs^* \leftarrow {\cal A}^{\text{ILWE}_{n,\chi_a,\chi_e}(\vecs)}()
+    &amp; \text{Adv}_{\cal A}(\lambda) := \Pr \left[ \vecs = \vecs^* \;\middle|\;
+      \vecs^* \leftarrow {\cal A}^{\text{ILWE}_{n,\chi_a,\chi_e}(\vecs)}(1^\lambda)
     \right], \\
     &amp; \text{ILWE}_{n,\chi_a,\chi_e}(\vecs) := \left\{
       (\veca, \langle\veca,\vecs\rangle + e)
