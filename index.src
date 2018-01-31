@@ -39,10 +39,10 @@
   \def\veca{\textbf{a}}
   \def\vecs{\textbf{s}}
   \begin{aligned}
-    &amp; \text{ILWE}_{n,\Xi_a,\Xi_e}(\vecs) := \left\{
+    &amp; \text{ILWE}_{n,\Chi_a,\Chi_e}(\vecs) := \left\{
       (\veca, \langle\veca,\vecs\rangle + e)
     \mid
-      \veca \leftarrow \Xi_a,\; e \leftarrow \Xi_e
+      \veca \leftarrow \Chi_a,\; e \leftarrow \Chi_e
     \right\}, \\
   \end{aligned}
 }
