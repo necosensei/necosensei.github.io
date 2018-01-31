@@ -48,6 +48,9 @@
     \mid
       \veca \leftarrow \chi_a,\; e \leftarrow \chi_e
     \right\}, \\
+    &amp; \chi_a, \chi_e : \text{a probability distribution over $\Z$
+    where $\E(\chi_a) = \E(\chi_e) = 0$}, \\
+    &amp; \veca, \vecs \in \Z^n.
   \end{aligned}
 }
 
