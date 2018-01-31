@@ -21,7 +21,7 @@
 
     % subexponential complexity
 
-    L_n[\alpha,c] := O(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}})
+    L_n[\alpha,c] := O\left(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}}\right).
 
 \]
 
