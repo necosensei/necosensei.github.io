@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <pre>
 
-<hr>2018/01/29 (月)
+<hr>2018/01/31 (水)
+
+<hr>2018/01/30 (火)
 
 - 社内のポータルサイトが年中出ては消えを繰り返しているのだが,
   今日『マイ□ータル』なる社内ポータルにアクセスしたら
@@ -33,8 +35,17 @@
 
 \[
 
-
-
+{
+  \def\veca{\textbf{a}}
+  \def\vecs{\textbf{s}}
+  \begin{aligned}
+    &amp; \text{ILWE}_{n,\Xi_a,\Xi_e}(\vecs) := \left\{
+      (\veca, \langle\veca,\vecs\rangle + e)
+    \mid
+      \veca \leftarrow \Xi_a,\; e \leftarrow \Xi_e
+    \right\}, \\
+  \end{aligned}
+}
 
 \]
 
