@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/02/01 (木)
+
+- 数式が追いつかないので, 一杯あって訳が分からないシリーズ
+  (subexponential time) で水増し.
+
+\[
+
+  % subexponential time
+
+  % 2^{n^{o(1)}}.
+  % \bigcap_{\epsilon &gt; 0} 2^{O({n^\epsilon})}.
+  \bigcup_{\epsilon &lt; 1} 2^{O({n^\epsilon})}.
+  % 2^{o(n)}.
+  % \bigcap_{\epsilon &gt; 0} 2^{\epsilon n}.
+  % \bigcup_{\epsilon &lt; 1} 2^{\epsilon n}.
+
+\]
+
 <hr>2018/01/31 (水)
 
 - 社内の d○REAMS？ なる VM に今度は vmware player を入れたら
   やはり立ち上がらなくなる … 昨日の今日で, 相当な DQN と思わ
   れる可能性は否定できないが, 社内ヘルプデスクに鳴き付く.
+
+\[
+
+  % subexponential time
+
+  % 2^{n^{o(1)}}.
+  \bigcap_{\epsilon &gt; 0} 2^{O({n^\epsilon})}.
+  % \bigcup_{\epsilon &lt; 1} 2^{O({n^\epsilon})}.
+  % 2^{o(n)}.
+  % \bigcap_{\epsilon &gt; 0} 2^{\epsilon n}.
+  % \bigcup_{\epsilon &lt; 1} 2^{\epsilon n}.
+
+\]
 
 <hr>2018/01/30 (火)
 
@@ -19,9 +50,14 @@
 
 \[
 
-    % subexponential complexity
+  % subexponential time
 
-    L_n[\alpha,c] := O\left(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}}\right).
+  2^{n^{o(1)}}.
+  % \bigcap_{\epsilon &gt; 0} 2^{O({n^\epsilon})}.
+  % \bigcup_{\epsilon &lt; 1} 2^{O({n^\epsilon})}.
+  % 2^{o(n)}.
+  % \bigcap_{\epsilon &gt; 0} 2^{\epsilon n}.
+  % \bigcup_{\epsilon &lt; 1} 2^{\epsilon n}.
 
 \]
 
@@ -29,6 +65,13 @@
 
 - 完全に遊び疲れたおかげで, 非常に眠い.
 
+\[
+
+    % subexponential complexity
+
+    L_n[\alpha,c] := O\left(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}}\right).
+
+\]
 
 <hr>2018/01/28 (日)
 
