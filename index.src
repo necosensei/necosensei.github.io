@@ -94,7 +94,7 @@
         &amp; (x_1, y_1), (x_n, y_n) \in E,\; x_n = \frac{X_n}{Z_n}, \\
         &amp; \begin{array}{lll}
           X_{2n} = (X_n^2 - Z_n^2)^2,                     &amp; &amp; X_{2n+1} = 4(X_n X_{n+1} - Z_n Z_{n+1})^2 Z_1, \\
-          Z_{2n} = 4 X_n Z_n (X_n^2 + A X_n Z_n + Z_n^2), &amp; &amp; X_{2n+1} = 4(X_n Z_{n+1} - Z_n X_{n+1})^2 X_1, \\
+          Z_{2n} = 4 X_n Z_n (X_n^2 + A X_n Z_n + Z_n^2), &amp; &amp; Z_{2n+1} = 4(X_n Z_{n+1} - Z_n X_{n+1})^2 X_1.
         \end{array}
       \end{aligned}
     \end{aligned}
