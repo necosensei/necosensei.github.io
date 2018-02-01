@@ -88,8 +88,9 @@
 
     \begin{aligned}
       &amp; (x_n, y_n) = n (x_1, y_1) \text{ on } E: B y^2 = x^3 + A x^2 + x, \\
-      &amp; \where
+      &amp; 
       \begin{aligned}
+        \where
         &amp; (x_1, y_1), (x_n, y_n) \in E, \\
         &amp; x_n = \frac{X_n}{Z_n}, \\
         &amp; \begin{array}{lll}
