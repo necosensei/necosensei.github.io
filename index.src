@@ -25,7 +25,6 @@ unset key
 unset border
 unset tics
 set size ratio -1
-set multiplot
 
 # X = ((c^2)/((1+s^2)^2)) +- sqrt(((c^2)/((1+s^2)^2))^2 - ((1-B)/((1+s^2)^2)))
 
@@ -36,8 +35,7 @@ X2(t) = sqrt(Z(t) - sqrt(Z(t)**2 - 0.01*W(t)))
 Y1(t) = X1(t) * sin(t)
 Y2(t) = X2(t) * sin(t)
 
-plot X1(t),Y1(t) lc rgb "red"
-plot X2(t),Y2(t) lc rgb "blue"
+plot X1(t),Y1(t) lc rgb "red",  X2(t),Y2(t) lc rgb "blue"
 
 #!
 </a>
