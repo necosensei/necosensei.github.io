@@ -3,6 +3,7 @@
 
 <hr>2018/02/06 (火)
 
+- もうちょっと綺麗に plot する方法を探索中
 
 \[
 
@@ -11,7 +12,7 @@
     (x^2+y^2)^2 - 2 a^2 (x^2 - y^2) + (a^4 - b^4) = 0.
 
 \]
-<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Lemniscate+of+Bernoulli%22" target="_blank">
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Cassini+oval%22" target="_blank">
 #! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 set terminal svg size 300,100
