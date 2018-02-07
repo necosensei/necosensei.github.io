@@ -77,11 +77,10 @@ unset tics
 set size ratio -1
 
 a = 1
-b = 0.9
-X(t) = a + (b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**2)
-Y(t) = t * sqrt(1 - ((b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**3))**2)
+X(t,b) = a + (b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**2)
+Y(t,b) = t * sqrt(1 - ((b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**3))**2)
 
-plot X(t),Y(t) lc rgb "red"
+plot X(t,0.99),Y(t,0.99) lc rgb "red", X(t,1.00),Y(t,1.00) lc rgb "magenta", X(t,1.01),Y(t,1.01) lc rgb "blue"
 #!
 
 <hr>2018/02/05 (月)
