@@ -55,9 +55,9 @@ unset border
 unset tics
 set size ratio -1
 
-e = 0.9
-R1(t) = sqrt(cos(2*t) + sqrt(e^4 - sin(2*t)**2)) 
-R2(t) = sqrt(cos(2*t) - sqrt(e^4 - sin(2*t)**2)) 
+e4 = 0.99
+R1(t) = sqrt(cos(2*t) + sqrt(e4 - sin(2*t)**2)) 
+R2(t) = sqrt(cos(2*t) - sqrt(e4 - sin(2*t)**2)) 
 
 plot R1(t) lc rgb "red", R2(t) lc rgb "blue"
 #!
