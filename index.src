@@ -80,7 +80,7 @@ a = 1
 X(t,b) = a + (b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**2)
 Y(t,b) = t * sqrt(1 - ((b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**3))**2)
 
-plot X(t,0.99),Y(t,0.99) lc rgb "red", X(t,1.00),Y(t,1.00) lc rgb "magenta", X(t,1.01),Y(t,1.01) lc rgb "blue"
+plot X(t,0.9),Y(t,0.9) lc rgb "red", X(t,1.0),Y(t,1.0) lc rgb "magenta", X(t,1.1),Y(t,1.1) lc rgb "blue"
 #!
 
 <hr>2018/02/05 (月)
