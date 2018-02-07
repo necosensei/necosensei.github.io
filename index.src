@@ -67,7 +67,7 @@ plot R1(t) lc rgb "red", R2(t) lc rgb "blue"
 set terminal svg size 300,100
 
 set parametric
-set samples 1024
+set samples 10240
 
 unset zeroaxis
 unset raxis
