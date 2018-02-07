@@ -29,7 +29,7 @@ set multiplot
 
 # X = ((c^2)/((1+s^2)^2)) +- sqrt(((c^2)/((1+s^2)^2))^2 - ((1-B)/((1+s^2)^2)))
 
-W(t) = 1 / (sin(t)**2 + 1)
+W(t) = 0.01 / (sin(t)**2 + 1)
 Z(t) = (cos(t)) * W(t)
 X1(t) = sqrt(Z(t) + sqrt(Z(t)**2 - W(t)))
 X2(t) = sqrt(Z(t) - sqrt(Z(t)**2 - W(t)))
