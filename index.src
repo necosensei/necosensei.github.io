@@ -37,11 +37,11 @@ set terminal svg size 200,200
 set parametric
 set samples 1024
 
-unset zeroaxis
-unset raxis
-unset key
-unset border
-unset tics
+#unset zeroaxis
+#unset raxis
+#unset key
+#unset border
+#unset tics
 set size square
 
 X(t) = (sqrt(2) * cos(t)) / (sin(t)**2 + 1)
