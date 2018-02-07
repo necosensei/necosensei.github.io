@@ -35,7 +35,7 @@ X2(t) = sqrt(Z(t) - sqrt(Z(t)**2 - 0.01*W(t)))
 Y1(t) = X1(t) * sin(t)
 Y2(t) = X2(t) * sin(t)
 
-plot X1(t),Y1(t) lc rgb "red",  X2(t),Y2(t) lc rgb "blue"
+plot X1(t),Y1(t) lc rgb "red",  X2(t),Y2(t) lc rgb "blue", -X1(t),Y1(t) lc rgb "red",  -X2(t),Y2(t) lc rgb "blue"
 
 #!
 </a>
