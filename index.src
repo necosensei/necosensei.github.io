@@ -32,16 +32,16 @@
 <a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Lemniscate+of+Bernoulli%22" target="_blank">
 #! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-set terminal svg size 200,200
+set terminal svg size 300,100
 
 set parametric
 set samples 1024
 
-#unset zeroaxis
-#unset raxis
-#unset key
-#unset border
-#unset tics
+unset zeroaxis
+unset raxis
+unset key
+unset border
+unset tics
 set size ratio -1
 
 X(t) = (sqrt(2) * cos(t)) / (sin(t)**2 + 1)
