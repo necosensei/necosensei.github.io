@@ -41,9 +41,26 @@ plot X1(t),Y1(t) lc rgb "red",  X2(t),Y2(t) lc rgb "blue", -X1(t),Y1(t) lc rgb "
 #!
 </a>
 
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
+set terminal svg size 300,100
 
+set polar
+set samples 1024
 
+unset zeroaxis
+unset raxis
+unset key
+unset border
+unset tics
+set size ratio -1
+
+e = 0.9
+R1(t) = sqrt(cos(2*t) + sqrt(e^4 - sin(2*t)**2)) 
+R2(t) = sqrt(cos(2*t) - sqrt(e^4 - sin(2*t)**2)) 
+
+plot R1(t) lc rgb "red", R2(t) lc rgb "blue"
+#!
 
 <hr>2018/02/05 (月)
 
