@@ -47,7 +47,9 @@ Yc(t,b) = t * sqrt(1 - ((b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**3))**2)
 X(t,b) = Xc(t,b)
 Y(t,b) = Yc(t,b)
 
-plot X(t,0.9),Y(t,0.9) lc rgb "red", X(t,1.0),Y(t,1.0) lc rgb "magenta", X(t,1.1),Y(t,1.1) lc rgb "blue", X(t,1.41421356),Y(t,1.41421356) lc rgb "black"
+sqrt2 = 1.4142135623731
+
+plot X(t,0.9),Y(t,0.9) lc rgb "red", X(t,1.0),Y(t,1.0) lc rgb "magenta", X(t,1.1),Y(t,1.1) lc rgb "blue", X(t,sqrt2),Y(t,sqrt2) lc rgb "black"
 # plot [-10:10] X(t,0.9),Y(t,0.9) lc rgb "red"
 #!
 </a>
