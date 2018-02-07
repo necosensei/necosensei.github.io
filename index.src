@@ -34,7 +34,7 @@
 
 set terminal svg size 260,160
 
-set polar
+set parametric
 set samples 1024
 
 unset zeroaxis
@@ -43,7 +43,10 @@ unset key
 unset border
 unset tics
 
-plot sqrt(2 * cos(2*t)) lc rgb "red"
+X(t) = (sqrt(2) * cos(t)) / (sin(t)**2 + 1)
+Y(t) = X(t) * sin(t)
+
+plot X(t),Y(t) lc rgb "red"
 
 #!
 </a>
