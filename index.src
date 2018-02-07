@@ -42,7 +42,7 @@ set samples 1024
 #unset key
 #unset border
 #unset tics
-set size square
+set size ratio -1
 
 X(t) = (sqrt(2) * cos(t)) / (sin(t)**2 + 1)
 Y(t) = X(t) * sin(t)
