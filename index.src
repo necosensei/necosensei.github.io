@@ -7,9 +7,6 @@
 
 \[
 
-    % Falling cat problem
-
-    L_{\text{back}} + L_{\text{front}} + L_{\text{compound}} = 0.
 
 \]
 
@@ -21,9 +18,9 @@
 
 \[
 
+    % Falling cat problem
 
-
-
+    L_{\text{back}} + L_{\text{front}} + L_{\text{compound}} = 0.
 
 \]
 
