@@ -204,7 +204,7 @@ plot X(t),Y(t) lc rgb "red"
 
 \[
 
-    % subexponential complexity
+    % L-notation
 
     L_n[\alpha,c] := O\left(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}}\right).
 
