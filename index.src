@@ -20,8 +20,10 @@
 
     \left\{
       \begin{array}{l}
+        \displaystyle
         \frac{\partial u}{\partial t} = \Delta u + f(u,v), \\
-        \frac{\partial v}{\partial t} = d \Delta v + g(u,v)
+        \displaystyle
+        \frac{\partial v}{\partial t} = d \Delta v + g(u,v).
       \end{array}
     \right.
 
