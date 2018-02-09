@@ -1,12 +1,29 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/02/09 (金)
+
+- ググったマクロが pdflatex では通るけど lualatex で通らなくて頭が痛い.
+
+\[
+
+
+\]
+
 <hr>2018/02/08 (木)
 
 - 論文が幾らか捗る.
 
 \[
 
+    % Turing's Reaction-Diffusion Model
+
+    \left\{
+      \begin{array}{l}
+        \frac{\partial u}{\partial t} = \Delta u + f(u,v), \\
+        \frac{\partial v}{\partial t} = d \Delta v + g(u,v)
+      \end{array}
+    \right.
 
 \]
 
