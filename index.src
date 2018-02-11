@@ -1,12 +1,39 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/02/11 (日)
+
+- 小さい領域に洗濯物を沢山干すためのアレ (角ハンガーと言うらしい) を
+  ついうっかり壊してしまった. 恐らく 30 年くらい使っているものなので
+  プラスチック部分がかなり劣化していたのであろう. 貧乏性ゆえ物持ちが
+  異常に良い.
+
+\[
+\]
+
+<hr>2018/02/10 (土)
+
+- 今日から伝説ポケモン レックウザさんのレイドバトルが開始され, 早速
+  新□出張. 無事ゲットしてホクホクしながら帰る.
+
+- 帰りに高□馬場でヒンバスを見かけ, 早速途中下車. 基本的に高□馬場
+  乗車で座って帰る事は難しいので, もう一回新宿まで行ってから帰る …
+
+\[
+
+\]
+
 <hr>2018/02/09 (金)
 
 - ググったマクロが pdflatex では通るけど lualatex で通らなくて頭が痛い.
 
 \[
 
+  \begin{aligned}
+    &amp; \Let B_r(c) \text{ be a $n$-dimensional ball of center $c$ and radius $r$}. \\
+    &amp; \Let B_{r_n}(0^n) \text{ be the ball contact with all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
+    &amp; \Let C \text{ be the $n$-dimensional cube that circumscribes all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
+  \end{aligned}
 
 \]
 
