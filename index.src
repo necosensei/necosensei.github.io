@@ -30,7 +30,7 @@
 \[
 
   \begin{aligned}
-    &amp; \Let B_r(c) \text{ be a $n$-dimensional ball of center $c$ and radius $r$}. \\
+    &amp; \Let B_r(c) \text{ be an $n$-dimensional ball of center $c$ and radius $r$}. \\
     &amp; \Let B_{r_n}(0^n) \text{ be the ball contact with all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
     &amp; \Let C_n \text{ be the $n$-dimensional cube that circumscribes all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
     &amp; \exists n \st |B_{r_n}(0^n)| &gt; |C_n|.
