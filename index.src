@@ -10,8 +10,12 @@
 
 \[
 
+    % Two-center bipolar coordinates
 
-
+    \begin{aligned}
+      &amp; x = \frac{r_2^2 - r_1^2}{4a}, \\
+      &amp; y = \pm\frac{1}{4a}\sqrt{16a^2r_2^2-(r_2^2-r_1^2+4a^2)^2}.
+    \end{aligned}
 
 \]
 
