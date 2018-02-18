@@ -8,7 +8,19 @@
   会社そばの公園まで出張. マスクを三重にして花粉眼鏡をかけ、徐に
   「少し肺に入った」などどナウシカごっこに興じる …
 
+- いっぱいあって訳の分からないシリーズ, Triangle center. 少なくとも
+  <a href="http://faculty.evansville.edu/ck6/encyclopedia/ETC.html" target="_blank">16188個</a> もあるらしい …
+
 \[
+
+    % Triangle center function
+
+    \begin{aligned}
+      &amp; \text{Homogeneity} : 
+        \exists n,\; \forall t &gt; 0,\; f(ta,tb,tc) = t^n f(a,b,c), \\
+      &amp; \text{Bisymmetry} : f(a,b,c) = f(a,c,b).
+    \end{aligned}
+
 \]
 
 <hr>2018/02/17 (土)
@@ -17,6 +29,10 @@
   ぶりに神□町に出張. 左半身筋肉痛はまだ治ってない …
 
 \[
+
+    % Trilinear equation" "Steiner inellipse
+
+    a^2 x^2 + b^2 y^2 + c^2 z^2 - 2 abxy - 2 bcyz - 2 cazx = 0.
 
 \]
 
