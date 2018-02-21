@@ -14,11 +14,9 @@
 \[
 
   \begin{aligned}
-    &amp; \Let n,m \in \N. \\
-    &amp; {n \choose 3} = m^2 \iff (n,m) = (50,140).
+    &amp; \exists! (n,m) \in \N^2 \st \\
+    &amp; {n \choose 3} = m^2.
   \end{aligned}
-
-
 
 \]
 
