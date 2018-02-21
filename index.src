@@ -28,7 +28,7 @@
 \[
 
   \begin{aligned}
-    &amp; \nexists (n,m,k,\ell) \in \N^4 \st \\
+    &amp; \centernot\exists (n,m,k,\ell) \in \N^4 \st \\
     &amp; {n \choose k} = m^\ell, \\
     &amp; \ell \ge 2, \text{ and} \\
     &amp; 4 \le k \le n-4.
