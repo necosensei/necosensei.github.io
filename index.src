@@ -35,7 +35,7 @@
 
     \begin{aligned}
       &amp; \nexists (n,m) \in \N^2 \st {n \choose k} = m^\ell, \\
-      &amp; \where \ell \ge 2, \text{ and }\; 4 \le k \le n-4.
+      &amp; \where k,\ell \in \N,\; \ell \ge 2, \text{ and }\; 4 \le k \le n-4.
     \end{aligned}
   }
 
