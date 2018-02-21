@@ -6,6 +6,12 @@
 - 研究所のお祭りの展示ブースに大物のお客さんが飛び込みでやってくる.
   相変わらず口八丁で切り抜ける …
 
+\[
+
+    \exists^\infty (n,m) \in \N^2 \st {n \choose 2} = m^2.
+
+\]
+
 <hr>2018/02/20 (火)
 
 - マスクを三重にしても, 外で走り回るとやはり花粉の影響を受ける事が
@@ -13,10 +19,7 @@
 
 \[
 
-  \begin{aligned}
-    &amp; \exists! (n,m) \in \N^2 \st \\
-    &amp; {n \choose 3} = m^2.
-  \end{aligned}
+    \exists! (n,m) \in \N^2 \st {n \choose 3} = m^2.
 
 \]
 
