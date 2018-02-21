@@ -28,7 +28,7 @@
 \[
 
   {
-    \def\nexists{\mkern2.1mu\not\mkern-2.1mu\exists}
+    %\def\nexists{\mkern2.1mu\not\mkern-2.1mu\exists}
 
     \begin{aligned}
       &amp; \nexists (n,m,k,\ell) \in \N^4 \st \\
