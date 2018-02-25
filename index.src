@@ -50,7 +50,7 @@
       - \frac{2^2}{10n+7}
       + \frac{1}{10n+9}
     \right) \times 
-    \left(\frac{-1}{2^10}\right)^n.
+    \left(\frac{-1}{2^{10}}\right)^n.
 
 \]
 
