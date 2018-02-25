@@ -23,9 +23,9 @@
 
     % Simon Plouffe
 
-    \pi = 72 \sigma_{n=1}^\infty \frac{1}{n(\e^{n\pi} - 1)}
-        - 96 \sigma_{n=1}^\infty \frac{1}{n(\e^{2n\pi} - 1)}
-        + 24 \sigma_{n=1}^\infty \frac{1}{n(\e^{4n\pi} - 1)}.
+    \pi = 72 \sum_{n=1}^\infty \frac{1}{n(\e^{n\pi} - 1)}
+        - 96 \sum_{n=1}^\infty \frac{1}{n(\e^{2n\pi} - 1)}
+        + 24 \sum_{n=1}^\infty \frac{1}{n(\e^{4n\pi} - 1)}.
 
 \]
 
