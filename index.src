@@ -9,7 +9,7 @@
 
     % Kloosterman sum
 
-    S(u,v,n) = \sum_{\rlap{
+    S(u,v,n) = \sum_{\clap{
       \substack{
         h,\bar{h} \in \{1,\ldots,n-1\},\\
         \gcd(h,n)=1, \\
