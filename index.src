@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/02/26 (月)
+
+- 花粉症がシャレにならないくらい酷くなってきた …
+
+\[
+
+    % Kloosterman sum
+
+    S(u,v,n) = \sum_{\clap{
+      \substack{
+        h,\bar{h} \in \{1,\ldots,n-1\},\\
+        \gcd(h,n)=1, \\
+        \bar{h} = h^{-1} \bmod n
+      }
+    }} \e^{\frac{2 \pi \i (u h + v \bar{h})}{n}}.
+
+\]
+
 <hr>2018/02/25 (日)
 
 - ボタンを押すと自動的にポケモンを取ってくれる装置, 通称ゴプラ
@@ -9,6 +27,14 @@
 
 - ちょっとググると $\pi$ formula が狂ったように沢山ある. 皆どんだけ
   $\pi$ 好きなの？
+
+\[
+
+    % Hilbelt Matrix
+
+    H_{ij} = (i+j-1)^{-1}.
+
+\]
 
 <hr>2018/02/24 (土)
 
