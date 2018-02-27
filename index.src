@@ -1,4 +1,23 @@
 <!DOCTYPE html>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var MML = MathJax.ElementJax.mml,
+      TEX = MathJax.InputJax.TeX;
+
+  TEX.Parse.Augment({
+    Lap: function (name) {
+      var mml = MML.mpadded.apply(MML,this.InternalMath(this.GetArgument(name))).With({width: 0});
+      if (name === "\\clap") {
+        mml.lspace = "-0.5 width" ;
+        mml.rspace = "-0.5 width" ;
+      }
+      this.Push(MML.TeXAtom(mml));
+    }
+  });
+});
+</script>
+
 <pre>
 
 <hr>2018/02/26 (月)

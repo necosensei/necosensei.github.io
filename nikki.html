@@ -28,23 +28,7 @@ Error source: <script type="math/TeX">
       fill: #efefff;
     }
   </style>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
-  var MML = MathJax.ElementJax.mml,
-      TEX = MathJax.InputJax.TeX;
-
-  TEX.Parse.Augment({
-    Lap: function (name) {
-      var mml = MML.mpadded.apply(MML,this.InternalMath(this.GetArgument(name))).With({width: 0});
-      if (name === "\\clap") {
-        mml.lspace = "-0.5 width" ;
-        mml.rspace = "-0.5 width" ;
-      }
-      this.Push(MML.TeXAtom(mml));
-    }
-  });
-});
-</script><style type="text/css">
+<style type="text/css">
                             .mjpage .MJX-monospace {
                             font-family: monospace
                             }
@@ -117,8 +101,6 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
                             min-height: 0;
                             width: 100%
                             }</style></head>
-
-
 
 <body style="background-color:white;"><span class="mjpage"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0.343ex" style="vertical-align: -0.171ex;" viewBox="0 -73.8 0 147.5" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-1-Title">
 <title id="MathJax-SVG-1-Title">
@@ -205,6 +187,25 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 </title>
 <g stroke="currentColor" fill="currentColor" stroke-width="0" transform="matrix(1 0 0 -1 0 0)" aria-hidden="true"></g>
 </svg></span>
+
+<script type="text/x-mathjax-config">
+MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+  var MML = MathJax.ElementJax.mml,
+      TEX = MathJax.InputJax.TeX;
+
+  TEX.Parse.Augment({
+    Lap: function (name) {
+      var mml = MML.mpadded.apply(MML,this.InternalMath(this.GetArgument(name))).With({width: 0});
+      if (name === "\\clap") {
+        mml.lspace = "-0.5 width" ;
+        mml.rspace = "-0.5 width" ;
+      }
+      this.Push(MML.TeXAtom(mml));
+    }
+  });
+});
+</script>
+
 <pre>
 
 <hr><div id="20180226">2018/02/26 (月)</div>
@@ -10162,7 +10163,7 @@ Toda lattice
 
   ところで, どうやら 〇ygwin は -debuginfo パッケージのイン
   ストールを止めれば 50 GByte くらいは節約できるらしい …
-  膨大な数あるので一々一個づづ確認して���んでられないが, も
+  膨大な数あるので一々一個づづ確認して選んでられないが, も
   しかしたら上手い方法があるかもしれないので, あとで確認し
   てみよう.
 
