@@ -4,11 +4,17 @@
 <hr>2018/02/28 (水)
 
 - lattice (group) の研究をサボって pairing の研究をしていたと
-  思ったらいつのまにか lattice (order) の研究をしていた … (aa略)
+  思ったらいつのまにか lattice (order) の研究をしていた … (AA略)
 
 \[
 
+  % Galois connection
 
+  \begin{aligned}
+    &amp; \Let (A,\le), (B,\le) : \text{poset}. \\
+    &amp; F : A \rightarrow B, \; G : B \rightarrow A, \text{ monotone s.t.} \\
+    &amp; \forall a \in A, \; \forall b \in B, \; F(a) \le b \iff a \le G(b).
+  \end{aligned}
 
 \]
 
