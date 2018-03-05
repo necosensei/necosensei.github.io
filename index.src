@@ -36,6 +36,10 @@
 
 \[
 
+    % Rodrigues' formula
+
+    P_n(x) = \frac{1}{2^n n!}\frac{\d^n}{\d x^n}\left[(x^2-1)^n\right].
+
 \]
 
 <hr>2018/02/28 (水)
