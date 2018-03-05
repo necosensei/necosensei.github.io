@@ -16,6 +16,10 @@
   35 km 圏に戻してみた …
 
 \[
+    % Rodrigues' formula
+
+    H_n(x) = (-1)^n \e^{x^2} \frac{\d^n}{\d x^n} \e^{-x^2}
+           = \left(2x - \frac{\d}{\d x} \right)^n \cdot 1.
 
 \]
 
@@ -26,6 +30,11 @@
   お金を出すと自動化できるらしい …
 
 \[
+
+    % Rodrigues' formula
+
+    L_n(x) = \frac{\e^x}{n!}\frac{\d^n}{\d x^n}\left(\e^{-x} x^n\right)
+           = \frac{1}{n!} \left(\frac{\d^n}{\d x^n} - 1 \right)^n x^n.
 
 \]
 
