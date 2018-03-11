@@ -43,6 +43,17 @@
   プロトコルを発動. 現在履いてる靴はもう十分履きつぶしたので新
   しい靴を買おうと思うが複数足揃えるべきか？
 
+\[
+
+    % Polya Conjecture
+
+    \begin{aligned}
+      &amp; L(n) = \sum_{k=1}^{n} \lambda(k) \le 0, \\
+      &amp; \text{was disproved.}
+    \end{aligned}
+
+\]
+
 <hr>2018/03/05 (月)
 
 - 小雨だが風が強くて鬱.
