@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/03/11 (日)
+
+- 靴を買いに御□町へ. 古い靴は靴屋で処分し, そのまま新しい靴
+  を履いて秋□原へＧＯ. とりあえず Star Force をプレイ …
+
+<hr>2018/03/10 (土)
+
+- 特別なポケモンがゲットできる抽選に当たったので, 会社のすぐ
+  そばの公園に出社 … ポケモンはゲット出来たが時間の都合で,
+  靴を買う事は出来なかった.
+
 <hr>2018/03/09 (金)
 
+- 雨 → ファ▽リーズ → 靴ドライヤーを繰り返したせいか, 靴が
+  ファ▽リーズ臭い気がする … 週末に買いに行こう.
 
 <hr>2018/03/08 (木)
 
@@ -35,6 +48,16 @@
 - 小雨だが風が強くて鬱.
 
 \[
+
+    % Liouville function
+
+    \begin{aligned}
+      &amp; \lambda(n) = (-1)^{\Omega(n)}, \\
+      &amp; \text{
+        where $\Omega(n)$ is the number of prime factors of $n$,
+        counted with multiplicity.
+      }
+    \end{aligned}
 
 \]
 
