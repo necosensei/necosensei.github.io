@@ -53,10 +53,7 @@
 
     \begin{aligned}
       &amp; \lambda(n) = (-1)^{\Omega(n)}, \\
-      &amp; \text{
-        where $\Omega(n)$ is the number of prime factors of $n$,
-        counted with multiplicity.
-      }
+      &amp; \text{where $\Omega(n)$ is the number of prime factors of $n$, counted with multiplicity.}
     \end{aligned}
 
 \]
