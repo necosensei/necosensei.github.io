@@ -41,6 +41,19 @@
 
 \[
 
+    % Measure Concentration
+    {
+    \def\calS{{\cal{}S}}
+    \begin{aligned}
+      &amp; \Let \calS^{n-1} \text{ be the sphere of unit radius in } \R^n, \\
+      &amp; P \text{ be a surface measure on $\calS^{n-1}$ s.t. } P[\calS] = 1, \\
+      &amp; A \text{ be a measurable subset of $\calS^{n-1}$ s.t. } P[A] = 1/2. \\
+      &amp; A_\delta \text{ be the $\delta $-neighborhood of $A$ in $\calS^{n-1}$, i.e.}\\
+      &amp; A_\delta = \{x \in \calS^{n-1} \mid \exists z \in A, \|x-z\|_2 \le \delta \}.
+    \end{aligned}
+    }
+
+
 \]
 
 <hr>2018/03/06 (火)
