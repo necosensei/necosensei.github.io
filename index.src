@@ -50,8 +50,8 @@
     % Bracing rectangular frameworks
     \begin{aligned}
       &amp; \text{The geometry of cross-braces of an $ m \times n $ portion of} \\
-      &amp; \text{a plane square grid is isomorphic to the geometry of the} \\
-      &amp; \text{complete bipartite graph $ K_{m,n} $.}
+      &amp; \text{a plane square grid is isomorphic to the geometry of} \\
+      &amp; \text{the complete bipartite graph $ K_{m,n} $.}
     \end{aligned}
 
 \]
