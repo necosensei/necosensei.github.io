@@ -45,6 +45,17 @@
 - 雨 → ファ▽リーズ → 靴ドライヤーを繰り返したせいか, 靴が
   ファ▽リーズ臭い気がする … 週末に買いに行こう.
 
+\[
+
+    % Bracing rectangular frameworks
+    \begin{aligned}
+      &amp; \text{The geometry of cross-braces of an $ m \times n $ portion of} \\
+      &amp; \text{a plane square grid is isomorphic to the geometry of the} \\
+      &amp; \text{complete bipartite graph $ K_{m,n} $.}
+    \end{aligned}
+
+\]
+
 <hr>2018/03/08 (木)
 
 - 某 Journal に投稿しようと思い古い latex 知識を頑張って更新.
