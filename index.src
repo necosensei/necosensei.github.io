@@ -45,6 +45,17 @@
   そばの公園に出社 … ポケモンはゲット出来たが時間の都合で,
   靴を買う事は出来なかった.
 
+\[
+ 
+    % Hilbert's Theorem 90
+
+    \def\Tr{{\rm Tr}}
+
+    \Tr_{\F_{q^m}/\F_q}(\alpha) = 0 \iff
+    \exists \beta \in \F_{q^m},\; \alpha = \beta^q - \beta.
+
+\]
+
 <hr>2018/03/09 (金)
 
 - 雨 → ファ▽リーズ → 靴ドライヤーを繰り返したせいか, 靴が
