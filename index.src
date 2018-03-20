@@ -65,6 +65,20 @@
 
 - 組合恒例の超勤拒否とやらにより 18:00 に帰社.
 
+\[
+
+    % Tutte polynomial
+
+    \begin{aligned}
+      &amp; \text{For an undirected graph $G=(V,E)$,} \\
+      &amp; T_G(x,y) = \sum_{A\subseteq E}
+                          (x-1)^{k(A)-k(E)}
+                          (y-1)^{k(A)+|A|-|V|}, \\
+      &amp; \text{where $k(A)$ denotes number of connected components in $(V,A)$.}
+    \end{aligned}
+
+\]
+
 <hr>2018/03/11 (日)
 
 - 靴を買いに御□町へ. 古い靴は靴屋で処分し, そのまま新しい靴
