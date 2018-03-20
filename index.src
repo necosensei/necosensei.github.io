@@ -68,12 +68,13 @@
 \[
 
     % Pfaffian
-
+    {
     \def\pf{\textrm{pf}}
     \begin{aligned}
       &amp; \text{For a skew-symmetric matrix $A$, its Pfaffian $\pf(A)$ satisfies} \\
       &amp; \pf(A)^2 = \det(A).
     \end{aligned}
+    }
 
 \]
 
