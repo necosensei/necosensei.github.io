@@ -76,7 +76,7 @@
     % Matroid
 
     \begin{aligned}
-      &amp; \text{Let $E$ be a finite set, $F \subset 2^E $.} \\
+      &amp; \text{Let $E$ be a finite set, $F \subseteq 2^E $.} \\
       &amp; \varnothing \in F, \\
       &amp; X \subseteq Y \in F \implies X \in F, \\
       &amp; X,Y \in F, |X| &gt; |Y| \implies \exists x \in X\setminus Y, Y\cup\{x\} \in F.
