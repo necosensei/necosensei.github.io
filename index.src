@@ -74,7 +74,7 @@
       &amp; T_G(x,y) = \sum_{A\subseteq E}
                           (x-1)^{k(A)-k(E)}
                           (y-1)^{k(A)+|A|-|V|}, \\
-      &amp; \text{where $k(A)$ denotes number of connected components in $(V,A)$.}
+      &amp; \text{where $k(A)$ denotes the number of connected components in the graph $(V,A)$.}
     \end{aligned}
 
 \]
