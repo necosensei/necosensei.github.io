@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/03/20 (火)
+
+- 暗号屋の端くれなので, たまに論文をググる. たまたま R○yal Society
+  of L○ndon の論文が reference に引っかかったので例によってググる.
+  電子版があるらしいが, 会員(または会員企業?)のみアクセス可能のよう
+  だ. しかし良く見ると trial とやらがあるらしい. まあどうせ滅多に見
+  に行かない論文誌だろうから trial で十分だよな … と卑近な考えを巡
+  らせ trial に申し込む. すると暫く待てみたいな事を言われたのが 2/8
+  の出来事. 40 日程経過した今日, spam に混じって Thank you for your
+  recent trial request. ... Expires: 30/03/2018 が届く … もう忘れて
+  るよ！
+
 <hr>2018/03/19 (月)
 
 - スゴ技を使って特許をでっち上げる.
@@ -59,6 +71,17 @@
   を履いて秋□原へＧＯ. とりあえず Star Force をプレイ …
 
 \[
+
+
+    % Matroid
+
+    \begin{aligned}
+      &amp; \text{Let $E$ be a finite set, $F \subset 2^E $.} \\
+      &amp; \varnothing \in F, \\
+      &amp; X \subseteq Y \in F \implies X \in F, \\
+      &amp; X,Y \in F, |X| &gt; |Y| \implies \exists x \in X\setminus Y, Y\cup\{x\} \in F.
+    \end{aligned}
+
 
 \]
 
