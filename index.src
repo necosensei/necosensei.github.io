@@ -82,11 +82,27 @@ sub plot{
 ENDS
 }
 
+sub rect{
+  my(
+    $x0,$y0,$z0,
+    $x1,$y1,$z1,
+    $x2,$y2,$z2,
+    $x3,$y3,$z3
+  ) = @_ ;
+  my($X0,$Y0) = &projection($x0,$y0,$z0);
+  my($X1,$Y1) = &projection($x1,$y1,$z1);
+  my($X2,$Y2) = &projection($x2,$y2,$z2);
+  my($X3,$Y3) = &projection($x3,$y3,$z3);
+  print <<ENDS ;
+  \\path M $X0 $Y0 L $X1 $Y1 L $X2 $Y2 L $X3 $Y3 Z
+ENDS
+
+}
 
 print <<ENDS;
 \\svg 200 200
 \\stroke black
-\\fill rgba(00,00,255,0.5)
+\\fill rgba(255,00,00,0.5)
 \\transform 200 0 0 -200 0 200 {
   \\transform 0.5 0 0 0.5 0.5 0.5 {
 ENDS
@@ -99,6 +115,12 @@ ENDS
 &plot(1,0,1) ;
 &plot(0,1,1) ;
 &plot(1,1,1) ;
+
+print <<ENDS;
+\\fill rgba(00,00,255,0.5)
+ENDS
+
+&rect((0,0,0),(1,0,0),(1,1,0),(0,1,0));
 
 print <<ENDS;
   }
