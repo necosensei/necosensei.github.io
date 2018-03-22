@@ -74,7 +74,7 @@ sub projection{
 sub plot{
   my($x,$y) = &projection(@_);
   print <<ENDS ;
-\circle $x $y 0.05
+\\circle $x $y 0.05
 ENDS
 }
 
