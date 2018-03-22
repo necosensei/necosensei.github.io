@@ -53,7 +53,7 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Vamos+matroid%22" target="_blank">
 #! ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 \svg 200 200
-\transform 200 0 0 -200 200 200 {
+\transform 200 0 0 -200 0 200 {
   \stroke black
   \fill rgba(00,00,255,0.5)
   \path M 0.5 0 L 0 0.5 L 0.5 1 L 1 0.5 Z
