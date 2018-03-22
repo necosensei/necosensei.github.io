@@ -51,7 +51,7 @@
   で空いてて良いが, 玉□上水で1分で乗り換える必要があって鬱.
 
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Vamos+matroid%22" target="_blank">
-#! ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
 #a0 = 1/sqrt(3) ;
 #a1 = 1/sqrt(2) ;
@@ -61,16 +61,16 @@
 #@direction1 = (    0,a1,-a1) ;
 #@direction2 = (-2*a2,a2, a2) ;
 
-#print( <<ENDS );
-\svg 200 200
-\stroke black
-\fill rgba(00,00,255,0.5)
-\transform 200 0 0 -200 0 200 {
-  \transform 0.5 0 0 0.5 0 0 {
-    \path M 0 0 L 0 1 L 1 1 L 1 0 Z
+print <<ENDS;
+\\svg 200 200
+\\stroke black
+\\fill rgba(00,00,255,0.5)
+\\transform 200 0 0 -200 0 200 {
+  \\transform 0.5 0 0 0.5 0 0 {
+    \\path M 0 0 L 0 1 L 1 1 L 1 0 Z
   }
 }
-#ENDS
+ENDS
 #!
 </a>
 
