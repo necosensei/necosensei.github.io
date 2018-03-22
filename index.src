@@ -53,8 +53,8 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Vamos+matroid%22" target="_blank">
 #! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-$b0 = 0.9 ;
-$b1 = 1.1 ;
+$b0 = 0.8 ;
+$b1 = 1.2 ;
 $b2 = ($b0*$b0+$b1*$b1) ;
 
 $a0 = 1.0/sqrt($b0*$b0+$b1*$b1+1) ;
