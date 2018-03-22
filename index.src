@@ -53,9 +53,9 @@
 <a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Vamos+matroid%22" target="_blank">
 #! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
 
-a0 = 1.0/sqrt(3) ;
-a1 = 1.0/sqrt(2) ;
-a2 = 1.0/sqrt(6) ;
+$a0 = 1.0/sqrt(3) ;
+$a1 = 1.0/sqrt(2) ;
+$a2 = 1.0/sqrt(6) ;
 
 #@direction0 = (   a0,a0, a0) ;
 #@direction1 = (    0,a1,-a1) ;
