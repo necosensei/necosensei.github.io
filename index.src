@@ -47,8 +47,8 @@
                         m &amp; (n=1), \\
                         H(n,n+1)(G(m)(n-1)) - 1 &amp; (n\ge 2),
                       \end{cases} \\
-      &amp; H(b,b')(x): \text{take the hereditary base-$b$ representation of $x$}
-                        \text{then replace each occurence of the base-$b$ with $b'$.}
+      &amp; H(b,b')(x): \text{take the hereditary base-$b$ representation of $x$,} \\
+      &amp;             \text{then replace each occurence of the base-$b$ with $b'$.}
     \end{aligned}
 
 \]
