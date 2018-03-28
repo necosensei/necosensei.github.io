@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2018/03/26 (火)
+
+- 外出時の3重マスクが息苦しいので1重にしてしばらく様子を見たら
+  頭痛が …
+
 <hr>2018/03/26 (月)
 
 - S木先生が転職との事で飲み会 …
@@ -29,6 +34,22 @@
   「宗教の事でお話が」
 
   「(#^ω^) 間に合ってますんで …」
+
+\[
+
+
+    % Goodstein's Theorem
+
+    \begin{aligned}
+      &amp; \forall m \in \N, \exists n \in \N, \st G(m)(n) = 0, \\
+      &amp; \where \\
+      &amp; G(m)(1) = m, \\
+      &amp; G(m)(n+1) = H(n+1,n+2)(G(m)(n)) - 1, \\
+      &amp; H(b,b')(x): \text{take the hereditary base-b representation of x, then replace each occurence of the base-b with b'.}
+    \end{aligned}
+
+\]
+
 
 <hr>2018/03/21 (水)
 
