@@ -41,7 +41,7 @@
     % Goodstein's Theorem
 
     \begin{aligned}
-      &amp; \forall m \in \N, \exists n \in \N, \st G(m)(n) = 0, \\
+      &amp; \forall m \in \N, \; \exists n \in \N, \; G(m)(n) = 0, \\
       &amp; \where
             G(m)(n) = \begin{cases}
                         m &amp; (n=1), \\
