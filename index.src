@@ -2,6 +2,10 @@
 <pre>
 <hr>2018/12/20 (木)
 
+(会社システム)のヘルプデスクから下記のようなメールが届く.
+
+&gt; Subject:【報告】ウィルス検知されたファイルの削除完了の連絡
+&gt;
 &gt; ○○プロジェクト ○○様
 &gt; 
 &gt; いつもお世話になっております。
@@ -12,16 +16,21 @@
 &gt; ○○様の(会社システム)上のユーザ領域のデータに対して
 &gt; ウィルス検知を確認いたしました。
 &gt; 
-&gt; 情報セキュリティセンタ様からの依頼により、
+&gt; (会社の)情報セキュリティセンタからの依頼により、
 &gt; 対象ファイルはシステム側にて削除させて頂いております。
 &gt; 
 &gt; 下記が削除したファイルとなります。
 &gt; 
-&gt; M:\UserData-noenc06\2887063\AppData\Roaming\Hoshino\Z\Cygwin\http%3a%2f%2fftp.yz.yamagata-u.ac.jp%2fpub%2fcygwin%2f\x86_64\release\nc\nc-1.107-4.tar.bz2
+&gt; ...\Cygwin\...\x86_64\release\nc\nc-1.107-4.tar.bz2
 &gt; 
-&gt; M:\UserData-noenc06\2887063\AppData\Roaming\Hoshino\Z\Cygwin\http%3a%2f%2fftp.yz.yamagata-u.ac.jp%2fpub%2fcygwin%2f\x86_64\release\nc6\nc6-1.0-1.tar.bz2
+&gt; ...\Cygwin\...\x86_64\release\nc6\nc6-1.0-1.tar.bz2
 &gt; 
 &gt; 以上、よろしくお願いいたします。
+
+だから nc コマンド便利だからって全部ウィルス判定するのやめれ.
+まぁ実害は無いから別に良いんだが, この(会社システム)大変評判
+が悪く鬱憤が溜まっているので, 若い頃だったら多分ブチ切れてた
+と思う …
 
 <hr>2018/04/08 (日)
 
