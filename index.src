@@ -9,7 +9,7 @@
     &amp; \forall r \in \R\setminus\Q \; \st r &gt; 1, \\
     &amp; {\cal B}_s \cap {\cal B}_r = \varnothing \; \wedge \;
           {\cal B}_s \cup {\cal B}_r = \N^+, \\
-    &amp; \where {\cal B}_x = \{\lfloor n x \rfloor | n \in \N^+ \}
+    &amp; \where {\cal B}_x = \{\lfloor n x \rfloor \mid n \in \N^+ \}
           \text{ and } s = r/(r-1).
   \end{aligned}
 
