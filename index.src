@@ -3,12 +3,14 @@
 
 \[
 
-  % The Rayleigh theorem (also known as Beatty's theorem)
+  % Beatty sequence
 
   \begin{aligned}
     &amp; \forall r \in \R\setminus\Q \st r &gt; 1, \\
-    &amp; \exists s \in \R\setminus\Q \st s &gt; 1 \text{ and } {\cal B}_s = \N^+ \setminus {\cal B}_r, \\
-    &amp; \where {\cal B}_x = \{\lfloor n x \rfloor | n \in \N^+ \}
+    &amp; {\cal B}_s \cap {\cal B}_r = \emptyset \wedge \\
+    &amp; {\cal B}_s \cup {\cal B}_r = \N^+, \\
+    &amp; \where s = r/(r-1),\;
+          {\cal B}_x = \{\lfloor n x \rfloor | n \in \N^+ \}
   \end{aligned}
 
 \]
