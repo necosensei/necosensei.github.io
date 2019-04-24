@@ -8,13 +8,26 @@
   <base target="_top">
   <title>猫草日記</title>
   <style type="text/css">
-    svg { font-size: 100%; }
-    .area {
-      fill: none;
-      pointer-events: all;
+    @media (min-width: 800px) {
+      font-size: 200%; 
+      svg { font-size: 200%; }
+      .area {
+        fill: none;
+        pointer-events: all;
+      }
+      .area:hover {
+        fill: #efefff;
+      }
     }
-    .area:hover {
-      fill: #efefff;
+    @media (max-width: 799px) {
+      svg { font-size: 100%; }
+      .area {
+        fill: none;
+        pointer-events: all;
+      }
+      .area:hover {
+        fill: #efefff;
+      }
     }
   </style>
 </head>
