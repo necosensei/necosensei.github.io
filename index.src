@@ -5,9 +5,13 @@
 
   % The Rayleigh theorem (also known as Beatty's theorem)
 
-  \forall r (&gt; 1) \in \R\setminus\Q, \;\exists s (&gt; 1) \in \R\setminus\Q \st
-  \N^+\setminus\{\lfloor n r \rfloor | n \in \N^+ \} =
-  \{\lfloor n s \rfloor | n \in \N^+ \}
+  \begin{aligned}
+    &amp; \forall r \in \R\setminus\Q \st r &gt; 1, \\
+    &amp; \exists s \in \R\setminus\Q \st r &gt; 1, \\
+    &amp; \where
+      \N^+\setminus\{\lfloor n r \rfloor | n \in \N^+ \} =
+      \{\lfloor n s \rfloor | n \in \N^+ \}
+  \end{aligned}
 
 \]
 
