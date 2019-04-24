@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <pre>
 
+<hr>2019/04/24 (水)
+
+\[
+
+   % Zuckerman numbers
+
+   n \st n = \sum_i a_i b^i \where \prod_i a_i \backslash n.
+
+\]
+
 <hr>2019/03/29 (金)
 
 3/26(火)に学位授与式なる儀式が行われたらしく、学位が
