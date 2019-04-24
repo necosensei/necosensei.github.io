@@ -9,7 +9,7 @@
 
    \begin{aligned}
      &amp; n = \sum_i a_i \, b^i \st \left(\prod_i a_i\right) \backslash \; n, \\
-     &amp; \where b \in \N_{>1}, \; a_i \in \{1,\cdots,b-1\}.
+     &amp; \where b \in \N_{>1} \text{ is a radix, and } \; a_i \in \{1,\cdots,b-1\} \text{ for all } i.
    \end{aligned}
 
 \]
