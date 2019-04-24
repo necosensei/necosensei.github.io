@@ -8,7 +8,7 @@
   <base target="_top">
   <title>猫草日記</title>
   <style type="text/css">
-    @media (min-width: 800px) {
+    @media (min-width: 500px) {
       font-size: 200%; 
       svg { font-size: 200%; }
       .area {
@@ -19,7 +19,7 @@
         fill: #efefff;
       }
     }
-    @media (max-width: 799px) {
+    @media (max-width: 499px) {
       svg { font-size: 100%; }
       .area {
         fill: none;
