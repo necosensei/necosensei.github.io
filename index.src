@@ -7,7 +7,7 @@
 
    % Zuckerman numbers
 
-   n \st n = \sum_i a_i b^i \where \prod_i a_i \backslash n.
+   n = \sum_i a_i b^i \st \prod_i a_i \backslash n.
 
 \]
 
