@@ -3,11 +3,16 @@
 
 <hr>2019/04/24 (水)
 
+
+
 \[
 
    % Zuckerman numbers
 
-   n = \sum_i a_i b^i \st \left(\prod_i a_i\right) \backslash n.
+   \begin{aligned}
+     &amp; n = \sum_i a_i \, b^i \st \left(\prod_i a_i\right) \backslash n, \\
+     &amp; \where b \in \N_{>1}, \; a_i \in \{1,\cdot,b-1\}.
+   \end{aligned}
 
 \]
 
