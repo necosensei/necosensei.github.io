@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--
+  Lambek-Moser theorem
+-->
 <pre>
 
 <hr>2019/04/24 (水)
@@ -9,8 +12,8 @@
 
   \begin{aligned}
     &amp; \forall r \in \R\setminus\Q \; \st r &gt; 1, \\
-    &amp; {\cal B}_s \cap {\cal B}_r = \varnothing \; \wedge \;
-          {\cal B}_s \cup {\cal B}_r = \N^+, \\
+    &amp; {\cal B}_r \cap {\cal B}_s = \varnothing \; \wedge \;
+          {\cal B}_r \cup {\cal B}_s = \N^+, \\
     &amp; \where {\cal B}_x = \{\lfloor n x \rfloor \mid n \in \N^+ \}
           \text{ and } s = r/(r-1).
   \end{aligned}
