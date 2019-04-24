@@ -3,11 +3,9 @@
 
 <hr>2019/04/24 (水)
 
-
-
 \[
 
-   % Zuckerman numbers
+   % Zuckerman number
 
    \begin{aligned}
      &amp; n = \sum_i a_i \, b^i \st \left(\prod_i a_i\right) \backslash \; n, \\
