@@ -14,7 +14,7 @@
 
   \begin{aligned}
     &amp; \Let f : \N^+ \rightarrow \N_0 \text{ be non-decreasing and unbounded function, and} \\
-    &amp; g(n) = |\{ m \mid f(m) &lt; n \}|.
+    &amp; g(n) = |\{ m \mid f(m) &lt; n \}|. \\
     &amp; {\cal B}_f \cap {\cal B}_g = \varnothing \; \wedge \;
           {\cal B}_f \cup {\cal B}_g = \N^+, \\
     &amp; \where {\cal B}_h = \{ n + h(n) \}_{h(n)\in\N^+}.
