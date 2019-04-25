@@ -17,7 +17,7 @@
           ({\cal B}_0 \cap {\cal B}_1 = \varnothing) \; \wedge \;
           ({\cal B}_0 \cup {\cal B}_1 = \N^+), \\
     &amp; \exists f_0 : \N^+ \rightarrow \N_0 : \text{ non-decreasing}, \\
-    &amp; \st f_1(n) = |\{ m \mid f_0(m) &lt; n \}|,
+    &amp; f_1(n) = |\{ m \mid f_0(m) &lt; n \}|
           \text{ and } {\cal B}_i = \{ n + f_i(n) \}_{f_i(n)\in\N^+}.
   \end{aligned}
 
