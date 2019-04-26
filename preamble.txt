@@ -19,7 +19,7 @@
     .test {
         display: inline-block;
 	transform-origin: 50% 50%;
-	transform: rotate(180deg);
+	transform: rotate(90deg);
     }
   </style>
 </head>
