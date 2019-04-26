@@ -10,8 +10,9 @@
 
   % Belphegor's prime
 
-  1 \underbrace{000 000 000 000 0}_{\text{13 zeros}}66 6
-    \underbrace{00 000 000 000 00}_{\text{13 zeros}}1 \text{ is a prime number.}
+  1 \underbrace{000 000 000 000 0}_{\text{13 zeros}}
+    \overbrace{66 6}_{Number of the Beast}
+    \underbrace{00 000 000 000 00}_{\text{13 zeros}}1 \text{ is a palindromic prime.}
 
 \]
 
