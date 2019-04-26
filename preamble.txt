@@ -18,8 +18,7 @@
     }
     .test {
         display: inline-block;
-	transform-origin: 50% 50%;
-	transform: rotate(90deg);
+	transform: rotateX(180deg);
     }
   </style>
 </head>
