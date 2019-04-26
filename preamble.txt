@@ -18,7 +18,7 @@
     }
     .test {
         display: inline-block;
-	transform: rotateX(180deg);
+	transform: rotateX(45deg);
     }
   </style>
 </head>
