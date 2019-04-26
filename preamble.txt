@@ -18,8 +18,8 @@
     }
     .test {
         display: inline-block;
-        transform-origin: 1% 0% ;
-	transform: rotate(90deg);
+        transform-origin: 1.5% 0% ;
+	transform: rotate(180deg);
     }
   </style>
 </head>
