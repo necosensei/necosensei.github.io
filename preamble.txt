@@ -18,7 +18,8 @@
     }
     .test {
         display: inline-block;
-	transform: rotateX(45deg);
+	transform-origin: center;
+	transform: rotate(45deg);
     }
   </style>
 </head>
