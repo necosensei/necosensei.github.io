@@ -16,7 +16,7 @@
     .area:hover {
         fill: #efefff;
     }
-    .rotate {
+    .test {
         display: inline-block;
 	transform: rotate(45deg);
     }

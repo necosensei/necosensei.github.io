@@ -13,7 +13,7 @@ digital physics とか bit-string physics という概念 (数秘術？)
 
   % Belphegor's prime
 
-  \class{rotate}{\pi} =
+  \class{test}{\pi} =
 
   1 \underbrace{000 000 000 000 0}_{\text{13 zeros}}
     \overbrace{66 6}^{\clap{\text{the number of the beast}}}
