@@ -9,6 +9,25 @@
 \rotatebox の無い MathJaxで $\pi$ をひっくり返した文字を css を
 使って表示したかったが, ブラウザの互換性が無さ過ぎて断念.
 
+\[
+
+    2^5 \cdot 9^2 = 2592.
+
+\]
+
+<a href="https://www.google.com/search?q=%22The+Haberdasher%27s+Puzzle%22" target="_blank">
+#! ./svg-turtle.pl
+
+# % The Haberdasher's Puzzle # 220
+
+\svg 200 200
+  \transform 1 0 0 1 0 0 {
+    \fill red
+    \path M 0 0 L 1 0 L 1 1 L 0 1 Z
+  }
+}
+#!
+</a>
 
 <hr>2019/04/26 (金)
 
@@ -90,3 +109,5 @@ digital physics とか bit-string physics という概念 (数秘術？)
 
 <a href=kako.html>過去</a>
 </pre>
+
+
