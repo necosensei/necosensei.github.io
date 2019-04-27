@@ -4,6 +4,12 @@
 -->
 <pre>
 
+<hr>2019/04/27 (土)
+
+\rotatebox の無い MathJaxで $\pi$ をひっくり返した文字を css を
+使って表示したかったが, ブラウザの互換性が無さ過ぎて断念.
+
+
 <hr>2019/04/26 (金)
 
 digital physics とか bit-string physics という概念 (数秘術？)
@@ -13,7 +19,6 @@ digital physics とか bit-string physics という概念 (数秘術？)
 
   % Belphegor's prime
 
-  \class{test}{\pi} =
   1 \underbrace{000 000 000 000 0}_{\text{13 zeros}}
     \overbrace{66 6}^{\clap{\text{the number of the beast}}}
     \underbrace{00 000 000 000 00}_{\text{13 zeros}}1 \text{ is a palindromic prime.}
