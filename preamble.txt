@@ -19,7 +19,7 @@
     .rot180 {
         display: block ;
         transform-origin: 300px 300px ;
-	transform: rotate(45deg);
+	transform: rotate(180deg);
     }
   </style>
 </head>
