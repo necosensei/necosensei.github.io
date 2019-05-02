@@ -16,9 +16,9 @@
     .area:hover {
         fill: #efefff;
     }
-    .test {
-        display: inline-block;
-        transform-origin: 1% 5% ;
+    .rot180 {
+        display: inline ;
+        transform-origin: center ;
 	transform: rotate(180deg);
     }
   </style>
