@@ -17,9 +17,9 @@
         fill: #efefff;
     }
     .rot180 {
-        display: inline ;
+        display: inline-block ;
         transform-origin: center center ;
-	transform: rotate(45deg);
+	transform: rotate(1deg);
     }
   </style>
 </head>
