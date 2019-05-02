@@ -16,8 +16,6 @@
 
 <hr>2019/04/27 (土)
 
-\rotatebox の無い MathJaxで $\pi$ をひっくり返した文字を css を
-使って表示したかったが, ブラウザの互換性が無さ過ぎて断念.
 <a href="https://www.google.com/search?q=%22The+Haberdasher%27s+Puzzle%22" target="_blank">
 #! ./svg-turtle.pl
 
@@ -104,6 +102,10 @@ digital physics とか bit-string physics という概念 (数秘術？)
     \underbrace{00 000 000 000 00}_{\text{13 zeros}}1 \text{ is a palindromic prime.}
 
 \]
+
+\rotatebox の無い MathJaxで $\pi$ をひっくり返した文字を css を
+使って表示したかったが, ブラウザの互換性無さ過ぎ. svg で簡単に
+書けるはずなのに, もどかしい …
 
 <hr>2019/04/25 (木)
 
