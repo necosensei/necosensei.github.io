@@ -19,7 +19,7 @@
     .rot180 {
         display: inline ;
         transform-origin: center ;
-	transform: rotate(180deg);
+	transform: rotate(10deg);
     }
   </style>
 </head>
