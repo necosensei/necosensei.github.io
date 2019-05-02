@@ -18,7 +18,7 @@
     }
     .rot180 {
         display: inline ;
-        transform-origin: 0.5em 1em ;
+        transform-origin: 0 0 ;
 	transform: rotate(45deg);
     }
   </style>
