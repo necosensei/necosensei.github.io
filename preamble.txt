@@ -18,7 +18,7 @@
     }
     .rot180 {
         display: block ;
-        transform-origin: 300px 300px ;
+        transform-origin: 300px 320px ;
 	transform: rotate(180deg);
     }
   </style>
