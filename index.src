@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<!--
+%    \begin{aligned}
+%      &amp; a b c = s (s-b) (s-c) + s (s-c) (s-a) + s (s-a) (s-b) - (s-a) (s-b) (s-c), \\
+%      &amp; \where s = (a+b+c)/2.
+%    \end{aligned}
+-->
 <pre>
 <hr>2019/05/07 (火)
 Predatory Journal からやたらにメールが来るのでググってたら
@@ -15,11 +21,6 @@ Predatory Journal からやたらにメールが来るのでググってたら
       &amp; L(g^{-1}) = L(g), \; \forall g \in G, \text{ and } \\
       &amp; L(g_1 g_2) \le L(g_1) + L(g_2), \; \forall g_1, g_2 \in G.
     \end{aligned}
-
-%    \begin{aligned}
-%      &amp; a b c = s (s-b) (s-c) + s (s-c) (s-a) + s (s-a) (s-b) - (s-a) (s-b) (s-c), \\
-%      &amp; \where s = (a+b+c)/2.
-%    \end{aligned}
 
 \]
 
