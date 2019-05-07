@@ -10,9 +10,9 @@ Predatory Journal からやたらにメールが来るのでググってたら
     % Length function
 
     \begin{aligned}
-      &amp; L: G \rightarrow R^+ \text{ on a group } G \\
-      &amp; L(e) = 0 \text{ for the identity element } e \text{ of } G, \\
-      &amp; L(g^{-1}) = L(g), \; for all g \in G, \text{ and } \\
+      &amp; L: G \rightarrow \R^+ \text{ on a group } G \\
+      &amp; L(e) = 0, \; \text{ for the identity element } e \text{ of } G, \\
+      &amp; L(g^{-1}) = L(g), \; \forall g \in G, \text{ and } \\
       &amp; L(g_1 g_2) \le L(g_1) + L(g_2), \; \forall g_1, g_2 \in G.
     \end{aligned}
 
