@@ -4,6 +4,25 @@
 Predatory Journal からやたらにメールが来るのでググってたら
 <a href="https://www.researchgate.net/post/A_new_trick_IEICE_charges_authors_AND_readers">こんなの</a>見つけた …
 
+
+\[
+
+    % Length function
+
+    \begin{aligned}
+      &amp; L: G \rightarrow R^+ \text{ on a group } G \\
+      &amp; L(e) = 0 \text{ for the identity element } e \text{ of } G, \\
+      &amp; L(g^{-1}) = L(g), \; for all g \in G, \text{ and } \\
+      &amp; L(g_1 g_2) \le L(g_1) + L(g_2), \; \forall g_1, g_2 \in G.
+    \end{aligned}
+
+%    \begin{aligned}
+%      &amp; a b c = s (s-b) (s-c) + s (s-c) (s-a) + s (s-a) (s-b) - (s-a) (s-b) (s-c), \\
+%      &amp; \where s = (a+b+c)/2.
+%    \end{aligned}
+
+\]
+
 <hr>2019/04/28 (日)
 
 今日から帰省.
