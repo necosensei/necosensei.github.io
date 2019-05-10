@@ -11,6 +11,20 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <pre>
+<hr>2019/05/11 (土)
+\[
+
+  % Banach-Tarski paradox
+
+  \begin{aligned}
+    &amp; \text{Let $F_2$ be the free group with two generators $a$ and $b$.} \\
+    &amp;         {F_2} =         {\{e\} \cup {}}  \phantom{a} S(a^{-1}) \cup S(a)             \cup \phantom{b} S(b^{-1}) \cup S(b)  \\
+    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}}          {a} S(a^{-1}) \cup S(a) \phantom{{} \cup         {b} S(b^{-1}) \cup S(b)} \\
+    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}} \phantom{{a} S(a^{-1}) \cup S(a)             \cup {}}     {b} S(b^{-1}) \cup S(b)  \\
+  \end{aligned}
+
+\]
+
 <hr>2019/05/10 (金)
 \[
 
