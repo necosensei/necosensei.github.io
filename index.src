@@ -11,7 +11,17 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <pre>
-<hr>2019/05/08 (水)
+<hr>2019/05/10 (金)
+\[
+
+  % Cantor set
+
+  \begin{aligned}
+    &amp; \mu(C) = 0 \; \wedge \; |C| = \aleph, \\
+    &amp; \where C = [0,1]\setminus \bigcup_{i=1}^{\infty} \bigcup_{j=0}^{3^{i-1}-1} \left(\frac{3j+1}{3^i}, \frac{3j+2}{3^i}\right). \\
+  \end{aligned}
+
+\]
 
 <hr>2019/05/07 (火)
 Predatory Journal からやたらにメールが来るのでググってたら
