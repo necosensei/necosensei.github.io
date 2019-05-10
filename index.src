@@ -18,9 +18,10 @@ Internet, we are the Internet. Ivan Ristić
 
   \begin{aligned}
     &amp; \text{Let $F_2$ be the free group with two generators $a$ and $b$.} \\
-    &amp;         {F_2} =         {\{e\} \cup {}}  \phantom{a} S(a^{-1}) \cup S(a)             \cup \phantom{b} S(b^{-1}) \cup S(b)  \\
-    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}}          {a} S(a^{-1}) \cup S(a) \phantom{{} \cup         {b} S(b^{-1}) \cup S(b)} \\
-    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}} \phantom{{a} S(a^{-1}) \cup S(a)             \cup {}}     {b} S(b^{-1}) \cup S(b)  \\
+    &amp;         {F_2} =         {\{e\} \cup {}}  \phantom{a\,} S(a^{-1}) \cup S(a)             \cup \phantom{b\,} S(b^{-1}) \cup S(b)  \\
+    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}}          {a\,} S(a^{-1}) \cup S(a) \phantom{{} \cup         {b\,} S(b^{-1}) \cup S(b)} \\
+    &amp; \phantom{F_2} = \phantom{\{e\} \cup {}} \phantom{{a\,} S(a^{-1}) \cup S(a)             \cup {}}     {b\,} S(b^{-1}) \cup S(b), \\
+    &amp; \text{where $S(x)$ is all of elements in $F_2$ which start with $x$}.
   \end{aligned}
 
 \]
