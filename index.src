@@ -20,7 +20,7 @@ Internet, we are the Internet. Ivan Ristić
   \def\P{{\mathbb P}}
 
   \begin{aligned}
-    &amp; \Let f \in \Z[X],\; f(\N+) = \{f(x)\mid x \in \N^+\},\; \P \text{ be the set of all rational primes.} \\
+    &amp; \Let f \in \Z[X],\; f(\N^+) = \{f(x)\mid x \in \N^+\},\; \P \text{ be the set of all rational primes.} \\
     &amp; |f(\N^+) \cap \P| = \infty \;\stackrel{?}{\Leftarrow} \;\left\{
     \begin{aligned}
       &amp; \LC(f) &gt; 0 \; \wedge \\
