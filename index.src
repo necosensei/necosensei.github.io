@@ -11,6 +11,27 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <pre>
+<hr>2019/05/15 (水)
+\[
+
+  % Bunyakovsky conjecture
+
+  \def\LC{{\mathrm{LC}}}
+  \def\P{{\mathbb P}}
+
+  \begin{aligned}
+    &amp; \Let $f \in \Z[X]. $ \\
+    &amp; |f(\Z) \cup \P| = \infty \stackrel{\?}{\Leftarrow} \left\{
+    \begin{aligned}
+      &amp; \LC(f) &gt; 0 \, \wedge \\
+      &amp; \neg \extsts x \in \Z \st f(x) = 0 \, \wedge \\
+      &amp; \gcd\{f(\Z)\} = 1.
+    \end{aligned}
+    \right.
+  \end{aligned}
+
+\]
+
 <hr>2019/05/11 (土)
 \[
 
