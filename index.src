@@ -24,7 +24,7 @@ Internet, we are the Internet. Ivan Ristić
     &amp; |f(\N^+) \cap \P| = \infty \;\stackrel{?}{\Leftarrow} \;\left\{
     \begin{aligned}
       &amp; \LC(f) &gt; 0 \; \wedge \\
-      &amp; \not\exists x \in \Z \st f(x) = 0 \; \wedge \\
+      &amp; \not\exists (g,h) \in (\Z[X]\setminus\Z)^2 \st f  = g h\; \wedge \\
       &amp; \gcd(f(\N^+)) = 1.
     \end{aligned}
     \right.
