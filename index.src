@@ -24,7 +24,7 @@ Internet, we are the Internet. Ivan Ristić
     &amp; |f(\N_{&ge;1}) \cup \P| = \infty \stackrel{?}{\Leftarrow} \left\{
     \begin{aligned}
       &amp; \LC(f) &gt; 0 \, \wedge \\
-      &amp; \neg \extsts x \in \Z \st f(x) = 0 \, \wedge \\
+      &amp; \neg \exists x \in \Z \st f(x) = 0 \, \wedge \\
       &amp; \gcd(f(\N_{&ge;1})) = 1.
     \end{aligned}
     \right.
