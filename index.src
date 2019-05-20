@@ -14,7 +14,7 @@ Internet, we are the Internet. Ivan Ristić
 <hr>2019/05/20 (月)
 \[
     \left\{ f \in \Q[X] \mid \forall x \in \Z, f(x) \in \Z \right\} =
-    \left\langle \binom{x}{n} \right\rangle_{n\in\N_0}
+    \left\langle \binom{X}{n} \right\rangle_{n\in\N_0}
 \]
 
 <hr>2019/05/15 (水)
