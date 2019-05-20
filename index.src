@@ -17,7 +17,7 @@ Internet, we are the Internet. Ivan Ristić
     % Integer-valued polynomial
 
     \left\{ f \in \Q[X] \mid \forall x \in \Z, f(x) \in \Z \right\} =
-    \left\langle \left\{\binom{X}{n}\right\}_{n\in\N_0} \right\rangle_{\bigg/ \Z}
+    \left\langle \binom{X}{n}_{n\in\N_0} \right\rangle_{\Z}
 \]
 
 <hr>2019/05/15 (水)
