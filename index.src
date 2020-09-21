@@ -11,11 +11,26 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <pre>
+<hr>2020/09/21 (月)
+在宅勤務が始まって講義動画などを作るようになったので,
+6月くらいに 3TB×6台+フラッシュメモリで raid0 のファイル
+サーバを立ててたのだが, 3ヶ月でアクセス不能に ...
+
+幸いフラッシュメモリが飛んだだけだったので手持ちの usb
+ハードディスクに交換して 2 時間くらいで復旧できた.
+ついでに raid0 辞めて raid6 に変更.
+
+すぐ忘れる Linux のコマンドメモ.
+
+mdadm --create /dev/md0 -l 6 -n 6 /dev/sd[a-f]
+mkfs.ext4 /dev/md0
+tume2fs /dev/md0 -m 0
+
 <hr>2020/06/08 (月)
 年に何回も使わない Linux のコマンドは忘れてしまうのでメモ.
 
 cat /proc/mdstat
-mdadm --create /dev/md0 -l 0 -n 3 /dev/sdb1 /dev/sdc1 /dev/sdd1
+mdadm --create /dev/md0 -l 0 -n 6 /dev/sd[a-f]
 mdadm --assemble /dev/md0 /dev/sd[a-f]
 mdadm --detail /dev/md0
 mdadm --detail --scan &gt; /etc/mdadm.conf
