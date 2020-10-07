@@ -11,6 +11,10 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <pre>
+<hr>2020/10/07 (火)
+raid6 が遅くて全く使い物にならないので (何かのバグ?)
+早々に破棄して raid10 に変更.
+
 <hr>2020/09/22 (火)
 現状では raid6 が遅くて使い物にならないという事が分かった …
 何らかのパラメタをチューンすれば早くなるんだろうか？
@@ -28,7 +32,7 @@ Internet, we are the Internet. Ivan Ristić
 
 mdadm --create /dev/md0 -l 6 -n 6 /dev/sd[a-f]
 mkfs.ext4 /dev/md0
-tume2fs /dev/md0 -m 0
+tune2fs /dev/md0 -m 0
 
 <hr>2020/06/08 (月)
 年に何回も使わない Linux のコマンドは忘れてしまうのでメモ.
