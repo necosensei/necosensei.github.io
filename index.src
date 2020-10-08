@@ -16,7 +16,19 @@ Internet, we are the Internet. Ivan Ristić
 raid6 完全に冤罪だったかもしれないがもう raid10 にしちゃったので …
 (壊れかけでも raid10 なら 20MB/s くらい出てた …)
 
-それにしても, ファイルシステム維持したまま HDD 交換が出来るのは良い!
+それにしても, ファイルシステム維持したまま HDD 交換が出来るのは良い !
+
+すぐ忘れる linux のコマンド
+
+cat /proc/mdstat
+mdadm /dev/md0 -f /dev/sdd
+mdadm /dev/md0 -r /dev/sdd
+mdadm --manage /dev/md0 --fail /dev/sdd
+mdadm --manage /dev/md0 --remove /dev/sdd
+mdadm --misc --stop /dev/md127
+mdadm /dev/md0 -a /dev/sdd
+mdadm --grow /dev/md0 --raid-devices=7
+mdadm --grow /dev/md0 --raid-devices=6
 
 <hr>2020/10/07 (水)
 raid6 が遅くて全く使い物にならない (書き込みが 20KB/s くらいしか出ない？ …)
