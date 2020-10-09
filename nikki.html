@@ -206,6 +206,7 @@ mdadm --manage /dev/md0 --remove /dev/sdd
 mdadm --misc --stop /dev/md127
 mdadm /dev/md0 -a /dev/sdd
 mdadm --grow /dev/md0 --raid-devices=7
+mdadm --grow /dev/md0 --array-size 8790402048
 mdadm --grow /dev/md0 --raid-devices=6
 
 <hr><div id="20201007">2020/10/07 (水)</div>raid6 が遅くて全く使い物にならない (書き込みが 20KB/s くらいしか出ない？ …)
