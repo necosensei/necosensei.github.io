@@ -190,7 +190,26 @@ Many of us, with always-on devices in our pockets, don't connect to the
 Internet, we are the Internet. Ivan Ristić
 -->
 
-<pre><hr><div id="20201008">2020/10/08 (木)</div>どうやら raid6 が遅かったのは hdd の一つが逝きかけてたかららしい.
+<pre><hr><div id="20201011">2020/10/11 (日)</div>データ退避先の raid の問題が概ね解決したと思ったら
+データ退避元の方の問題が顕在化した …
+
+途中で停止
+
+  scp -R ...
+
+途中で gzip がエラー
+
+  tar czf - | ssh ... tar xzf - 
+
+途中で tar がエラー
+
+  tar czf - | ssh ... "cat &gt; ..."
+
+現在お試し中
+
+  rsync -auz -e "ssh" ...
+
+<hr><div id="20201008">2020/10/08 (木)</div>どうやら raid6 が遅かったのは hdd の一つが逝きかけてたかららしい.
 raid6 完全に冤罪だったかもしれないがもう raid10 にしちゃったので …
 (壊れかけでも raid10 なら 20MB/s くらい出てた …)
 
@@ -208,6 +227,9 @@ mdadm /dev/md0 -a /dev/sdd
 mdadm --grow /dev/md0 --raid-devices=7
 mdadm --grow /dev/md0 --array-size 8790402048
 mdadm --grow /dev/md0 --raid-devices=6
+
+ionice
+iotop
 
 <hr><div id="20201007">2020/10/07 (水)</div>raid6 が遅くて全く使い物にならない (書き込みが 20KB/s くらいしか出ない？ …)
 ので (何かのバグ?) 早々に破棄して raid10 に変更.
