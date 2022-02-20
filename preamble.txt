@@ -7,8 +7,12 @@
   <meta charset="UTF-8" />
   <base target="_top">
   <title>猫草日記</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
   <style type="text/css">
-    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
     body {
         font-family: 'Noto Serif JP', serif;
     }
