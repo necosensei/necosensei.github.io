@@ -8,6 +8,10 @@
   <base target="_top">
   <title>猫草日記</title>
   <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+    body {
+        font-family: 'Noto Serif JP', serif;
+    }
     svg { font-size: 100%; }
     .area {
         fill: none;
