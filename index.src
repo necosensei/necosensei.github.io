@@ -14,10 +14,12 @@ Internet, we are the Internet. Ivan Ristić
 
 <hr>2022/02/20 (日)
 magma 多すぎ …
+<pre>
 <a href="https://en.wikipedia.org/wiki/Magma_(algebra)">A basic kind of algebraic structure</a> うむ
 <a href="http://magma.maths.usyd.edu.au/magma/">Magma Computational Algebra System</a> うむ
 <a href="https://icl.utk.edu/magma/index.html">Matrix Algebra on GPU and Multicore Architectures</a> えっ？
 <a href="https://www.magmamath.com/">(The Future of Math)^m ?</a> えぇっ？
+</pre>
 
 <hr>2022/01/28 (月)
 TDP280Wの化け物 CPU EPYC 7763 のマシンが届いた. タワー型
@@ -66,6 +68,7 @@ rsync 驚くほど少ない個数 (5～6個) のファイルでしかエラー�
 データ退避先の raid の問題が概ね解決したと思ったら
 データ退避元の方の問題が顕在化した …
 
+<pre>
 途中で停止
 
   scp -R ...
@@ -81,7 +84,7 @@ rsync 驚くほど少ない個数 (5～6個) のファイルでしかエラー�
 現在お試し中
 
   rsync -auz -e "ssh" ...
-
+</pre>
 <hr>2020/10/08 (木)
 どうやら raid6 が遅かったのは hdd の一つが逝きかけてたかららしい.
 raid6 完全に冤罪だったかもしれないがもう raid10 にしちゃったので …
@@ -90,7 +93,7 @@ raid6 完全に冤罪だったかもしれないがもう raid10 にしちゃっ
 それにしても, ファイルシステム維持したまま HDD 交換が出来るのは良い !
 
 すぐ忘れる linux のコマンド
-
+<pre>
 cat /proc/mdstat
 mdadm /dev/md0 -f /dev/sdd
 mdadm /dev/md0 -r /dev/sdd
@@ -104,6 +107,7 @@ mdadm --grow /dev/md0 --raid-devices=6
 
 ionice
 iotop
+</pre>
 
 <hr>2020/10/07 (水)
 raid6 が遅くて全く使い物にならない (書き込みが 20KB/s くらいしか出ない？ …)
@@ -123,14 +127,14 @@ raid6 が遅くて全く使い物にならない (書き込みが 20KB/s くら�
 ついでに raid0 辞めて raid6 に変更.
 
 すぐ忘れる Linux のコマンドメモ.
-
+<pre>
 mdadm --create /dev/md0 -l 6 -n 6 /dev/sd[a-f]
 mkfs.ext4 /dev/md0
 tune2fs /dev/md0 -m 0
-
+</pre>
 <hr>2020/06/08 (月)
 年に何回も使わない Linux のコマンドは忘れてしまうのでメモ.
-
+<pre>
 cat /proc/mdstat
 mdadm --create /dev/md0 -l 0 -n 6 /dev/sd[a-f]
 mdadm --assemble /dev/md0 /dev/sd[a-f]
@@ -138,6 +142,7 @@ mdadm --detail /dev/md0
 mdadm --detail --scan &gt; /etc/mdadm.conf
 mdadm --misc --stop /dev/md0
 update-initramfs -k all -u
+</pre>
 
 <hr>2020/05/27 (水)
 
@@ -172,7 +177,7 @@ https://shingakukai.or.jp/
 - 机の上にある共通業務用ノートパソコンに毎日ログインする必要が
   あるのだが, 主に研究業務用端末ばかり使っている人が共通業務用
   ノートパソコンにアクセスする為には
-
+<pre>
     デスクトップパソコン にログイン →
     ブラウザ →
     仮想PCアクセスサービス にログイン →
@@ -182,7 +187,7 @@ https://shingakukai.or.jp/
     リモートデスクトップ接続 でログイン →
     コンピュータのロックの解除 (ICカード) でログイン →
     ノートパソコン
-  
+ </pre> 
   の手順を経なくてはならない. 会社の仮想PCのシステムは不安定
   で, 時々 リモートデスクトップ接続 でログイン出来なくなる.
   
@@ -200,22 +205,22 @@ https://shingakukai.or.jp/
 
 <hr>2019/06/12 (水)
 
-- ミラーリングに mh を使うのは止めて procmail を使う事にする.
+- ミラーリングに mh を使うのは止めて procmail を使う事にする.<br>
 
 - 現在の会社のシステムには, 研究業務用と共通系業務用の二つの
   ネットワークが存在し, その間のファイルのやり取りをする為に
-  は１日１回パスワードを打ち込む必要がある.
+  は１日１回パスワードを打ち込む必要がある.<br>
 
   会社のシステム以外にも様々なウェブサービス？などで年中パス
   ワードを求められるが, 大部分のパスワードをいつも疑似乱数で
   決めているので正直覚えておらず, 何らかの記録から読みだして
-  入力する必要があり, これがあまりにも面倒くさい.
+  入力する必要があり, これがあまりにも面倒くさい.<br>
 
   一般にはそのような用途の為に開発されたフリーソフトを使用し
   てこの問題を解決するのだが, 正直良く分からないソフトにパス
   ワードを入力するのは, あまり気持ちの良いものではない. そこ
   でパスワード打ち込みを自動化するプログラム (しょうもないコ
-  ンソールプログラム)を自作する …
+  ンソールプログラム)を自作する …<br>
 
 - 風邪をひいた模様.
 
@@ -392,6 +397,7 @@ Predatory Journal からやたらにメールが来るのでググってたら
 }
 #!
 </a>
+<br>
 正三角形底辺の緑黄比が 1:1 に見えるが微妙に違う …
 
 <hr>2019/04/26 (金)
