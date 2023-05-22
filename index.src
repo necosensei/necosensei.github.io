@@ -16,7 +16,7 @@ Internet, we are the Internet. Ivan Ristić
 
   % strange series and high percision fraud
 
-  0 \ne \left| \pi - \left(\frac{1}{10^5}\sum_{n=-\infty}^\infty e^{-(n^2/10^{10})} \right)^2 \right| \le 3.545 \times 10^{-4.2 \times 10^{10}}.
+  0 \ne \left| \pi - \left(\frac{1}{10^5}\sum_{n=-\infty}^\infty e^{-(n^2/10^{10})} \right)^2 \right| \le 10^{-4.2 \times 10^{10}}.
 
 \]
 <hr>2023/01/10 (火)
