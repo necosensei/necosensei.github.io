@@ -199,7 +199,19 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
-<hr><div id="20231004">2023/10/04 (水)</div><span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="98.408ex" height="3.509ex" style="vertical-align: -1.171ex;" viewBox="0 -1006.6 42369.8 1510.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<hr><div id="20231004">2023/10/04 (水)</div><pre>raid0 の superblock が少し前に停電で吹き飛んだので,
+戻し方 (年に何回も使わない Linux コマンド) のメモ.
+
+# (/dev/md0 の superblock が吹き飛んで mount 失敗した状態)
+
+# superblock backup XXXXXX と block size YYYY を調べる.
+mkfs -n /dev/md0
+
+# backup XXXXXX を superblock に書き込む.
+fsck -b XXXXXX -B YYYY /dev/md0
+</pre>
+<span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="98.408ex" height="3.509ex" style="vertical-align: -1.171ex;" viewBox="0 -1006.6 42369.8 1510.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
+<g>
 <title id="MathJax-SVG-2-Title">
   % Sum of squares function
 
@@ -319,18 +331,8 @@ Sum of squares function
 </g>
  <use xlink:href="#MJMAIN-2E" x="42091" y="0"></use>
 </g>
+</g>
 </svg></span>
-<pre>raid0 の superblock が少し前に停電で吹き飛んだので,
-戻し方 (年に何回も使わない Linux コマンド) のメモ.
-(/dev/md0 が mount されてない状態で)
-
-# superblock backup XXXXXX と block size YYYY を調べる.
-mkfs -n /dev/md0
-
-# backup XXXXXX を superblock に書き込む.
-fsck -b XXXXXX -B YYYY /dev/md0
-
-</pre>
 <hr><div id="20230825">2023/08/25 (金)</div><span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="32.65ex" height="2.843ex" style="vertical-align: -0.505ex;" viewBox="0 -1006.6 14057.4 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
 <title id="MathJax-SVG-3-Title">
   % Counterexample to Euler's conjecture on sums of like powers
