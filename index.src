@@ -24,13 +24,13 @@ Internet, we are the Internet. Ivan Ristić
 年に何回も使わない Linux コマンドのメモ.
 (/dev/md0 が mount されてない状態で)
 
-# block size と superblock backups を調べる
+# block size と superblock backups を調べる<br>
 
-mkfs -n /dev/md0
+mkfs -n /dev/md0<br>
 
-# superblock に superblock backup を書き込む
+# superblock に superblock backup <span style="font-weight: bold; color: red;">XXXXXX</span> を書き込む<br>
 
-fsck -b <span style="font-weight: bold; color: red;">(superblock backup)</span> -B (block size) /dev/md0
+fsck -b <span style="font-weight: bold; color: red;">XXXXXX</span> -B <span style="font-weight: bold; color: red;">YYYY</span> /dev/md0<br>
 
 <hr>2023/08/25 (金)
 \[
