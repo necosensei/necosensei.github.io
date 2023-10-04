@@ -13,10 +13,10 @@ Internet, we are the Internet. Ivan Ristić
 <!-- pre -->
 <hr>2023/10/04 (水)
 \[
-  % Sum of two squares function
+  % Sum of squares function
 
-  \left|\{(x,y) \in \Z^2 \mid x^2 + y^2 = n \}\right|
-  = 4 \left( d_1(n) - d_3(n) \right), \;
+  r_2(n) := \left|\{(x,y) \in \Z^2 \mid x^2 + y^2 = n \}\right|
+  = 4 \left( d_1(n) - d_3(n) \right),\;\;\;\;
   \where d_i(n) = \left|\{ d \in 4\N_0+i \mid d \backslash n \}\right|.
 \]
 <hr>2023/08/25 (金)
