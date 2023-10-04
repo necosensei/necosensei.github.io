@@ -321,17 +321,17 @@ Sum of squares function
 </g>
 </svg></span>
 
-停電で raid0 の superblock が吹き飛んだので,
-年に何回も使わない Linux コマンドのメモ.
-(/dev/md0 が mount されてない状態で)
+raid0 の superblock が少し前に停電で吹き飛んだので,
+戻し方(年に何回も使わない Linux コマンド) のメモ.
+(/dev/md0 が mount されてない状態で)<br>
 
-# block size と superblock backups を調べる<br>
+# superblock backup XXXXXX と block size YYYY を調べる.<br>
 
 mkfs -n /dev/md0<br>
 
-# superblock に superblock backup <span style="font-weight: bold; color: red;">XXXXXX</span> を書き込む<br>
+# superblock backup XXXXXX を superblock に書き込む.<br>
 
-fsck -b <span style="font-weight: bold; color: red;">XXXXXX</span> -B <span style="font-weight: bold; color: red;">YYYY</span> /dev/md0<br>
+fsck -b XXXXXX -B YYYY /dev/md0<br>
 
 <hr><div id="20230825">2023/08/25 (金)</div><span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="32.65ex" height="2.843ex" style="vertical-align: -0.505ex;" viewBox="0 -1006.6 14057.4 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
 <title id="MathJax-SVG-3-Title">
