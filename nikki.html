@@ -320,6 +320,19 @@ Sum of squares function
  <use xlink:href="#MJMAIN-2E" x="42091" y="0"></use>
 </g>
 </svg></span>
+
+停電で raid0 の superblock が吹き飛んだので,
+年に何回も使わない Linux コマンドのメモ.
+(/dev/md0 が mount されてない状態で)
+
+# block size と superblock backups を調べる
+
+mkfs -n /dev/md0
+
+# superblock に superblock backup を書き込む
+
+fsck -b <span style="font-weight: bold; color: red;">(superblock backup)</span> -B (block size) /dev/md0
+
 <hr><div id="20230825">2023/08/25 (金)</div><span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="32.65ex" height="2.843ex" style="vertical-align: -0.505ex;" viewBox="0 -1006.6 14057.4 1223.9" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-3-Title">
 <title id="MathJax-SVG-3-Title">
   % Counterexample to Euler's conjecture on sums of like powers

@@ -19,6 +19,19 @@ Internet, we are the Internet. Ivan Ristić
   = 4 \left( d_1(n) - d_3(n) \right),\;\;\;\;
   \where d_i(n) = \left|\{ d \in 4\N_0+i \mid d \backslash n \}\right|.
 \]
+
+停電で raid0 の superblock が吹き飛んだので,
+年に何回も使わない Linux コマンドのメモ.
+(/dev/md0 が mount されてない状態で)
+
+# block size と superblock backups を調べる
+
+mkfs -n /dev/md0
+
+# superblock に superblock backup を書き込む
+
+fsck -b <span style="font-weight: bold; color: red;">(superblock backup)</span> -B (block size) /dev/md0
+
 <hr>2023/08/25 (金)
 \[
   % Counterexample to Euler's conjecture on sums of like powers
