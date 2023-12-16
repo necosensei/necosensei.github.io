@@ -1,0 +1,1518 @@
+<hr>2018/02/11 (日)
+
+- 小さい領域に洗濯物を沢山干すためのアレ (角ハンガーと言うらしい) を
+  ついうっかり壊してしまった. 恐らく 30 年くらい使っているものなので
+  プラスチック部分がかなり劣化していたのであろう. 貧乏性ゆえ物持ちが
+  異常に良い.
+
+- ↓蚊取り線香？
+
+\[
+
+    % Fermat's Spiral
+
+    r^2 = a^2 \theta
+
+\]
+
+<hr>2018/02/10 (土)
+
+- 今日から伝説ポケモン レックウザさんのレイドバトルが開始され, 早速
+  新□出張. 無事ゲットしてホクホクしながら帰る.
+
+- 帰りに高□馬場でヒンバスを見かけ, 早速途中下車. 基本的に高□馬場
+  乗車で座って帰る事は難しいので, もう一回新宿まで行ってから帰る …
+
+\[
+
+    % Sinusoidal spiral
+
+    r^n = a^n cos(n\theta).
+
+\]
+
+<hr>2018/02/09 (金)
+
+- ググったマクロが pdflatex では通るけど lualatex で通らなくて頭が痛い.
+
+\[
+
+  % sphere packing # ?
+
+  \begin{aligned}
+    &amp; \Let B_r(c) \text{ be an $n$-dimensional ball of center $c$ and radius $r$}. \\
+    &amp; \Let B_{r_n}(0^n) \text{ be the ball contact with all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
+    &amp; \Let C_n \text{ be the $n$-dimensional cube that circumscribes all of $ B_1(c)|_{c \in \{-1,1\}^n} $}. \\
+    &amp; \exists n \st |B_{r_n}(0^n)| &gt; |C_n| \text{ in Eucledian $n$-dimensional space}.
+  \end{aligned}
+
+\]
+
+<hr>2018/02/08 (木)
+
+- 論文が幾らか捗る.
+
+\[
+
+    % Turing's Reaction-Diffusion Model
+
+    \left\{
+      \begin{array}{l}
+        \displaystyle
+        \frac{\partial u}{\partial t} = \Delta u + f(u,v), \\
+        \displaystyle
+        \frac{\partial v}{\partial t} = d \Delta v + g(u,v).
+      \end{array}
+    \right.
+
+\]
+
+<hr>2018/02/07 (水)
+
+- 例年2月～3月にかけて酷い花粉症が出るので, そろそろ花粉を疑い始める.
+
+- overleaf とやらを使ってみる. うーん, やっぱり vim の方が楽だな.
+
+\[
+
+    % Falling cat problem
+
+    L_{\text{back}} + L_{\text{front}} + L_{\text{compound}} = 0.
+
+\]
+
+<hr>2018/02/06 (火)
+
+- もうちょっと綺麗に plot する方法を探索したが, あまり上手く
+  行かなかった … 2種類の parametric plot を繋ぎ合わせれば
+  上手く行くはずなのだが, ちょっと力尽きた.
+
+\[
+
+   % Cassini oval
+
+    (x^2+y^2)^2 - 2 a^2 (x^2 - y^2) + (a^4 - b^4) = 0.
+
+\]
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Cassini+oval%22" target="_blank">
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 300,100
+
+set parametric
+set samples 10240
+
+unset zeroaxis
+unset raxis
+unset key
+unset border
+unset tics
+set size ratio -1
+
+a = 1
+Xc(t,b) = a + (b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**2)
+Yc(t,b) = t * sqrt(1 - ((b**4 - 4 * a**2 * t**2 - t**4)/(4 * a * t**3))**2)
+
+X(t,b) = Xc(t,b)
+Y(t,b) = Yc(t,b)
+
+sqrt2 = 1.4142135623731
+
+plot X(t,0.9),Y(t,0.9) lc rgb "red", X(t,1.0),Y(t,1.0) lc rgb "magenta", X(t,1.1),Y(t,1.1) lc rgb "blue", X(t,sqrt2),Y(t,sqrt2) lc rgb "black"
+# plot [-10:10] X(t,0.9),Y(t,0.9) lc rgb "red"
+#!
+</a>
+
+<hr>2018/02/05 (月)
+
+- 会社の d○REAMS？ なる VM に今度は UNIX ベース アプリケーション
+  用サブシステムとやらを入れたら, コマンドが片っ端から
+  
+    『問題イベント名: BEX』
+    
+  なる error で停止する. cat と ls は動いた …
+
+\[
+
+    % Lemniscate of Bernoulli
+
+    (x^2+y^2)^2 - 2 a^2 (x^2 - y^2) = 0.
+
+\]
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Lemniscate+of+Bernoulli%22" target="_blank">
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 300,100
+
+set parametric
+set samples 1024
+
+unset zeroaxis
+unset raxis
+unset key
+unset border
+unset tics
+set size ratio -1
+
+X(t) = (sqrt(2) * cos(t)) / (sin(t)**2 + 1)
+Y(t) = X(t) * sin(t)
+
+plot X(t),Y(t) lc rgb "red"
+
+#!
+</a>
+
+<hr>2018/02/04 (日)
+
+- マイクロUSBの電源が 10 個くらいあるのだが, 全然足りない …
+
+\[
+
+  % subexponential time
+
+  \bigcup_{\epsilon &lt; 1} 2^{\epsilon n}.
+
+\]
+
+<hr>2018/02/03 (土)
+
+- 午前中はちょいレアポケモンのノズパズを取りに, 二度と行きたく
+  ない公園の称号を持つ東大□公園へ. ちょっとシャレにならないく
+  らいのゲレンデ状態で, 二度と行きたくない公園の称号は伊達じゃ
+  ないと確信.
+
+- 新潟と東大□公園ですっかり使い果たしたボールを補充する為午後
+  は花小金□へ移動. 一駅移動する毎、駅から微妙に遠い場所にレア
+  ポケモンが湧く. その度に電車を降り少ないボールをやりくりしな
+  がら取りに行ってたら大変に疲れた …
+
+\[
+
+  % subexponential time
+
+  \bigcap_{\epsilon &gt; 0} 2^{\epsilon n}.
+
+\]
+
+<!--
+  % 2^{n^{o(1)}}.
+  % \bigcap_{\epsilon &gt; 0} 2^{O({n^\epsilon})}.
+  % \bigcup_{\epsilon &lt; 1} 2^{O({n^\epsilon})}.
+  % 2^{o(n)}.
+  % \bigcap_{\epsilon &gt; 0} 2^{\epsilon n}.
+  % \bigcup_{\epsilon &lt; 1} 2^{\epsilon n}.
+-->
+
+<hr>2018/02/02 (金)
+
+- いまだに $ \LaTeX $ のスタイルファイルを取り込む順番に悩まされて鬱.
+  30年くらい進歩してない気がする …
+
+\[
+
+  % subexponential time
+
+  2^{o(n)}.
+
+\]
+
+
+<hr>2018/02/01 (木)
+
+- 数式が追いつかないので, 一杯あって訳が分からないシリーズ
+  subexponential time で水増し. (本当は一杯あって訳が分から
+  ない Montgomery ○○で水増ししようと思ったが, ちょっと記述
+  が重たくて数式が追いつかなさそうなのでパス.)
+
+\[
+
+  % subexponential time
+
+  \bigcup_{\epsilon &lt; 1} 2^{O({n^\epsilon})}.
+
+\]
+
+<hr>2018/01/31 (水)
+
+- 会社の d○REAMS？ なる VM に今度は vmware player を入れたら
+  やはり立ち上がらなくなる … 昨日の今日で, 相当な DQN と思わ
+  れる可能性は否定できないが, 社内ヘルプデスクに鳴き付く.
+
+\[
+
+  % subexponential time
+
+  \bigcap_{\epsilon &gt; 0} 2^{O({n^\epsilon})}.
+
+\]
+
+<hr>2018/01/30 (火)
+
+- 会社の社内ポータルサイトが年中出ては消えを繰り返しているのだが,
+  今日『マイ□ータル』なる社内ポータルにアクセスしたら『マイ□ー
+  タル 跡地』になってた …
+
+- 会社の d○REAMS？ なる VM に VirtualBOX を入れたら立ち上がらなく
+  なった … 事前に情報を仕入れていたので躊躇なく社内ヘルプデスクに
+  鳴き付く.
+
+\[
+
+  % subexponential time
+
+  2^{n^{o(1)}}.
+
+\]
+
+<hr>2018/01/29 (月)
+
+- 完全に遊び疲れたおかげで, 非常に眠い.
+
+\[
+
+    % L-notation
+
+    L_n[\alpha,c] := O\left(\e^{(c+o(1))(\log n)^\alpha(\log \log n)^{1-\alpha}}\right).
+
+\]
+
+<hr>2018/01/28 (日)
+
+- ついに天候は最高の状態に. 観光循環バスとやらに乗ってマリンピア
+  なる水族館に行った後, マンガ・アニメ情報館とやらへ. どうやら
+  新潟出身の漫画家が沢山いるらしく, 新潟市はマンガ・アニメに
+  力を入れているらしい. 「羽海野チカの世界展」なる企画展示を
+  行っていたが, 興味が無いのでパス. 常設展示は, まあ見るほどでも
+  なかった …
+
+\[
+
+    % Montgomery Ladder
+
+    \begin{aligned}
+      &amp; (x_n, y_n) = n (x_1, y_1) \text{ on } E: B y^2 = x^3 + A x^2 + x, \\
+      &amp; 
+      \begin{aligned}
+        \where
+        &amp; (x_1, y_1), (x_n, y_n) \in E,\; x_n = \frac{X_n}{Z_n}, \\
+        &amp; \begin{array}{lll}
+          X_{2n} = (X_n^2 - Z_n^2)^2,                     &amp; &amp; X_{2n+1} = 4(X_n X_{n+1} - Z_n Z_{n+1})^2 Z_1, \\
+          Z_{2n} = 4 X_n Z_n (X_n^2 + A X_n Z_n + Z_n^2), &amp; &amp; Z_{2n+1} = 4(X_n Z_{n+1} - Z_n X_{n+1})^2 X_1.
+        \end{array}
+      \end{aligned}
+    \end{aligned}
+
+\]
+
+<hr>2018/01/27 (土)
+
+- 天候は回復しているがちょっと寒い. ポケモンでも捕まえにブラブラし
+  ていたが, 寒いのでミナトピアなる歴史博物館でしばらく暖を取る.
+
+\[
+
+   % Edwards Curve
+
+   (x_1,y_1) + (x_2,y_2) =
+   \left(
+     \frac{x_1 y_2 + x_2 y_1}{1+d x_1 x_2 y_1 y_2},
+     \frac{y_1 y_2 - x_1 x_2}{1-d x_1 x_2 y_1 y_2}
+   \right).
+  
+\]
+
+<hr>2018/01/26 (金)
+
+- 天候が大分回復している. 皆が雪に罵詈雑言を浴びせそそくさと帰る中
+  明日以降どう遊ぶべきか考える.
+
+\[
+
+{
+  \def\veca{\textbf{a}}
+  \def\vecs{\textbf{s}}
+  \begin{aligned}
+    &amp; \exists {\cal A} : \text{p.p.t.} \st \\
+    &amp; \text{Adv}_{\cal A}(\lambda) := \Pr \left[ \vecs = \vecs^* \;\middle|\;
+      \vecs^* \leftarrow {\cal A}^{\text{ILWE}_{n,\chi_a,\chi_e}(\vecs)}(1^\lambda)
+    \right] \text{ is overwhelming in $\lambda$, }\\
+    &amp; \where \text{ILWE}_{n,\chi_a,\chi_e}(\vecs) := \left\{
+      (\veca, \langle\veca,\vecs\rangle + e)
+    \mid
+      \veca \leftarrow \chi_a,\; e \leftarrow \chi_e
+    \right\}, \\
+    &amp; \chi_a, \chi_e : \text{a probability distribution over $\Z$
+    where $\E(\chi_a) = \E(\chi_e) = 0$}, \\
+    &amp; \veca, \vecs \in \Z^n.
+  \end{aligned}
+}
+
+\]
+
+<hr>2018/01/25 (木)
+
+- ナイトセッションであっという間に食べ物がなくなり, 空になったテーブルの前で
+  岡□さんが『イナゴの大群に食い荒らされた』と言って立ちつくしていた …
+
+\[
+
+\begin{aligned}
+  &amp; \text{Me}(P,Q)=\begin{cases}
+          P &amp; P=Q, \\
+          k P - (k-1) Q &amp; \text{sign}(P-Q) = 1 ,\\
+          k Q - (k-1) P &amp; \text{sign}(P-Q) = -1 ,\\
+        \end{cases} \\
+  &amp; \where \text{sign}((x,y)) = \left(\frac{y}{p}\right).
+\end{aligned}
+
+\]
+
+<hr>2018/01/24 (水)
+
+- 相変わらず吹雪で, お昼ご飯にありつくのに一苦労.
+
+- 今日は懇親会があるので昨日よりはまともな晩飯のはず
+
+- 岡□部屋の場所判明. 同じ階で便利 …
+  岡□部屋ではT堂先生の会社の新 OA システムへの不満が爆発していた.
+
+- 学会があると数式に事欠かなくて良い.
+
+\[
+
+    % Velu's formula
+
+    \phi_{\alpha} : (x,y) \mapsto \left(
+      x + \frac{3 \alpha^2 + A}{x-\alpha},
+      y - \frac{(3 \alpha^2 + A) y}{(x-\alpha)^2},
+    \right).
+
+\]
+
+
+<hr>2018/01/23 (火)
+
+- 駅前□検倶楽部のお勧めより2時間も早く家を出たのに
+  予約した新幹線に乗る時刻がギリギリになった … 遅め
+  の新幹線にして正解だった.
+
+  共著者に発表スライドを送ったら, 内容の不穏さのせいか,
+  絶対時間までに来いと念を押される …
+
+- 何とか無事到着. 発表は何事もなく完了.
+
+- 会議場の外は物凄い吹雪.
+
+- 旅行に出るときはなるべく自宅のオフィスを再現できる
+  ようにしてるのだが, マイクロ USB 電源が 9 本必要な
+  のはさすがにやり過ぎだったと反省.
+
+- そういえば岡□部屋の場所を聞きそびれた.
+
+- 昨日に引き続き Koch snowflake で即興グラフィック.
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Koch+snowflake%22" target="_blank">
+#! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=4;
+
+print("\\svg 200 231\n") ;
+print("\\transform 200 0 0 -200 0 57.735 {\n") ;
+
+$pi  = 3.14159_26535_89793_23846_26433_83279_50288 ;
+$cos = cos($pi/3.0) ;
+$sin = sin($pi/3.0) ;
+
+sub operate{
+  my($n,$x,$y,$dx,$dy) = @_ ;
+  my($dx0,$dy0,$dx1,$dy1,$dx2,$dy2);
+  if($n < $N){
+    $n++ ;
+    $dx0 =   $dx/3.0 ;
+    $dy0 =   $dy/3.0 ;
+    $dx1 =   $cos * $dx0 - $sin * $dy0 ;
+    $dy1 =   $sin * $dx0 + $cos * $dy0 ;
+    $dx2 =   $cos * $dx0 + $sin * $dy0 ;
+    $dy2 = - $sin * $dx0 + $cos * $dy0 ;
+
+    &operate($n,$x,$y,$dx0,$dy0) ;
+    $x += $dx0 ;
+    $y += $dy0 ;
+    &operate($n,$x,$y,$dx1,$dy1) ;
+    $x += $dx1 ;
+    $y += $dy1 ;
+    &operate($n,$x,$y,$dx2,$dy2) ;
+    $x += $dx2 ;
+    $y += $dy2 ;
+    &operate($n,$x,$y,$dx0,$dy0) ;
+  }else{
+    print("  \\line $x $y ");
+    $x += $dx ;
+    $y += $dy ;
+    print("$x $y\n");
+  }
+}
+
+&operate(0,0,0,1,0) ;
+&operate(0,1,0,-$cos,-$sin) ;
+&operate(0,1-$cos,-$sin,-$cos,$sin) ;
+print("}\n") ;
+#!
+</a>
+
+<hr>2018/01/22 (月)
+
+- 午前中たいした事ないなと思ってた雪が午後から
+  大変な事に
+
+\[
+
+    % Koch snowflake
+
+    d = \frac{\log 4}{\log 3}.
+
+\]
+
+<hr>2018/01/21 (日)
+
+- 本日は遠出せずにスライド作成
+
+- local field は面倒なので、まず付値
+
+\[
+
+    % valuation (algebra)
+
+    v(1)=0,v(0)=\infty.
+
+\]
+
+
+<hr>2018/01/20 (土)
+
+- 今日の 12:00 ～ 15:00 だけ出現する『なみのりピカチュウ』の誘惑
+  に負けてポケＧＯ三昧 orz
+
+- Korteweg-de Vries equation は使ってしまったので Cnoidal wave.
+
+\[
+
+    % Cnoidal wave
+
+    {
+      \def\cn{\textrm{cn}}
+      \begin{aligned}
+        &amp; u(x,t) = u_0 + 2 \kappa^2 k^2 \cn^2 \kappa (x - ct + \delta), \\
+        &amp; \where c = 6 u_0 - (1-2k^2)\kappa^2.
+      \end{aligned}
+    }
+\]
+
+<hr>2018/01/19 (金)
+
+- 某シンポジウム発表用スライドの作成, 遅々として進まなかったが
+  締め切りが近づいて来たので, だんだん調子が出てきた.
+
+\[
+
+    % Cochleoid
+
+    r = \frac{a \sin\theta}{\theta}.
+
+\]
+<a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Cochleoid%22" target="_blank">
+#! /usr/local/bin/gnuplot - | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+set terminal svg size 260,160
+
+set polar
+set samples 1024
+
+unset zeroaxis
+unset raxis
+unset key
+unset border
+unset tics
+
+set xrange [-0.3:1]
+set yrange [0:0.8]
+
+plot [0:20] sin(t)/t lc rgb "red"
+
+#!
+</a>
+
+<hr>2018/01/18 (木)
+
+- 今日は早帰デーだったので, やや早く帰宅.
+
+\[
+
+  % Pi Day
+
+  \begin{array}{cl}
+    3/14 \; &amp; \text{Pi Day}, \\
+    7/22 \; &amp; \text{Pi Approximation Day}. \\
+  \end{array}
+
+\]
+
+<hr>2018/01/17 (水)
+
+- お昼に東伏□駅で降りると, 駅前に沢山の消防車、救急車、パトカーが
+  屯していた. 何処か分からないが, 何処かで火災を起こしたのだろう.
+
+- <a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%83%B3%E3%83%AB%E3%83%B4%E3%82%A7%E6%96%B9%E7%A8%8B%E5%BC%8F">Wikipediaのパンルヴェ方程式</a>によると
+
+    1900年頃、ポール・パンルヴェは動く特異点を持たない二階微分方程式を
+    研究していて、そのような方程式で有理関数 $R$ を用いて
+
+      $ {\displaystyle y''=R(y',y,t)} $
+
+    の形に表されるものは、適当な変形を加える違いを除いて50個の「標準形」
+    に直すことができることを発見した. --- Wikipedia
+
+  50個の「標準形」にやや執念を感じるが, その後44個は削減できることが判明
+  したらしい …
+
+\[
+
+  % Painleve Equation Type I
+
+  \frac{\d^2 y}{{\d t}^2} = 6y^2 + t.
+
+\]
+
+<hr>2018/01/16 (火)
+
+- 会社のクラウド？仮想マシンに chr〇me (または他の実行ファイル)を
+  インストールする方法を教えてもらい無事起動できた.
+  
+- 某シンポジウム発表用スライドを作成する必要があるのだが集中力が
+  無くてなかなか進まない …
+
+\[
+
+    % Mexican hat potential
+
+    \begin{aligned}
+      V : \; &amp; \C   \rightarrow \R, \\
+             &amp; \phi \mapsto     - |\phi|^2 + |\phi|^4.
+    \end{aligned}
+
+\]
+
+<hr>2018/01/15 (月)
+
+- 今度は twopi というのを使ってみた.
+
+       twopi draws graphs using a radial layout
+
+  やっぱり思ったのとは違う. circular layout と radial layout で何が
+  違うのか全然分からないが, 全然違うという事は分かった. graphviz を
+  使った自動配置は諦めよう …
+
+#! /usr/local/bin/perl | /usr/local/bin/twopi -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=5;
+
+$a = 1 ;
+
+sub operate{
+  my($x,$y,$n,$L,$ox,$oy) = @_ ;
+  my($cur ) = $a++ ;
+  my($next);
+
+  print("  $cur [pos=\"$x,$y!\"];\n") ;
+  if($n < $N){
+    $L *= 0.5 ;
+    $n += 1 ;
+    if(($x+2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x+$L,$y,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = blue]; \n") ;
+    } ;
+    if(($x-2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x-$L,$y,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = blue]; \n") ;
+    } ;
+    if(($x!=$ox)||($y+2*$L!=$oy)){
+      $next = operate($x,$y+$L,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = red]; \n") ;
+    } ;
+    if(($x!=$ox)||($y-2*$L!=$oy)){
+      $next = operate($x,$y-$L,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = red]; \n") ;
+    } ;
+  }
+  return $cur ;
+}
+
+print("digraph Cayley_graph_of_F2{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black, penwidth=4.0];\n") ;
+
+operate(0,0,1,4,0,0) ;
+
+print("}\n") ;
+#!
+
+<hr>2018/01/14 (日)
+
+- Poincare disk model とやらを作ろうとして neato の代わりに circo
+  に突っ込んでみたら, どういう理屈か分からないがこうなった ／(^o^)＼
+  graphviz のマニュアルを適当に読むと
+
+       circo  draws graphs using a circular layout
+
+  と書いてあるが, 良く読むと
+
+       The block-cutpoint tree is then laid out using a recursive  radial
+       algorithm.
+
+  何の事だか良く分からないが, 良く分からないソフトを使うと良く分か
+  らない結果が得られるという事か？
+
+
+#! /usr/local/bin/perl | /usr/local/bin/circo -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=6;
+
+$a = 1 ;
+
+sub operate{
+  my($x,$y,$n,$L,$ox,$oy) = @_ ;
+  my($cur ) = $a++ ;
+  my($next);
+
+  print("  $cur [pos=\"$x,$y!\"];\n") ;
+  if($n < $N){
+    $L *= 0.5 ;
+    $n += 1 ;
+    if(($x+2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x+$L,$y,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = blue]; \n") ;
+    } ;
+    if(($x-2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x-$L,$y,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = blue]; \n") ;
+    } ;
+    if(($x!=$ox)||($y+2*$L!=$oy)){
+      $next = operate($x,$y+$L,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = red]; \n") ;
+    } ;
+    if(($x!=$ox)||($y-2*$L!=$oy)){
+      $next = operate($x,$y-$L,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = red]; \n") ;
+    } ;
+  }
+  return $cur ;
+}
+
+print("digraph Cayley_graph_of_F2{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black, penwidth=8.0];\n") ;
+
+operate(0,0,1,4,0,0) ;
+
+print("}\n") ;
+#!
+
+<hr>2018/01/13 (土)
+
+- 今日から人気伝説ポケモン カイオーガ がジムに出現. 早速玉□上水
+  で逃げられ, 頭にきて新宿出張.
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22The+Cayley+graph+of+the+free+group+on+two+generators%22" target="_blank">
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$N=5;
+
+$a = 1 ;
+
+sub operate{
+  my($x,$y,$n,$L,$ox,$oy) = @_ ;
+  my($cur ) = $a++ ;
+  my($next);
+
+  print("  $cur [pos=\"$x,$y!\"];\n") ;
+  if($n < $N){
+    $L *= 0.5 ;
+    $n += 1 ;
+    if(($x+2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x+$L,$y,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = blue]; \n") ;
+    } ;
+    if(($x-2*$L!=$ox)||($y!=$oy)){
+      $next = operate($x-$L,$y,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = blue]; \n") ;
+    } ;
+    if(($x!=$ox)||($y+2*$L!=$oy)){
+      $next = operate($x,$y+$L,$n,$L,$x,$y);
+      print("  ${cur} -> ${next} [color = red]; \n") ;
+    } ;
+    if(($x!=$ox)||($y-2*$L!=$oy)){
+      $next = operate($x,$y-$L,$n,$L,$x,$y);
+      print("  ${next} -> ${cur} [color = red]; \n") ;
+    } ;
+  }
+  return $cur ;
+}
+
+print("digraph Cayley_graph_of_F2{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black, penwidth=2.0];\n") ;
+
+operate(0,0,1,4,0,0) ;
+
+print("}\n") ;
+#!
+</a>
+<hr>2018/01/12 (金)
+
+- 睡眠時間を倍に増やしてなんとか通常生活を運営できる最低限の体調
+  を確保できたと思っていたら, いきなり新年会かよ …
+
+\[
+
+    % j-invariant
+
+    \begin{aligned}
+      &amp; \forall a \in \C,\; \exists! \tau \in D,\; j(\tau) - a = 0, \\
+      &amp; \where D: \text{the fundamental domain for the modular group}.
+    \end{aligned}
+
+\]
+
+<hr>2018/01/11 (木)
+
+- まだあまり調子が良くないが, 昨日ほとんど臥せっていたおかげで
+  段違いに改善.
+
+- 滑らかなのに解析的でない関数.
+
+\[
+
+   % Bump function
+
+   \Psi(x) = \begin{cases}
+     \exp(-\frac{1}{1-x^2}) &amp; \text{for } x \in (-1,1), \\
+     0                      &amp; \text{otherwise}.
+   \end{cases}
+
+\]
+
+<hr>2018/01/10 (水)
+
+- 3年に一度あるかないかくらいの酷い体調不良で会社を早退. どうも
+  コンビニ食に当たったらしい …
+
+- Weierstrass function は使ってしまったので Dirichlet function.
+
+\[
+
+   % Pathological (mathematics)
+
+   f(x) = \begin{cases}
+     1 &amp; x \in \Q, \\
+     0 &amp; x \in \R\setminus\Q.
+   \end{cases}
+
+\]
+
+<hr>2018/01/09 (火)
+
+- 会社のクラウド？仮想マシンにソフトをインストールする事が新たに
+  許可される事になったので, 早速 chr〇me をインストールしてみたが
+  クラッシュして一切起動せず完全に無駄足となった. orz
+
+- 気が向いたので会社の図書館で久しぶりに数セ□を立ち読みしたら
+  ややラノベ風になってた …
+
+\[
+
+    % Bernoulli number
+
+    \begin{aligned}
+      &amp; \zeta(-n) = - \frac{B_{n+1}}{n+1}, \\
+      &amp; \where n \in \N^+.
+    \end{aligned}
+
+\]
+
+<hr>2018/01/08 (月)
+
+- 今日で冬休みが終わる.
+
+- 朝から雨で少し珍しいポケモンが湧きやや狂喜.
+
+\[
+
+  % Mazur's torsion theorem
+
+  \begin{aligned}
+    &amp; E(\Q)_{\text{tors}} \cong G, \\
+    &amp; 
+    \begin{aligned}
+      \where G \in \; &amp; \{ \Z/n\Z \phantom{\;\times \Z/2m\Z } \mid n\in \{1,\ldots,10,12\} \} \; \cup \\
+                      &amp; \{ \Z/2\Z            \times \Z/2m\Z   \mid m \in \{1,\ldots,4\} \}.
+    \end{aligned}
+  \end{aligned}
+
+\]
+
+<hr>2018/01/07 (日)
+
+- x86 ? CPU の Speculative Execution の Side Channel Attack で Ring
+  Protection だか VT-X だかが突破出来るらしい. Int〇lの偉い人が発覚
+  直前に株を売り抜けたとかで炎上してるとのこと. OS にパッチを当てる
+  とコンテクストスイッチのパフォーマンスが大幅に落ちるそうだ …
+
+\[
+
+    % Modular lattice
+
+    x \le b \implies x \vee (a \wedge b) = (x \vee a) \wedge b.
+
+\]
+
+<hr>2018/01/06 (土)
+
+- <a href="#20171225">以前</a> Largest known prime number を日記に書いたが, 次の日には<a href="https://www.mersenne.org/primes/press/M77232917.html">更新</a> …
+
+\[
+
+    % Largest known prime number
+
+    p = 2^{77232917} - 1.
+
+\]
+
+- どうやら某シンポジウムは初日最初のセッションで発表になる模様 …
+
+  - 珍しく雪の多い北陸地方で開催
+  - 初日最初のセッションで発表
+
+  悪い悪寒 …
+
+<hr>2018/01/05 (金)
+
+- 玉川上□からシャトルバスを出すと言うのでIKE△とやらに行ってみた.
+  基本的には貧乏な若夫婦が楽しむニト□のオサレ版のはずなので独身の
+  風来坊が行ってもつまらないはずなのだが, お買い物経路の途中に設置
+  されているコンセプトカフェ？が
+
+  - 食事にありつくために先ず行列に並ぶ
+  - トレーを３枚セットできるカートにセルフで食事を載せる
+  - カートをガラガラさせながらセルフで食事を運搬
+  - 調理専門職員はやる気無さそう
+  - 信じがたいチープな値段設定
+  - あからさまに不健康そうで不味そうだが高カロリーっぽい料理群
+  - でかい灰皿のようなスープ皿
+  - レジ前着席のヘッドセット着用会計専門職員が「はい次」
+  - IKE△に並んでそうな適当な椅子やテーブル
+  - 空調ダクトや配管がむき出しの天井
+  - 高□駅を発着するモノレールが一望できる素晴らしい眺望
+
+  良い意味で北欧の貧しい共産国の出来損ない的カフェテリアのよう …
+  あれ？想像してたより楽しい？
+
+\[
+
+  \{ (\cos \theta, \sin \theta) \mid \theta \in \N_0 \}
+  \cong
+  \{ (\cos \theta, \sin \theta) \mid \theta \in \N^+ \}.
+
+\]
+
+<hr>2018/01/04 (木)
+
+- 機械装置・電子装置を問わず、ある人物がその装置に触れただけで、ある
+  いは近くに寄っただけで不可解な壊れ方をした場合、その人物が「装置に
+  <a href="https://ja.wikipedia.org/wiki/%E3%83%91%E3%82%A6%E3%83%AA%E5%8A%B9%E6%9E%9C">パウリ効果</a>を及ぼした」と言うようになった …
+                                                        -- Wikipedia
+
+\[
+
+   % largest integer
+
+   \textbf{Theorem. }\textit{If }\, n \textit{ is the largest positive integer, then }\, n = 1.
+
+\]
+
+<hr>2018/01/03 (水)
+
+- 東京に戻った.
+
+- やはりキーボードで入力する方が何倍も楽だな …
+
+\[
+
+  % Chvatal's Art Gallery Theorem
+
+  \begin{aligned}
+    &amp; \left\lfloor\frac{n}{3}\right\rfloor
+          \text{ guards are always sufficient and sometimes necessary}\\
+    &amp; \text{ to guard a simple polygon with } n \text{ vertices}.
+  \end{aligned}
+
+\]
+
+<hr>2018/01/02 (火)
+
+- 実家近くの□ジマ電気に行く. Nintend〇 Switch が普通に売られて
+  いるのを初めて見た …
+
+\[
+
+  % Bayes' theorem
+
+  { 
+    \def\P{{\rm P}}
+    \P(A|B) = \frac{\P(B|A)\,\P(A)}{\P(B)}.
+  }
+
+\]
+
+<hr>2018/01/01 (月)
+
+\[
+
+  % Characteristic polynomial of a graph
+
+  \pi_G(x)=4x^3-x^5.
+
+\]
+
+<hr>2017/12/31 (日)
+
+- UTF-8ではバックスラッシュと円記号が分離したのか？
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Franklin+graph%22" target="_blank">
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
+
+$N=12;
+
+sub name{
+  my($alpha) = @_ ;
+  return(
+    ($alpha+$N*$N) % $N
+  ) ;
+}
+
+print("graph FranklinGraph{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
+for($alpha=0; $alpha<$N; $alpha++){
+    $a = &name($alpha) ;
+    $b = &name($alpha+1) ;
+    $c = &name($alpha-1) ;
+    $d = &name($alpha+(1-($alpha % 2)*2)*5) ;
+
+    if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
+    if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
+    if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
+
+    $r = 1 ;
+    $theta  = (2*$pi*$a/($N*1.0));
+    $x = $r * cos($theta) ;
+    $y = $r * sin($theta) ;
+    print("  $a [pos=\"$x,$y!\"];\n") ;
+}
+
+for $i (keys(%A)){
+  ($a,$b) = split(/,/,$i,2) ;
+  print("  ${a}--${b}; \n") ;
+}
+print("}\n") ;
+#!
+</a>
+<hr>2017/12/30 (土)
+
+- 帰省した. スマホで日記を書くのはいまいちな気がしてきた.
+  数式書くインフラが不足してる気がする.
+
+\[
+
+  % Sato-Tate conjecture
+
+  \lim_{N\rightarrow\infty}\frac{\#\{p\le N:\alpha\le\theta_p\le\beta\}}{\#\{p\le N\}} = \frac{2}{\pi}\int_\alpha^\beta\sin^2\theta\d\theta.
+
+\]
+
+<hr>2017/12/29 (金)
+
+- 1775年 フランスの科学アカデミーが、ギリシアの三大作図問題と永久機関
+  についての論文審査を拒否する決議をした.
+
+- 1882年 リンデマンによって π が代数的数でないことが証明される.
+
+- 不可能性が証明される100年以上前から辟易してたのか …
+
+\[
+
+    % Heath-Brown theorem
+
+  { \def\P{{\mathbb P}}
+    \exists^{\infty} (a,b) \in \N^2 \st a^3 + 2 b^3 \in \P. }
+
+\]
+
+<hr>2017/12/28 (木)
+
+- 解析数論？とやらには, 主張は素人でもすぐ理解できそうだが, 証明は
+  とても読む気になれない定理が沢山ありそうな雰囲気 …
+
+\[
+
+    % Maier's theorem
+
+    \lim_{x\rightarrow\infty}
+      \frac{\pi\left( x + (\log x)^{\lambda} \right) - \pi\left( x \right)}
+           {(\log x)^{\lambda - 1}}
+    \;\text{ does not exist for $ \lambda &gt; 1 $}.
+
+\]
+
+<hr>2017/12/27 (水)
+
+- 破損時即購入した物と修理上がりの合計２台の全く同じスマホを所有して
+  いる. 付属スマホカバー２個を雑にテープで繋いで、２画面スマホを作っ
+  てみた. これが意外と使いやすい. やはり２つのアプリが広い画面で同時
+  に動作する事が重要. Andr〇id の画面分割はその意味では今一であった.
+
+- 最近電話会社にPHSの契約を強制的に解除されたので, 適当なスマホに音声
+  通話可能 sim を突っ込んで持ち歩き用携帯にしている. 今日初めて電話が
+  かかって来たのだが, 電話の出方が一瞬分からなかった.  良く考えてみる
+  とスマホで電話出た事無い気がする …
+
+\[
+
+  % Friedlander-Iwaniec theorem
+
+  { \def\P{{\mathbb P}}
+    \exists^{\infty} (a,b) \in \N^2 \st a^2 + b^4 \in \P. }
+
+\]
+
+<hr>2017/12/26 (火)
+
+- 会社のシステムが更新される事になって, 彼方此方から悲鳴が聞こえる …
+
+- 急に寒くなった気がする. なんでも低気圧が台風並みに発達して北海道近辺
+  に屯し上空の寒気呼び込んでるとかなんとか …
+
+\[
+
+    % Indiana Pi Bill
+
+    \pi = 3.2\,.
+
+\]
+
+<hr>2017/12/25 (月)
+
+- The world's largest explicitly known prime numbers have always been
+  Mersenne primes, at least from 1772 until 1980 when this book was
+  written. But the situation will probably change soon, since Mersenne
+  primes are getting harder to find, and since ...
+                                                        -- D.E. Knuth
+
+- As of January 2017, the six largest known primes are Mersenne primes.
+  The last 16 record primes were Mersenne primes.
+                                                        -- Wikipedia
+
+\[
+
+    % Largest known prime number
+
+    p = 2^{74207281} - 1.
+
+\]
+
+<hr>2017/12/24 (日)
+
+- 散髪に行こうかと思ったが, 面倒臭くなって却下 …
+
+- 恒等置換を表す記号 $ e,I,I_n,1,(1),\iota,\cdots $ が沢山あって, ちょっと
+  ググっただけでも誰一人一致してなくて鬱 …
+
+- 昨日(数秘術系)に引き続き, 今日も怪しげな奴(暗号史系).
+
+\[
+
+  % Enigma" "cipher
+
+  \begin{aligned}
+    &amp;
+    \begin{alignedat}{2}
+      c_i &amp; = F^{-1}_i(F_i(m_i^{\pi}
+          &amp;&amp; )^{\rho})^{\pi^{-1}}, \\
+      m_i &amp; = F^{-1}_i(F_i(c_i^{\pi}
+          &amp;&amp; )^{\rho})^{\pi^{-1}}, \\
+    \end{alignedat} \\
+    &amp; 
+    \begin{aligned}
+      \where 
+             &amp; \text{plain text} : m_i \in \Z/n\Z, \\
+             &amp; \text{cipher text} : c_i \in \Z/n\Z, \\
+             &amp; \text{secret key} : [s_{0,j}] \in \Z/n\Z, \; \sigma_j, \pi, \rho \in S_n,\; \rho^2 = 1, \; \forall j \in \{0,1,2\}, \\
+             &amp; F_i : x \mapsto f_{i,2}\circ f_{i,1} \circ f_{i,0}(x), \\
+             &amp; f_{i,j} : x \mapsto (x + [s_{i,j}])^{\sigma_j}, \\
+	     &amp; \text{for } \; s_{i+1,j}, s_{i,j} \in \{0,\ldots,n-1\}, \\
+             &amp; \tab \sum_{j=0}^2 s_{i+1,j} \cdot n^j = \left(1 + \sum_{j=0}^2 s_{i,j} \cdot n^j \right) \bmod n^3.
+    \end{aligned}
+  \end{aligned}
+
+\]
+
+<hr>2017/12/23 (土)
+
+- 神□町で適当に古本を買い漁った結果, 荷物が結構重たくなってしまった.
+  帰宅途中飯を食いに花小金□駅で降りたが, ちょっと重くて持ち歩きたく
+  ない. 駅のコインロッカーを見ると 400円と書いてある. 秋葉でも 200円
+  なのに高い！そこで代替手段を探索した結果 0円で出来る事が分かった…
+  必要は発明の母！
+
+- 荷物から解放されたその足で重たい漫画雑誌の月刊アクショ▽と月刊アフ
+  タ▽ーンを買いに行くが, まだ発売されていなかったらしい. 代わりに
+  goodアフタ▽ーンが大量に置いてあった. そういえば買ったような買って
+  なかったような … ？内容を確認すれば即判別できそうだが立ち読みされ
+  ないようゴムのバンドがかかっている. 荷物が多いから明日にするか …
+
+- 帰宅して在庫を確認すると, あぶねー, やっぱり買ってあった.
+
+- 今日は超胡散臭い数.
+
+\[
+
+  % Eddington number
+
+  N_{\textrm{Edd}} = 15747724136275002577605653961181555468044717914527116709366231425076185631031296.
+
+\]
+
+<hr>2017/12/22 (金)
+
+- 新しい世代のポケモンが解禁されたため, 強いポケモンを作る為
+  の部品集めに忙しい …
+
+\[
+
+    % Heawood conjecture" "Ringel-Youngs theorem
+
+    \gamma(g) = \left\lfloor \frac{7+\sqrt{1+48g}}{2} \right\rfloor.
+
+\]
+
+<hr>2017/12/21 (木)
+
+- 極端に寒くなったせいか, 非常に体調が悪い. しかし, 今日は
+  ノイズが入らず, 意外にも集中できた.
+
+\[
+
+    % differential graded algebra
+
+    \begin{aligned}
+      \text{(i) }  &amp; \d \circ \d = 0, \\
+      \text{(ii) } &amp; \d (a\cdot b) = (\d a) \cdot b + (-1)^{\deg(a)} a \cdot(\d b).
+    \end{aligned}
+
+\]
+
+<hr>2017/12/20 (水)
+
+- Three utilities problem の Wikipedia,
+  日本語版が見当たらないのが解せない …
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Utility+graph%22" target="_blank">
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=2,2\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$r0    = 1 ;
+$beta0 = 1 ;
+$pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
+
+sub name{
+  my($alpha,$beta) = @_ ;
+  return(
+    (($alpha+2*2*2) % 2) + (($beta+3*3*3) % 3) * 2
+  ) ;
+}
+
+print("graph UtilityGraph{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
+for($alpha=0; $alpha<=1; $alpha++){
+  for($beta=0; $beta<=2; $beta++){
+    $a = &name($alpha, $beta) ;
+    $b = &name($alpha+1, $beta) ;
+    $c = &name($alpha+1, $beta+1) ;
+    $d = &name($alpha+1, $beta+2) ;
+
+    if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
+    if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
+    if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
+
+    $r = 1 ;
+    $theta  = (2*$pi*$a/6.0);
+    $x = $r * cos($theta) ;
+    $y = $r * sin($theta) ;
+    print("  $a [pos=\"$x,$y!\"];\n") ;
+  }
+}
+
+for $i (keys(%A)){
+  ($a,$b) = split(/,/,$i,2) ;
+  print("  ${a}--${b}; \n") ;
+}
+print("}\n") ;
+#!
+</a>
+
+<hr>2017/12/19 (火)
+
+- More confusingly still, arc-transitive graphs are sometimes called
+  symmetric graphs. This terminology conflict is particularly confusing
+  since, graphs exist that are symmetric but not arc-transitive.
+                                                        -- <a href="http://mathworld.wolfram.com/Arc-TransitiveGraph.html" target="_blank">mathworld</a>
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Doyle+graph%22" target="_blank">
+#! /usr/local/bin/perl | /usr/local/bin/neato -Tsvg -Gsize=4,3\! -Gdpi=60 | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$r0    = 1 ;
+$beta0 = 1 ;
+$pi    = 3.14159_26535_89793_23846_26433_83279_50288 ;
+
+sub name{
+  my($alpha,$beta) = @_ ;
+  return(
+    (($alpha+9*9*9) % 9) + (($beta+3*3*3) % 3) * 9
+  ) ;
+}
+
+print("graph DoyleGraph{\n") ;
+print("  node [shape=point];\n") ;
+print("  edge [color=black];\n") ;
+
+for($alpha=0; $alpha<=8; $alpha++){
+  for($beta=0; $beta<=2; $beta++){
+    $a = &name($alpha, $beta) ;
+    $b = &name(4*$alpha+1, $beta-1) ;
+    $c = &name(4*$alpha-1, $beta-1) ;
+    $d = &name(7*$alpha+7, $beta+1) ;
+    $e = &name(7*$alpha-7, $beta+1) ;
+    if($a < $b){$A{"$a,$b"}=1;}else{$A{"$b,$a"}=1;}
+    if($a < $c){$A{"$a,$c"}=1;}else{$A{"$c,$a"}=1;}
+    if($a < $d){$A{"$a,$d"}=1;}else{$A{"$d,$a"}=1;}
+    if($a < $e){$A{"$a,$e"}=1;}else{$A{"$e,$a"}=1;}
+
+    $r = 2 ;
+    $theta  = (2*$pi*$a/27.0);
+    $x = $r * cos($theta) ;
+    $y = $r * sin($theta) ;
+    print("  $a [pos=\"$x,$y!\"];\n") ;
+  }
+}
+
+for $i (keys(%A)){
+  ($a,$b) = split(/,/,$i,2) ;
+  print("  ${a}--${b}; \n") ;
+}
+print("}\n") ;
+#!
+</a>
+- 適当な配置は美しくないな … 後で修正しよう.
+
+- 修正したが, それほど美しくない …
+
+<hr>2017/12/18 (月)
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Eulerian+Cycle%22" target="_blank">
+#! ./svg-turtle.pl
+
+# % Eulerian Cycle #
+
+\svg 210 210
+\transform 100 0 0 -100 105 105 {
+  \path M -0.5 0 L 0 -0.5 L 0.5 0 L 0.5 -0.5 L -0.5 -0.5 L -0.5 0.5 L -1 0 L 0 -1 L 1 0 L 1 -1 L -1 -1 L -1 1 L 1 1 L 1 0 L 0 1 L -0.5 0.5 L 0.5 0.5 L 0.5 0 L 0 0.5 Z
+  \fill black
+  \circle  0    0.5 0.05
+  \circle  0    1   0.05
+  \circle  0   -0.5 0.05
+  \circle  0   -1   0.05
+  \circle  0.5  0   0.05
+  \circle  0.5  0.5 0.05
+  \circle  0.5 -0.5 0.05
+  \circle  1    0   0.05
+  \circle  1    1   0.05
+  \circle  1   -1   0.05
+  \circle -0.5  0   0.05
+  \circle -0.5  0.5 0.05
+  \circle -0.5 -0.5 0.05
+  \circle -1    0   0.05
+  \circle -1    1   0.05
+  \circle -1   -1   0.05
+}
+#!
+</a>
+
+<hr>2017/12/17 (日)
+
+- 共著者から半年前に作ってもう全く記憶にないプログラムの
+  緊急アップデート依頼が夜中の 1:15AM にやって来る …
+
+- 夜更かししたせいか, 非常に体調が悪い.
+
+- グラードン ゲットー！非常に機嫌が良くなり, 体調もやや回復.
+
+\[
+
+    % E-zone" "even" "prime
+
+    {
+
+      \def\E{\mathbb{E}}
+
+      \begin{aligned}
+        &amp; \Let \E = \{ \ldots, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10, \ldots \}. \\
+        &amp; \forall x \in \E,\; \text{$x$ is not divisible by itself in $\E$}.
+      \end{aligned}
+
+    }
+
+\]
+
+<hr>2017/12/16 (土)
+
+- ポケＧＯの伝説ポケモン グラードン に２回挑んで２回とも逃げられ
+  非常に機嫌が悪くなる.
+
+\[
+
+  % Rubik's Cube group
+
+  |G| = 43252003274489856000.
+
+\]
+
+<hr>2017/12/15 (金)
+
+- 締め切りギリギリになって, ようやく実装が理論値と合わない
+  原因が判明 !
+
+\[
+
+    % Sturm sequence
+
+    \begin{aligned}
+      &amp; \Let f_0 \in \R[x],\; f_1 = \frac{\d f_0}{\d x},\\
+      &amp; \gcd(f_0, f_1) \in \R
+            \implies f_i = - f_{i-2} \bmod f_{i-1} \text{ is a Sturm sequence}.
+    \end{aligned}
+
+\]
+
+<hr>2017/12/14 (木)
+
+- 今日は共著者が出張で論文内容の協議が捗らない. 事実上
+  明日が締め切りなのだが …
+
+\[
+
+    % Conjugacy class
+
+    C(x) = \{x\} \iff x \in Z(G).
+
+\]
+
+<hr>2017/12/13 (水)
+
+- 何故か横須□に出張. とても遠い.
+
+\[
+
+    % Redshift (astrophysics)
+    % http://en.wikipedia.org/wiki/Redshift
+
+    z = \frac{\Delta \lambda}{\lambda} .
+
+\]
+
+<hr>2017/12/12 (火)
+
+- 某シンポジウムで発表予定原稿の簡単な実装を頑張る.
+  方式がいわゆる検証アルゴリズムを含むのだが, 十数本
+  ある検証式のうち半分くらいがバグを含み, 機能しない
+  事実を突き付け, 共著者を小一時間問い詰める事により
+  無事完成.
+
+\[
+
+    % Oregonator
+
+    \begin{aligned}
+      &amp; A + Y \rightarrow X + P, \\
+      &amp; X + Y \rightarrow 2 P, \\
+      &amp; A + X \rightarrow 2 X + 2 Z, \\
+      &amp; X + X \rightarrow A + P, \\
+      &amp; B + Z \rightarrow \frac{1}{2} f\,Y, \\
+      &amp; \frac{\d}{\d t} A = \frac{\d}{\d t} B = \frac{\d}{\d t} P = 0, \\
+      &amp; \frac{\d}{\d t} X =   k_1 A Y - k_2 X Y + k_3 A X - 2 k_4 X^2, \\
+      &amp; \frac{\d}{\d t} Y = - k_1 A Y - k_2 X Y + \frac{1}{2} f k_c B Z, \\
+      &amp; \frac{\d}{\d t} Z = 2 k_3 A X - k_c B Z, \\
+      &amp;
+      \begin{aligned}
+            \where &amp; f : \text{an adjustable stiochiometric factor}, \\
+                   &amp; k_i : \text{the actual, experimentally derived, rate constants}, \\
+                   &amp; k_c : \text{an adjustable rate parameter}.
+      \end{aligned} \\
+    \end{aligned}
+
+\]
+
+<hr>2017/12/11 (月)
+
+- レアポケモンのミュウツーがゲットできるチャンスが貰える
+  ＥＸレイドに当選したので, 満を持してジムに突撃したところ
+  明らかにサーバ側の問題で固まって初回レイドから締め出され、 
+  そのまま人数不足でレイド終了までミュウツー倒せず … 鬱
+
+\[
+
+    % Hopf bifurcation
+
+    \frac{\d z}{\d t} = z (\lambda + b |z|^2).
+
+\]
+
+<hr>2017/12/10 (日)
+
+- エアコンの修理の人が来る. 思ったよりも大がかりな工事が行われ
+  いい加減フィルター等は掃除しろなどど突っ込まれながら無事修理
+  完了. 
+
+\[
+
+    % probabilists' Hermite polynomials
+
+    \mathit{He}_n(x) = \e^{-\frac{D^2}{2}} x^n .
+
+\]
+
+<hr>2017/12/09 (土)
+
+- 昨日珍しく会社でプログラムを書いたせいか, 今日は異様に眠い.
+  昼間居眠りしてしまう.
+
+\[
+
+    % probabilists' Hermite polynomials
+
+    \mathit{He}_n(x) = \left( x - \frac{\d}{\d x} \right)^n \cdot 1 .
+
+\]
+

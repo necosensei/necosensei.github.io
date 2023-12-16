@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<pre>
+<hr>2019/02/02 (土)
+
+いよいよ風邪が最悪レベルの状態に到達. 今日は遠出せずに引き籠り.
+
+<hr>2019/01/30 (水)
+
+学位最終試験？なる発表は無事終了した模様. なんとか計画通り
+最小限の努力で学位が得られる算段が付いた模様 ...
+
+<hr>2019/01/28 (月)
+
+どうやら S○IS2019 で風邪に感染したか, 花粉にやられたらしい.
+1/30 に学位関連の発表があるので, それまで持たせる必要がある ...
+
+<hr>2018/12/20 (木)
+
+(会社システム)のヘルプデスクから下記のようなメールが届く.
+
+&gt; Subject:【報告】ウィルス検知されたファイルの削除完了の連絡
+&gt;
+&gt; ○○プロジェクト ○○様
+&gt; 
+&gt; いつもお世話になっております。
+&gt; (会社システム)ヘルプデスクです。
+&gt; 
+&gt; 突然のご連絡失礼いたします。
+&gt; 
+&gt; ○○様の(会社システム)上のユーザ領域のデータに対して
+&gt; ウィルス検知を確認いたしました。
+&gt; 
+&gt; (会社の)情報セキュリティセンタからの依頼により、
+&gt; 対象ファイルはシステム側にて削除させて頂いております。
+&gt; 
+&gt; 下記が削除したファイルとなります。
+&gt; 
+&gt; ...\Cygwin\...\x86_64\release\nc\nc-1.107-4.tar.bz2
+&gt; 
+&gt; ...\Cygwin\...\x86_64\release\nc6\nc6-1.0-1.tar.bz2
+&gt; 
+&gt; 以上、よろしくお願いいたします。
+
+だから nc コマンド便利だからって全部ウィルス判定するのやめれ.
+まぁ実害は無いから別に良いんだが, この(会社システム)大変評判
+が悪く鬱憤が溜まっているので, 若い頃だったら多分ブチ切れてた
+と思う …
+
+<hr>2018/04/08 (日)
+
+- 満を持してミュウツーを取りに行くも逃げられる … orz
+
+<hr>2018/04/07 (土)
+
+- どうも皮膚からアレルゲンを吸収してる気がするので, 外出後に
+  風呂に入る事にしよう.
+
+<hr>2018/04/06 (金)
+
+- 朝から頭が痛い. どうも西東京のヒノキ花粉の飛散量が大変な事に
+  なっているらしい …
+
+<hr>2018/04/05 (木)
+
+- 所長面談とやらが行われる.
+
+<hr>2018/04/04 (水)
+
+- 新人歓迎会が何故かハンバーガー屋で行われる …
+
+<hr>2018/04/03 (火)
+
+- 5月でパスポートが切れるので, 朝早起きして新宿へ.  本来なら立川
+  の方が圧倒的に近いのだが, 定期券を用いた現在の交通費換算距離で
+  は新宿の方が圧倒的に近い …
+
+<hr>2018/04/02 (月)
+
+- 1年ほど前に計画した新たにプログラミング言語を習得する計画は
+  見事にスルーされている模様 …
+
+- 時々 suffice と suffer を混同して混乱する.
+
+<hr>2018/04/01 (日)
+
+- ポケＧＯが忙しすぎて, 様々な計画が遂行できない
+
+  様々な計画
+      ↓
+  - nintendo switch
+  - ファイルサーバ
+  - 国勢調査
+  - 日記の分割
+
+<hr>2018/03/31 (土)
+
+- おなかがすいたので近所のスーパーに 10 分ほど出かけている隙に
+  宅配屋が不在票を入れてくる …
+
+<hr>2018/03/30 (金)
+
+- 今日は会社でお花見. マスクをしながら飲み食い騒ぐのは疲れる …
+
+<hr>2018/03/29 (木)
+
+- 大学へ転進することになったS木先生が目の下に隈を作りながら
+  退職の手続きが終わらないと嘆いていた …
+
+<hr>2018/03/28 (水)
+
+- 恐らく花粉症の影響で昼間なのに猛烈に眠い.
+
+<hr>2018/03/27 (火)
+
+- 外出時の3重マスクが息苦しいので1重にしてしばらく様子を見たら
+  頭痛が …
+
+<hr>2018/03/26 (月)
+
+- S木先生が転職との事で飲み会 …
+
+<hr>2018/03/25 (日)
+
+- 本日はコミュニティデイとやらでフシギダネだらけに …
+
+<hr>2018/03/24 (土)
+
+- 抽選に当たったので, 会社そばの公園にぎりぎりの時間に出社 …
+  課金勢の元上司が「心配したぞ」と言いながら既にスタンバイして
+  いた …
+
+<hr>2018/03/23 (金)
+
+- Amaz〇n 以外の所で買ったサントラが届いたので封筒を開けてみると
+  何故か猫のポストカードが …
+
+\[
+
+    % Dirichlet beta function
+
+    \beta(s) = \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)^s}.
+
+\]
+
+<hr>2018/03/22 (木)
+
+- Amaz〇n で買ったサントラが今日午前中に届く事になっていた. いつも
+  熟睡している早朝 9:00 に呼び鈴が鳴り, 飛び起きた刹那にこむら返り.
+  足を引きずりながら必死の思いで玄関まで到達. すると
+  
+  「宗教の事でお話が」
+
+  「(#^ω^) 間に合ってますんで …」
+
+\[
+
+
+    % Goodstein's Theorem
+
+    \begin{aligned}
+      &amp; \forall m \in \N, \; \exists n \in \N, \; G(m)(n) = 0, \\
+      &amp; \where
+            G(m)(n) = \begin{cases}
+                        m &amp; (n=1), \\
+                        H(n,n+1)(G(m)(n-1)) - 1 &amp; (n\ge 2),
+                      \end{cases} \\
+      &amp; H(b,b')(x): \text{take the hereditary base-$b$ representation of $x$,} \\
+      &amp;             \text{then replace each occurence of the base-$b$ with $b'$.}
+    \end{aligned}
+
+\]
+
+
+<hr>2018/03/21 (水)
+
+- 朝起きると驚くべきことに雪. 慌てて雪の日にしか出ないポケモンを
+  取りに行く.
+
+- 帰ってから, 風呂に入り, 身支度を整え, 思い切って雪の中会社に向
+  かう. 会社まで来ると, 守衛が立ってる横の門が半分閉まっている？
+  何で門が閉まってるんだ？ と暫く思案. 今日休みじゃねーか！
+
+- そのまま何事も無かったようにループして東伏□駅に直行.
+
+\[
+
+    % Capricornoid
+
+    a^2 x^2 (x^2 + y^2) - b ( a y - x^2 - y^2)^2 = 0.
+
+\]
+
+<hr>2018/03/20 (火)
+
+- 暗号屋の端くれなので, たまに論文をググる. たまたま R○yal Society
+  of L○ndon の論文が reference に引っかかったので例によってググる.
+  電子版があるらしいが, 会員(または会員企業?)のみアクセス可能のよう
+  だ. しかし良く見ると trial とやらがあるらしい. まあどうせ滅多に見
+  に行かない論文誌だろうから trial で十分だよな … と卑近な考えを巡
+  らせ trial に申し込む. すると暫く待てみたいな事を言われたのが 2/8
+  の出来事. 40 日程経過した今日, spam に混じって Thank you for your
+  recent trial request. ... Expires: 30/03/2018 が届く … もう忘れて
+  るよ！
+
+\[
+
+    % Ramphoid Cusp
+
+    x^4 + x^2 y^2 - 2 x^2 y - x y^2 + y^2 = 0.
+
+\]
+
+<hr>2018/03/19 (月)
+
+- スゴ技を使って特許をでっち上げる.
+
+\[
+
+     % Keratoid Cusp
+
+     y^2 = x^2 y + x^5.
+
+\]
+
+<hr>2018/03/18 (日)
+
+- 花粉の為, 遠出しないので全ての食事を外食で賄う問題を解決する必要
+  がある. 近所にはあまり良い外食屋は無い. かといってスーパーで食料
+  を調達し家で食べると必然的にゴミが溜り良ろしくない. という仮定か
+  らの合理的帰結により, スーパーで買ってスーパーで食べれば良いじゃ
+  ないという結論が得られ, スーパーの隅っこにある低所得者用？イート
+  インコーナーに陣取って食事を供給しながら15分程ジムバトルに興じる.
+  炭水化物が多いのがやや問題だ.
+
+  \[
+
+    \left(\frac{2+\i}{2-\i}\right) \left(\frac{3+\i}{3-\i}\right) = \i.
+
+  \]
+
+<hr>2018/03/17 (土)
+
+- とりあえず今日は特別なレイドが無いので 1 km 圏に縮小した活動領域
+  内で素早くポケモンをゲットして家に帰る.
+
+\[
+
+    % e Approximations
+
+    \e \approx (\pi^4+\pi^5)^{1/6}.
+
+\]
+
+<hr>2018/03/16 (金)
+
+- 外の花粉密度がかなり危険な水準に達した模様. あした外出すべきか？
+
+\[
+
+   % Gingerbreadman Map
+
+    \begin{aligned}
+      &amp; x_{n+1} = 1 - y_n + |x_n|, \\
+      &amp; y_{n+1} = x_n.
+    \end{aligned}
+
+\]
+
+<hr>2018/03/15 (木)
+
+- ポケモン GO は明日まで XP (プレイヤーの経験値？) ２倍なので,
+  慌ててお家でポッポマラソン. 30 分で 60 万 XP を稼いだ. これは
+  30 秒に 1 回伝説レイドで勝利するのと匹敵する効率なので, かなり
+  良い稼ぎだ.
+
+\[
+
+    % Epitrochoid
+
+
+    \begin{aligned}
+      &amp; x = m \cos t - h \cos \left( \frac{m}{b} t \right), \\
+      &amp; y = m \sin t - h \sin \left( \frac{m}{b} t \right).
+    \end{aligned}
+
+\]
+
+<hr>2018/03/14 (水)
+
+- 組合恒例の超勤拒否解除とやらにより 22:00 に帰社. この時間に帰る
+  と△平で乗り換えが必要になるが, 西□線のダイヤ改正により新たに
+  投入された拝□ライナーとやらに乗ることができる. △平まで有料なの
+  で空いてて良いが, 玉□上水で1分で乗り換える必要があって鬱.
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Vamos+matroid%22" target="_blank">
+#! /usr/local/bin/perl | ./svg-turtle.pl | /home/hoshino/.npm-global/bin/svgo -i - -o -
+
+$b0 = 0.4 ;
+$b1 = 0.6 ;
+$b2 = ($b0*$b0+$b1*$b1) ;
+
+$a0 = 1.0/sqrt($b0*$b0+$b1*$b1+1) ;
+$a1 = 1.0/sqrt($b0*$b0+$b1*$b1) ;
+$a2 = 1.0/sqrt($b0*$b0+$b1*$b1+$b2*$b2) ;
+
+@Z = (   1*$a0, $b0*$a0, $b1*$a0) ;
+@X = (   0*$a1, $b1*$a1,-$b0*$a1) ;
+@Y = (-$b2*$a2, $b0*$a2, $b1*$a2) ;
+
+sub inner_product{
+  my($x1,$y1,$z1,$x2,$y2,$z2) = @_ ;
+  return $x1*$x2 +$y1*$y2 +$z1*$z2 ;
+}
+
+sub projection{
+  return (&inner_product(@_,@X), &inner_product(@_,@Y)) ;
+}
+
+
+sub plot{
+  my($x,$y) = &projection(@_);
+  print <<ENDS ;
+\\circle $x $y 0.05
+ENDS
+}
+
+sub rect{
+  my(
+    $x0,$y0,$z0,
+    $x1,$y1,$z1,
+    $x2,$y2,$z2,
+    $x3,$y3,$z3
+  ) = @_ ;
+  my($X0,$Y0) = &projection($x0,$y0,$z0);
+  my($X1,$Y1) = &projection($x1,$y1,$z1);
+  my($X2,$Y2) = &projection($x2,$y2,$z2);
+  my($X3,$Y3) = &projection($x3,$y3,$z3);
+  print <<ENDS ;
+  \\path M $X0 $Y0 L $X1 $Y1 L $X2 $Y2 L $X3 $Y3 Z
+ENDS
+
+}
+
+print <<ENDS;
+\\svg 200 200
+\\stroke black
+\\fill rgba(255,00,00,0.5)
+\\transform 180 0 0 -180 0 200 {
+  \\transform 0.5 0 0 0.5 0.5 0.5 {
+ENDS
+
+&plot(0,0,0) ;
+&plot(1,0,0) ;
+&plot(0,1,0) ;
+&plot(1,1,0) ;
+&plot(0,0,1) ;
+&plot(1,0,1) ;
+&plot(0,1,1) ;
+&plot(1,1,1) ;
+
+print <<ENDS;
+\\fill rgba(00,00,255,0.5)
+ENDS
+
+&rect((0,0,0),(1,0,0),(1,1,0),(0,1,0));
+&rect((1,1,0),(0,1,0),(0,1,1),(1,1,1));
+&rect((0,1,1),(1,1,1),(1,0,1),(0,0,1));
+&rect((1,0,1),(0,0,1),(0,0,0),(1,0,0));
+&rect((1,1,1),(0,1,1),(0,0,0),(1,0,0));
+
+print <<ENDS;
+  }
+}
+ENDS
+#!
+</a>
+
+<hr>2018/03/13 (火)
+
+- 会社の食堂には, トマトなど何処にも無いのに, トマトのリコピン
+  がとても健康に良いみたいなメモ書きが貼ってある, 小皿に好きな
+  だけカット野菜(ミックス)を盛り付ける事の出来るサラダバーと称
+  するメニューがある. 今日は珍しく 11:30 に出社したので, その
+  まま食堂に行くとちょうど開店の時間. サラダバーに３番目に到達
+  した客となった. 良く見るとトマトとゆで卵が申し訳程度にカット
+  野菜の上に盛り付けてある … が, １番目と２番目と３番目の客に
+  よってトマトが見る見るうちに収奪されて行くのを目の当たりに …
+
+\[
+
+    % Pfaffian
+    {
+    \def\pf{\textrm{pf}}
+    \begin{aligned}
+      &amp; \text{For a skew-symmetric matrix $A$, its Pfaffian $\pf(A)$ satisfies} \\
+      &amp; \pf(A)^2 = \det(A).
+    \end{aligned}
+    }
+
+\]
+
+<hr>2018/03/12 (月)
+
+- 組合恒例の超勤拒否とやらにより 18:00 に帰社.
+
+\[
+
+    % Tutte polynomial
+
+    \begin{aligned}
+      &amp; \text{For an undirected graph $G=(V,E)$, Tutte polynomial} \\
+      &amp; T_G(x,y) = \sum_{A\subseteq E}
+                          (x-1)^{k(A)-k(E)}
+                          (y-1)^{k(A)+|A|-|V|}, \\
+      &amp; \text{where $k(A)$ denotes the number of connected components in the graph $(V,A)$.}
+    \end{aligned}
+
+\]
+
+<hr>2018/03/11 (日)
+
+- 靴を買いに御□町へ. 古い靴は靴屋で処分し, そのまま新しい靴
+  を履いて秋□原へＧＯ. とりあえず Star Force をプレイ …
+
+\[
+
+
+    % Matroid
+
+    \begin{aligned}
+      &amp; \text{Let $E$ be a finite set, $F \subseteq 2^E $.} \\
+      &amp; \varnothing \in F, \\
+      &amp; X \subseteq Y \in F \implies X \in F, \\
+      &amp; X,Y \in F, |X| &gt; |Y| \implies \exists x \in X\setminus Y, Y\cup\{x\} \in F.
+    \end{aligned}
+
+
+\]
+
+<hr>2018/03/10 (土)
+
+- 特別なポケモンがゲットできる抽選に当たったので, 会社のすぐ
+  そばの公園に出社 … ポケモンはゲット出来たが時間の都合で,
+  靴を買う事は出来なかった.
+
+\[
+ 
+    % Hilbert's Theorem 90
+
+    \def\Tr{{\rm Tr}}
+
+    \Tr_{\F_{q^m}/\F_q}(\alpha) = 0 \iff
+    \exists \beta \in \F_{q^m},\; \alpha = \beta^q - \beta.
+
+\]
+
+<hr>2018/03/09 (金)
+
+- 雨 → ファ▽リーズ → 靴ドライヤーを繰り返したせいか, 靴が
+  ファ▽リーズ臭い気がする … 週末に買いに行こう.
+
+\[
+
+    % Bracing rectangular frameworks
+    \begin{aligned}
+      &amp; \text{The geometry of cross-braces of an $ m \times n $ portion of} \\
+      &amp; \text{a plane square grid is isomorphic to the geometry of} \\
+      &amp; \text{the complete bipartite graph $ K_{m,n} $.}
+    \end{aligned}
+
+\]
+
+<hr>2018/03/08 (木)
+
+- 某 Journal に投稿しようと思い古い latex 知識を頑張って更新.
+
+    - bibtool コマンド
+    - urlbst コマンド
+    - bst ファイルの謎言語
+
+  等を憶えた. あんまり良く分かってないが, とりあえず doi が無
+  かった場合だけ url を出力する bst ファイルが作れた.
+
+- また雨で靴がびしょぬれになる … ファ▽リーズをかけて靴ドライヤー
+
+\[
+
+    % Submodular set function
+
+    f(S) + f(T) \ge f(S\cup T)+ f(S\cap T).
+
+\]
+
+<hr>2018/03/07 (水)
+
+- 一年くらい毎日数式を写経したおかげで, 論文書き能力が多少向上
+  した気がする …
+
+\[
+
+    % Measure Concentration for the sphere
+    {
+    \def\calS{{\cal{}S}}
+    \begin{aligned}
+      &amp; \Let \calS^{n-1} \text{ be the sphere of unit radius in } \R^n, \\
+      &amp; P \text{ be a surface measure on $\calS^{n-1}$ s.t. } P[\calS] = 1, \\
+      &amp; A \text{ be a measurable subset of $\calS^{n-1}$ s.t. } P[A] \ge 1/2, \\
+      &amp; A_\delta \text{ be the $\delta $-neighborhood of $A$ in $\calS^{n-1}$, i.e.} \\
+      &amp; A_\delta = \{x \in \calS^{n-1} \mid \exists z \in A, \|x-z\|_2 \le \delta \}. \\
+      \\
+      &amp; 1 - P[A_\delta] \le 2 \e^{-\delta^2n/2}.
+    \end{aligned}
+    }
+
+\]
+
+<hr>2018/03/06 (火)
+
+- 昨晩, 靴を靴ドライヤーにかけるのを忘れて鬱. この靴ドライヤー
+  には, 靴の劣化を促進する疑いを持っているが, 濡れてる靴を履く
+  気持ち悪さには代えられない … 仕方ないので靴を長靴に変換する
+  プロトコルを発動. 現在履いてる靴はもう十分履きつぶしたので新
+  しい靴を買おうと思うが複数足揃えるべきか？
+
+\[
+
+    % Polya Conjecture
+
+    \begin{aligned}
+      &amp; L(n) = \sum_{k=1}^{n} \lambda(k) \le 0, \\
+      &amp; \text{was disproved.}
+    \end{aligned}
+
+\]
+
+<hr>2018/03/05 (月)
+
+- 小雨だが風が強くて鬱.
+
+\[
+
+    % Liouville function
+
+    \begin{aligned}
+      &amp; \lambda(n) = (-1)^{\Omega(n)}, \\
+      &amp; \text{where $\Omega(n)$ is the number of prime factors of $n$, counted with multiplicity.}
+    \end{aligned}
+
+\]
+
+<hr>2018/03/04 (日)
+
+- 花粉が大量発生したようなので, 外界の活動領域を 35km 圏から
+  1 km 圏に縮小. 花粉症体質が年々酷くなってる気がする …
+
+\[
+
+    % logit
+
+    \mathrm{logit}(p) = \log\left(\frac{p}{1-p}\right) = \log(p) - \log(1-p).
+
+\]
+
+<hr>2018/03/03 (土)
+
+- 気温が大分上昇したようなので, 外界の活動領域を 10km 圏から
+  35 km 圏に戻してみた …
+
+\[
+    % Rodrigues' formula
+
+    H_n(x) = (-1)^n \e^{x^2} \frac{\d^n}{\d x^n} \e^{-x^2}
+           = \left(2x - \frac{\d}{\d x} \right)^n \cdot 1.
+
+\]
+
+<hr>2018/03/02 (金)
+
+- overleaf はまあ便利なのだが, ネットサービスは突然廃止になる
+  と怖いので, 手動でバージョン管理とバックアップを行っている.
+  お金を出すと自動化できるらしい …
+
+\[
+
+    % Rodrigues' formula
+
+    L_n(x) = \frac{\e^x}{n!}\frac{\d^n}{\d x^n}\left(\e^{-x} x^n\right)
+           = \frac{1}{n!} \left(\frac{\d^n}{\d x^n} - 1 \right)^n x^n.
+
+\]
+
+<hr>2018/03/01 (木)
+
+- 出張伝票の申請金額が間違ってたから 4,500 円返せと言われる.
+  ただでさえ赤字なのに … orz
+
+\[
+
+    % Rodrigues' formula
+
+    P_n(x) = \frac{1}{2^n n!}\frac{\d^n}{\d x^n}\left[(x^2-1)^n\right].
+
+\]
+
+<hr>2018/02/28 (水)
+
+- lattice (group) の研究をサボって pairing の研究をしていたと
+  思ったらいつのまにか lattice (order) の研究をしていた … (AA略)
+
+\[
+
+  % Galois connection
+
+  \begin{aligned}
+    &amp; \Let (A,\le), (B,\le) : \text{poset}. \\
+    &amp; F : A \rightarrow B, \; G : B \rightarrow A, \text{ monotone s.t.} \\
+    &amp; \forall a \in A, \; \forall b \in B, \; F(a) \le b \iff a \le G(b).
+  \end{aligned}
+
+\]
+
+<hr>2018/02/27 (火)
+
+- 花粉対策でマスクをしてると, たまにマスクと頬の隙間に何らかの
+  アレルゲンが挟まり頬に痛みを感じる事がある. この現象にはまだ
+  名前が付いてない気がする …
+
+\[
+
+    % Kloosterman's sum
+
+    |S(u,v,n)| \le 2 \sqrt{n}.
+
+\]
+
+<hr>2018/02/26 (月)
+
+- 花粉症がシャレにならないくらい酷くなってきた …
+
+\[
+
+    % Kloosterman's sum
+
+    S(u,v,n) = \sum_{\clap{
+      \substack{
+        h,\bar{h} \in \{1,\ldots,n-1\},\\
+        \gcd(h,n)=1, \\
+        \bar{h} = h^{-1} \bmod n
+      }
+    }} \e^{\frac{2 \pi \i (u h + v \bar{h})}{n}}.
+
+\]
+
+<hr>2018/02/25 (日)
+
+- ボタンを押すと自動的にポケモンを取ってくれる装置, 通称ゴプラ
+  の電池が切れた. 2032 なるボタン電池が必要なのだが在庫が切れて
+  しまったので 2025 で代用. 意外と上手く行った …
+
+- ちょっとググると $\pi$ formula が狂ったように沢山ある. 皆どんだけ
+  $\pi$ 好きなの？
+
+\[
+
+    % Hilbelt Matrix
+
+    H_{ij} = (i+j-1)^{-1}.
+
+\]
+
+<hr>2018/02/24 (土)
+
+- 疲労の蓄積は酷いのだが, 今日はポケモンＧＯのイベントがあって
+  どうしても参加する必要がある …
+
+- たまには自分で料理して飯を食うのも良いものだ. 白ご飯と豚肉の
+  味噌漬け？を買って来て焼いて食べる. うまい. 但しキッチンに
+  焼いた肉の匂いが籠るのがたまにキズ …
+
+\[
+
+    % Simon Plouffe
+
+    \pi = 72 \sum_{n=1}^\infty \frac{1}{n(\e^{n\pi} - 1)}
+        - 96 \sum_{n=1}^\infty \frac{1}{n(\e^{2n\pi} - 1)}
+        + 24 \sum_{n=1}^\infty \frac{1}{n(\e^{4n\pi} - 1)}.
+
+\]
+
+<hr>2018/02/23 (金)
+
+- F岡先生が襲来 …
+
+- 5 日間も立ちながらお客さん対応をやるとさすがに疲労の蓄積が酷い
+  模様. 左腕と左アキレス腱がやばい.
+
+\[
+
+    % Fabrice Bellard
+
+    \pi = \frac{1}{2^6} \sum_{n=0}^\infty 
+    \left(
+      - \frac{2^5}{4n+1}
+      - \frac{1}{4n+3}
+      + \frac{2^8}{10n+1}
+      - \frac{2^6}{10n+3}
+      - \frac{2^2}{10n+5}
+      - \frac{2^2}{10n+7}
+      + \frac{1}{10n+9}
+    \right) \times 
+    \left(\frac{-1}{2^{10}}\right)^n.
+
+\]
+
+<hr>2018/02/22 (木)
+
+- 今日から割と一般的なお客さんが大量にやって来る … VIP は忙しい
+  ので, 多少意味不明でも 5 分くらいで勘弁してくれるが, 一般のお客
+  さんの中には許してくれない人もいる. そういう人でも, 気持ちよく
+  分かった！と思わせるのがプロの仕事 …
+
+\[
+
+    % David Bailey, Peter Borwein and Simon Plouffe
+
+    \pi = \sum_{n=0}^\infty \left(
+      \frac{4}{8n+1} -
+      \frac{2}{8n+4} -
+      \frac{1}{8n+5} -
+      \frac{1}{8n+6}
+    \right) \times \left(\frac{1}{16}\right)^n.
+
+\]
+
+<hr>2018/02/21 (水)
+
+- 研究所のお祭りの展示ブースに大物のお客さんが飛び込みでやってくる.
+  相変わらず口八丁で切り抜ける …
+
+\[
+
+    \exists^\infty (n,m) \in \N^2 \st {n \choose 2} = m^2.
+
+\]
+
+<hr>2018/02/20 (火)
+
+- マスクを三重にしても, 外で走り回るとやはり花粉の影響を受ける事が
+  分かった …
+
+\[
+
+    \exists! (n,m) \in \N^2 \st {n \choose 3} = m^2.
+
+\]
+
+<hr>2018/02/19 (月)
+
+- 毎年どんどん大掛かりになっている会社の研究所のお祭りに巻き込まれ,
+  口八丁で切り抜ける. 一週間続くらしい …
+
+\[
+
+  {
+    %\def\nexists{\mkern2.1mu\not\mkern-2.1mu\exists}
+
+    \begin{aligned}
+      &amp; \nexists (n,m) \in \N^2 \st {n \choose k} = m^\ell, \\
+      &amp; \where k,\ell \in \N,\; \ell \ge 2, \text{ and }\; 4 \le k \le n-4.
+    \end{aligned}
+  }
+
+\]
+
+<hr>2018/02/18 (日)
+
+- 花粉症なので外出は控えるべきなのだが, レアポケモンのミュウツーが
+  ゲットできるチャンスが貰えるＥＸレイドに当選したので, 日曜なのに
+  会社そばの公園まで出張. マスクを三重にして花粉眼鏡をかけ、徐に
+  「少し肺に入った」などどナウシカごっこに興じる …
+
+- いっぱいあって訳の分からないシリーズ, Triangle center. 少なくとも
+  <a href="http://faculty.evansville.edu/ck6/encyclopedia/ETC.html" target="_blank">16188個</a> もあるらしい …
+
+\[
+
+    % Triangle center function
+
+    \begin{aligned}
+      &amp; \text{Homogeneity} : 
+        \exists n,\; \forall t &gt; 0,\; f(ta,tb,tc) = t^n f(a,b,c), \\
+      &amp; \text{Bisymmetry} : f(a,b,c) = f(a,c,b).
+    \end{aligned}
+
+\]
+
+<hr>2018/02/17 (土)
+
+- 左半身筋肉痛になって以来, あまり遠出をしてなかったのだが, 今日は久し
+  ぶりに神□町に出張. 左半身筋肉痛はまだ治ってない …
+
+\[
+
+    % Trilinear equation" "Steiner inellipse
+
+    a^2 x^2 + b^2 y^2 + c^2 z^2 - 2 abxy - 2 bcyz - 2 cazx = 0.
+
+\]
+
+<hr>2018/02/16 (金)
+
+- 共著作業に, より現代的なツールを使おうとの事で, とりあえず overleaf
+  とやらを試してみる事になった. 良く見るとエディタのキーバインドをvim
+  っぽいのに変更できる事が判明. すばらしい！ 大分使いやすくなった.
+
+\[
+
+    % Trilinear equation" "Steiner ellipse
+
+    bcyz + cazx + abxy = 0.
+
+\]
+
+<hr>2018/02/15 (木)
+
+- 共著者たちが書いた論文と, 自分の書いた論文のマージ作業を行っていたら,
+  共著者の論文が Appendix の後ろの方で急激にクオリティが下がり意味不明
+  に. 仕方なくがんばって適当な英文を考え補足したのだが, 良く見たら$\TeX$
+  の if 文でコメントアウトされてた …
+
+\[
+
+    % Two-center bipolar coordinates
+
+    \begin{aligned}
+      &amp; x = \frac{r_2^2 - r_1^2}{4a}, \\
+      &amp; y = \pm\frac{1}{4a}\sqrt{16a^2r_2^2-(r_2^2-r_1^2+4a^2)^2}.
+    \end{aligned}
+
+\]
+
+<hr>2018/02/14 (水)
+
+- 会社の VM に 仮想化ソフトを入れる DOS 攻撃を続けていたら, 『絶対仮想
+  化ソフト入れるなよ』なる旨の全社注意喚起？が届いた …
+
+- ポケＧＯのバレンタインデーイベントでラブカスだらけに …
+
+\[
+
+    % Pear Shaped Curve
+
+    b^2 y^2 = x^3 ( a - x ).
+
+\]
+
+<hr>2018/02/13 (火)
+
+- 会社の d○REAMS？ なる VM に Microsoft の VirtualPC を入れたら, やっ
+  ぱり立ち上がらなくなる. ヘルプデスクに泣きつくために前に貰ったメール
+  を探したら, 下の方に『絶対仮想化ソフト入れるなよ』なる旨の注意書きが
+  付いてた …
+
+- 量子情報幾何学という学問分野があるらしい …
+
+  \[
+
+      % Gompertz constant
+
+      G = \int_0^\infty \frac{\e^{-x}}{1+x}\d x
+
+  \]
+
+<hr>2018/02/12 (月)
+
+- 壊れた「角ハンガー」を良く見てみたら, オリジナルの洗濯ばさみが２個
+  しか残っていなかった … 洗濯ばさみ部分は常に応力を受けるので, プラ
+  スチックが劣化するとすぐ壊れる. その度に 100円ショップで買った 1個
+  4 円くらいのものと交換していたが, 今回はフレームなので補修するより
+  調達する方が良かろう. 貧乏性なので洗濯ばさみは補修部品として全て回
+  収される予定 …
+
+  \[
+
+      % Stress (mechanics)
+
+      t = \sigma^T n.
+
+  \]
+

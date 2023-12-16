@@ -1,0 +1,1690 @@
+<hr>2017/12/08 (金)
+
+- ク□ネコは相変わらず間が悪く, 風呂に入ってる時にやって来るが,
+  とにもかくにも sim が届いた. 早速手持ちの端末に入れていろいろ
+  実験し正常動作することを確認. 携帯電話が無い状態を脱した.
+
+\[
+
+    % Krawtchouk Polynomials
+
+    {\cal K}_k(x;n) =
+    \sum_{j=0}^k (-1)^j (q-1)^{k-j} {x \choose j}{n-x \choose k-j}, \tab
+    k \in \{0,\cdots,n\}.
+
+\]
+
+<hr>2017/12/07 (木)
+
+- 水曜に届くはずだった sim は, ク□ネコに持ち帰られてしまったので
+  本日午前中に再配達してもらうよう手配したのだが, 結局ク□ネコは
+  時間に間に合わず sim をまた持ち帰ってしまう orz
+
+- 『古い用語では極限のことを「逆極限」や「射影極限」と呼び、余極限を
+    「順極限」や「帰納極限」と呼ぶ。これは多くの混乱の原因となった。』
+
+                                            -- Wikipedia 極限 (圏論)
+  圏論やばい …
+
+
+\[
+
+    % Prime number theorem for arithmetic progressions
+
+    \pi_{n,a}(x) \sim \frac{1}{\varphi(n)} \mathrm{Li}(x).
+
+\]
+
+<hr>2017/12/06 (水)
+
+- 異様に眠い.
+
+\[
+
+  x^n + y^n = (x+y) (x+\zeta y) \cdots (x+\zeta^{n-1} y).
+
+\]
+
+<hr>2017/12/05 (火)
+
+- 2日前に書いたお馴染みの Quadratic reciprocity は
+  思いっきり<a href="kako.html#20170806">過去</a>に使っていた …
+
+- reciprocity law がだんだん難しくなってきて, 何言ってる
+  か分からなくなりつつある. 先ずイデール？やアデール？を
+  ググるべきか？
+
+\[
+
+    % Quartic reciprocity
+
+    \left[ \frac{\pi}{\theta} \right]
+    \left[ \frac{\theta}{\pi} \right]^{-1} =
+    (-1)^{\frac{N\pi - 1}{4}\frac{N\theta - 1}{4}} .
+
+\]
+
+<hr>2017/12/04 (月)
+
+- K城先生は発表を無難にこなした模様.
+
+- 来週エアコンの修理が来ることになったが, その前にまず家の中を
+  最密充填している Amaz〇n の段ボールを片付ける必要がある. 段
+  ボールの回収は明日を逃すと再来週. 従って今日中に片付ける必要
+  がある …
+
+\[
+
+  % Cubic reciprocity
+
+  \left(\frac{\alpha}{\beta}\right)_3 = \left(\frac{\beta}{\alpha}\right)_3\;.
+
+\]
+
+<hr>2017/12/03 (日)
+
+- 朝起きると, 特に酷使したわけでもない右足のスネが痙攣…
+  どうやら左半身 (というより左上腕筋) の原因不明の疲労が
+  右足にも転移した模様…
+
+- 連絡先が変更になった事を適当な範囲に連絡
+
+- 月間アフタヌーンと月間アクションを購入
+
+- 故障したスマホの修理依頼・発送
+
+- エアコンの1台が故障したので修理依頼
+
+忙しすぎだろ …
+
+- 「編集はUNIXが正しく、Lispが誤った数少ないものの1つである。」
+
+                                              --- Doug Hoyte
+
+- reciprocity law だけで一体いくつあるのか …
+
+\[
+
+  % Reciprocity Law
+
+  \left(\frac{p}{q}\right) \left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2}\frac{q-1}{2}}\;.
+
+\]
+
+<hr>2017/12/02 (土)
+
+- MNP させろと電話してみたが, 16,000円払ったら考えてやると言わ
+  れた … このような者に付き合うのは馬鹿げているので新しい電話
+  を契約することにする. 
+  
+- そういえば, スマホを買ったときに付いてきた 〇cn の sim があっ
+  たはず … sim  の袋が見つかったので開けてみると, sim は入って
+  おらず, 代わりに番号の書いてある紙が入っていた … そういう仕
+  組みなのかと納得して web でインストラクションを探し, 適当に
+  入力する.
+
+- 身分証明をスキャンして送れとか, いろいろ面倒臭いシステムを
+  突破してなんとか契約を受け付けて貰えたらしい … たいした事
+  やってないのに, なんか凄い仕事を成し遂げた気になってる.
+
+\[
+
+  % How to Remove the Vocals From a Song
+
+  L(t) - R(t)
+
+\]
+
+<hr>2017/12/01 (金)
+
+- 最近ポケＧＯジムの近くのマク△ナルドに陣取って, ジム戦に興じる
+  ことが多く, その際, 大して旨くも無いお菓子やコーヒーなどが消費
+  される. マク△ナルドは楽□と提携してるらしく, お菓子やコーヒー
+  などを購入するとき, 楽□カードを提示するとポイントが貰える. 昨
+  夜このプロトコルを実行したところ
+
+    ポイントが反映されて無い可能性があるのでウェブアクセスして
+    情報を登録せよ.
+
+  という旨の文書がデカデカと印字されたレシートを貰った. 実際にア
+  クセスするとやたらに番号やら個人情報やらを入力させられて鬱. ち
+  なみに, 今回このとてつもなく面倒くさいプロトコルを実行して得ら
+  れる利益は最大で 1 円 …
+
+- willc○m が突然解約されてしまった. 電話番号もメールアドレスも
+  無効の模様. 手元の記録によれば, メールアドレスの登録変更だけで
+  少なくとも 63 件もあるらしい … orz
+
+\[
+
+  % Simpson's paradox
+
+  \begin{aligned}
+    &amp; \exists a_0,a_1,a_2,a_3,b_0,b_1,b_2,b_3 \in \N \;\st \\
+    &amp; \\
+    &amp; \begin{array}{ccc}
+            \displaystyle \frac{a_0}{a_0+a_1}             &amp; &gt; &amp; \displaystyle \frac{b_0}{b_0+b_1}, \\
+            \displaystyle \frac{a_2}{a_2+a_3}             &amp; &gt; &amp; \displaystyle \frac{b_2}{b_2+b_3}, \\
+            \displaystyle \frac{a_0+a_2}{a_0+a_1+a_2+a_3} &amp; &lt; &amp; \displaystyle \frac{b_0+b_2}{b_0+b_1+b_2+b_3}.
+          \end{array}
+  \end{aligned}
+
+\]
+
+<hr>2017/11/30 (木)
+
+- K城先生が発表練習にて, 相変わらず発表が下手すぎて,
+  総攻撃を受けて凹んでいた …
+
+- 大学の統計の授業で「宝くじは多空くじ」と習った …
+
+\[
+
+  % St. Petersburg paradox
+
+  \begin{aligned}
+    &amp; \Let n \in \N^+,\; \Pr[X = n] = \frac{1}{2^n}. \\
+    &amp; \E[2^X] = \infty.
+  \end{aligned}
+
+\]
+
+<hr>2017/11/29 (水)
+
+\[
+
+    % number of leading zeros
+    {\def\nlz{\mathrm{nlz}}
+    \begin{aligned}
+      &amp; \lfloor \log_2 n \rfloor = w - 1 - \nlz(n), \\
+      &amp; 
+      \begin{aligned}
+        \where &amp; w : \text{word length in bits}, \\
+	       &amp; \nlz : \text{number of leading zeros}.
+      \end{aligned}
+    \end{aligned}
+    }
+
+\]
+
+<hr>2017/11/28 (火)
+
+- 某シンポジウムに参加申し込みする.
+
+\[
+
+  % Strongly connected component
+
+  \begin{aligned}
+    &amp; G/\sim \;\text{ is a poset (directed acyclic graph),} \\
+    &amp; 
+    \begin{aligned}
+      \where &amp; G = (V,E) : \text{directed graph},\; \\
+             &amp; V : \text{finite set},\; \\
+             &amp; E \subset V \times V,\; \text{ and}\\
+             &amp; \sim :  \text{equivalence relation of strongly connected vertices}.\;
+    \end{aligned}
+  \end{aligned}
+
+\]
+
+<hr>2017/11/27 (月)
+
+- 異常に忙しい割に仕事が捗らない気がする …
+
+\[
+
+    % Schroder-Hipparchus Number
+
+    S(n) = \left\{
+      \begin{array}{cl}
+        \displaystyle 1                                            &amp; n \in \{1,2\} \\
+        \displaystyle \frac{1}{n} ( (6n-9) S(n-1) - (n-3) S(n-2) ) &amp; n \in \{3,4,5,\ldots\}.
+      \end{array} \right.
+
+\]
+
+<hr>2017/11/26 (日)
+
+- 味を占めてまた砂10万稼いだので今日も第十問題 …
+
+\[
+
+    % Hilbert's tenth problem
+
+    \begin{aligned}
+        &amp; \black{\begin{alignedat}{2}
+            \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; g(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \Z^n = \varnothing ), \\
+                 \psi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \N_0^n = \varnothing ).
+          \end{alignedat}} \\
+        &amp; \\
+        &amp; \phi_n(g(x_0,\ldots,x_{n-1})) = \prod_{k=0}^{2^n-1} \psi_{n}(g((-1)^{k_0}X_0,\ldots,(-1)^{k_n}X_{n-1})), \\
+        &amp; \where k = \sum_{i=0}^{n-1} k_i 2^i,\; k_i \in \{0,1\}.
+
+    \end{aligned}
+
+\]
+
+<hr>2017/11/25 (土)
+
+- 現在ポケＧＯイベント中だが, 新□に行くのは憚られたので
+  花小金□を疑似新□化した結果砂10万を稼ぎ出す事に成功.
+
+\[
+
+    % Hilbert's tenth problem
+
+    \begin{aligned}
+        &amp; \black{\begin{alignedat}{2}
+            \Let \phi_n : \;&amp; \Z[x_0,\ldots,x_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; g(x_0,\ldots,x_{n-1})  &amp; &amp; \mapsto \delta( g^{-1}(0) \cap \Z^n \ne \varnothing ), \\
+                 \psi_n : \;&amp; \Z[X_0,\ldots,X_{n-1}] &amp; &amp; \rightarrow \{0,1\} \\
+                            &amp; f(X_0,\ldots,X_{n-1})  &amp; &amp; \mapsto \delta( f^{-1}(0) \cap \N_0^n \ne \varnothing ).
+          \end{alignedat}} \\
+        &amp; \\
+        &amp; \psi_n(f(X_0,\ldots,X_{n-1})) = \phi_{4n}(g(x_0,\ldots,x_{4n-1})), \\
+        &amp; \where g(x_0,\ldots,x_{4n-1}) = f((x_0^2+x_1^2+x_2^2+x_3^2),\ldots,(x_{4n-4}^2+ x_{4n-3}^2+ x_{4n-2}^2+ x_{4n-1}^2)).
+    \end{aligned}
+
+\]
+
+<hr>2017/11/24 (金)
+
+- 晩飯を食いに食堂に行ったら上司がポッポマラソンしていた …
+
+- 今日は数秘術系
+
+\[
+
+    % Harshad number
+
+    \begin{aligned}
+      &amp; f \;\st\; f(n) \bmod f(1) = 0,\\
+      &amp; \where n \in \N_{&gt;1},\; f(x) = \sum_{i=0}^{m-1} a_i x^i,\; a_i \in \{0,\ldots,n-1\}.
+    \end{aligned}
+
+\]
+
+<hr>2017/11/23 (木)
+
+- 現在ポケＧＯでグローバルチャレンジなるイベントを開催しているので
+  乱獲しに行きたい所だが, 頭痛が酷く速攻で家に帰って寝る …
+
+\[
+
+    % Central binomial coefficient
+
+    \frac{1}{\sqrt{1-4x}} = \sum_{n=0}^\infty {2n \choose n} x^n.
+
+\]
+
+- ${\mathbb P}$ と書くと, どうしても射影平面と素数の集合が衝突してしまう …
+
+<hr>2017/11/22 (水)
+
+- K城先生が発表が下手すぎて, かなり絞られた …
+
+\[
+
+    % Bertrand's postulate
+    {
+      \def\P{{\mathbb P}}
+      \forall n \in \N_{&gt;3},\; \P \cap (n,2n-2) \ne \varnothing.
+    }
+
+\]
+
+<hr>2017/11/21 (火)
+
+- 今日も寒い模様. いつもより早い時間に眠くなる.
+
+\[
+
+    % Weierstrass function
+
+    \begin{align}
+      &amp;  f(x) = \sum_{n=0}^\infty a^n \cos(b^n \pi x), \\
+      &amp;  \where a \in (0,1),\; b \in 2\N + 1,\; \text{ and} \\
+      &amp;  a b &gt; 1 + \frac{3}{2}\pi.
+    \end{align}
+
+\]
+
+<hr>2017/11/20 (月)
+
+- 寒い. 超絶寒い. 仕方なく暖房ON.
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Fano+plane%22" target="_blank">
+#! ./svg-turtle.pl
+
+# % Fano plane #
+
+\svg 220 210
+\transform 100 0 0 -100 110 140 {
+  \circle  0    0    0.57735026918962576450914878050195745565
+  \path    M    0    1.1547005383792515290182975610039149113 L    1   -0.57735026918962576450914878050195745565 L   -1   -0.57735026918962576450914878050195745565 Z
+  \line         0   -0.57735026918962576450914878050195745565     0    1.1547005383792515290182975610039149113
+  \line         0.5  0.28867513459481288225457439025097872782    -1   -0.57735026918962576450914878050195745565
+  \line        -0.5  0.28867513459481288225457439025097872782     1   -0.57735026918962576450914878050195745565
+
+  \fill black
+  \circle  0    0                                        0.05
+
+  \circle  0    1.1547005383792515290182975610039149113  0.05
+  \circle  1   -0.57735026918962576450914878050195745565 0.05
+  \circle -1   -0.57735026918962576450914878050195745565 0.05
+
+  \circle  0   -0.57735026918962576450914878050195745565 0.05
+  \circle  0.5  0.28867513459481288225457439025097872782 0.05
+  \circle -0.5  0.28867513459481288225457439025097872782 0.05
+}
+#!
+</a>
+
+<hr>2017/11/19 (日)
+
+- ついにレベル40に到達！これでようやく新人トレーナーになれた.
+
+\[
+
+    % Lax pair
+
+    \begin{align}
+      &amp; \frac{\partial L}{\partial\,t} = [A,L], \\
+      &amp; \where\; [A,L] = AL - LA.
+    \end{align}
+
+\]
+
+<hr>2017/11/18 (土)
+
+- -debuginfo パッケージをアンインストールしたら本当に50GByte
+  減った !
+
+- ntfs とやらにシンボリックリンクを張りまくって C ドライブの
+  容量不足を適当になんとかしたら windows10 の update に成功.
+  どうやら更新された windows10 は linux が使えるらしい. もし
+  かして 〇ygwin 要らなかった？
+
+\[
+
+    % Toda lattice
+
+    \begin{align}
+      &amp; \frac{\d}{\d t}\, p_n = \e^{-(q_n - q_{n-1})} -\e^{-(q_{n+1} - q_{n})}, \\
+      &amp; \frac{\d}{\d t}\, q_n = p_n.
+    \end{align}
+
+\]
+
+<hr>2017/11/17 (金)
+
+- 〇ygwin を wind〇ws10 にインストール中. 前回失敗したので,
+  今回は公称 128 GByte のドライブを ntfs ？とやらで format
+  しパッケージを全てダウンロードしてからインストール.
+
+  インストールを開始してから丸一日経過してプログレスバー？
+  が 8 割位の所に到達している.
+  
+  この wind〇ws10 home ? という OS はプログラムを走らせて
+  数時間放置しておくと, 勝手に OS が update してリブートす
+  るという駄目な OS で, それをユーザーが抑止する事は基本的
+  には不可能との事. 今回たまたま C ドライブの容量不足で OS
+  の update が停止して〇ygwin がリブートされなかった模様…
+  これじゃ～ インストールが上手く行く訳が無い.
+
+  ところで良く見ると Total のプログレスバーより Disk の
+  プログレスバーの方が僅かに大きい. 恐らく, このまま放置
+  すると disk full で不具合を起こしそうなので /usr/src/
+  debug とやらを削除.
+
+  すると「削除の準備をしています」云々で, 10 分ぐらいかけ
+  て一々ファイルの数を数えてやがる …
+
+  10 分経過してファイルの削除が始まったが, どうも削除が遅
+  い. 秒間数十個しか削除してないので, 〇ygwin のインストー
+  ル速度に削除が追い付いてないように見える. 仕方が無いので
+  〇ygwin に SIGSTOP か SIGTSTP を送りたいが, 〇ygwin イン
+  ストール中なので wind〇ws10 上でどうやって送ったら良いも
+  のか？
+
+  良く分からないので, タスクマネージャーとやらで nice 値を
+  いじって対応 … 削除が99%完了残り時間5秒の所で何故か停止
+  しているが, 何とか 231,994 inode/ 4.3 GByte 分を確保出来
+  てる模様.
+
+  私の無知も原因の一つとは思うが, どうにも OS が使いにくく
+  て仕方ない. どうしてこうなった？
+
+  ところで, どうやら 〇ygwin は -debuginfo パッケージのイン
+  ストールを止めれば 50 GByte くらいは節約できるらしい …
+  膨大な数あるので一々一個づづ確認して選んでられないが, も
+  しかしたら上手い方法があるかもしれないので, あとで確認し
+  てみよう.
+
+\[
+
+    % Ising model
+
+      H = - J \sum_{\langle i,j \rangle} \sigma_i\sigma_j
+          - h \sum_i \sigma_i.
+
+\]
+
+<hr>2017/11/16 (木)
+
+- 今まで 〇ygwin とやらを多分 10 回以上 wind〇ws にインストール
+  していると思うが, まともにインストールが成功した試しが無い気が
+  する. 面倒なのでいつも All → Install を選んでいるのが悪いの
+  だろうか ?
+
+- 本日は早帰デー？とやららしい. みんな早く帰ってしまったので
+  静かで恐ろしく仕事が捗った …
+
+- 若者達がバタバタダウンして行くのを見るに, この左半身筋肉痛は
+  ウイルス性疾患, 即ち風邪なのではないか？と疑い始める...
+
+\[
+
+   % Kermack-McKendrick Model
+
+   \begin{align}
+     &amp; \black{
+       \begin{alignat}{4}
+	 \frac{\d}{\d t} &amp; &amp; S = &amp; &amp; - \beta\,  S \times I,  &amp; &amp;   &amp;    &amp; \\
+	 \frac{\d}{\d t} &amp; &amp; I = &amp; &amp;   \beta\,  S \times I\; &amp; &amp; - &amp; \; &amp; \gamma\, I, \\
+	 \frac{\d}{\d t} &amp; &amp; R = &amp; &amp;                         &amp; &amp;   &amp;    &amp; \gamma\, I,
+       \end{alignat}
+     } \\
+     &amp; \black{
+       \begin{align}
+                                                                \\
+         \where S      : \; &amp; \text{number of susceptible}, \\
+                I      : \; &amp; \text{number of infected}, \\
+                R      : \; &amp; \text{number of recovered}, \\
+                t      : \; &amp; \text{time}, \\
+                \beta  : \; &amp; \text{infection rate, and} \\
+                \gamma : \; &amp; \text{recovery rate}.
+       \end{align}
+     }
+   \end{align}
+
+\]
+
+- いっぱいあって訳が分からないシリーズ. (LaTeX)
+
+  equation
+  equation*
+  eqnarray
+  eqnarray*
+  tabular
+  matrix
+  array
+  align
+  align*
+  alignat
+  aligned
+  alignedat
+  …
+
+<hr>2017/11/15 (水)
+
+- 悪い連鎖
+
+  伝説レイド開始 → アプリが落ちる
+                 → 再参加に手間取る
+                 → レイド貢献度が下がる
+                 → 報酬とボールの数が減る
+                 → 伝説ポケモンを取り逃がす orz
+
+\[
+
+   % Mobius transformation
+
+   \begin{align}
+     &amp; \frac{a z + b}{c z + d} = (f_4 \circ f_3 \circ f_2 \circ f_1)(z), \\
+     &amp; \black{
+       \begin{align}
+         \where\; &amp; f_4 : z \mapsto z + \alpha, \\
+	          &amp; f_3 : z \mapsto \beta z,    \\
+                  &amp; f_2 : z \mapsto z^{-1},     \\
+                  &amp; f_1 : z \mapsto z + \gamma, \\
+                  &amp; \gray{\alpha = a c^{-1},\;
+                        \beta  = - (ad-bc) c^{-2},\;
+		        \gamma = d c^{-1}\;.}
+       \end{align}
+     }
+   \end{align}
+
+\]
+
+<hr>2017/11/14 (火)
+
+- 2年目社員のK城先生はK鉄先生からだけでなくテクニカルアドバイザ
+  のX川先生からも資料のダメ出しを食らって凹んでた模様 …
+
+\[
+
+    % Hyperbolic geometry # 240
+
+    \begin{align}
+        &amp; \black{\small
+          \begin{align}
+            \mbox{Let}\; &amp; {\cal P}\;\mbox{be the set of all points in a plane},  \\
+                         &amp; {\cal L}\;\mbox{be the set of all straight lines in the plane}. \\
+          \end{align}
+        } \\
+        &amp; \forall (p,\ell) \in {\cal P} \times {\cal L} \;\st\; p \not\in \ell, \\
+        &amp; \exists (\ell_0,\ell_1) \in {\cal L}^2 \;\st\; \ell_0 \ne \ell_1 \;\wedge \\
+        &amp; \tab \forall b \in \{0,1\},\; p \in \ell_b \;\wedge\; \ell_b \cap \ell = \varnothing.
+    \end{align}
+\]
+
+<hr>2017/11/13 (月)
+
+- そろそろ某シンポジウムの発表の準備があちこちで始まった模様 …
+
+\[
+
+  % Dedekind numbers # 239
+
+  \begin{align}
+    &amp; M(n) := \# \{f \mid f:\{0,1\}^n \rightarrow \{0,1\},\;
+          \vec{x} \ge \vec{y} \implies f(\vec{x}) \ge f(\vec{y}) \}, \\
+    &amp; \where\; (x_1,\ldots,x_n) \ge (y_1,\ldots,y_n) \iff
+                   \bigwedge_{i=1}^n (x_i \ge y_i).
+  \end{align}
+
+\]
+
+
+<hr>2017/11/12 (日)
+
+- 明日から定期券が使えない状態が解消される. ようやくこれで
+  経済的孤立 (主に食糧) から解放される. しかし今回の休みで
+  は, 定期券が使えなくとも地域経済の中心地に無料でアクセス
+  可能だという事を学んだ. やや規模が小さいのが難だが …
+
+\[
+
+  % Z-Combinator # 238
+
+  {
+    \def\Z{\textsf{Z}}
+    \Z = \lambda f.(\lambda x.f\ (\lambda y.\ x\ x\ y))\ (\lambda x.f\ (\lambda y.\ x\ x\ y))
+  }
+
+\]
+- ピリオドが特別な意味を持つ式は, 式の最後にピリオド打て
+  なくてモヤモヤする …
+
+<hr>2017/11/11 (土)
+
+- 早朝から頑張ってイ□ンモールに行ったが, 徒労だった事が発覚.
+  ポケモンＧＯ的に …
+
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Impossible+object%22" target="_blank">
+#! ./svg-turtle.pl
+# % Impossible object # 237
+\svg 200 175
+\transform 1 0 0 -1 0 175 {
+#   \stroke lightgray
+#   \path M 0 0 L 100 175 L 200 0 Z
+# 
+#   \path M 0 0 L 10 17.5 L 20 0 Z
+#   \path M 90 157.5 L 100 175 L 110 157.5 Z
+#   \path M 180 0 L 190 17.5 L 200 0 Z
+# 
+#   \line 20 0 110 157.5
+#   \line 10 17.5 190 17.5
+#   \line 180 0 90 157.5
+# 
+#   \path M 0 0 L 20 35 L 40 0 Z
+#   \path M 80 140 L 100 175 L 120 140 Z
+#   \path M 160 0 L 180 35 L 200 0 Z
+# 
+#   \line 40 0 120 140
+#   \line 20 35 180 35
+#   \line 160 0 80 140
+  \stroke black
+  \fill white
+  \path M 60 35 L 110 122.5 L 180 0 L 190 17.5 L 110 157.5 L 40 35 Z
+  \fill gray
+  \path M 100 105 L 110 122.5 L 180 0 L 20 0 L 10 17.5 L 150 17.5 Z
+  \fill lightgray
+  \path M 140 35 L 150 17.5 L 10 17.5 L 90 157.5 L 110 157.5 L 40 35 Z
+}
+#!
+</a>
+
+<hr>2017/11/10 (金)
+
+- 早速 AM10:15 出発という厳しい条件を外したので, 昨日のスキームは
+  諦め, 今日は定期券を購入する為の複雑な手続きを実行する事にした.
+
+\[
+
+  % Ramanujan-Sato series # 236
+
+  \begin{align}
+    &amp; \frac{1}{\pi} = \sum_{k=0}^{\infty} s(k) \frac{A k + B}{C^k}, \\
+    &amp; \black{
+      \begin{align}
+        \text{e.g. }\; A = \; &amp; 163 \cdot 3344418,\;
+	               B = 13591409,\;
+	               C = j\left(\frac{1+\sqrt{-163}}{2}\right), \\
+		       s(k) = \; &amp; \frac{12\,\i}{\sqrt{C}} {2k \choose k} {3k \choose k} {6k \choose 3k}.
+      \end{align}
+    } \\
+  \end{align}
+
+\]
+
+<hr>2017/11/09 (木)
+
+- 休暇中の食糧問題等を半分解決できるスキームを発見したのだが, 成立
+  条件厳しすぎ …
+
+\[
+
+    % arithmetic-geometric mean # 235
+
+    \begin{align}
+      &amp; \frac{\pi}{2} = M(x,y) \int_{0}^{\frac{\pi}{2}}
+              \frac{\d\theta}{\sqrt{x^2 \cos^2 \theta + y^2 \sin^2 \theta}}, \\
+      &amp; \where 
+      M(x,y) \text{ denotes the arithmetic-geometric mean of $x$ and $y$}.
+    \end{align}
+
+\]
+
+<hr>2017/11/08 (水)
+
+- 特に日記のネタが無いときはネットで見つけた豆知識(ややかなり胡散臭
+  い)を綴る事にした.
+
+- 「代数の父」ともいわれる 16 世紀フランスの数学者フランソワ・ビエト
+   (Franciscus Vieta 1540-1603) は方程式中の未知数や定数に文字をあて
+   る手法を確立し代数学の発展に寄与した. ビエトはヘンリー３世,４世に
+   仕え, 王に敵対するカトリック同盟などの秘密書簡の暗号解読を行った.
+   1590 年ビエトはスペイン王フェリペ２世が用いた 500以上の文字からな
+   る暗号を解読した. 絶対に解読されないと確信していたフェリペ２世は,
+   自分の計画がフランス人に露見したと知るや,悪魔的な黒魔術が使われた
+   に違いないと教皇に不満を漏らしたと伝えられている.
+
+\[
+
+    % Franciscus Vieta # 234
+
+    \begin{align}
+      &amp; \frac{\pi}{2} = \prod_{i=1}^{\infty} \frac{2}{a_i}, \\
+      &amp; \where a_i = \left\{
+          \begin{array}{cl}
+             0                  &amp; (i =    0), \\
+             \sqrt{2 + a_{i-1}} &amp; (i \in \N^+).
+          \end{array}
+        \right.
+    \end{align}
+
+\]
+
+<hr>2017/11/07 (火)
+
+- 共著者と発表内容協議. なんとか OK を貰う.
+
+- 明日からは半年に一度の定期券停止期間なので, ついでに休暇を
+  取る. しかし定期券が停止しているので, 食糧問題(主に外食)の
+  解決がとても難しい …
+
+- この間に何とか左半身筋肉痛を治療したい所だが, 原因の心当た
+  り多すぎ … 現在心当たりのある原因
+
+  - 野菜不足
+  - 運動不足
+  - 睡眠不足
+  - 肉食過多
+  - 甘食過多
+  - コンビニ食過多
+  - ジャンクフード食過多
+  - 堕落生活
+
+- 「現在(1972)用いられているコンパチブル・カラーテレビの
+    放送技術はグレイが1930年代に開発した (数秘術者注目！)。」
+                                     -- マーチン・ガードナー
+
+\[
+
+    % Gray code # 233
+
+    x \oplus (x \gg 1)
+
+\]
+
+<hr>2017/11/06 (月)
+
+- 全く運動してないのに, 左半身が何故か筋肉痛で痛い … orz
+
+\[
+
+    % Deduction theorem # 232
+
+    (A \vdash B) \vdash (\vdash A \rightarrow B).
+
+\]
+
+<hr>2017/11/05 (日)
+
+- 思うように簡潔な statement が書けない.
+  かなりの練習が必要な模様.
+
+\[
+
+    % Matiyasevich-Stechkin visual sieve # 231
+
+    \begin{align}
+      &amp; \Let\; \ell \in \N_{&gt;3}. \\
+      &amp; \graysmall{\exists n,m \in \N_{&gt;1},\;} \ell = n\cdot m \\
+      &amp; \implies
+            \graysmall{\exists \alpha \in (0,1)\cap\Q,\;}
+            \vec{X}_0 = \alpha \vec{X}_1 + (1-\alpha) \vec{X}_2, \\
+      &amp; \graysmall{\where\;
+            \vec{X}_0 = (0  ,\ell),\;
+            \vec{X}_1 = (-n, n^2), \;
+            \vec{X}_2 = (m, m^2).} \\
+    \end{align}
+
+\]
+
+
+<hr>2017/11/04 (土)
+
+- 緊急手配したスマホ代替機が届く. 1万7000円は痛い出費だが,
+  必要な費用なので仕方ない. それにしても半年持たないとは …
+  世の中ではこれが 7万円の端末で行われていると思うと保険に
+  入りたくなる気持ちは分かる. 昨日から発売の iPhone の新し
+  い奴なんて, おいらが普段買ってるスマホ・タブレットの10倍
+  の値段だし …
+
+\[
+
+  % Ramanujan summation # 230
+
+  \begin{align}
+    &amp; \frac{1}{2} \left[
+            f(0) + f(n)
+          \right] + \sum_{k=1}^{n-1} f(k) \\
+    &amp; =
+    \int_{0}^{n} f(x)\d x + \sum_{k=1}^{p} \frac{B_{k+1}}{(k+1)!}
+    \left[
+            f^{(k)} (n) - f^{(k)} (0) 
+          \right]  + R_p \;.
+  \end{align}
+
+\]
+
+<hr>2017/11/03 (金)
+
+- 例年文化の日前後に神保町で行われる古本祭りに行く事にして
+  いる. 通は最終日前日辺りを狙うのだが面倒なので今日行く事
+  にした. 
+
+  適当に買い漁って, 片っ端から領収書を貰う. 5,000 円以上買
+  うと送料無料になるのだ. 無料配送を使う方法は店が預かって
+  くれる場合は預ければ良いが, 例年三省堂前とさくら通り靖国
+  通り間の細道に宅急便屋の出張所が出て, 自分で持って行って
+  も良い. 早速領収書を持って「俺ぐらいの通になると実に手際
+  が良いな」などと思いながらさくら通りの細道に向かう. 案の
+  定宅急便屋がたむろしていた. 
+
+    俺：「この大量の本を送ってたも」
+
+  とドヤ顔で領収書を見せると,
+
+    宅：「あー, 今年から領収書はダメ. チケット貰って来て…」
+    俺：「あっ, はい」orz
+
+  買った店に戻って
+
+    俺：「チケットくれ」
+    店：「チケットは古本まつりでしかやってないから」
+    俺：「？」
+
+  その後「神田古本まつり」とは主に靖国通りの本屋と屋台で行
+  われている祭りの事であって, すずらん通りの屋台は「神保町
+  ブックフェスティバル」であり「神田古本まつり」では無いと
+  いう衝撃の事実が発覚！
+
+\[
+
+   % Cantor # 229
+
+   \begin{align}
+     &amp; \forall A \in \R_{&gt;1},\;
+           \exists ! ( a_i )_{i=1}^{\infty} \in \N^{\infty}
+	           \st a_i \ge a_{i-1}^2, \\
+     &amp; \where\; a_0 = 1,\;\text{ and }\;
+           A = \prod_{i=1}^{\infty} \left(1 + \frac{1}{a_i}\right). \\
+   \end{align}
+
+\]
+
+<hr>2017/11/02 (木)
+
+- □無駅でスマホを破損. orz 若い頃なら激怒していただろうが,
+  年を取って丸くなったので, 起きてしまった事は仕方ないと思
+  えるようになった. そんな事よりポケＧＯ稼働が停止する事の
+  方が問題. 慌ててタブレットを取り出し立ち上げる. 因みに10
+  Km たまごが 2 回連続でウソッキーだった時は電車内で思わず
+
+    「ふざくんな、くぁwせdrftgyふじこlp」
+
+  と口に出してマジ怒. 丸くなるどころか むしろダメ老人に …
+
+\[
+
+    % Weird numbers # 228
+
+      m \in \N,
+      \tab
+      m \lt \sum_{
+        \substack{
+          \small
+          d\backslash m \\
+          \small
+          d \ne m
+        }
+      } d,
+      \tab
+      m \not\in \sum_{
+        \substack{
+          \small
+          d\backslash m \\
+          \small
+          d \ne m
+        }
+      } \{0,1\}\,d .
+\]
+
+<hr>2017/11/01 (水)
+
+- 現代では<a href="https://www.google.co.jp/search?q=%E5%8F%8B%E6%84%9B%E3%81%99%E3%82%8B">『友愛する』</a>とは粛清すること、暗殺すること、口封じの為
+  葬り去ることらしい …
+
+\[
+
+    % Amicable numbers # 227
+    {
+    \def\P{{\mathbb P}}
+    \begin{align}
+      &amp; \black{
+        \begin{align}
+          \Let &amp; n \in \N_{&gt;1} , \\
+               &amp; p = 3 \cdot 2^{n} - 1, \\
+               &amp; q = 3 \cdot 2^{n-1} - 1, \\
+               &amp; r = 9 \cdot 2^{2n-1} - 1. \\
+        \end{align}
+      } \\
+      &amp; \black{
+        \begin{align}
+          p,q,r \in \P \implies &amp; 2^npq \text{ and } 2^nr \text{ are amicable,} \\
+                                &amp; \text{i.e. }\;s(2^npq) = s(2^nr), \\
+                                &amp; \where
+      s: \N \rightarrow \N,\; m \mapsto \sum_{
+        \substack{
+          \small
+          d\backslash m \\
+          \small
+          d \ne m
+        }
+      } d.
+      \end{align}
+    }
+    \end{align}
+    }
+
+\]
+
+<hr>2017/10/31 (火)
+
+- 職場で人権標語を作成せよというオーダーが下ったので, 人権標語で
+  ググった所, すばらしい標語などを見つけ感心したが, 作り方を丁寧
+  に解説してるサイトに張ってあった広告が W○rld of TANKS なる 敵
+  戦車と正面から打ち合うゲームの動画で標語の説得力が皆無に …
+
+- 5分で作った標語にしては酷いのを投稿. まあ呼び出しを食らうほど
+  は酷くないだろ. 基本的に五七五をどう割り当てるかって事だが,感心
+  した標語が (動詞5) ((名詞3)(名詞4)) (名詞5) だったので人工無能
+  をシミュレートして作ったら
+
+    広げよう 差別・人権 秋の暮れ
+
+  どうしてこうなった？ さすがにこれは投稿できなかった.
+
+- S木先生が『数論』という名前なのに, 内容は初等整数論と代数の
+  シラバス？を書かなくてはならないと嘆いていた …
+
+\[
+
+   % Watson Quintuple Product # 226
+
+    \begin{align}
+      &amp; \sum_{n=-\infty}^{\infty} q^{n(3n+1)} (z^{3n} - z^{-3n-1}) \\
+      &amp; =
+      \prod_{m=1}^{\infty}
+        \left( 1 - q^{2m} \right)
+        \left( 1 + q^{2m} z \right)
+        \left( 1 + q^{2m-2} z^{-1} \right)
+        \left( 1 + q^{4m-2} z^{2} \right)
+        \left( 1 + q^{4m-2} z^{-2} \right).
+    \end{align}
+
+\]
+
+<hr>2017/10/30 (月)
+
+- 洗濯物を電気的に解決した途端に晴天. ものすごい快晴.
+  しかも風力は台風並み. あれっ？これってデジャヴとか
+  いう奴では？認知症かまたは元々学習能力がゼロだった
+  模様 …
+
+- 靴専用乾燥機のタイマー壊れた疑惑は冤罪だったようだ.
+  まぁ危険なのでしばらくは検証を繰り返す事になるが.
+
+- よる 9 時 30 分頃に眠さのピークが移ってる … あれ？
+  子供ってこのくらいの時間に寝る？
+
+\[
+
+    %  Jacobi triple product # 225
+
+    \begin{align}
+      &amp; \forall x,y \in \C \st |x| &lt; 1 \wedge y \ne 0, \\
+      &amp; \prod_{m=1}^{\infty}
+        \left( 1 - x^{2m} \right)
+        \left( 1 + x^{2m-1} y^2 \right)
+        \left( 1 + \frac{x^{2m-1}}{y^2} \right)
+      =
+      \sum_{n=-\infty}^{\infty} x^{n^2} y^{2n}.
+    \end{align}
+
+\]
+
+<hr>2017/10/29 (日)
+
+- また大雨. ちょっとシャレにならないくらい激しく降ってる. しかも洗濯
+  物スケジュールがまた破綻. 電気的解決は今月二回目.
+
+- 土日の間に新□に漫画を買いに行く予定だったが断念. 花小金□駅前某所
+  に籠って通勤経路途中駅の金ジム化に成功.
+
+\[
+
+  % Brouwer's fixed-point theorem # 224
+
+  \begin{align}
+    &amp; \Let\; K \text{ be a convex compact subset of an Euclidean space}. \\
+    &amp; \forall f: K \rightarrow K:\; \text{continuous},\; \exists x \in K \st f(x) = x.
+  \end{align}
+
+\]
+
+<hr>2017/10/28 (土)
+
+- 睡眠サイクルのズレにより, とうとう就寝時間が 7:00AM くらいになって
+  しまう. 朝 13:00 頃起きると結構な雨. ベッドから出るのがかったるく
+  ウダウダしてる内に 17:00 くらいになってしまう. ポケモンＧＯでは
+  レイドバトルに参加できる時間帯が早朝から夕方までに制限されている
+  ので慌てて武装して外に飛び出す.
+
+\[
+
+  % Fixed-point combinator # 223
+
+  {
+    \def\Y{\textsf{Y}}
+    \Y = \lambda f.(\lambda x.f\ (x\ x))\ (\lambda x.f\ (x\ x))
+  }
+
+\]
+
+<hr>2017/10/27 (金)
+
+- 1977年8月に Scientific American 誌の Martin Gardner のコラム The
+  "Mathematical Games" に掲載された恐らく初めての RSA 懸賞問題.
+  (変数名と問題文は現代風に翻案)
+
+\[
+
+  % The Magic Words are Squeamish Ossifrage # 222
+
+  \begin{align}
+    &amp; \black{\begin{align}
+      \Let\, e = &amp; 9007, \\
+             n = &amp; 1143816257578888676692357799761466120102182967212423625625618429   \\
+                 &amp; 35706935245733897830597123563958705058989075147599290026879543541, \\
+             c = &amp; 9686961375462206147714092225435588290575999112457431987469512093   \\
+                 &amp; 0816298225145708356931476622883989628013391990551829945157815154.  \\
+    \end{align}} \\
+    &amp; \text{Find }\, c^{1/e} \bmod n.
+  \end{align}
+
+\]
+
+- サマーウォーズというアニメのおかげで, この問題が話題になったらしい …
+
+- 1977 年当時 Rivest は 4 京年かかると見積もっていたが, およそ16年
+  8 ヶ月後の 1994 年 4月に Arjen K. Lenstra 達が複数多項式二次篩法
+  で $n$ の素因数分解に成功した. Internet を介して大規模に暗号解析を
+  行った最初期のプロジェクトの一つで, 南極を除く全大陸 20 ヶ国から
+  600 人以上の有志の協力を集め, 5000 mips year の計算量を sieve に
+  つぎ込んだ. 線形代数にはスパコンを 45 時間使用したとのこと. 2 台
+  の faxを含む 1600 台のマシンが 8ヶ月 に渡って sieve を実行したと
+  伝えられている.
+
+- パソコン 1台とそこら辺で拾ってきた gnfs ソフトで 2～3時間 試して
+  みたが, $n$ が 425 bit もあるのでちょっと歯が立たなかった … orz
+  Google Cloud Compute Engine 30ドル分を使って CADO-NFS なる OSSを
+  1日弱稼働させれば解けるらしい. パソコン1台でも数日かければ十分狙
+  える範囲と思われる. なお素因数はググればすぐ見つかる模様.
+
+- 現代暗号学的には school book RSA はあまり安全ではない.1977年10月
+  に日経サイエンスに掲載されたらしい邦訳を見ると, オリジナル記事に
+  は, やはりあまり安全ではないメッセージリカバリ署名？のようなモノ
+  が含まれていた. まぁ素因数が公開されているので, ここで署名があっ
+  たと主張してもあんまり意味は無いが … この頃は訳語もまだこなれて
+  いなかった模様.
+
+- 天才に解けない暗号など無い等と豪語した Edgar Allan Poeに一生懸命
+  釘を刺してる Gardner のコラムは まあそんなに間違ってはいないが,
+  現代的視点に立つと反論になってなくて幾分微笑ましい. Gardner 程の
+  博識でも理解が十分でないくらい暗号学がニッチであったという事か？
+
+- 平文とリカバードメッセージを確認.
+
+#! /usr/local/bin/gp -q
+e = 9007 ;
+n = 114381625757888867669235779976146612010218296721242362562561842935706935245733897830597123563958705058989075147599290026879543541;
+c = 96869613754622061477140922254355882905759991124574319874695120930816298225145708356931476622883989628013391990551829945157815154 ;
+s = 16717861150380844246015271389168398245436901032358311217835038446929062655448792237114490509578608655662496577974840004057020373 ;
+v = lift(Mod(s,n)^e) ;
+
+p = 3490529510847650949147849619903898133417764638493387843990820577 ;
+q = 32769132993266709549961988190834461413177642967992942539798288533 ;
+
+d = lift(Mod(e,(p-1)*(q-1))^-1) ;
+m = lift(Mod(c,n)^d) ;
+
+{
+  table = [" ", "A", "B", "C", "D", "E", "F", "G", "H", "I",
+           "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S",
+           "T", "U", "V", "W", "X", "Y", "Z" ] ;
+}
+
+{
+  decode(m,  d) =
+    if(m,
+      d = m % 100 ;
+      return(concat(decode((m - d) / 100), table[d+1])) ;
+    ,
+      return("") ;
+    ) ;
+}
+
+print(decode(m)) ;
+print(decode(v)) ;
+#!
+
+- ソース (pari/gp)
+
+$SOURCE
+
+<hr>2017/10/26 (木)
+
+- また睡眠サイクルがどんどんズレてきた …
+
+\[
+
+  % Waring's problem # 221
+
+  \forall k \in \N^+, \exists s \in \N^+ \st
+  \forall n \in \N_0, \exists (a_1,\ldots,a_s) \in \N_0^s,
+  n = \sum_{i=1}^s a_i^k.
+
+\]
+
+<hr>2017/10/25 (水)
+
+- もう四半世紀も LaTeX を使っているのに, いまだに思うように
+  使いこなせないのは LaTeX か, または私に何か本質的な問題が
+  あるとしか思えない …
+
+- 恐ろしく寒い.
+
+- こいつ↓も Curry's paradox と呼ぶらしい. 全然関係ないけど …
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Missing+square+puzzle%22" target="_blank">
+#! ./svg-turtle.pl
+
+# % Missing square puzzle # 220
+
+\svg 150 130
+\transform 10 0 0 -10 10 60 {
+  \transform 1 0 0 1 0 0 {
+    \fill red
+    \path M 0 0 L 8 0 L 8 3 Z
+  }
+  \transform 1 0 0 1 8 3 {
+    \fill blue
+    \path M 0 0 L 5 0 L 5 2 Z
+  }
+  \transform 1 0 0 1 8 1 {
+    \fill yellow
+    \path M 0 2 L 5 2 L 5 1 L 2 1 L 2 0 L 0 0 Z
+  }
+  \transform 1 0 0 1 8 0 {
+    \fill green
+    \path M 0 1 L 0 0 L 5 0 L 5 2 L 2 2 L 2 1 L 0 1 Z
+  }
+}
+\transform 10 0 0 -10 10 120 {
+  \transform 1 0 0 1 5 2 {
+    \fill red
+    \path M 0 0 L 8 0 L 8 3 Z
+  }
+  \transform 1 0 0 1 0 0 {
+    \fill blue
+    \path M 0 0 L 5 0 L 5 2 Z
+  }
+  \transform 1 0 0 1 5 0 {
+    \fill yellow
+    \path M 0 2 L 5 2 L 5 1 L 2 1 L 2 0 L 0 0 Z
+  }
+  \transform 1 0 0 1 8 0 {
+    \fill green
+    \path M 0 1 L 0 0 L 5 0 L 5 2 L 2 2 L 2 1 L 0 1 Z
+  }
+}
+#!
+</a>
+
+- 絵を描く為, 例の reduced svg は適当に文法を強化.
+
+- ソース
+
+$SOURCE
+
+<hr>2017/10/24 (火)
+
+- 避難訓練とやらが行われ, 賞味期限の近づいた
+  非常食の豚汁と鯖味噌が配布された模様.
+
+\[
+
+      % Curry's paradox # 219
+
+      \begin{align}
+        &amp; \forall Y : \text{proposition},       &amp; &amp; \\
+        &amp; 1. \; X := (X \rightarrow Y)          &amp; &amp; \text{definition of a proposition } X, \\
+        &amp; 2. \; X \rightarrow X                 &amp; &amp; \text{identity}, \\
+        &amp; 3. \; X \rightarrow (X \rightarrow Y) &amp; &amp; \text{substitute right of 2, by 1}, \\
+        &amp; 4. \; X \rightarrow Y                 &amp; &amp; \text{contraction}, \\
+        &amp; 5. \; X                               &amp; &amp; \text{substitute 4, by 1}, \\
+        &amp; 6. \; Y                               &amp; &amp; \text{from 5 and 4 by modus ponens}. \\
+      \end{align}
+
+\]
+
+<hr>2017/10/23 (月)
+
+- ものすごい快晴. しかし風力は台風並みの模様 …
+
+- 靴専用乾燥機が大活躍なわけだが, タイマーが壊れた疑惑.
+  危険なので検証する必要がある.
+
+- 出勤中、電車の接続が悪くいつも玉川上○駅で待たされる
+  のだが今日は奇跡的につながった. 
+  
+- 電車に乗っていると小供が難しい漢字の書き取り練習を何
+  らかの教育用スマホアプリで狂ったように行なっている.
+  「それはおまいらには必要ないだろ」と思いつつも, 小供
+  より漢字が危うい事に戦慄が走る.
+
+- 本日は会社の記念日で午前中働けば午後休みがもらえる.
+  まあ, 裁量労働の人はあんまり関係ない. むしろこういう
+  日は会社の食堂が休みがちで被害を被る事が多いのだが,
+  どうやら営業してるらしい …
+
+- 昼食を取った後やや仕事. 凄まじく静かでとても捗った
+  ので早めに帰る.
+
+- DOCTYPE 宣言とやらを HTML5 標準にしてみた. これで
+  この日記も HTML5 対応だ. 何か意味があるのか否かは
+  不明だが, 古いブラウザは切り捨てる事になるかも.
+
+  \[
+
+      % floor function # 218
+
+      \begin{align}
+        &amp; \sum_{i=1}^{n-1} \left\lfloor \frac{i\,m}{n} \right\rfloor = \frac{(m-1)(n-1)}{2}, \\
+        &amp; \where\; m,n \in \N^{+} : \text{mutually prime}.
+      \end{align}
+
+
+  \]
+
+<hr>2017/10/22 (日)
+
+- 物凄い土砂降りだが, 今日は選挙なので投票がてら食事に
+  出かける. 雨用の装備など無いので, これほどの雨で出か
+  けると恐らく一瞬で靴下がびしょ濡れになる. せっかく電
+  気的に乾燥させた靴下が一瞬で使い物にならなくなるのは
+  忍びないので, 少々不格好だが靴下の上に厚手のビニール
+  袋を被せてから靴を履いてみた. 当初狙った性能に近い結
+  果が得られたが, それでも完ぺきではない模様 …
+
+\[
+
+    % multinomial theorem # 217
+
+    \left(\sum_{i=1}^{n} x_i\right)^m
+    =
+    \sum_{\tiny\displaystyle\sum_{i=1}^n d_i = m}
+    \binom{m}{d_1,\ldots,d_n} \prod_{i=1}^n x_i^{d_i}.
+
+\]
+- $\sum$ の下に $\sum$ は犯罪的 …
+
+<hr>2017/10/21 (土)
+
+- こう毎日雨だとさすがに気が滅入る. 今日も遠征は中止.
+
+\[
+
+    % Incidence algebra # 216
+
+    \begin{align}
+      &amp; g(x) = \sum_{y\in E}\zeta(y,x) f(y) \;\iff\;
+
+            f(x) = \sum_{y\in E}\mu(y,x) g(y), \\
+      &amp; \graysmall{\begin{align}
+        \where\; &amp; (E,\preceq) : \text{locally finite poset with a least element}, \\
+                 &amp; \begin{array}{rccl}
+		            \zeta,\mu : &amp; E  \times E  &amp; \rightarrow  &amp; \Z, \\
+		                    &amp; \zeta(x,y)       &amp; := &amp;
+				    \left\{
+		                       \begin{array}{rl}
+				         1 &amp; \text{ if $ x \preceq y $}, \\
+				         0 &amp; \text{ otherwise}, \\
+		                       \end{array}
+				    \right. \\
+		                    &amp; \mu(x,y)        &amp; := &amp;
+				    \left\{
+		                       \begin{array}{ll}
+				         1 &amp; \text{ if $ x = y $}, \\
+					 \displaystyle
+				         -\sum_{z:x \preceq z \prec y} \mu(x,z) &amp; \text{ if $ x \prec y $}, \\
+				         0 &amp; \text{ otherwise}. \\
+		                       \end{array}
+				    \right. \\
+                       \end{array} \\
+      \end{align}}
+    \end{align}
+
+
+
+
+
+\]
+
+
+
+
+
+<hr>2017/10/20 (金)
+
+- 超夜型人間ゆえ昼間は集中力不足な上に, 英語力も乏しいので
+  abstract しか書けなかった …
+
+\[
+
+  % j-invariant # 215
+
+  j(\i) = 1728.
+
+\]
+
+<hr>2017/10/19 (木)
+
+- 朝から雨な上に31年ぶりの寒さとのこと.
+
+\[
+
+    % Zeta function of an elliptic curve over a finite field # 214
+
+    \begin{align}
+      &amp; \zeta_{E(\F_q)}(T) = \frac{1 - a_q T + q T^2}{(1-T)(1-qT)}, \\
+      &amp; \graysmall{\begin{align}
+        \where\; &amp; \zeta_{E(\F_q)}(T) := \exp\left(\sum_{n} \# E(\F_{q^n})\frac{T^n}{n} \right), \\
+                 &amp; E : \text{elliptic curve}, \\
+                 &amp; E(K) : \text{the set of $K$-rational points on $E$}, \\
+                 &amp; \#E(K) : \text{number of $K$-rational points on $E$}.
+      \end{align}}
+    \end{align}
+
+\]
+
+<hr>2017/10/18 (水)
+
+- 洗濯物を電気的に解決した途端に晴天 … しかし夜にはまた雨.
+
+- この日記で出てきた幾つかの数式と密接な関係がある<a href="https://www.google.co.jp/search?q=%22symbolic+dynamics%22" target="_blank">記号力学</a>
+  <a href="https://www.google.co.jp/search?q=%22symbolic+dynamics%22" target="_blank">(Symbolic dynamics)</a> なる学問体系があるらしい …
+
+\[
+
+    % Zeta function of a finite graph # 213
+
+    \begin{align}
+      &amp; \zeta_{G}(t) = \frac{1}{\det(I-tA)}, \\
+      &amp; \graysmall{\begin{align}
+        \where\; &amp; \zeta_{G}(t) := \exp\left(\sum_{n} p_n(\sigma)\frac{t^n}{n} \right), \\
+	         &amp; G : \text{a directed multi graph}, \\
+	         &amp; \sigma : \text{transition on $G$}, \\
+                 &amp; p_n(\sigma) : \text{number of fixed transitions of $\sigma^n$}, \\
+                 &amp; A : \text{adjacency matrix of $G$}. \\
+      \end{align}}
+    \end{align}
+
+\]
+
+<hr>2017/10/17 (火)
+
+- 最近毎日雨なので, ついに洗濯物のスケジュールが破綻 …
+  仕方ないので電気的に解決.
+
+\[
+
+    % Can One Hear the Shape of a Drum? # 212
+
+      \begin{align}
+        &amp; \exists D_1, D_2 : \text{smooth domains in }\,\R^2 \;\st\; D_1 \not\cong D_2,\; \Lambda(D_1) = \Lambda(D_2), \\
+        &amp; \where\; \Lambda(D) = \{\lambda \in \R^+ \mid \exists u : D \rightarrow \R \;\st\; \Delta u + \lambda u = 0,\; u|_{\partial D}=0,\; u \ne 0\}.
+      \end{align}
+
+\]
+<a href="https://www.google.co.jp/search?ie=UTF-8&q=%22Can+One+Hear+the+Shape+of+a+Drum%3F%22" target="_blank">
+#! ./svg-turtle.pl
+\svg 250 110
+\fill lightgray
+\transform 30 0 0 -30 10 100
+# M -0.3 -0.3 H 3.8 Z
+# M -0.3 -0.3 V 3.8 Z
+M 0 2 L 1 3 L 1 2 L 3 2 L 3 1 L 2 0 L 2 1 L 1 1 Z
+\transform 30 0 0 -30 140 100
+# M -0.3 -0.3 H 3.8 Z
+# M -0.3 -0.3 V 3.8 Z
+M 0 2 L 0 3 L 1 3 L 1 2 L 2 2 L 3 1 L 2 1 L 2 0 Z
+#!
+</a>
+- svg のタグがあまりにもウザいので, 本質的な部分の記述をタグに
+  変換する perl を書いたのだが PostScript の出来損ない臭が凄い …
+
+- ソース (svg を丸々パクった謎言語).
+
+$SOURCE
+
+<hr>2017/10/16 (月)
+
+- 寒い！寒すぎる …
+
+- 会社の机の上が溢れて来たので, 本棚を捻出するため幾分整頓. この状況を
+  例える為 <a href="http://www.google.co.jp/search?ie=UTF-8&q=%22Hilbert%27s+paradox+of+the+Grand+Hotel%22">Hilbert's paradox of the Grand Hotel</a> を使おうと思ったが面白
+  い数式が作れそうになかったので代わりに Cantor tuple function.
+
+\[
+
+      % Cantor tuple function # 211
+
+      \begin{align}
+        &amp; \black{\begin{array}{rccc}
+          \pi^{(n)} : &amp; \N^n             &amp; \hookrightarrow \hspace{-8pt} \rightarrow &amp; \N, \\
+                      &amp; (k_1,\ldots,k_n) &amp; \mapsto     &amp; \pi(\pi^{(n-1)}(k_1,\ldots,k_{n-1}),k_n),
+        \end{array}} \\
+	&amp; \\
+        &amp; \black{\begin{array}{rccc}
+          \where\; \pi : &amp; \N^2             &amp; \hookrightarrow \hspace{-8pt} \rightarrow &amp; \N, \\
+                      &amp; (k_1,k_2) &amp; \mapsto     &amp; 
+	\displaystyle \frac{1}{2} (k_1+k_2) (k_1+k_2+1) + k_2.
+        \end{array}} \\
+	
+      \end{align}
+
+\]
+
+<hr>2017/10/15 (日)
+
+- 朝から雨な上に上着が必要なくらい寒い. 今日の遠出は中止.
+
+\[
+
+      % principal ideal domain # 210
+
+      \begin{align}
+        &amp; \text{P.I.D.} \subset \text{U.F.D.}\;, \\
+        &amp; \graysmall{\text{under axiom of choice}.}
+      \end{align}
+
+\]
+
+<hr>2017/10/14 (土)
+
+- 電車に傘を忘れそうになる. 今まで何度も電車に傘を忘れたが,
+  あまり学習してないらしい …
+
+  \[
+
+      % Laguerre # 210
+
+      \begin{align}
+        &amp; \Let \sum_{i=0}^n a_{i} X^{i} = \prod_{i=1}^{n}(X-\alpha_i). \\
+        &amp; \{\alpha_i\} \subset \R
+              \implies \{\alpha_i\} \subset \mu + (n-1)\sigma[-1,1], \\
+        &amp; \\
+        &amp; \graysmall{\where \;
+                \mu = -\frac{a_{n-1}}{n}
+                ,\;
+                \sigma = \sqrt{\mu^2 - \frac{2\,a_{n-2}}{n(n-1)}}
+              .}
+      \end{align}
+
+  \]
+
+<hr>2017/10/13 (金)
+
+- 世の中には『愚痴聞き代行』というビジネスが存在するらしい …
+
+  \[
+
+      % Brun's theorem # 209
+
+      {
+        \def\P{{\mathbb P}}
+        \sum_{p\,:\,p+2\in\P} \left(\frac{1}{p}+\frac{1}{p+2}\right) 
+	=
+	\left(\frac{1}{3}+\frac{1}{5}\right) +
+	\left(\frac{1}{5}+\frac{1}{7}\right) +
+	\left(\frac{1}{11}+\frac{1}{13}\right) + \cdots
+	\approx 1.902160583104.
+      }
+
+  \]
+
+<hr>2017/10/12 (木)
+
+- <a href="https://arxiv.org/abs/1709.06678" target="_blank">A blueprint for demonstrating quantum supremacy with superconducting qubits</a>
+
+  Superconducting quantum computing で 9 qubit 出来た. 60 qubit も行
+  けるってことか？
+
+- <a href="https://newsroom.intel.com/news/intel-delivers-17-qubit-superconducting-chip-advanced-packaging-qutech/" target="_blank">Intel Delivers 17-Qubit Superconducting Chip with Advanced Packaging to QuTech</a>
+
+  Intel も作って出荷してるらしい (17 qubit) <a href="https://www.youtube.com/watch?time_continue=2&v=qEvrPYmvBIY" target="_blank">開封の儀</a>
+
+  \[
+
+      % Rademacher reciprocity # 208
+
+      {
+      \def\f#1{\left(\!\left(#1\right)\!\right)}
+      \def\ff#1{\left(\!\!\!\!\:\left(#1\right)\!\!\!\!\:\right)}
+      \begin{align}
+        &amp; D(a,b\,;c)+ D(b,c\,;a)+ D(c,a\,;b)=
+          \frac{1}{12} \frac{a^2+b^2+c^2}{abc} - \frac{1}{4}, \\
+        &amp; \\
+        &amp; \graysmall{\begin{align}
+          \where\; &amp; D(a,b;c) = \sum_{i=0}^{c-1} \ff{\frac{ia}{c}} \ff{\frac{ib}{c}}, \\
+                   &amp; \f{x} = \left\{
+                       \begin{array}{ll}
+                         0 &amp; (x \in \Z), \\
+                         x - \lfloor x \rfloor - \frac{1}{2} &amp; (x \in \R\setminus\Z), \\
+                       \end{array}
+                     \right. \\
+                   &amp; a,b,c \;\text{ are pairwise coprime positive integers}.
+        \end{align}}
+      \end{align}
+      }
+
+  \]
+
+<hr>2017/10/11 (水)
+
+- 会社のイントラの proxy には暫く前からフィルター機能が導入されてる
+  のだが, 今日いろいろググっていたら …
+
+    「統計でウソをつく法 要約」 →  ブロックされました ゲーム
+
+    「Martingale System」 →  ブロックされました ギャンブル 
+
+  フィルター機能の導入もその精度も特に文句は無いのだが, 今日は何故か
+  頻繁で萎えた. フィルター, go○gle, 入力のうち何れが悪いのかは不明 …
+
+\[
+
+    % fundamental theorem of arithmetic # 207
+
+    \begin{align}
+      &amp; (n) = \bigcap_{i=1}^{r} (p_i^{d_i}),  \\
+      &amp; \where  n = \pm \prod_{i=1}^{r} p_i^{d_i} \in \Z, \;
+            p_i : \text{rational prime}.
+    \end{align}
+
+\]
+
+
+<hr>2017/10/10 (火)
+
+- 最近毎日セーターを持ち歩いているのだが何故か暑い日が続き
+  毎日ギャンブルに負けている気分 …
+
+\[
+
+    % Optional stopping theorem # 206
+
+    \E(Y_N) = \E(Y_1).
+
+\]
+
+<hr>2017/10/09 (月)
+
+- 結局メディアサーバの修理は途中でペンディングになってしまった.
+
+\[
+
+    % Metcalfe's law # 205
+
+    V \sim c\,n^2.
+
+\]
+
+<hr>2017/10/08 (日)
+
+- 新□で砂集めをするのが最も効率が良いと思われるが, どうみても
+  不毛なので, メダルコンプを目指して久しぶりに東村□中央公園に
+  遠征. まあ武蔵□中央公園でも可能だったのだが …
+
+\[
+
+    % Lagrange's four-square theorem # 204
+
+    \forall a \in \N,\; \exists a_0,a_1,a_2,a_3 \in \N \;\st\;
+    a = \sum_{i=0}^3 a_i^2.
+
+\]
+
+<hr>2017/10/07 (土)
+
+- 連休中に故障したメディアサーバの修理を行いたいところだが,
+  午後からは天気が良くなったので, 結局フラフラ出かけてしまった …
+
+\[
+
+    % Lyapunov exponent # 203
+
+    \begin{align}
+      &amp; \Let x_{n+1} = f(x_n) \text{ be a dynamical system}. \\
+      &amp; \lambda = \lim_{n\rightarrow\infty}\frac{1}{n}\sum_{i=0}^{n-1}
+                \ln | f'(x_i) |.
+    \end{align}
+
+\]
+
+<hr>2017/10/06 (金)
+
+- 帰りに土砂降りに合う. しかし今日は運良く１０分程度でジム配置が完了.
+
+\[
+
+    % Kolmogorov-Arnold representation theorem # 202
+
+    \begin{align}
+      &amp; \exists \psi_{q,p}:[0,1] \rightarrow \R : \text{one-dimensional continuous functions}, \\
+      &amp; \forall f:[0,1]^n \rightarrow \R : \text{multivariate continuous functions}, \\
+      &amp; \exists \Phi_q: \R \rightarrow \R :\text{one-dimensional continuous functions} \st \\
+      &amp; f(x_1,\ldots,x_n) = \sum_{q=0}^{2n} \Phi_q\left(\sum_{p=1}^{n}\psi_{q,p}(x_p)\right).
+    \end{align}
+
+\]
+
+<hr>2017/10/05 (木)
+
+- Amaz〇n で予約していた「ニンテンドークラシックミニ スーパー
+  ファミコン」が届いたのだが, どう見てもプレイする時間無い
+  よな？
+
+- 午後に会社そばの建物？からモクモクと黒煙が上がる. どうやら
+  火災のようだ. 誰も彼もが「あれってＫ鉄先生の家の方じゃない
+  のか？」と突っ込みを入れていた …
+
+- ポケＧＯでは自分のポケモンをジムに配置する事でポケコイン
+  と呼ばれる重要リソースを稼ぐことが出来る. いつも帰り際に
+  ３匹ぐらいのポケモンを配置しておくと, 朝にはポケモン達が
+  ポケコインを概ね上限まで稼いで帰って来る. しかし様々な制
+  約が存在し, 運が悪いとポケモンを配置するのに時間がかかる.
+
+  今日は運悪くお外で３０分間スマホ画面を叩き続けたのだが,
+  とにかく寒い. 寒過ぎる. 朝家を出るとき危険を感じたので,
+  念のためセーターを持って行ったのだが, これが無かったら死
+  んでいた …
+
+  因みにポケコインは僅かなお金で簡単に手に入れる事ができる …
+
+\[
+
+    % Logistic map # 201
+
+    x_{n+1} = a x_n (1 - x_n).
+
+\]
+
