@@ -11,6 +11,62 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+
+<hr>2024/07/24 (水)
+10億桁ぐらいならこんな雑なプログラムでも求まるらしい…
+<pre>
+#include <boost/multiprecision/gmp.hpp>
+#include <iostream>
+using namespace std ;
+using namespace boost ;
+using namespace multiprecision ;
+constexpr long n = 1000000000 + 3 ;
+using nfloat = number<gmp_float<n> > ;
+int main(){
+  nfloat A = 1 ;
+  nfloat B = nfloat(1) / sqrt(nfloat(2)) ;
+  nfloat T = nfloat(1) / nfloat(4) ;
+  nfloat X = 1 ;
+  nfloat Y ;
+  nfloat pi ;
+  nfloat epsilon = pow(nfloat(10),-nfloat(n)) ;
+  int m ;
+  for(m = 0; abs(A - B) > epsilon; m++){
+    Y = A ;
+    A = ldexp((A+B),-1) ;
+    B = sqrt(Y*B) ;
+    Y-= A ;
+    T-= (Y*Y)*X ;
+    X = ldexp(X,1) ;
+  }
+  T = ldexp(T,2) ;
+  Y = A+B ;
+  pi = Y*Y/T ;
+  cerr << m << endl ;
+  cout << setprecision(n) << pi << endl;
+  return 0 ;
+}
+
+$ sudo apt -y install libgmp-dev
+$ g++ -O9 pi.cpp -lgmp
+$ time ./a.out > pi.txt
+30
+real 46m46.171s
+user 44m58.315s
+sys 1m6.176s
+
+$ tail -c 100 pi.txt
+4543524276655356743570219396394581990548327874671398
+68209319635362820461275571517139511527504551964
+</pre>
+
+<hr>2024/07/23 (火)
+ネットワーク遅いと思ってたらハブの不調だったらしい...
+\[
+  % Heegner number
+  d = −1, −2, −3, −7, −11, −19, −43, −67, −163.
+\]
+
 <hr>2023/10/04 (水)
 <pre>
 raid0 の superblock が少し前に停電で吹き飛んだので,
