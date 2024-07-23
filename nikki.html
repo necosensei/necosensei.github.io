@@ -201,13 +201,13 @@ Internet, we are the Internet. Ivan Ristić
 <!-- pre -->
 
 <hr><div id="20240724">2024/07/24 (水)</div>10億桁ぐらいならこんな雑なプログラムでも求まるらしい…
-<pre>#include <boost multiprecision="" gmp.hpp="">
-#include <iostream>
+<pre>#include &lt;boost/multiprecision/gmp.hpp&gt;
+#include &lt;iostream&gt;
 using namespace std ;
 using namespace boost ;
 using namespace multiprecision ;
 constexpr long n = 1000000000 + 3 ;
-using nfloat = number<gmp_float<n> &gt; ;
+using nfloat = number&lt;gmp_float&lt;n&gt; &gt; ;
 int main(){
   nfloat A = 1 ;
   nfloat B = nfloat(1) / sqrt(nfloat(2)) ;
@@ -244,7 +244,7 @@ sys 1m6.176s
 % tail -c 100 pi.txt
 4543524276655356743570219396394581990548327874671398
 68209319635362820461275571517139511527504551964
-</gmp_float<n></iostream></boost></pre>
+</pre>
 
 <hr><div id="20240723">2024/07/23 (火)</div>ネットワーク遅いと思ってたらハブの不調だったらしい...
 <span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="46.943ex" height="2.509ex" style="vertical-align: -0.671ex;" viewBox="0 -791.3 20211.4 1080.4" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-2-Title">
