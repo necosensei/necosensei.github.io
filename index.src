@@ -15,7 +15,7 @@ Internet, we are the Internet. Ivan Ristić
 <hr>2024/07/24 (水)
 10億桁ぐらいならこんな雑なプログラムでも求まるらしい…
 <pre>
-#! /usr/bin/sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
+#! /usr/bin/sed 's/\$/\&#36;/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
 #include <boost/multiprecision/gmp.hpp>
 #include <iostream>
 using namespace std ;
