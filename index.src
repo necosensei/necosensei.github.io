@@ -48,18 +48,18 @@ int main(){
   return 0 ;
 }
 
-% sudo apt -y install build-essential
-% sudo apt -y install libgmp-dev
-% sudo apt -y install libboost-all-dev
+$ sudo apt -y install build-essential
+$ sudo apt -y install libgmp-dev
+$ sudo apt -y install libboost-all-dev
 
-% g++ -O9 pi.cpp -lgmp
-% time ./a.out > pi.txt
+$ g++ -O9 pi.cpp -lgmp
+$ time ./a.out > pi.txt
 30
 real 46m46.171s
 user 44m58.315s
 sys 1m6.176s
 
-% tail -c 100 pi.txt
+$ tail -c 100 pi.txt
 4543524276655356743570219396394581990548327874671398
 68209319635362820461275571517139511527504551964
 #!
