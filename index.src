@@ -92,14 +92,14 @@ sys 1m6.176s
 
   \begin{aligned}
     &amp;
+      d = -163, \;\;
+      j\left(\frac{1+\sqrt{-163}}{2}\right) = -640320^3 , \;\;
       \frac{1}{\pi} =
         12
-	\sum_{k=0}^\infty 
+	\sum_{k=0}^\infty
           \frac
-            {(6k)!(163 \cdot 3344418 k+13591409)}
-            {(3k)!(k!)^3 (-640320)^{3k+3/2}}            , \\
-    &amp;
-      j\left(\frac{1+\sqrt{-163}}{2}\right) = -640320^3 . \\
+            {(-1)^k(6k)!(163 \cdot 3344418 k+13591409)}
+            {(3k)!(k!)^3 (640320)^{3k+3/2}}            . \\
   \end{aligned}
 \]
 
