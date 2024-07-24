@@ -15,6 +15,8 @@ Internet, we are the Internet. Ivan Ristić
 Chudnovsky algorithm については, 2017年に全く同じ式を日記に
 書いていた事が判明 …
 \[
+  % Quadratic polynomials producing consecutive, distinct primes and class groups of complex quadratic fields
+
   \def\P{{\mathbb P}}
   \begin{aligned}
     &amp; \Let \P \text{ be the set of all rational primes},\;\; d := -163,\\
