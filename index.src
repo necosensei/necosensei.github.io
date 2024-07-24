@@ -81,8 +81,9 @@ sys 1m6.176s
       A_{i+1} := \left(A_i +      B_i\right)\cdot\frac{1}{2} , \;\; &amp; &amp;
       B_{i+1} := \left(A_i \times B_i\right)^    \frac{1}{2} , \;\; &amp; &amp;
       T_{i+1} := T_i - \left(A_i - A_{i+1}\right)^2\cdot 2^i , \\
+    &amp; \\
     &amp;
-      \pi \approx \frac{(A_{i+1}+B_{i+1})^2}{4 T_{i+1}}. \\
+      \pi \approx \frac{(A_n+B_n)^2}{4 \; T_n}. \\
   \end{aligned}
 \]
 
