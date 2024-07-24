@@ -13,7 +13,9 @@ Internet, we are the Internet. Ivan Ristić
 <!-- pre -->
 
 <hr>2024/07/24 (水)
-10億桁ぐらいならこんな雑なプログラムでも求まるらしい…
+35年前は 5000 ～ 6000 ステップのプログラムをスパコンで約100時間
+走らせる必要があった10億桁も, 今ならこんな雑なプログラムをパソコンで
+1時間走らせれば求まるらしい …
 <pre>
 #! /usr/bin/sed 's/\$/\&#x24;/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
 #include <boost/multiprecision/gmp.hpp>
@@ -79,7 +81,7 @@ sys 1m6.176s
     &amp;
       A_i := \left(A_{i-1} +     B_{i-1}\right)\cdot\frac{1}{2} ; \\
     &amp;
-      B_i := \left(A_{i-1} \cdot B_{i-1}\right)^    \frac{1}{2} ; \\
+      B_i := \left(A_{i-1} \times B_{i-1}\right)^    \frac{1}{2} ; \\
     &amp;
       T_i := T_{i-1} - X_{i-1} \left(A_i - A_{i-1}\right)^2     ; \\
     &amp;
