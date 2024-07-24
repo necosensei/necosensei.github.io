@@ -13,9 +13,9 @@ Internet, we are the Internet. Ivan Ristić
 <!-- pre -->
 
 <hr>2024/07/24 (水)
-35年前は 5000 ～ 6000 ステップのプログラムをスパコンで約100時間
-走らせる必要があった10億桁も, 今ならこんな雑なプログラムをパソコンで
-1時間走らせれば求まるらしい …
+35年前は 5000 ～ 6000 ステップのFORTRANプログラムをスパコンで約100時間
+走らせる必要があったπ計算10億桁も, 今ならこんな雑なC++プログラムを
+パソコンで1時間走らせれば求まるらしい …
 <pre>
 #! /usr/bin/sed 's/\$/\&#x24;/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
 #include <boost/multiprecision/gmp.hpp>
@@ -84,6 +84,22 @@ sys 1m6.176s
     &amp; \\
     &amp;
       \pi \approx \frac{(A_n+B_n)^2}{4 \; T_n}. \\
+  \end{aligned}
+\]
+現在の記録は 202 兆桁ということらしい …
+\[
+  % Chudnovsky algorithm
+
+  \begin{aligned}
+    &amp;
+      \frac{1}{\pi} =
+        12
+	\sum_{k=0}^\infty 
+          \frac
+            {(6k)!(163 \cdot 3344418 k+13591409)}
+            {(3k)!(k!)^3 (-640320)^{3k+3/2}}            , \\
+    &amp;
+      j\left(\frac{1+\sqrt{-163}}{2}\right) = -640320^3 . \\
   \end{aligned}
 \]
 
