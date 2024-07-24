@@ -18,9 +18,9 @@ Chudnovsky algorithm については, 2017年に全く同じ式を日記に
   \def\P{{\mathbb P}}
   \begin{aligned}
     &amp; \Let \P \text{ be the set of all rational primes},\;\; d := -163,\\
-    &amp; Z := \{1,\ldots,-d-1\},\;\; P := \{71,\ldots,92\}. \\
+    &amp; N := \{1,\ldots,-d-1\},\;\; P := \{71,\ldots,92\}. \\
     &amp; \forall i \in P,             \;\; \left(i^2 \bmod (-d)\right) \in \P,\\
-    &amp; \forall i \in Z \setminus P, \;\; \left(i^2 \bmod (-d)\right) \in \Z \setminus \P.\\
+    &amp; \forall i \in N \setminus P, \;\; \left(i^2 \bmod (-d)\right) \in \N \setminus \P.\\
   \end{aligned}
 \]
 
