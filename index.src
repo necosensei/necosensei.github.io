@@ -74,12 +74,12 @@ sys 1m6.176s
 
   \begin{aligned}
     &amp;
-      A_0 := 1                   , \;\;
-      B_0 := \frac{1}{\sqrt{2}}  , \;\;
+      A_0 := 1                   , \;\; &amp; &amp;
+      B_0 := \frac{1}{\sqrt{2}}  , \;\; &amp; &amp;
       T_0 := \frac{1}{4}         , \\
     &amp;
-      A_{i+1} := \left(A_i +      B_i\right)\cdot\frac{1}{2} , \;\;
-      B_{i+1} := \left(A_i \times B_i\right)^    \frac{1}{2} , \;\;
+      A_{i+1} := \left(A_i +      B_i\right)\cdot\frac{1}{2} , \;\; &amp; &amp;
+      B_{i+1} := \left(A_i \times B_i\right)^    \frac{1}{2} , \;\; &amp; &amp;
       T_{i+1} := T_i - \left(A_i - A_{i+1}\right)^2\cdot 2^i , \\
     &amp;
       \pi \approx \frac{(A_{i+1}+B_{i+1})^2}{4 T_{i+1}}. \\
