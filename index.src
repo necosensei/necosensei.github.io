@@ -66,6 +66,28 @@ sys 1m6.176s
 4543524276655356743570219396394581990548327874671398
 68209319635362820461275571517139511<span style="background-color:yellow;">5275045519</span>64
 </pre>
+\[
+
+  % Gauss-Legendre algorithm
+
+  \begin{aligned}
+    &amp;
+      A_0 := 1                   ; \;\;
+      B_0 := \frac{1}{\sqrt{2}}  ; \;\;
+      T_0 := \frac{1}{4}         ; \;\;
+      X_0 := 1                   ;      \\
+    &amp;
+      A_i := \left(A_{i-1} +     B_{i-1}\right)\cdot\frac{1}{2} ; \\
+    &amp;
+      B_i := \left(A_{i-1} \cdot B_{i-1}\right)^    \frac{1}{2} ; \\
+    &amp;
+      T_i := T_{i-1} - X_{i-1} \left(A_i - A_{i-1}\right)^2     ; \\
+    &amp;
+      X_i := 2 X_{i-1}                                          ; \\
+    &amp;
+      \pi \approx \frac{(A_i+B_i)^2}{4 T_i}. \\
+  \end{aligned}
+\]
 
 <hr>2024/07/23 (火)
 ネットワーク遅いと思ってたらハブの不調だったらしい...
