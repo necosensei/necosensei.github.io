@@ -31,7 +31,7 @@ Chudnovsky algorithm については, 2017年に全く同じ式を日記に
 走らせる必要があったπ計算10億桁も, 今ならこんな雑な 31 ステップの
 C++プログラムをパソコンで1時間走らせれば求まるらしい …
 <pre>
-#! /usr/bin/sed 's/\$/\&#x24;/g; s/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
+#! /usr/bin/sed 's/&/\&amp;/g; s/\$/\&#36;/g; s/</\&lt;/g; s/>/\&gt;/g; s/"/\&quot;/g; s/'"'"'/\&#39;/g'
 #include <boost/multiprecision/gmp.hpp>
 #include <iostream>
 using namespace std ;
@@ -66,8 +66,7 @@ int main(){
 
 ------------------------------------------------
 
-&#36;
-% sudo apt -y install build-essential
+$ sudo apt -y install build-essential
 % sudo apt -y install libgmp-dev
 % sudo apt -y install libboost-all-dev
 
