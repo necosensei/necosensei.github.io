@@ -19,10 +19,10 @@ Chudnovsky algorithm については, 2017年に全く同じ式を日記に
 
   \def\P{{\mathbb P}}
   \begin{aligned}
-    &amp; \Let \P \text{ be the set of all rational primes},\;\; d := -163,\\
-    &amp; N := \{1,\ldots,-d-1\},\;\; P := \{71,\ldots,92\}. \\
+    &amp; \Let \P \text{ be the set of all rational primes},\;\; d := 163,\\
+    &amp; N := \{1,\ldots,d-1\},\;\; P := \{71,\ldots,92\}. \\
     &amp; \forall i \in N,\;\; 
-    \left(\left(i^2 \bmod (-d)\right) \in \P\right) \Leftrightarrow (i\in P).
+    \left(\left(i^2 \bmod d\right) \in \P\right) \Leftrightarrow (i\in P).
   \end{aligned}
 \]
 
@@ -106,13 +106,13 @@ sys 1m6.176s
 
   \begin{aligned}
     &amp;
-      d = -163, \;\;
-      J = j\left(\frac{1+\sqrt{d}}{2}\right) = -640320^3 , \;\;
+      d = 163, \;\;
+      J = j\left(\frac{1+\sqrt{-d}}{2}\right) = -640320^3 , \;\;
       \frac{1}{\pi} =
         12
 	\sum_{k=0}^\infty
           \frac
-            {(-1)^k(6k)!(-d \cdot 3344418 k+13591409)}
+            {(-1)^k(6k)!(d \cdot 3344418 k+13591409)}
             {(3k)!(k!)^3 (-J)^{k+1/2}}            . \\
   \end{aligned}
 \]
@@ -121,7 +121,7 @@ sys 1m6.176s
 ネットワーク遅いと思ってたらハブの不調だったらしい...
 \[
   % Heegner number
-  d = −1, −2, −3, −7, −11, −19, −43, −67, −163.
+  d \in \{1, 2, 3, 7, 11, 19, 43, 67, 163\}.
 \]
 
 <hr>2023/10/04 (水)
