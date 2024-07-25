@@ -107,13 +107,13 @@ sys 1m6.176s
   \begin{aligned}
     &amp;
       d = 163, \;\;
-      J = j\left(\frac{1+\sqrt{-d}}{2}\right) = -640320^3 , \;\;
+      C = j\left(\frac{1+\sqrt{-d}}{2}\right) = -640320^3 , \;\;
       \frac{1}{\pi} =
         12
 	\sum_{k=0}^\infty
           \frac
             {(-1)^k(6k)!(d \cdot 3344418 k+13591409)}
-            {(3k)!(k!)^3 (-J)^{k+1/2}}            . \\
+            {(3k)!(k!)^3 (-C)^{k+1/2}}            . \\
   \end{aligned}
 \]
 
