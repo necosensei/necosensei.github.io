@@ -26,7 +26,7 @@ Field 違い ?
 \]
 論文を 5 分くらい斜め読みしただけなので有効な $ \lambda $ の範囲は
 良く分からなかったが, まあ解析接続して
-$ \lambda \in \C \cup \{\infty\} $ で $ \pi(\lambda) = \pi $ (定数)
+$ \lambda \in \C \cup \{\infty\} $ 全域で $ \pi(\lambda) = \pi $ (定数)
 という事なんだろう.
 
 <hr>2024/07/25 (木)
