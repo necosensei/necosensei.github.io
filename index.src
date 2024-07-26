@@ -24,8 +24,10 @@ Field 違い ?
     &amp; \where (a)_b := \Gamma(a+b)/\Gamma(a) \text{ is the Pochhammer symbol}.
   \end{aligned}
 \]
-論文を 5 分くらい斜め読みしただけなので, 有効な $ \lambda $ の範囲は良く分からなかったが,
-まあ解析接続して $ \lambda \in \C \cup \{\infty\} $ で $ \pi(\lambda) = \pi $ (定数) という事なんだろう.
+論文を 5 分くらい斜め読みしただけなので有効な $ \lambda $ の範囲は
+良く分からなかったが, まあ解析接続して
+$ \lambda \in \C \cup \{\infty\} $ で $ \pi(\lambda) = \pi $ (定数)
+という事なんだろう.
 
 <hr>2024/07/25 (木)
 Chudnovsky algorithm については, 2017年に全く同じ式を日記に
