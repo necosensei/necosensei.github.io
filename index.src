@@ -20,7 +20,8 @@ Field 違い ?...
     &amp; \pi = 4 + \sum_{n=1}^\infty \frac{1}{n!}
             \left( \frac{1}{n+\lambda}-\frac{4}{2n+1} \right)
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
-    &amp; \where (a)_b := \Gamma(a+b)/\Gamma(a)
+    &amp; \where \lambda \in [0,\infty], \text{ and }
+          (a)_b := \Gamma(a+b)/\Gamma(a)
           \text{ is called the Pochhammer symbol}. \\
   \end{aligned}
 \]
