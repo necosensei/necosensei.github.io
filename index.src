@@ -22,11 +22,11 @@ Field 違い ?
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
     &amp; \where 
           (a)_b := \Gamma(a+b)/\Gamma(a)
-          \text{ is the Pochhammer symbol, and } \Re(\lambda) \in \R^{\ge0} \cup \{\infty\}. \\
+          \text{ is the Pochhammer symbol, and } \Re(\lambda) \in \R^{\ge0} \cup \{\infty\} ? \\
   \end{aligned}
 \]
-有効な $ \lambda $ の範囲が良く分からなかったので, もっと広いかもしれない.
-論文を 5 分くらい斜め読みしただけだが ...
+有効な $ \lambda $ の範囲が良く分からなかった. 論文を 5 分くらい斜め読みしただけだが...
+まあ解析接続すれば $ \lambda \in \C \cup \{\infty\} $ で定数 $ \pi $ って事なんだろうが.
 
 <hr>2024/07/25 (木)
 Chudnovsky algorithm については, 2017年に全く同じ式を日記に
