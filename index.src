@@ -22,10 +22,10 @@ Field 違い ?
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
     &amp; \where 
           (a)_b := \Gamma(a+b)/\Gamma(a)
-          \text{ is the Pochhammer symbol, and } \Re(\lambda) \in [0,\infty]. \\
+          \text{ is the Pochhammer symbol, and } \Re(\lambda) \in \R \cup \{\infty\}. \\
   \end{aligned}
 \]
-有効な $ \lambda $ の範囲が良く分からなかった.
+有効な $ \lambda $ の範囲が良く分からなかったので, もっと広いかもしれない.
 論文を 5 分くらい斜め読みしただけだが ...
 
 <hr>2024/07/25 (木)
