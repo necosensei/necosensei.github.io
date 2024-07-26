@@ -17,7 +17,7 @@ Field 違い ?
   % Field Theory Expansions of String Theory Amplitudes
 
   \begin{aligned}
-    &amp; \exists D : \text{ a open and connected subset of } \; \C \cup \{\infty\}, \;\; \forall \lambda \in D, \\
+    &amp; \exists D : \text{ an open and connected subset of } \; \C \cup \{\infty\}, \;\; \forall \lambda \in D, \\
     &amp; \pi = 4 + \sum_{n=1}^\infty \frac{1}{n!}
             \left( \frac{1}{n+\lambda}-\frac{4}{2n+1} \right)
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
