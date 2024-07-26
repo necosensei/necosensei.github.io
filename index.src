@@ -17,12 +17,12 @@ Field 違い ?
   % Field Theory Expansions of String Theory Amplitudes
 
   \begin{aligned}
+    &amp; \exists D : \text{ a open and connected subset of } \; \C \cup \{\infty\}, \\
+    &amp; \forall \lambda \in D, \\
     &amp; \pi = 4 + \sum_{n=1}^\infty \frac{1}{n!}
             \left( \frac{1}{n+\lambda}-\frac{4}{2n+1} \right)
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
-    &amp; \where 
-          (a)_b := \Gamma(a+b)/\Gamma(a)
-          \text{ is the Pochhammer symbol, } \lambda \in D, \text{ and $ D $ is a open and connected subset of } \C \cup \{\infty\}. \\
+    &amp; \where (a)_b := \Gamma(a+b)/\Gamma(a) \text{ is the Pochhammer symbol}.
   \end{aligned}
 \]
 論文を 5 分くらい斜め読みしただけなので, 有効な $ \lambda $ の範囲は良く分からなかったが,
