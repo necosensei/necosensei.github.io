@@ -25,8 +25,8 @@ Field 違い ?
           \text{ is the Pochhammer symbol, and } \Re(\lambda) \in \R^{\ge0} \cup \{\infty\} ? \\
   \end{aligned}
 \]
-有効な $ \lambda $ の範囲が良く分からなかった. 論文を 5 分くらい斜め読みしただけだが...
-まあ解析接続すれば $ \lambda \in \C \cup \{\infty\} $ で定数 $ \pi $ って事なんだろうが.
+論文を 5 分くらい斜め読みしただけなので, 有効な $ \lambda $ の範囲は良く分からなかった. 
+まあ解析接続して $ \lambda \in \C \cup \{\infty\} $ で$ \pi(\lambda) = \pi $ (定数) って事なんだろう.
 
 <hr>2024/07/25 (木)
 Chudnovsky algorithm については, 2017年に全く同じ式を日記に
