@@ -22,11 +22,11 @@ Field 違い ?
             \left( \frac{(2n+1)^2}{4(n+\lambda)}-n \right)_{n-1}, \\
     &amp; \where 
           (a)_b := \Gamma(a+b)/\Gamma(a)
-          \text{ is the Pochhammer symbol, and } \Re(\lambda) \in \R^{\ge0} \cup \{\infty\} ? \\
+          \text{ is the Pochhammer symbol, } \lambda \in D, \text{ and $ D $ is a open and connected subset of } \C \cup \{\infty\}. \\
   \end{aligned}
 \]
-論文を 5 分くらい斜め読みしただけなので, 有効な $ \lambda $ の範囲は良く分からなかった. 
-まあ解析接続して $ \lambda \in \C \cup \{\infty\} $ で$ \pi(\lambda) = \pi $ (定数) って事なんだろう.
+論文を 5 分くらい斜め読みしただけなので, 有効な $ \lambda $ の範囲は良く分からなかったが,
+まあ解析接続して $ \lambda \in \C \cup \{\infty\} $ で $ \pi(\lambda) = \pi $ (定数) という事なんだろう.
 
 <hr>2024/07/25 (木)
 Chudnovsky algorithm については, 2017年に全く同じ式を日記に
