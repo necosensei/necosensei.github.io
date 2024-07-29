@@ -11,6 +11,20 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/07/29 (月)
+\[
+  % Grassmann algebra
+
+  \begin{aligned}
+    \text{span}(\{1, e_1, e_2, e_3, e_1 \wedge e_2, e_2 \wedge e_3, e_3 \wedge e_1, e_1 \wedge e_2 \wedge e_3 \})
+    \text{ with an asociative product } \wedge \text{ which satisfies }
+    &amp; e_1 \wedge e_1 = e_2 \wedge e_2 = e_3 \wedge e_3 = 0, \\
+    &amp; e_2 \wedge e_3 = - e_3 \wedge e_2, \;\;
+          e_3 \wedge e_1 = - e_1 \wedge e_3, \text{ and } \;\;
+          e_1 \wedge e_2 = - e_2 \wedge e_1. \\
+  \end{aligned}
+\]
+
 <hr>2024/07/26 (金)
 Field 違い ?
 \[
