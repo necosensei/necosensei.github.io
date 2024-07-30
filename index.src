@@ -14,11 +14,15 @@ Internet, we are the Internet. Ivan Ristić
 <hr>2024/07/30 (火)
 \[
   % Skewes number
+
+  \def\P{{\mathbb P}}
+
   \begin{aligned}
     &amp; \text{Sk}_1 := e^{e^{e^{79}}} > 
       \min \left\{ n \in \N \mid \pi(n) > \text{li}(n) \right\}, \\
-    &amp; \where \pi(n) \text{ is the prime counting function and }
-          \text{li}(x) = \int_2^x \frac{1}{\log(x)}\d x
+    &amp; \where \pi(x) = \#\left\{n \in \P \mid n < x \right\}
+          \text{ is the prime counting function and } \\
+    &amp; \text{li}(x) = \int_2^x \frac{\d t}{\log t},
 	  \text{ is the logarithmic integral}, \\
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
