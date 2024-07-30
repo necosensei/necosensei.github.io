@@ -17,9 +17,9 @@ Internet, we are the Internet. Ivan Ristić
   \begin{aligned}
     &amp; \text{Sk}_1 := e^{e^{e^{79}}} > 
       \min \left\{ n \in \N \mid \pi(n) > \text{li}(n) \right\}, \\
-    &amp; \where \pi(n) is the prime counting function and
-          \text{li}(x) = \int_2^x \frac{1}{\log(x)}\d x is
-	  the logarithmic integral, \\
+    &amp; \where \pi(n) \text{ is the prime counting function and }
+          \text{li}(x) = \int_2^x \frac{1}{\log(x)}\d x
+	  \text{ is the logarithmic integral}, \\
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
 \]
