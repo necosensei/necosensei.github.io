@@ -33,9 +33,7 @@ $\pi$ 違い ?
   li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
 
   for(n=2,100, print(n," ",primepi(n)); ) ;
-  print("") ;
-  print("") ;
-  for(n=2,100, print(n," ",primepi(n+10)); ) ;
+
 
   /*
   n = 100 ;
