@@ -18,6 +18,7 @@ Internet, we are the Internet. Ivan Ristić
   \def\P{{\mathbb P}}
 
   \begin{aligned}
+    &amp; \Let \P \text{ be the set of all rational primes}.\\
     &amp; \text{Sk}_1 := e^{e^{e^{79}}} > 
       \min \left\{ n \in \N^{\ge 2} \mid \pi(n) > \text{li}(n) \right\}, \\
     &amp; \where \pi(x) := \#\left\{n \in \P \mid n \le x \right\},
