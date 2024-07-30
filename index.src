@@ -28,7 +28,7 @@ $\pi$ 違い ?
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
 \]
-#! tee /tmp/kani.gp | /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot for [IDX=0:1] "-" i IDX u 1:2 wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! tee /tmp/kani.gp | /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" for i 0 u 1:2 wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 li(x) = { 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ; }
 {
   for(n=2,100,print(n," ",primepi(n)););
