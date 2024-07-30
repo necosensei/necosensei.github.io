@@ -29,6 +29,27 @@ $\pi$ 違い ?
   \end{aligned}
 \]
 
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:100] "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+{
+  n = 100 ;
+  s = 1 ;
+  li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
+
+  forstep(i=2,n,s,print(i," ",primepi(i))) ;
+  print("") ;
+  print("") ;
+  forstep(i=2,n,s,print(i," ",li(i))) ;
+}
+#!
+
+- ソース (pari/gp).
+
+$SOURCE
+
+- svg 変換方法
+
+$INTERPRETER
+
 <hr>2024/07/29 (月)
 \[
   % Grassmann algebra
