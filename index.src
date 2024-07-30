@@ -28,7 +28,6 @@ $\pi$ 違い ?
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
 \]
-
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:100] "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 {
   n = 100 ;
@@ -42,6 +41,7 @@ $\pi$ 違い ?
 }
 #!
 
+<pre>
 - ソース (pari/gp).
 
 $SOURCE
@@ -49,6 +49,7 @@ $SOURCE
 - svg 変換方法
 
 $INTERPRETER
+</pre>
 
 <hr>2024/07/29 (月)
 \[
