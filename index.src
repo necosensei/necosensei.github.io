@@ -28,7 +28,7 @@ $\pi$ 違い ?
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
 \]
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:100] "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
+#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 {
   n = 100 ;
   s = 1 ;
@@ -40,7 +40,6 @@ $\pi$ 違い ?
   forstep(i=2,n,s,print(i," ",li(i))) ;
 }
 #!
-
 <pre>
 - ソース (pari/gp).
 
