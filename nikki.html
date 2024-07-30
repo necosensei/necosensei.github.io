@@ -437,6 +437,7 @@ Skewes number
 </g>
 </g>
 </svg></span>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Gnuplot</title><desc>Produced by GNUPLOT 5.4 patchlevel 10</desc><path fill="none" d="M0 0h400v400H0z"></path><defs><path id="d" stroke-width=".222" stroke="currentColor" d="M-1-1h2v2h-2z"></path><circle id="a" stroke-width=".222" stroke="currentColor" r="1"></circle><path id="b" stroke-width=".222" stroke="currentColor" d="M0-1.33l-1.33 2h2.66z"></path><use xlink:href="#b" id="c" stroke="currentColor" transform="rotate(180)"></use><use xlink:href="#d" id="e" stroke="currentColor" transform="rotate(45)"></use><path id="f" stroke-width=".222" stroke="currentColor" d="M0 1.33L1.265.411.782-1.067l-1.564-.009-.483 1.487z"></path></defs><title>"-" i 0 u 1:2</title><path stroke="#9400D3" d="M20.97 383.22L24.58 368h3.61l3.61-15.21h3.61l3.61-15.22h10.84l3.61-15.22h3.61l3.61-15.22h10.83l3.61-15.21h3.61l3.61-15.22h10.83l3.62-15.22h18.05l3.61-15.21h3.61l3.61-15.22h18.05l3.62-15.22h10.83l3.61-15.22h3.61l3.61-15.21h10.83l3.61-15.22h18.06l3.61-15.22h18.05l3.61-15.21h3.61l3.61-15.22h18.06l3.61-15.22h10.83l3.61-15.21h3.61l3.61-15.22h18.05L299 63.66h10.83l3.61-15.22h18.05l3.61-15.21H360.38l3.61-15.22h10.83" fill="none" color="#000"></path><title>"-" i 1 u 1:2</title></svg>
 <pre>- ソース (pari/gp).
 
 li(x) = { 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ; }
@@ -450,7 +451,7 @@ li(x) = { 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ; }
 
 - svg 変換方法
 
-| tee /tmp/kani.gp | gp -q | gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" i 0 u 1:2 wi li, plot "-" i 1 u 1:2 wi li' | svgo -i - -o -
+| tee /tmp/kani.gp | gp -q | gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" i 0 u 1:2 wi li, "-" i 1 u 1:2 wi li' | svgo -i - -o -
 </pre>
 
 <hr><div id="20240729">2024/07/29 (月)</div><span class="mjpage mjpage__block"><svg xmlns:xlink="http://www.w3.org/1999/xlink" width="71.838ex" height="12.009ex" style="vertical-align: -5.505ex;" viewBox="0 -2800.6 30930.3 5170.6" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" aria-labelledby="MathJax-SVG-4-Title">
