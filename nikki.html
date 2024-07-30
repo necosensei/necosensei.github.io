@@ -451,7 +451,7 @@ li(x) = { 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ; }
 
 - svg 変換方法
 
-| tee /tmp/kani.gp | gp -q | gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" u 1:2 wi li' | svgo -i - -o -
+| gp -q | gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" u 1:2 wi li' | svgo -i - -o -
 </pre>
 いまだに pari/gp や gnuplot に手こずってる …
 
