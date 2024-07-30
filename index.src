@@ -31,6 +31,9 @@ $\pi$ 違い ?
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:32] "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 {
   for(n=2,100, print(n," ",primepi(n)); ) ;
+  print("") ;
+  print("") ;
+  for(n=2,100, print(n," ",primepi(n+10)); ) ;
 
   /*
   n = 100 ;
