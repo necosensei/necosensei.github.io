@@ -441,16 +441,7 @@ Skewes number
 <pre>- ソース (pari/gp).
 
 {
-  for(n=2,100,
-    m=0 ;
-    f=1 ;
-    while (f,
-      m++ ;
-      f *= m ;
-      f %= n ;
-    ) ;
-    print(n," ",primepi(n));
-  ) ;
+  for(n=2,100, print(n," ",primepi(n)); ) ;
 
   /*
   n = 100 ;
