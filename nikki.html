@@ -437,15 +437,17 @@ Skewes number
 </g>
 </g>
 </svg></span>
-<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Gnuplot</title><desc>Produced by GNUPLOT 5.4 patchlevel 10</desc><path fill="none" d="M0 0h400v400H0z"></path><defs><path id="d" stroke-width=".222" stroke="currentColor" d="M-1-1h2v2h-2z"></path><circle id="a" stroke-width=".222" stroke="currentColor" r="1"></circle><path id="b" stroke-width=".222" stroke="currentColor" d="M0-1.33l-1.33 2h2.66z"></path><use xlink:href="#b" id="c" stroke="currentColor" transform="rotate(180)"></use><use xlink:href="#d" id="e" stroke="currentColor" transform="rotate(45)"></use><path id="f" stroke-width=".222" stroke="currentColor" d="M0 1.33L1.265.411.782-1.067l-1.564-.009-.483 1.487z"></path></defs><title>"-"</title><path stroke="#9400D3" d="M28.05 371.81l3.54-11.42h3.53l3.54-11.41h3.54l3.54-11.41H56.36l3.53-11.41h3.54l3.54-11.42H77.59l3.53-11.41h3.54l3.54-11.41H98.82l3.54-11.42H120.05l3.54-11.41h3.54l3.53-11.41h17.7l3.53-11.41H162.51l3.54-11.42h3.54l3.54-11.41h10.61l3.54-11.41h17.69l3.54-11.42h17.69l3.54-11.41h3.54l3.54-11.41H254.51l3.54-11.41H268.67l3.53-11.42h3.54l3.54-11.41h17.69l3.54-11.41H311.13l3.54-11.41H332.36l3.54-11.42H360.67l3.53-11.41H374.82" fill="none" color="#000"></path></svg>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Gnuplot</title><desc>Produced by GNUPLOT 5.4 patchlevel 10</desc><path fill="none" d="M0 0h400v400H0z"></path><defs><path id="d" stroke-width=".222" stroke="currentColor" d="M-1-1h2v2h-2z"></path><circle id="a" stroke-width=".222" stroke="currentColor" r="1"></circle><path id="b" stroke-width=".222" stroke="currentColor" d="M0-1.33l-1.33 2h2.66z"></path><use xlink:href="#b" id="c" stroke="currentColor" transform="rotate(180)"></use><use xlink:href="#d" id="e" stroke="currentColor" transform="rotate(45)"></use><path id="f" stroke-width=".222" stroke="currentColor" d="M0 1.33L1.265.411.782-1.067l-1.564-.009-.483 1.487z"></path></defs><title>"-"</title></svg>
 <pre>- ソース (pari/gp).
 
 {
-  for(n=2,100,print(n," ",primepi(n));) ;
+  li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
+  for(n=2,100,print(n," ",li(n));) ;
   /*
   n = 100 ;
   s = 1 ;
 
+  for(n=2,100,print(n," ",primepi(n));) ;
   li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
   forstep(i=2,n,s,print(i," ",primepi(i))) ;
   print("") ;
