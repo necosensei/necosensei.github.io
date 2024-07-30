@@ -38,7 +38,7 @@ $\pi$ 違い ?
       f *= m ;
       f %= n ;
     ) ;
-    print(n," ",m);
+    print(n," ",primepi(n));
   ) ;
 
   /*
