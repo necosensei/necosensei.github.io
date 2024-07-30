@@ -30,12 +30,23 @@ $\pi$ 違い ?
 \]
 #! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot [0:100][0:100] "-" wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 {
+  for(n=1,100,
+    m=0 ;
+    f=1 ;
+    while (f,
+      m++ ;
+      f *= m ;
+      f %= n ;
+    ) ;
+    print(n," ",m);
+  ) ;
+
+  /*
   n = 100 ;
   s = 1 ;
   li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
 
   forstep(i=2,n,s,print(i," ",primepi(i))) ;
-  /*
   print("") ;
   print("") ;
   forstep(i=2,n,s,print(i," ",li(i))) ;
