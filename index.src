@@ -11,6 +11,17 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/08/01 (木)
+\[
+  % Quaternion
+
+  \begin{aligned}
+    &amp; \H = \text{span}_\R(\{1, i, j, ij \}) \\
+    &amp; \text{with an associative, distributive and bilinear product which satisfies } \\
+    &amp; i^2 = j^2 = -1, \text{ and }  ij = - ji. \\
+  \end{aligned}
+\]
+
 <hr>2024/07/31 (水)
 研究室の卒論生に何故か共通鍵暗号の暗号解析が人気で困っている …
 \[
