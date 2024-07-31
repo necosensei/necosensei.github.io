@@ -11,6 +11,21 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/07/31 (水)
+研究室の卒論生に何故か共通鍵暗号の暗号解析が人気で困る …
+\[
+  % Clifford algebra
+
+  \begin{aligned}
+    &amp; \text{span}(\{1, e_1, e_2, e_3, e_1 e_2, e_2 e_3, e_3 e_1, e_1 e_2 e_3 \}) \\
+    &amp; \text{with an associative, distributive and bilinear product which satisfies } \\
+    &amp; e_1^2 = e_2^2 = e_3^2 = 1, \\
+    &amp; e_2 e_3 = - e_3 e_2, \;\;
+          e_3 e_1 = - e_1 e_3, \text{ and } \;\;
+          e_1 e_2 = - e_2 e_1. \\
+  \end{aligned}
+\]
+
 <hr>2024/07/30 (火)
 $\pi$ 違い ?
 \[
