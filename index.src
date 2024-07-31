@@ -28,13 +28,17 @@ $\pi$ 違い ?
     &amp; \text{assuming that the Riemann hypothesis is true.}
   \end{aligned}
 \]
-#! /usr/local/bin/gp -q | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" u 1:2 wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
-li(x) = { 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ; }
+#! /usr/local/bin/gp -q | tee /tmp/kani.dat | /usr/local/bin/gnuplot -e "set terminal svg size 400,400" -e "unset border" -e "unset xtics" -e "unset ytics" -e "set nokey" -e 'plot "-" i 0 u 1:2 wi steps, "/tmp/kani.dat" i 1 u 1:2 wi li' | /home/hoshino/.npm-global/bin/svgo -i - -o -
 {
-  for(n=2,100,print(n," ",primepi(n)););
-  print("");
-  print("");
-  for(n=2,100,print(n," ",li(n)););
+  li(x) = 1.04516378011749278484458888919 + intnum(t=2,x,1/log(t)) ;
+}
+{
+  n = 100 ;
+  s = 1 ;
+  forstep(i=2,n,s,print(i," ",primepi(i))) ;
+  print("") ;
+  print("") ;
+  forstep(i=2,n,s,print(i," ",li(i))) ;
 }
 #!
 <pre>
