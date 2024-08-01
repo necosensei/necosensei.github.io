@@ -17,7 +17,7 @@ Internet, we are the Internet. Ivan Ristić
 
   \begin{aligned}
     &amp; \H = \text{span}_\R(\{1, i, j, ij \}) \\
-    &amp; \text{with an associative, distributive and bilinear product which satisfies } \\
+    &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; i^2 = j^2 = -1, \text{ and }  ij = - ji. \\
   \end{aligned}
 \]
@@ -29,7 +29,7 @@ Internet, we are the Internet. Ivan Ristić
 
   \begin{aligned}
     &amp; \text{span}(\{1, e_1, e_2, e_3, e_1 e_2, e_2 e_3, e_3 e_1, e_1 e_2 e_3 \}) \\
-    &amp; \text{with an associative, distributive and bilinear product which satisfies } \\
+    &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; e_1^2 = e_2^2 = e_3^2 = 1, \\
     &amp; e_2 e_3 = - e_3 e_2, \;\;
           e_3 e_1 = - e_1 e_3, \text{ and } \;\;
@@ -84,7 +84,7 @@ $INTERPRETER
 
   \begin{aligned}
     &amp; \text{span}(\{1, e_1, e_2, e_3, e_1 \wedge e_2, e_2 \wedge e_3, e_3 \wedge e_1, e_1 \wedge e_2 \wedge e_3 \}) \\
-    &amp; \text{with an associative, distributive and bilinear product } \wedge \text{ which satisfies } \\
+    &amp; \text{with an associative and distributive product } \wedge \text{ which satisfies } \\
     &amp; e_1 \wedge e_1 = e_2 \wedge e_2 = e_3 \wedge e_3 = 0, \\
     &amp; e_2 \wedge e_3 = - e_3 \wedge e_2, \;\;
           e_3 \wedge e_1 = - e_1 \wedge e_3, \text{ and } \;\;
