@@ -11,6 +11,18 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/08/02 (金)
+\[
+  % Geometric algebra
+
+  \begin{aligned}
+    &amp; \text{span}\left(\left\{\Prod_{i=1}^n e_i^{j_i} \mid j_i\in\{0,1\}\right\}\right) \\
+    &amp; \text{with an associative and distributive product which satisfies } \\
+    &amp; e_i^2 \in \{-1,0,1\}, \text{ and }
+          e_i e_j = - e_j e_i \text{ for } i\ne j. \\
+  \end{aligned}
+\]
+
 <hr>2024/08/01 (木)
 \[
   % Quaternion
