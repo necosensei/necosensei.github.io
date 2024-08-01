@@ -19,7 +19,7 @@ Internet, we are the Internet. Ivan Ristić
   \def\F{{\mathbb F}}
 
   \begin{aligned}
-    &amp; \text{span}_{\F}\left(\left\{\prod_{i=1}^n e_i^{j_i} \relmiddle| j_i\in\{0,1\}\right\}\right) \\
+    &amp; \text{Span}_{\F}\left(\left\{\prod_{i=1}^n e_i^{j_i} \relmiddle| j_i\in\{0,1\}\right\}\right) \\
     &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; e_i^2 \in \{-1,0,1\}, \text{ and }
           e_i e_j = - e_j e_i \text{ for } i\ne j. \\
@@ -32,7 +32,7 @@ $ \text{char }{\mathbb F} = 2 $ だと $ 1 = -1 $ なので色々壊れるらし
   % Quaternion
 
   \begin{aligned}
-    &amp; \H = \text{span}_\R(\{1, i, j, ij \}) \\
+    &amp; \H = \text{Span}_\R(\{1, i, j, ij \}) \\
     &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; i^2 = j^2 = -1, \text{ and }  ij = - ji. \\
   \end{aligned}
@@ -44,7 +44,7 @@ $ \text{char }{\mathbb F} = 2 $ だと $ 1 = -1 $ なので色々壊れるらし
   % Clifford algebra
 
   \begin{aligned}
-    &amp; \text{span}(\{1, e_1, e_2, e_3, e_1 e_2, e_2 e_3, e_3 e_1, e_1 e_2 e_3 \}) \\
+    &amp; \text{Span}(\{1, e_1, e_2, e_3, e_1 e_2, e_2 e_3, e_3 e_1, e_1 e_2 e_3 \}) \\
     &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; e_1^2 = e_2^2 = e_3^2 = 1, \\
     &amp; e_2 e_3 = - e_3 e_2, \;\;
@@ -99,7 +99,7 @@ $INTERPRETER
   % Grassmann algebra
 
   \begin{aligned}
-    &amp; \text{span}(\{1, e_1, e_2, e_3, e_1 \wedge e_2, e_2 \wedge e_3, e_3 \wedge e_1, e_1 \wedge e_2 \wedge e_3 \}) \\
+    &amp; \text{Span}(\{1, e_1, e_2, e_3, e_1 \wedge e_2, e_2 \wedge e_3, e_3 \wedge e_1, e_1 \wedge e_2 \wedge e_3 \}) \\
     &amp; \text{with an associative and distributive product } \wedge \text{ which satisfies } \\
     &amp; e_1 \wedge e_1 = e_2 \wedge e_2 = e_3 \wedge e_3 = 0, \\
     &amp; e_2 \wedge e_3 = - e_3 \wedge e_2, \;\;
