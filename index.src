@@ -13,7 +13,7 @@ Internet, we are the Internet. Ivan Ristić
 <!-- pre -->
 <hr>2024/08/02 (金)
 \[
-  % Geometric algebra
+  % Clifford algebra (with orthonormal bases)
 
   \newcommand{\relmiddle}[1]{\mathrel{}\middle#1\mathrel{}}
 
