@@ -25,7 +25,7 @@ Internet, we are the Internet. Ivan Ristić
           e_i e_j = - e_j e_i \text{ for } i\ne j. \\
   \end{aligned}
 \]
-$ \text{char}{\mathbb F} = 2 $ だと $ 1 = -1 $ なので色々壊れるらしい …
+$ \text{char }{\mathbb F} = 2 $ だと $ 1 = -1 $ なので色々壊れるらしい …
 
 <hr>2024/08/01 (木)
 \[
