@@ -20,7 +20,7 @@ Internet, we are the Internet. Ivan Ristić
   \def\F{{\mathbb F}}
 
   \begin{aligned}
-    &amp; \text{Span}_{\F}\left(\left\{\prod_{i=1}^n e_i^{j_i} \relmiddle| j_i\in\{0,1\}\right\}\right) \\
+    &amp; \text{Span}_{\F}\left(\left\{\prod_{i=1}^n e_i^{j_i} := e_1^{j_1} \ldots e_n^{j_n} \relmiddle| j_i\in\{0,1\}\right\}\right) \\
     &amp; \text{with an associative and distributive product which satisfies } \\
     &amp; e_i^2 \in \{-1,0,1\}, \text{ and }
           e_i e_j = - e_j e_i \text{ for } i\ne j. \\
