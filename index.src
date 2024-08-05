@@ -25,6 +25,16 @@ Internet, we are the Internet. Ivan Ristić
   V^5 + W^5 + X^5 + Y^5 + Z^5 = 0.
 \]
 
+<hr>2024/08/03 (土)
+\[
+  % Tropical semiring
+  \begin{aligned}
+    &amp; \left(\R \cup \{+\infty\}, \oplus, \otimes\right) \where
+    &amp; A \oplus  B = \max{A,B}, \\
+    &amp; A \otimes B = A + B. \\
+  \end{aligned}
+\]
+
 <hr>2024/08/02 (金)
 2018年に見たときは16188個しか無かった Triangle center. 現在は<a href="http://faculty.evansville.edu/ck6/encyclopedia/ETC.html" target="_blank">64653個</a>もあるらしい …
 \[
