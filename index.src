@@ -11,6 +11,13 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/08/05 (月)
+\[
+  % Barth–Nieto quintic
+
+  \sum_{i=0}^5 x_i = 0 \;\;\wedge\;\; \sum_{i=0}^5 x_i^{-1} = 0.
+\]
+
 <hr>2024/08/04 (日)
 \[
   % Fermat quintic threefold
