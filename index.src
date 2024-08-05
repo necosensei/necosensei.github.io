@@ -29,8 +29,8 @@ Internet, we are the Internet. Ivan Ristić
 \[
   % Tropical semiring
   \begin{aligned}
-    &amp; \left(\R \cup \{+\infty\}, \oplus, \otimes\right) \where \\
-    &amp; A \oplus  B = \max{A,B}, \\
+    &amp; \left(\R \cup \{+\infty\}, \oplus, \otimes\right) \st \\
+    &amp; A \oplus  B = \max\{A,B\}, \\
     &amp; A \otimes B = A + B. \\
   \end{aligned}
 \]
