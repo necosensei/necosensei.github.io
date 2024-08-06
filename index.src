@@ -11,6 +11,13 @@ Internet, we are the Internet. Ivan Ristić
 -->
 
 <!-- pre -->
+<hr>2024/08/07 (水)
+\[
+  % Cayley's nodal cubic surface
+   (w:x:y:z) \in \mathsf{P}^3 \st
+   wxy+xyz+yzw+zwx = 0.
+\]
+
 <hr>2024/08/06 (火)
 \[
   % Segre cubic
