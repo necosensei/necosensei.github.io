@@ -15,7 +15,7 @@ $
   \def\F{{\mathbb F}}
   \def\P{{\mathbb P}}
   \def\quintic#1{
-    \left\{ (x0:\cdots:x5) \in \mathsf{P}^5 \relmiddle|
+    \left\{ (x_0:\cdots:x_5) \in \mathsf{P}^5 \relmiddle|
       \sum x_i = 0 \wedge {#1}
     \right\}
   }
