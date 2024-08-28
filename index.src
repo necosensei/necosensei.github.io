@@ -75,7 +75,7 @@ $
   \frac{\partial \mathbf{u}}{\partial t} +
   \mathbf{u}\cdot\nabla\mathbf{u}
   =
-  - \frac{1}{\rho}\nabla p + \nu \delta \mathbf{u}
+  - \frac{1}{\rho}\nabla p + \nu \Delta \mathbf{u}
 \]
 
 <hr>2024/08/21 (水)
