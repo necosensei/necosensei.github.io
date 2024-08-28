@@ -73,7 +73,7 @@ $
   % Navier-Stokes equations
 
 
-  \frac{\partial {\mathbbm{u}}}{\partial t} +
+  \frac{\partial {\boldsymbol{u}}}{\partial t} +
   \mathbf{u}\cdot\nabla\mathbf{u}
   =
   - \frac{1}{\rho}\nabla p + \nu \Delta \mathbf{u}
