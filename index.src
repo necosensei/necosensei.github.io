@@ -69,6 +69,14 @@ $
  01:40 都□センターホテル
   驚くほどトラブルが多かったが, なんとかたどり着いた …
 </pre>
+\[
+  % Navier-Stokes equations
+
+  \frac{\partial \mathbf{u}}{\partial t} +
+  \mathbf{u}\cdot\nabla\mathbf{u}
+  =
+  - \frac{1}{\rho}\nabla p + \nu \delta \mathbf{u}
+\]
 
 <hr>2024/08/21 (水)
 CRYPTO 参加者数減った ? 特に online …
