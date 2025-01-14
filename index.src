@@ -36,10 +36,11 @@ $
     &amp; \mbox{where $D$ is the degree matrix and $A$ is the adjacency matrix of the graph.}
   \end{aligned}
 \]
-tmux は便利だが, いろいろ面倒臭い(特にnest)と知っていたので, ずっと
-放置していた. しかしそうも言ってられなくなったので使い方のメモ:
+tmux は便利だが いろいろ面倒臭い(特にnest)ので ずっと放置していた.
+しかしそうも言ってられなくなったので使い方のメモ:
 <pre>
-# tmux コマンドでどこかの端末で起動された session 0 を tmux をまだ起動してない端末に attach する
+# どこかの端末で tmux により起動された session 0 を
+# まだ tmux を 起動してない端末に attach する
 
 tmux attach -t 0
 </pre>
