@@ -29,7 +29,7 @@ SCIS2026に提出した原稿に早速バグを見つけて鬱.
   \begin{aligned}
     &amp; \text{Let } \Omega := \N^{\ge 1}, P(X = x) := 1/2^x, f(x) := 2^x. \\
     &amp; E[f(X)] = \infty \text{ on the probability space } (\Omega,P), \text{ but}\\
-    &amp; P[f(X) \ge C] = 1/ 2^{\lceil\log_2 C\rceil} \le 1/C.
+    &amp; P[f(X) \ge C] = 1/ 2^{\lceil\log_2 C\rceil} \le 1/C. \text{ where $C$ is the participation fee.}
   \end{aligned}
 \]
 # また数式が衝突してしまった。しかも昔に比べて記述が下手になってるし … <br>
