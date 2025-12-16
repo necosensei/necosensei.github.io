@@ -29,12 +29,11 @@ SCIS2026に提出した原稿に早速バグを見つけて鬱.
   \begin{aligned}
     &amp; \text{Let } 
     P : x \mapsto 1/2^x, f: x \mapsto 2^{x-1}, X : x \mapsto x. \\
-    &amp; E[f(X)] = \infty \text{ over the probability space } (\N^{\ge 1}, 2^{\N^{\ge 1}}, P), \text{ but}\\
+    &amp; E[f(X)] = \infty \text{ over the probability space } (\N^{\ge1},2^{\N^{\ge1}},P), \text{ but}\\
     &amp; P[f(X) \ge C] = 1/ 2^{\lceil\log_2 C\rceil} \le 1/C, \text{ where $C$ is the participation fee.}
   \end{aligned}
 \]
-# また数式が衝突してしまった。しかも昔に比べて記述が下手になってるし … <br>
-## でも概念は正確になった
+# また数式が衝突してしまった。しかも昔に比べて記述が下手になってるし … , #でも概念は正確になった
 <hr>2025/09/06 (土)
 \[
   % emirp
