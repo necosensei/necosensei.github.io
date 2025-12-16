@@ -28,8 +28,8 @@ SCIS2026に提出した原稿に早速バグを見つけて鬱.
   % St. Petersburg paradox
   \begin{aligned}
     &amp; \text{Let sampling space } \Omega := \N^{\ge1}, \\
-    &amp; \text{ Probability } P(\{x\}) = 1/2^x, \;\; \forall x \in \Omega, \\
-    &amp; \text{ Payout (random variable) } X : x \mapsto 2^{x-1}, \\
+    &amp; \text{ Probability of an elementaly event } P(\{x\}) = 1/2^x, \;\; \forall x \in \Omega, and\\
+    &amp; \text{ Payout (random variable) } X : x \mapsto 2^{x-1}. \\
     &amp; \text{The expected payout } E[X] = \infty \text{ over the probability space } (\Omega,2^{\Omega},P), \text{ but}\\
     &amp; \text{The probability of profit } P[X \ge C] = 1/ 2^{\lceil\log_2 C\rceil} \le 1/C, \text{ where $C$ is the participation fee.}
   \end{aligned}
