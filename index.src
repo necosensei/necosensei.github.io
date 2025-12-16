@@ -28,8 +28,8 @@ SCIS2026に提出した原稿に早速バグを見つけて鬱.
   % St. Petersburg paradox
   \begin{aligned}
     &amp; \text{Let } \Omega := \N^{\ge 1}, P(X = x) := 1/2^x, f(x) := 2^x. \\
-    &amp; E[f(X)] = \infty \text{ on the probability space } (\Omega,P).
-    &amp; P[f(X) \ge C] = 1/ 2^\lceil\log_2 C\rceil.
+    &amp; E[f(X)] = \infty \text{ on the probability space } (\Omega,P), \\
+    &amp; P[f(X) \ge C] = 1/ 2^{\lceil\log_2 C\rceil}.
   \end{aligned}
 \]
 
