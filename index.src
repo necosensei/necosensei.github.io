@@ -22,7 +22,9 @@ $
 $
 <!-- pre -->
 <hr>2026/07/30 (木)
-とうとう人間の作った暗号がAIに破られ始めたらしい…
+とうとう人間の作った暗号がAIに破られ始めたらしい … HAWKがRound3から撤退してしまった.
+<br>
+<a href=https://www.anthropic.com/research/discovering-cryptographic-weaknesses>Discovering cryptographic weaknesses with Claude</a>
 
 <hr>2025/12/16 (火)
 SCIS2026に提出した原稿に早速バグを見つけて鬱.
