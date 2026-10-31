@@ -21,6 +21,14 @@ $
   }
 $
 <!-- pre -->
+<hr>2026/10/31 (土)
+AIのおかげで
+\[
+  % Exponential Time Hypothesis
+  T(k\mbox{-SAT}) \in 2^{o(k)} \where k \in \N
+\]
+という事が分かったらしい…
+
 <hr>2026/07/30 (木)
 とうとう人間の作った暗号がAIに破られ始めたらしい … HAWKがRound3から撤退してしまった.
 <br>
