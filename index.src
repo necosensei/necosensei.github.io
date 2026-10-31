@@ -25,7 +25,7 @@ $
 AIのおかげで
 \[
   %  Exponential Time Hypothesis
-  T(k\mbox{-}\mathsf{SAT}) \in 2^{o(n)}
+  T(k\mbox{-}\mathsf{SAT}) \ni 2^{o(n)} = \bot
 \]
 という事が分かったらしい…
 
