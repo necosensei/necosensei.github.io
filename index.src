@@ -25,7 +25,7 @@ $
 AIのおかげで
 \[
   % Exponential Time Hypothesis
-  T(k\mathsf{-SAT}) \in 2^{o(k)}
+  T(k\mbox{-}\mathsf{SAT}) \in 2^{o(k)}
 \]
 という事が分かったらしい…
 
