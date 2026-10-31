@@ -24,7 +24,7 @@ $
 <hr>2026/10/31 (土)
 AIのおかげで
 \[
-  % Exponential Time Hypothesis
+  %  Exponential Time Hypothesis
   T(k\mbox{-}\mathsf{SAT}) \in 2^{o(n)}
 \]
 という事が分かったらしい…
