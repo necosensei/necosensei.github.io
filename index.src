@@ -27,7 +27,7 @@ $
 証明がLeanで1,737万行もあるらしい…確度も高いそうだ
 \[
   %  Riemann Hypothesis
-   \{ Re(s) : \zeta(s) = 0 \;\wedge\; s \not\in -2{\N_{\ge 1}} \} \stackrel{?}{=} \{1/2\}.
+   \{ \mathrm{Re}(s) : \zeta(s) = 0 \;\wedge\; s \not\in -2{\N_{\ge 1}} \} \stackrel{?}{=} \{1/2\}.
 \]
 
 <hr>2026/10/31 (土)
