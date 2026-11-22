@@ -27,8 +27,9 @@ $
 証明がLeanで1,737万行もあるらしい…確度も高いそうだ
 \[
   %  Riemann Hypothesis
-   \mathrm{Re}(\{s\in\C:\zeta(s)=0\}\setminus-2{\N_{\ge 1}})
-   \stackrel{?}{=} \{1/2\}.
+   \mathrm{Re}(
+     \{s\in\C:\zeta(s)=0\} \setminus -2{\N^{\ge 1}}
+   ) \stackrel{?}{=} \{1/2\}.
 \]
 
 <hr>2026/10/31 (土)
